@@ -868,7 +868,7 @@
   </div>
 </div>
 
-<!-- <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
         <div id="inner-footer" class="cf footer-top">
           <div class="footer-top-inner">
             <div class="footer-top-inner-info">
@@ -896,10 +896,9 @@
         </div>
 
         <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
-			</footer> -->
+			</footer>
 		</div>
 		<?php // all js scripts are loaded in library/bones.php ?>
-		<?php wp_footer(); ?>
 	</body>
 </html> <!-- end of site. what a ride! -->
 
