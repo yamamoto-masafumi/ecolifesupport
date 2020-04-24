@@ -1107,6 +1107,50 @@ body #content {
   left: 20px;
 }
 
+.faq-question {
+  background-color: #fff;
+  width: 100%;
+  height: 375px;
+  text-align: left;
+}
+
+.faq-question .inner-menu {
+  max-width: 1300px;
+  padding-top: 40px;
+  width: 72%;
+  margin: auto;
+}
+
+.faq-question .inner-menu ul {
+  margin: auto;
+  margin-left: 20px;
+}
+
+.faq-question .inner-menu ul li {
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: top;
+  display: inline-block;
+  height: 90px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.faq-question .inner-menu ul li a {
+  color: #323944;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.faq-question .inner-menu ul li p {
+  margin-top: 25px;
+}
+
+.faq-question .inner-menu .faq-question-menu {
+  margin-top: -17px;
+}
+
 .contact {
   background-image: url("../images/background/contact-bg.png");
   background-size: contain;
