@@ -182,7 +182,7 @@ header{
           }
         }
         &:hover{
-          border-bottom: 3px solid $black;
+          border-bottom: 3px solid #8ff18b;
         }
       }
       li + li{
@@ -193,6 +193,7 @@ header{
     }
   }
 }
+// PC版ヘッダーメニューをスクロール後固定
 .is-fixed {
   position: fixed;
   top: 0;
@@ -208,7 +209,6 @@ CONTENT STYLES
 .absolute{
   position: static;
 }
-
 //SLIDE
 .slide{
   .prev-top,
@@ -374,7 +374,6 @@ body{
       width: 239px;
       height: 120px;
     }
-
     p{
       width: 170px;
     }
@@ -768,6 +767,47 @@ body{
     }
   }
 }
+// よくある質問で使用
+//FAQ-QUESTION
+.faq-question{
+  background-color: $white;
+  width: 100%;
+  height: 375px;
+  text-align: left;
+  .inner-menu{
+    max-width: 1300px;
+    padding-top:40px;
+    width: 72%;
+    margin: auto;
+    ul{
+      margin: auto;
+      margin-left: 20px;
+      li{
+      font-size: 20px;
+      font-weight: bold;
+      vertical-align: top;
+      display: inline-block;
+      height: 90px;
+      border: 1px solid $white;
+      background-color: $white;
+      padding: 20px;
+        a{
+          color: $black;
+          text-decoration-line: none;
+         }
+        //  &:hover{
+        //   border-bottom: 3px solid #8ff18b;
+        // }
+        p{
+        margin-top: 25px;
+         }
+        }
+      }
+    .faq-question-menu{
+      margin-top: -17px;
+    }
+  }
+}
 
 //CONTACT
 .contact{
@@ -1062,6 +1102,7 @@ footer{
     }
   }
 }
+// 画面下に表示する帯
 .clone {
   position: fixed;
   bottom: 0;
@@ -1075,4 +1116,3 @@ footer{
 .is-show {
   transform: translateY(0);
 }
-
