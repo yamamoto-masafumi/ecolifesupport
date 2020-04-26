@@ -360,10 +360,15 @@ body{
 }
 
 //RECRUITMENT
-.recruitment-contents{
+.contact-contents{
+  height: 980px;
+}
+.recruitment-contents,
+.contact-contents{
   background-color: $white;
   width: 100%;
-  .inner-recruitment{
+  .inner-recruitment,
+  .inner-contact{
     width: 63%;
     margin: auto;
     .title{
@@ -408,6 +413,10 @@ body{
         vertical-align: top;
         padding-top: 50px;
         padding-left: 90px;
+      }
+      .contactmessage{
+        vertical-align: top;
+        padding-top: 50px;
       }
 
       td{
