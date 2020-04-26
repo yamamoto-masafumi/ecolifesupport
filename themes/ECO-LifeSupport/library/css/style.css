@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! Made with Bones: http://themble.com/bones :) */
 /******************************************************************
 Site Name:
@@ -1059,7 +1060,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "M PLUS 1p";
   background-color: #eaedf2;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out;
@@ -1334,7 +1335,7 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "M PLUS 1p";
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
@@ -1406,14 +1407,14 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #fe0101;
+  color: #00AE78;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #d00101;
+  color: #8FF18B;
 }
 
 a:link, a:visited:link {
@@ -1602,6 +1603,10 @@ header .hamburger-nav .menu-MainMenu li:nth-child(-n+3) {
   border-right: 1px solid #e4e4e4;
 }
 
+.is-fixed {
+  display: none;
+}
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -1654,7 +1659,7 @@ POSTS & CONTENT STYLES
 .sub-header .header-title {
   width: 171px;
   height: 60px;
-  margin: auto;
+  text-align: center;
   position: absolute;
   top: 18%;
   left: 30%;
@@ -1669,6 +1674,129 @@ POSTS & CONTENT STYLES
 }
 
 .sub-header::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.header-bottom {
+  font-size: 12px;
+  color: #323944;
+  margin-left: 20px;
+}
+
+.sub-header-uservoice {
+  width: 100%;
+  height: 135px;
+  background-image: url("../images/background/sp-user-voice.png");
+  background-size: auto 100%;
+  position: relative;
+}
+
+.sub-header-uservoice .header-title {
+  width: 171px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 30%;
+}
+
+.sub-header-uservoice .header-title h3 {
+  border: solid 2px #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
+.sub-header-uservoice::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.header-bottom {
+  font-size: 12px;
+  color: #323944;
+  margin-left: 20px;
+}
+
+.sub-header-question {
+  width: 100%;
+  height: 135px;
+  background-image: url("../images/background/sp-faq.png");
+  background-size: auto 100%;
+  position: relative;
+}
+
+.sub-header-question .header-title {
+  width: 171px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 30%;
+}
+
+.sub-header-question .header-title h3 {
+  border: solid 2px #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
+.sub-header-question::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.header-bottom {
+  font-size: 12px;
+  color: #323944;
+  margin-left: 20px;
+}
+
+.sub-header-notice {
+  width: 100%;
+  height: 135px;
+  background-image: url("../images/background/sp-notice.png");
+  background-size: auto 100%;
+  position: relative;
+}
+
+.sub-header-notice .header-title {
+  width: 171px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 30%;
+}
+
+.sub-header-notice .header-title h3 {
+  border: solid 2px #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
+.sub-header-notice::before {
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
@@ -1742,6 +1870,145 @@ POSTS & CONTENT STYLES
   margin: auto;
   margin-bottom: 30px;
   padding-bottom: 30px;
+}
+
+.recruitment-contents {
+  background-color: #fff;
+  width: 100%;
+  height: 1450px;
+}
+
+.recruitment-contents .inner-recruitment {
+  width: 89%;
+  margin: auto;
+}
+
+.recruitment-contents .inner-recruitment .title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00AE78;
+  padding-top: 30px;
+}
+
+.recruitment-contents .inner-recruitment .border {
+  width: 40px;
+  margin: auto;
+  border-bottom: 4px solid #00c1e1;
+  margin-bottom: 30px;
+}
+
+.recruitment-contents .inner-recruitment .bordergreen {
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid #00AE78;
+}
+
+.recruitment-contents .inner-recruitment .text {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.recruitment-contents .inner-recruitment .text ul {
+  width: 96%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.recruitment-contents .inner-recruitment .text li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  margin: auto;
+}
+
+.recruitment-contents .inner-recruitment .text li span {
+  margin-left: 2px;
+}
+
+.recruitment-contents .inner-recruitment .text .item {
+  color: #323944;
+  font-weight: bold;
+}
+
+.recruitment-contents .inner-recruitment .text .itemtext {
+  color: #444;
+  margin-left: 40px;
+}
+
+.recruitment-contents .inner-recruitment .text .itemtext2 {
+  color: #444;
+  margin-left: 34px;
+}
+
+.recruitment-contents .inner-recruitment .contact-form {
+  margin: auto;
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form {
+  width: 100%;
+  background-color: #fff;
+  color: #323944;
+  font-weight: 600;
+  margin: auto;
+  /* 必須マーク */
+  /* 項目名を太字にする */
+  /* 入力項目を見やすくする */
+  /* 必須項目の入力欄を黄色にする */
+  /* 送信ボタンを見やすくする */
+  /* エラーメッセージを見やすくする */
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form .must {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 3px 22px;
+  background: #00AE78;
+  border-radius: 3px;
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form form p {
+  font-weight: 600;
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
+.recruitment-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
+  width: 100%;
+  height: 44px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 1px solid #00AE78;
+  border-radius: 3px;
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+.recruitment-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
+  background: #FBFFDF;
+  color: #E1E1E1;
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-submit {
+  width: 70%;
+  height: 46px;
+  background: #00AE78;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #00AE78;
+  border-radius: 3px;
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
+.recruitment-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors {
+  color: red;
+  font-weight: bold;
+}
+
+.recruitment-contents .inner-recruitment .contact-form .application-form .btn {
+  text-align: center;
 }
 
 .about {
@@ -1866,6 +2133,68 @@ POSTS & CONTENT STYLES
   height: 14px;
   background-image: url("../images/icon/arrow-right-green.png");
   background-size: cover;
+}
+
+.notice-menu {
+  background-color: #fff;
+  width: 100%;
+  height: 1150px;
+}
+
+.notice-menu .notice-title {
+  background-color: #eaedf2;
+  width: 89%;
+  height: 38px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.notice-menu .notice-title h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #444;
+  border-left: 5px solid #00AE78;
+  padding-left: 9px;
+}
+
+.notice-menu .notice-title .border {
+  margin: auto;
+  margin-top: -15px;
+  border-bottom: 3px solid #00c1e1;
+}
+
+.notice-menu .notice-title .inner-notice {
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.notice-menu .notice-title .inner-notice .inner-notice-menu {
+  padding-top: 20px;
+}
+
+.notice-menu .notice-title .inner-notice .inner-notice-menu .border {
+  margin: auto;
+  margin-top: 15px;
+  border-bottom: 1px solid #999;
+}
+
+.notice-menu .notice-title .inner-notice .inner-notice-menu .date {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-left: 15px;
+}
+
+.notice-menu .notice-title .inner-notice .inner-notice-menu .title {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+
+.notice-menu .notice-title .inner-notice .inner-notice-menu .title a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .content-head {
@@ -3588,6 +3917,13 @@ footer .footer-bottom-right .quote span {
   text-align: center;
 }
 
+.correctionBox__minititle {
+  text-align: center;
+  font-size: 20px;
+  color: #ff8000;
+  font-weight: bold;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -3877,7 +4213,7 @@ HEADER STYLES
     font-weight: bold;
   }
   header .hamburger-nav .menu-MainMenu li:hover {
-    border-bottom: 3px solid #323944;
+    border-bottom: 3px solid #8ff18b;
   }
   header .hamburger-nav .menu-MainMenu li + li:before {
     display: none;
@@ -3979,20 +4315,28 @@ CONTENT STYLES
     max-width: 1300px;
     margin: auto;
   }
-  .sub-header {
+  .sub-header, .sub-header-uservoice,
+  .sub-header-question, .sub-header-notice {
     width: 100%;
     height: 233px;
     background-size: cover;
     background-position: center;
     position: relative;
   }
-  .sub-header .header-title h3 {
+  .sub-header .header-title h3, .sub-header-uservoice .header-title h3,
+  .sub-header-question .header-title h3, .sub-header-notice .header-title h3 {
     width: 230px;
     height: 80px;
     font-size: 30px;
     position: absolute;
     top: 15%;
     left: 80%;
+  }
+  .header-bottom {
+    position: relative;
+    top: -30px;
+    z-index: 100;
+    color: #fff;
   }
   .header-bottom {
     position: relative;
@@ -4012,6 +4356,75 @@ CONTENT STYLES
   }
   .policy-contents-text {
     width: 864px;
+  }
+  .recruitment-contents {
+    background-color: #fff;
+    width: 100%;
+  }
+  .recruitment-contents .inner-recruitment {
+    width: 63%;
+    margin: auto;
+  }
+  .recruitment-contents .inner-recruitment .title {
+    font-size: 24px;
+    padding-top: 70px;
+  }
+  .recruitment-contents .inner-recruitment .border {
+    margin-top: -12px;
+  }
+  .recruitment-contents .inner-recruitment .text {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+  .recruitment-contents .inner-recruitment .text li {
+    margin-left: 50px;
+  }
+  .recruitment-contents .inner-recruitment .text .itemtext {
+    margin-left: 80px;
+  }
+  .recruitment-contents .inner-recruitment .text .itemtext2 {
+    margin-left: 74px;
+  }
+  .recruitment-contents .inner-recruitment .contact-form {
+    margin: auto;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form {
+    width: 100%;
+    background-color: #fff;
+    color: #323944;
+    font-weight: 600;
+    margin: auto;
+    /* 必須項目の入力欄を黄色にする */
+    /* エラーメッセージを見やすくする */
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr {
+    width: 100%;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr th {
+    width: 30%;
+    padding-top: 20px;
+    text-align: left;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr .message {
+    vertical-align: top;
+    padding-top: 50px;
+    padding-left: 90px;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr td {
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+  .recruitment-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
+    background: #FBFFDF;
+    color: #E1E1E1;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
+  .recruitment-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors {
+    color: red;
+    font-weight: bold;
   }
   .about {
     width: 80%;

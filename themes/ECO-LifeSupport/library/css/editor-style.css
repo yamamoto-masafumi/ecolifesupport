@@ -347,7 +347,7 @@ BOX SIZING
   /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
   width: 731px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "M PLUS 1p";
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
@@ -672,13 +672,13 @@ body#tinymce.wp-editor p {
 }
 
 body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
-  color: #fe0101;
+  color: #00AE78;
   /* on hover */
   /* on click */
 }
 
 body#tinymce.wp-editor a:hover, body#tinymce.wp-editor a:focus, body#tinymce.wp-editor a:visited:hover, body#tinymce.wp-editor a:visited:focus {
-  color: #d00101;
+  color: #8FF18B;
 }
 
 body#tinymce.wp-editor a:link, body#tinymce.wp-editor a:visited:link {

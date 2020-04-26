@@ -51,12 +51,13 @@ I've edited it a bit, but it's a nice starting point.
 // font stacks
 $sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+$mplus1:            "M PLUS 1p";
 
 /*
  i imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
-$lato:              'Lato', $sans-serif;
+$lato:              'Lato', $mplus1;
 
 /*
 some nice typographical defaults

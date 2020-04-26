@@ -33,14 +33,15 @@ $meta-gray:         #9fa6b4;
 $tan:               #eceee5;
 
 $green:             #00AE78;
+$l-green:           #8FF18B;
 
 $pink:              #ff51a5;
 $red:               #fe0101;
 $blue:              #2980b9;
 $cream:             #fbffdf;
 
-$link-color:        $red;
-$link-hover:        darken($link-color, 9%);
+$link-color:        $green;
+$link-hover:        $l-green;
 
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
