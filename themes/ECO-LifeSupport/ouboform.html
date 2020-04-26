@@ -1,0 +1,25 @@
+<div class="application-form">
+    <table>
+    <th><span class="must">必須</span> お名前</th>
+    <td>[text* your-name "例: エコ　太郎"]</td>
+    
+    <th><span class="must">必須</span> 性別</th>
+    <td>[radio man-woman default:1 "男性" "女性"]</td>
+    
+    <th><span class="must">必須</span> お電話番号</th>
+    <td>[tel* tel "例: 0120-994-838"]</td>
+    
+    <th><span class="must">必須</span> メールアドレス</th>
+    <td>[email* your-email "例: ×××@×××.com"]</td>
+    
+    <th><span class="must">必須</span> ご住所</th>
+    <td>[text* your-address "例: 大田区東蒲田蒲田1丁目15-6"]</td>
+    
+    <th>メッセージ</th>
+    <td>[textarea your-message "記入してください"]</td>
+    
+    <div class="btn">
+    [submit "応募する"]
+    </div>
+    </table>
+    </div>

@@ -34,7 +34,7 @@
               <span class="date">2020.03.09</span>
               <span class="detail">不用品回収を行いました。</span>
             </p>
-            <p class="notice-link"><a href="<?php //echo get_permalink(); ?>">お知らせ一覧</a></p>
+            <p class="notice-link"><a href="<?php echo home_url('/notice'); ?>">お知らせ一覧</a></p>
           <?php else : ?>
             <div class="notice-pc">
               <h2 class="notice-head"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/speech-ballon-border.svg"><span>お知らせ</span></h2>
@@ -42,7 +42,7 @@
                 <span class="date">2020.03.09</span>
                 <span class="detail">不用品回収を行いました。</span>
               </p>
-              <p class="notice-link"><a href="<?php //echo get_permalink(); ?>">お知らせ一覧</a></p>
+              <p class="notice-link"><a href="<?php echo home_url('/notice'); ?>">お知らせ一覧</a></p>
             </div>
           <?php endif; ?>
         </div>

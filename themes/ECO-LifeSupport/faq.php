@@ -9,14 +9,15 @@
 <div id="content">
   <div id="inner-content">
       <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-      <?php if(wp_is_mobile()) : ?>
-        <header class=“sub-header”>
-        <div class=“header-title”>
-          <!-- <img class="header-img" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/background/sp-service-charge.png"> -->
+
+      <header class="sub-header-question">
+        <div class="header-title">
           <h3>よくある質問</h3>
         </div>
       </header>
-      <div class=“header-bottom”>HOME > <span>よくある質問</span></div>
+      <p class="header-bottom">HOME > <span>よくある質問</span></p>
+
+      <?php if(wp_is_mobile()) : ?>
         <div class="faq-question">
           <div class="inner-menu">
           <ul>
@@ -525,14 +526,8 @@
             </div>
           </div>
         </div>
+
       <?php else : ?>
-        <header class=“sub-header”>
-        <div class=“header-title”>
-          <!-- <img class="header-img" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/background/service-charge.png"> -->
-          <h3>よくある質問</h3>
-        </div>
-      </header>
-      <div class=“header-bottom”>HOME > <span>よくある質問</span></div>
           <div class="faq-question">
           <div class="inner-menu">
           <ul>
@@ -1446,7 +1441,7 @@
   </div>
 </div>
 
-<!-- <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
         <div id="inner-footer" class="cf footer-top">
           <div class="footer-top-inner">
             <div class="footer-top-inner-info">
@@ -1474,11 +1469,11 @@
         </div>
 
         <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
-			</footer> -->
+			</footer>
 		</div>
 		<?php // all js scripts are loaded in library/bones.php ?>
 	</body>
 </html> <!-- end of site. what a ride! -->
 
-<?php /*get_footer();*/ ?>
+<?php get_footer(); ?>
 </div>
