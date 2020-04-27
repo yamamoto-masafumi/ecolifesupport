@@ -322,4 +322,28 @@ function footerfixbtn_script(){
 }
 add_action('wp_enqueue_scripts', 'footerfixbtn_script');
 
+//pagination
+function the_pagination() {
+  global $wp_query;
+  global $paged;
+  $bignum = 999999999;
+  $list = new WP_Query("category_name=notice&paged=$paged");
+  $max_num_pages = $list->max_num_pages;
+  if ( $max_num_pages <= 1 )
+    return;
+  echo '<nav class="pagination">';
+  echo paginate_links( array(
+    'base'         => str_replace( $bignum, '%#%', esc_url( get_pagenum_link($bignum) ) ),
+    'format'       => '',
+    'current'      => max( 1, get_query_var('paged') ),
+    'total'        => $max_num_pages,
+    'prev_text'    => 'Prev',
+    'next_text'    => 'Next',
+    'type'         => 'list',
+    'end_size'     => 3,
+    'mid_size'     => 3
+  ) );
+  echo '</nav>';
+}
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>
