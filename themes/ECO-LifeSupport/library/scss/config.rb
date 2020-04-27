@@ -3,7 +3,7 @@
 # quickly dive right in.
 # For more info about compass + SASS: http://net.tutsplus.com/tutorials/html-css-techniques/using-compass-and-sass-for-css-in-your-next-project/
 
-
+Encoding.default_external = 'utf-8'
 #########
 # 1. Set this to the root of your project when deployed:
 http_path = "/"
