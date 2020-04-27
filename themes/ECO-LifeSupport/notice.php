@@ -9,7 +9,7 @@
 <div class="absolute">
 <div id="content">
   <div id="inner-content">
-      <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+    <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
       <header class="sub-header-notice">
         <div class="header-title">
           <h3>お知らせ</h3>
@@ -22,22 +22,27 @@
           <h3>お知らせ一覧</h3>
           <div class="border"></div>
             <div class="inner-notice">
-              <div class="inner-notice-menu">
-              <span class="date"><?php echo get_the_date('Y.m.d'); ?></span>
-              <span class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
-              <div class="border"></div>
-                <?php
-                $args = array(
-                  'order' => 'DESC',  //昇順 or 降順の指定
-                  'orderby' => 'date'  //何順で並べるかの指定
-                );
-                ?>
+              <?php
+              $args = array(
+                'category_name' => 'notice',
+                'order' => 'DESC',  //昇順 or 降順の指定
+                'orderby' => 'date'  //何順で並べるかの指定
+              );
+              $the_query = new WP_Query( $args );
+              while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                <div class="inner-notice-menu">
+                  <span class="date"><?php echo get_the_date('Y.m.d'); ?></span>
+                  <span class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
+                  <div class="border"></div>
+                </div>
+              <?php endwhile; wp_reset_postdata(); ?>
             </div>
-            </div>
+            <div class="pagination"><?php if( function_exists("the_pagination") ) the_pagination(); ?></div>
+          </div>
         </div>
         <!-- 過去のお知らせ一覧 -->
         <div class="past-notice">
-        <?php get_template_part('loop-content'); ?>
+        <?php //get_template_part('notice-monthly-archive'); ?>
           <div></div>
         </div>
       </div>
