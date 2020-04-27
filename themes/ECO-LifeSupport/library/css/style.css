@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! Made with Bones: http://themble.com/bones :) */
 /******************************************************************
 Site Name:
@@ -1048,7 +1049,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "M PLUS 1p";
   background-color: #eaedf2;
   transition: background-color 0.24s ease-in-out;
 }
@@ -1320,7 +1321,7 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "M PLUS 1p";
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
@@ -1357,14 +1358,14 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #fe0101;
+  color: #00AE78;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #d00101;
+  color: #8FF18B;
 }
 
 a:link, a:visited:link {
@@ -3468,6 +3469,47 @@ footer .footer-bottom-right .quote span {
   text-align: center;
 }
 
+.user-header {
+  width: 100%;
+  height: 135px;
+  background-image: url("../images/user-voice/sp-user-voice.png");
+  background-size: auto 100%;
+  position: relative;
+}
+
+.user-header .userheader-title {
+  width: 171px;
+  height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 18%;
+  left: 30%;
+}
+
+.user-header .userheader-title h3 {
+  border: solid 2px #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
+.user-header::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.userheader-bottom {
+  font-size: 12px;
+  color: #323944;
+  margin-left: 20px;
+}
+
 .uservoice-bigtitle {
   font-size: 20px;
   font-weight: bold;
@@ -3893,20 +3935,28 @@ CONTENT STYLES
     max-width: 1300px;
     margin: auto;
   }
-  .sub-header {
+  .sub-header, .sub-header-uservoice,
+  .sub-header-question, .sub-header-notice {
     width: 100%;
     height: 233px;
     background-size: cover;
     background-position: center;
     position: relative;
   }
-  .sub-header .header-title h3 {
+  .sub-header .header-title h3, .sub-header-uservoice .header-title h3,
+  .sub-header-question .header-title h3, .sub-header-notice .header-title h3 {
     width: 230px;
     height: 80px;
     font-size: 30px;
     position: absolute;
     top: 15%;
     left: 80%;
+  }
+  .header-bottom {
+    position: relative;
+    top: -30px;
+    z-index: 100;
+    color: #fff;
   }
   .header-bottom {
     position: relative;
@@ -3926,6 +3976,137 @@ CONTENT STYLES
   }
   .policy-contents-text {
     width: 864px;
+  }
+  .contact-contents {
+    height: 980px;
+  }
+  .recruitment-contents,
+  .contact-contents {
+    background-color: #fff;
+    width: 100%;
+  }
+  .recruitment-contents .inner-recruitment,
+  .recruitment-contents .inner-contact,
+  .contact-contents .inner-recruitment,
+  .contact-contents .inner-contact {
+    width: 63%;
+    margin: auto;
+  }
+  .recruitment-contents .inner-recruitment .title,
+  .recruitment-contents .inner-contact .title,
+  .contact-contents .inner-recruitment .title,
+  .contact-contents .inner-contact .title {
+    font-size: 24px;
+    padding-top: 70px;
+  }
+  .recruitment-contents .inner-recruitment .border,
+  .recruitment-contents .inner-contact .border,
+  .contact-contents .inner-recruitment .border,
+  .contact-contents .inner-contact .border {
+    margin-top: -12px;
+  }
+  .recruitment-contents .inner-recruitment .text,
+  .recruitment-contents .inner-contact .text,
+  .contact-contents .inner-recruitment .text,
+  .contact-contents .inner-contact .text {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+  .recruitment-contents .inner-recruitment .text li,
+  .recruitment-contents .inner-contact .text li,
+  .contact-contents .inner-recruitment .text li,
+  .contact-contents .inner-contact .text li {
+    margin-left: 50px;
+  }
+  .recruitment-contents .inner-recruitment .text .itemtext,
+  .recruitment-contents .inner-contact .text .itemtext,
+  .contact-contents .inner-recruitment .text .itemtext,
+  .contact-contents .inner-contact .text .itemtext {
+    margin-left: 80px;
+  }
+  .recruitment-contents .inner-recruitment .text .itemtext2,
+  .recruitment-contents .inner-contact .text .itemtext2,
+  .contact-contents .inner-recruitment .text .itemtext2,
+  .contact-contents .inner-contact .text .itemtext2 {
+    margin-left: 74px;
+  }
+  .recruitment-contents .inner-recruitment .contact-form,
+  .recruitment-contents .inner-contact .contact-form,
+  .contact-contents .inner-recruitment .contact-form,
+  .contact-contents .inner-contact .contact-form {
+    margin: auto;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form,
+  .recruitment-contents .inner-contact .contact-form .application-form,
+  .contact-contents .inner-recruitment .contact-form .application-form,
+  .contact-contents .inner-contact .contact-form .application-form {
+    width: 100%;
+    background-color: #fff;
+    color: #323944;
+    font-weight: 600;
+    margin: auto;
+    /* 必須項目の入力欄を黄色にする */
+    /* エラーメッセージを見やすくする */
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr,
+  .recruitment-contents .inner-contact .contact-form .application-form tr,
+  .contact-contents .inner-recruitment .contact-form .application-form tr,
+  .contact-contents .inner-contact .contact-form .application-form tr {
+    width: 100%;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr th,
+  .recruitment-contents .inner-contact .contact-form .application-form tr th,
+  .contact-contents .inner-recruitment .contact-form .application-form tr th,
+  .contact-contents .inner-contact .contact-form .application-form tr th {
+    width: 30%;
+    padding-top: 20px;
+    text-align: left;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr .message,
+  .recruitment-contents .inner-contact .contact-form .application-form tr .message,
+  .contact-contents .inner-recruitment .contact-form .application-form tr .message,
+  .contact-contents .inner-contact .contact-form .application-form tr .message {
+    vertical-align: top;
+    padding-top: 50px;
+    padding-left: 90px;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr .contactmessage,
+  .recruitment-contents .inner-contact .contact-form .application-form tr .contactmessage,
+  .contact-contents .inner-recruitment .contact-form .application-form tr .contactmessage,
+  .contact-contents .inner-contact .contact-form .application-form tr .contactmessage {
+    vertical-align: top;
+    padding-top: 50px;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form tr td,
+  .recruitment-contents .inner-contact .contact-form .application-form tr td,
+  .contact-contents .inner-recruitment .contact-form .application-form tr td,
+  .contact-contents .inner-contact .contact-form .application-form tr td {
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+  .recruitment-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
+  .recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+  .recruitment-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
+  .contact-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+  .contact-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
+  .contact-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+  .contact-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
+    background: #FBFFDF;
+    color: #E1E1E1;
+  }
+  .recruitment-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
+  .recruitment-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
+  .recruitment-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
+  .recruitment-contents .inner-contact .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
+  .contact-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
+  .contact-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
+  .contact-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
+  .contact-contents .inner-contact .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors {
+    color: red;
+    font-weight: bold;
   }
   .about {
     width: 80%;
