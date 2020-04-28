@@ -48,7 +48,7 @@
 
         <div class="compare">
           <div class="compare-top">
-            <p>他社と比べてみてください</p>    
+            <p>他社と比べてみてください</p>
           </div>
           <table class="compare-table">
             <tbody>
@@ -533,7 +533,7 @@
           <div class="contact-btn">無料お見積りはこちら</div>
         </div>
 
-        <div class="area">
+        <div id="area" class="area">
           <div class="content-head voice-head">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/corresponding-area.svg">
             <h3>対応エリア</h3>
@@ -652,6 +652,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -668,6 +674,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -707,6 +716,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -723,6 +738,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -762,6 +780,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -778,6 +802,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -817,6 +844,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -833,6 +866,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -872,6 +908,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -888,6 +930,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
