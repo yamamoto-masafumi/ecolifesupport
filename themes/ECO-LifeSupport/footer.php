@@ -24,10 +24,12 @@
                 <span class="phone-time">8:00-21:00(年中無休)</span>
               </div>
             </div>
-            <div id="quote" class="quote">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/estimate.svg">
-              <span>無料お見積り</span>
-            </div>
+            <a href="<?php echo home_url('/contact'); ?>">
+              <div id="quote" class="quote">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/estimate.svg">
+                <span>無料お見積り</span>
+              </div>
+            </a>
           </div>
         </div>
 		<?php // all js scripts are loaded in library/bones.php ?>

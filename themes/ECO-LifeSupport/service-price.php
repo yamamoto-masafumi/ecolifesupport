@@ -9,16 +9,15 @@
 <div class="absolute">
 <div id="content">
   <div id="inner-content">
-      <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-      
+    <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
       <header class="sub-header">
         <div class="header-title">
           <h3>サービス料金</h3>
         </div>
       </header>
       <p class="header-bottom">HOME > <span>サービス料金</span></p>
-      
-      <div class="about">
+      <div class="about service-about">
+        <?php if(wp_is_mobile()) : ?>
           <h2 class="about-head">
             <img class="service-about-img" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/service-price-sub.png">
             <p class="about-head-paragraph">圧倒的な価格設定</p>
@@ -30,7 +29,22 @@
             お電話やメールにてお客様のお荷物を伺い、どのプランに該当するかご案内いたします。その他、
             <span class="under">安く処分する方法のご相談も承っております。</span>
           </p>
-        </div>
+        <?php else : ?>
+          <h2 class="about-head">
+            <img class="service-about-img" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/service-price-sub.png">
+          </h2>
+          <div class="about-pc">
+            <p class="about-pc-head">圧倒的な価格設定</p>
+            <p class="about-paragraph">
+              エコライフサポートのサービス料金、<span class="red">不要な物の物量に応じて料金が決定する仕組みです。</span>
+              <span class="under">他社では別料金になる搬出作業費・お掃除作業費・スタッフ追加料金・車両費・出張費・エアコン取り外し費用が全て込みの料金となっております。</span>
+              <span class="red">お見積り後の追加料金も一切ございません。</span>
+              お電話やメールにてお客様のお荷物を伺い、どのプランに該当するかご案内いたします。その他、
+              <span class="under">安く処分する方法のご相談も承っております。</span>
+            </p>
+          </div>
+        <?php endif; ?>
+      </div>
 
         <div class="compare">
           <div class="compare-top">
