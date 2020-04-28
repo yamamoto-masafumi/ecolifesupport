@@ -88,6 +88,9 @@
                 <?php if($content->post_title === 'HOME'): ?>
                   <a href="<?php echo home_url(); ?>">
                   <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/home.svg" alt="" />
+                <?php elseif($content->post_title === '対応エリア'): ?>
+                  <a href="#area">
+                  <img src="<?php echo $image_attributes[0]; ?>" alt="" />
                 <?php else: ?>
                   <a href="<?php echo get_permalink($page_id); ?>">
                   <img src="<?php echo $image_attributes[0]; ?>" alt="" />
