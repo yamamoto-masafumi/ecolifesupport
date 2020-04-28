@@ -1,6 +1,7 @@
 jQuery(function($){
   var is_cursorOnElm;
   $('.list-question').click(function(){
+    $('.isOpen').removeClass();
     var classname = $(this).attr('class');
     if(classname == 'list-question down'){
       $(this).removeClass('down').next().slideUp();
@@ -8,6 +9,7 @@ jQuery(function($){
       $('.down').removeClass('.down').next().slideUp();
       var downElm = $(this).addClass('down').next();
       downElm.slideDown();
+      $(this).children().toggleClass('isOpen');
     }
   });
 
@@ -19,6 +21,7 @@ jQuery(function($){
 
   $('body').click(function(){
     if(!is_cursorOnElm){
+      $('.isOpen').removeClass();
       $('.down').removeClass('down').next().slideUp();
     }
   });
@@ -26,6 +29,7 @@ jQuery(function($){
 
   if(window.innerWidth <= 768){
     $('.list-type').click(function(){
+      $('.isOpen').removeClass();
       var classname = $(this).attr('class');
       if(classname == 'list-type down'){
         $(this).removeClass('down').next().slideUp();
@@ -34,6 +38,7 @@ jQuery(function($){
         var downElm = $(this).addClass('down').next();
         $(this).parent().css({'height': 'auto'});
         downElm.slideDown();
+        $(this).children().toggleClass('isOpen');
       }
     });
     $('.pref').click(function(){

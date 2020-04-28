@@ -601,6 +601,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -617,6 +623,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -656,6 +665,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -672,6 +687,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -711,6 +729,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -727,6 +751,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -766,6 +793,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -782,6 +815,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -821,6 +857,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -837,6 +879,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
