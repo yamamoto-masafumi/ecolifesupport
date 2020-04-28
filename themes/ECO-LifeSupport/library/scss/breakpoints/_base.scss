@@ -90,7 +90,8 @@ LINK STYLES
 *********************/
 
 a, a:visited {
-	color: $link-color;
+  color: $link-color;
+  text-decoration: none;
 
 	/* on hover */
 	&:hover, &:focus {
@@ -433,6 +434,19 @@ POSTS & CONTENT STYLES
     }
     .under{
       border-bottom: 1px solid $black;
+    }
+  }
+}
+
+//SERVICE ABOUT
+.service-about{
+  .about-head{
+    height: 55px;
+    justify-content: flex-start;
+    .about-head-paragraph{
+      height: 55px;
+      line-height: 55px;
+      padding-left: 10px;
     }
   }
 }
@@ -873,10 +887,10 @@ POSTS & CONTENT STYLES
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 336px;
-    height: 626px;
     margin: 20px auto;
     &-item{
       text-align: center;
+      width: 158px;
       img{
         width: 158px;
         height: 150px;
@@ -1953,65 +1967,64 @@ footer{
     height: 40px;
     line-height: 40px;
   }
-  .footer-bottom{
-    background-color: #fbffdf;
-    &-left{
-      display: none;
-    }
-    &-right{
+}
+.footer-bottom{
+  background-color: #fbffdf;
+  &-left{
+    display: none;
+  }
+  &-right{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    .phone{
       display: flex;
-      justify-content: space-around;
-      padding: 10px 0;
-      .phone{
-        display: flex;
-        justify-content: space-between;
-        height: 42px;
-        width: 168px;
-        img{
+      justify-content: space-between;
+      height: 42px;
+      width: 168px;
+      img{
+        display: block;
+        width: 30px;
+        
+      }
+      &-details{
+        .phone-number{
           display: block;
-          width: 30px;
-          
+          color: $green;
+          text-align: center;
+          font-size: 18px;
         }
-        &-details{
-          .phone-number{
-            display: block;
-            color: $green;
-            text-align: center;
-            font-size: 18px;
-          }
-          .phone-time{
-            display: block;
-            text-align: center;
-            font-size: 11px;
-          }
+        .phone-time{
+          display: block;
+          text-align: center;
+          font-size: 11px;
         }
       }
-      .quote{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: $red;
-        border-radius: 5px;
-        height: 42px;
-        width: 147px;
-        img{
-          display: block;
-          height: 25px;
-          margin-right: 10px;
-        }
-        span{
-          display: block;
-          color: $white;
-          height: 24px;
-          line-height: 24px;
-          font-size: 16px;
-          text-align: center;
-        }
+    }
+    .quote{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $red;
+      border-radius: 5px;
+      height: 42px;
+      width: 147px;
+      img{
+        display: block;
+        height: 25px;
+        margin-right: 10px;
+      }
+      span{
+        display: block;
+        color: $white;
+        height: 24px;
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
       }
     }
   }
 }
-
 
 
 

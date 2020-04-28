@@ -81,7 +81,7 @@
               </div>
             </div>
           </div>
-          <div class="feature-btn">詳しくはこちら</div>
+          <a href="<?php echo home_url('/feature'); ?>"><div class="feature-btn">詳しくはこちら</div></a>
         </div>
 
         <div class="service">
@@ -151,7 +151,7 @@
               </p>
             </div>
           </div>
-          <div class="service-btn">サービス料金へ</div>
+          <a href="<?php echo home_url('/service'); ?>"><div class="service-btn">サービス料金へ</div></a>
         </div>
 
         <div class="plan">
@@ -274,7 +274,7 @@
               </div>
 
           </div>
-          <div class="plan-btn">詳しくはこちら</div>
+          <a href="<?php echo home_url('/price'); ?>"><div class="plan-btn">詳しくはこちら</div></a>
         </div>
 
         <div class="voice">
@@ -341,7 +341,7 @@
             <div class="swiper-button-prev sp-prev"></div>
             <div class="swiper-button-next sp-next"></div>
           </div>
-          <div class="voice-btn">お客様の声一覧</div>
+          <a href="<?php echo home_url('/voice'); ?>"><div class="voice-btn">お客様の声一覧</div></a>
         </div>
 
         <div class="flow">
@@ -463,7 +463,7 @@
               </p>
             </div>
           </div>
-          <div class="question-btn">よくある質問一覧</div>
+          <a href="<?php echo home_url('/question'); ?>"><div class="question-btn">よくある質問一覧</div></a>
         </div>
 
         <div class="contact">
@@ -479,7 +479,7 @@
             <span class="phone-number">0120-994-834</span>
             <span class="phone-time">8:00-21:00（年中無休）</span>
           </div>
-          <div class="contact-btn">無料お見積りはこちら</div>
+          <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
         </div>
 
         <div id="area" class="area">
@@ -869,34 +869,34 @@
 </div>
 
 <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-        <div id="inner-footer" class="cf footer-top">
-          <div class="footer-top-inner">
-            <div class="footer-top-inner-info">
-              <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
-                <a href="<?php echo home_url(); ?>" rel="nofollow">
-                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
-                </a>
-              </div>
-              <ul class="address">
-                <li>〒144-0052</li>
-                <li>東京都大田区蒲田5-21-13</li>
-                <li>ペガサスステーションプラザ蒲田B2</li>
-              </ul>
-            </div>
-            <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-              <?php
-                wp_nav_menu(array(
-                'menu' => 'FooterMenu',
-                'menu_class' => 'menu',
-                'container' => 'div',
-                ));
-              ?>      
-            </nav>
-          </div>
+  <div id="inner-footer" class="cf footer-top">
+    <div class="footer-top-inner">
+      <div class="footer-top-inner-info">
+        <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
+          <a href="<?php echo home_url(); ?>" rel="nofollow">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
+          </a>
         </div>
+        <ul class="address">
+          <li>〒144-0052</li>
+          <li>東京都大田区蒲田5-21-13</li>
+          <li>ペガサスステーションプラザ蒲田B2</li>
+        </ul>
+      </div>
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <?php
+          wp_nav_menu(array(
+          'menu' => 'FooterMenu',
+          'menu_class' => 'menu',
+          'container' => 'div',
+          ));
+        ?>
+      </nav>
+    </div>
+  </div>
 
-        <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
-			</footer>
+  <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
+</footer>
 		</div>
 		<?php // all js scripts are loaded in library/bones.php ?>
 	</body>
