@@ -15,226 +15,390 @@
 
 
       <header class="user-header">
-        <div class="userheader-title">
-          <h3>サービス料金</h3>
+        <div class="header-title">
+          <h3>お客様の声</h3>
         </div>
       </header>
-      <p class="userheader-bottom">HOME > <span>お客様の声</span></p>
+      <p class="header-bottom">HOME > <span>お客様の声</span></p>
 
-      <div class="uservoice"><!--お客様の声-->
-          <div class="uservoice-bigtitle">
-            <p class="tate">不良品回収</p>
-            <!-- <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png">
-            </div> -->
-          </div>
-          <div class="uservoice-lists">
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice1.jpg">
-              </div>
-              <p class="title">東京都　Aさん　一人暮らし</p>
-              <p class="text">
-                <span class="detail">思った以上に安く利用できてとって<br>
-                も満足です！</span>
-              </p>
+        <?php if(wp_is_mobile()) : ?>
+        <div class="sp-uservoice"><!--お客様の声-->
+            <div class="sp-uservoice-bigtitle">
+              <h3>不良品回収</h3>
+              <div class="border"></div>
+              <!-- <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png">
+              </div> -->
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice2.jpg">
+              <div class="sp-uservoice-lists">
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice1.jpg">
+                    </div>
+                  <p class="title">東京都 Aさん 一人暮らし</p>
+                  <p class="text"><span class="detail">思った以上に安く利用できてとっても満足です！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice2.jpg">
+                    </div>
+                    <p class="title">埼玉県 Rさん 引っ越し</p>
+                  <p class="text"><span class="detail">大きな家具や荷物も気にせず安心して詰め込めます！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice3.jpg">
+                  </div>
+                    <p class="title">東京都 Yさん 一人暮らし</p>
+                  <p class="text"><span class="detail">時間通りに来ていただけたのでとても助かりました！</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">埼玉県　Rさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">大きな家具や荷物も気にせず安心し<br>
-                て詰め込めます！</span>
-              </p>
+            <div class="sp-uservoice-bigtitle">
+              <h3>ゴミ屋敷の片付け</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice3.jpg">
+              <div class="sp-uservoice-lists">
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice4.jpg">
+                  </div>
+                  <p class="title">東京都 Yさん 一人暮らし</p>
+                  <p class="text"><span class="detail">綺麗な部屋にたった1万円台で！片付けもしてくれて満足です。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice5.jpg">
+                  </div>
+                  <p class="title">東京都 Sさん 一人暮らし</p>
+                  <p class="text"><span class="detail">ご近所にバレずにあっという間に綺麗になりました！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice6.jpg">
+                  </div>
+                  <p class="title">埼玉県 Tさん 引っ越し</p>
+                  <p class="text"><span class="detail">散乱していたゴミが1時間で引越ししたてのように！</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">埼玉県　Tさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">時間通りに来ていただけたのでとて<br>
-                も感謝しました！</span>
-              </p>
+            <div class="sp-uservoice-bigtitle">
+              <h3>粗大ゴミの回収</h3>
+              <div class="border"></div>
             </div>
-          </div>
-          <div class="uservoice-bigtitle">
-          <p>ゴミ屋敷の片付け</p>
-          </div>
-          <div class="uservoice-lists">
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice4.jpg">
+              <div class="sp-uservoice-lists">
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <!-- <img class="ribbon" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/ribbon-gold.png"> -->
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice7.jpg">
+                  </div>
+                  <p class="title">埼玉県 Nさん 引っ越し</p>
+                  <p class="text"><span class="detail">引越しに伴い家具を心機一転。格安で回収してもらえました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice8.jpg">
+                  </div>
+                  <p class="title">千葉県 Kさん 引っ越し</p>
+                  <p class="text"><span class="detail">引越しで2DK分の荷物が他社見積りの3分の1で出来ました！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice9.jpg">
+                  </div>
+                  <p class="title">東京都 Sさん 引っ越し</p>
+                  <p class="text"><span class="detail">実家に戻る事で家具が不要に。浮いたお金で新しい家電が買えて嬉しい</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">東京都　Aさん　一人暮らし</p>
-              <p class="text">
-                <span class="detail">思った以上に安く利用できてとって<br>
-                も満足です！</span>
-              </p>
+            <div class="sp-uservoice-bigtitle">
+              <h3>遺品整理</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice5.jpg">
-              </div>
-              <p class="title">埼玉県　Rさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">大きな家具や荷物も気にせず安心し<br>
-                て詰め込めます！</span>
-              </p>
+              <div class="sp-uservoice-lists">
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice10.jpg">
+                  </div>
+                  <p class="title">神奈川県 Sさん 遺品整理 </p>
+                  <p class="text"><span class="detail">即日に安価で丁寧に整理をしてくれました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice11.jpg">
+                  </div>
+                  <p class="title">東京都 Mさん 遺品整理 </p>
+                  <p class="text"><span class="detail">片付けから荷造り、全て行っていただけました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice12.jpg">
+                  </div>
+                  <p class="title">神奈川県 Kさん 遺品整理</p>
+                  <p class="text"><span class="detail">遠方で行けない自分の代わりに迅速な対応をしていただけました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice6.jpg">
-              </div>
-              <p class="title">埼玉県　Tさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">時間通りに来ていただけたのでとて<br>
-                も感謝しました！</span>
-              </p>
+            <div class="sp-uservoice-bigtitle">
+              <h3>生前処分</h3>
+              <div class="border"></div>
             </div>
-          </div>
-          <div class="uservoice-bigtitle">
-          <p>粗大ゴミの回収</p>
-          </div>
-          <div class="uservoice-lists">
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <!-- <img class="ribbon" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/ribbon-gold.png"> -->
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice7.jpg">
+              <div class="sp-uservoice-lists">
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice13.jpg">
+                  </div>
+                  <p class="title">埼玉県 Hさん 生前処分</p>
+                  <p class="text"><span class="detail">明確な料金設定でどこよりも安く、安心して利用できました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox"> 
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice14.jpg">
+                  </div>
+                  <p class="title">東京都 Sさん 生前処分</p>
+                  <p class="text"><span class="detail">いらないものの相談などにも乗ってもらい丁寧な対応！大満足です。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice15.jpg">
+                  </div>
+                  <p class="title">千葉県 Iさん 生前処分</p>
+                  <p class="text"><span class="detail">施設入所前の片付けで依頼。丁寧で気持ちよく利用できました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">東京都　Aさん　一人暮らし</p>
-              <p class="text">
-                <span class="detail">思った以上に安く利用できてとって<br>
-                も満足です！</span>
-              </p>
+            <div class="sp-uservoice-bigtitle">
+              <h3>不用品の買取</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice8.jpg">
+              <div class="sp-uservoice-lists">
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice16.jpg">
+                  </div>
+                  <p class="title">東京都 Nさん 不用品の買取</p>
+                  <p class="text"><span class="detail">他社の提示金額より2倍の値段で買い取ってもらえました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice17.jpg">
+                  </div>
+                  <p class="title">東京都 Tさん 不用品の買取</p>
+                  <p class="text"><span class="detail">需要がないと思っていた洗濯機がまさかこんな価格になるなんて....</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="sp-uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/sp-user-voice18.jpg">
+                  </div>
+                  <p class="title">神奈川県 Sさん 不用品の買取</p>
+                  <p class="text"><span class="detail">思った以上の高額買取。お得すぎてびっくりです！</span></p>
+                  <div class="borderblue"></div>
+                  <br>
+                  <br>
+                  <br>
+                </div>
               </div>
-              <p class="title">埼玉県　Rさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">大きな家具や荷物も気にせず安心し<br>
-                て詰め込めます！</span>
-              </p>
+
+          <?php else : ?>
+            <div class="uservoice-bigtitle">
+              <h3>不良品回収</h3>
+              <div class="border"></div>
+              <!-- <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png">
+              </div> -->
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice9.jpg">
+              <div class="uservoice-lists">
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice1.jpg">
+                    </div>
+                  <p class="title">東京都 Aさん 一人暮らし</p>
+                  <p class="text"><span class="detail">思った以上に安く利用できてとっても満足です！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice2.jpg">
+                    </div>
+                    <p class="title">埼玉県 Rさん 引っ越し</p>
+                  <p class="text"><span class="detail">大きな家具や荷物も気にせず安心して詰め込めます！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice3.jpg">
+                  </div>
+                    <p class="title">東京都 Yさん 一人暮らし</p>
+                  <p class="text"><span class="detail">時間通りに来ていただけたのでとても助かりました！</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">埼玉県　Tさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">時間通りに来ていただけたのでとて<br>
-                も感謝しました！</span>
-              </p>
-            </div>            
-          </div>
-          <div class="uservoice-bigtitle">
-          <p>遺品整理</p>
-          </div>
-          <div class="uservoice-lists">
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice10.jpg">
-              </div>
-              <p class="title">東京都　Aさん　一人暮らし</p>
-              <p class="text">
-                <span class="detail">思った以上に安く利用できてとって<br>
-                も満足です！</span>
-              </p>
+            <div class="uservoice-bigtitle">
+              <h3>ゴミ屋敷の片付け</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice11.jpg">
+              <div class="uservoice-lists">
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice4.jpg">
+                  </div>
+                  <p class="title">東京都 Yさん 一人暮らし</p>
+                  <p class="text"><span class="detail">綺麗な部屋にたった1万円台で！片付けもしてくれて満足です。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice5.jpg">
+                  </div>
+                  <p class="title">東京都 Sさん 一人暮らし</p>
+                  <p class="text"><span class="detail">ご近所にバレずにあっという間に綺麗になりました！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice6.jpg">
+                  </div>
+                  <p class="title">埼玉県 Tさん 引っ越し</p>
+                  <p class="text"><span class="detail">散乱していたゴミが1時間で引越ししたてのように！</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">埼玉県　Rさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">大きな家具や荷物も気にせず安心し<br>
-                て詰め込めます！</span>
-              </p>
+            <div class="uservoice-bigtitle">
+              <h3>粗大ゴミの回収</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice12.jpg">
+              <div class="uservoice-lists">
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <!-- <img class="ribbon" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/ribbon-gold.png"> -->
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice7.jpg">
+                  </div>
+                  <p class="title">埼玉県 Nさん 引っ越し</p>
+                  <p class="text"><span class="detail">引越しに伴い家具を心機一転。格安で回収してもらえました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice8.jpg">
+                  </div>
+                  <p class="title">千葉県 Kさん 引っ越し</p>
+                  <p class="text"><span class="detail">引越しで2DK分の荷物が他社見積りの3分の1で出来ました！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice9.jpg">
+                  </div>
+                  <p class="title">東京都 Sさん 引っ越し</p>
+                  <p class="text"><span class="detail">実家に戻る事で家具が不要に。浮いたお金で新しい家電が買えて嬉しい</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">埼玉県　Tさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">時間通りに来ていただけたのでとて<br>
-                も感謝しました！</span>
-              </p>
-            </div>            
-          </div>
-          <div class="uservoice-bigtitle">
-          <p>生前処分</p>
-          </div>
-          <div class="uservoice-lists">
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice13.jpg">
-              </div>
-              <p class="title">東京都　Aさん　一人暮らし</p>
-              <p class="text">
-                <span class="detail">思った以上に安く利用できてとって<br>
-                も満足です！</span>
-              </p>
+            <div class="uservoice-bigtitle">
+              <h3>遺品整理</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox"> 
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice14.jpg">
+              <div class="uservoice-lists">
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice10.jpg">
+                  </div>
+                  <p class="title">神奈川県 Sさん 遺品整理 </p>
+                  <p class="text"><span class="detail">即日に安価で丁寧に整理をしてくれました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice11.jpg">
+                  </div>
+                  <p class="title">東京都 Mさん 遺品整理 </p>
+                  <p class="text"><span class="detail">片付けから荷造り、全て行っていただけました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice12.jpg">
+                  </div>
+                  <p class="title">神奈川県 Kさん 遺品整理</p>
+                  <p class="text"><span class="detail">遠方で行けない自分の代わりに迅速な対応をしていただけました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">埼玉県　Rさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">大きな家具や荷物も気にせず安心し<br>
-                て詰め込めます！</span>
-              </p>
+            <div class="uservoice-bigtitle">
+              <h3>生前処分</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice15.jpg">
+              <div class="uservoice-lists">
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice13.jpg">
+                  </div>
+                  <p class="title">埼玉県 Hさん 生前処分</p>
+                  <p class="text"><span class="detail">明確な料金設定でどこよりも安く、安心して利用できました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice14.jpg">
+                  </div>
+                  <p class="title">東京都 Sさん 生前処分</p>
+                  <p class="text"><span class="detail">いらないものの相談などにも乗ってもらい丁寧な対応！大満足です。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice15.jpg">
+                  </div>
+                  <p class="title">千葉県 Iさん 生前処分</p>
+                  <p class="text"><span class="detail">施設入所前の片付けで依頼。丁寧で気持ちよく利用できました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
               </div>
-              <p class="title">埼玉県　Tさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">時間通りに来ていただけたのでとて<br>
-                も感謝しました！</span>
-              </p>
-            </div> 
-          </div>
-          <div class="uservoice-bigtitle">
-          <p>不用品の回収</p>
-          </div>
-          <div class="uservoice-lists">
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice16.jpg">
-              </div>
-              <p class="title">東京都　Aさん　一人暮らし</p>
-              <p class="text">
-                <span class="detail">思った以上に安く利用できてとって<br>
-                も満足です！</span>
-              </p>
+            <div class="uservoice-bigtitle">
+              <h3>不用品の買取</h3>
+              <div class="border"></div>
             </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice17.jpg">
+              <div class="uservoice-lists">
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice16.jpg">
+                  </div>
+                  <p class="title">東京都 Nさん 不用品の買取</p>
+                  <p class="text"><span class="detail">他社の提示金額より2倍の値段で買い取ってもらえました。</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice17.jpg">
+                  </div>
+                  <p class="title">東京都 Tさん 不用品の買取</p>
+                  <p class="text"><span class="detail">需要がないと思っていた洗濯機がまさかこんな価格になるなんて....</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <div class="uservoice-list">
+                  <div class="imgbox">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice18.jpg">
+                  </div>
+                  <p class="title">神奈川県 Sさん 不用品の買取</p>
+                  <p class="text"><span class="detail">思った以上の高額買取。お得すぎてびっくりです！</span></p>
+                  <div class="borderblue"></div>
+                </div>
+                <?php endif; ?>
               </div>
-              <p class="title">埼玉県　Rさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">大きな家具や荷物も気にせず安心し<br>
-                て詰め込めます！</span>
-              </p>
-            </div>
-            <div class="uservoice-list">
-              <div class="imgbox">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice18.jpg">
-              </div>
-              <p class="title">埼玉県　Tさん　引っ越し</p>
-              <p class="text">
-                <span class="detail">時間通りに来ていただけたのでとて<br>
-                も感謝しました！</span>
-              </p>
-            </div> 
-          </div>  
+              <br>
+              <br>
+              <br>
+              <br>
         </div>
 
         <div class="contact">
@@ -638,6 +802,7 @@
       </main>
   </div>
 </div>
+</div>
 
 <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
         <div id="inner-footer" class="cf footer-top">
@@ -661,7 +826,7 @@
                 'menu_class' => 'menu',
                 'container' => 'div',
                 ));
-              ?>
+              ?>      
             </nav>
           </div>
         </div>
@@ -670,9 +835,7 @@
 			</footer>
 		</div>
 		<?php // all js scripts are loaded in library/bones.php ?>
-		<?php wp_footer(); ?>
 	</body>
 </html> <!-- end of site. what a ride! -->
 
 <?php get_footer(); ?>
-</div>
