@@ -16,10 +16,10 @@
         </div>
 
         <div class="about">
-          <h2 class="about-head">
+          <div class="about-head">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/truck.png">
             <p class="about-head-paragraph">不用品は<br>エコライフサポートへ</p>
-          </h2>
+          </div>
           <p class="about-paragraph">
             <span class="red">ゴミ屋敷・引っ越し・遺品整理等</span>で発生する処分品、押し入れや収納にたまった<span class="red">不用品</span>などを片付けや<span class="red">買取</span>をさせて頂きます。
             エコライフサポートのサービス料金は、<span class="under">不要な物の物量に応じて料金が決定する仕組みです。</span>
