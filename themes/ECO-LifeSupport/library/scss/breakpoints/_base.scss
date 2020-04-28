@@ -174,6 +174,8 @@ HEADER STYLES
 *********************/
 header{
   background: $white;
+  position: fixed;
+  width: 100%;
   .header-top{
     height: 60px;
     margin: 0 5%;
@@ -263,6 +265,7 @@ POSTS & CONTENT STYLES
   z-index: -100;
   width: 100%;
   top: 60px;
+  padding-bottom: 62px;
 }
 #main{
   background: $white;
@@ -1920,79 +1923,82 @@ POSTS & CONTENT STYLES
     }
   }
 }
+.footer-top{
+  background: $gray;
+  &-inner{
+    &-info{
+      text-align: center;
+      .logo{
+        a img{
+          display: block;
+          width: 159px;
+          margin: auto;
+        }
+      }
+      .address{
+        li{
+          font-size: 14px;
+        }
+      }
+    }
+    nav{
+      div .menu{
+        margin-bottom: 0;
+        height: 201px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-top: 1px solid $green;
+        li{
+          width: 50%;
+          height: 40px;
+          padding-left: 30px;
+          border-bottom: 1px solid $green;
+          a{
+            color: $black;
+            font-size: 12px;
+            text-decoration: none;
+            &:before{
+              content: '>';
+              font-size: 20px;
+              font-weight: bold;
+              margin-right: 10px;
+            }
+          }
+        }
+        li:nth-child(5){
+          border-bottom: none;
+        }
+        li:nth-child(-n+5){
+          border-right: 1px solid $green; 
+        }
+        li:last-child{
+          border-bottom: 1px solid $green; 
+        }
+      }
+    }
+  }
+}
+
+.copyright{
+  margin: 0;
+  background: $green;
+  color: $white;
+  text-align: center;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+}
 
 /*********************
 FOOTER STYLES
 *********************/
 
 footer{
-  padding-top: 30px;
-  .footer-top{
-    background: $gray;
-    &-inner{
-      &-info{
-        text-align: center;
-        .logo{
-          a img{
-            display: block;
-            width: 159px;
-            margin: auto;
-          }
-        }
-        .address{
-          li{
-            font-size: 14px;
-          }
-        }
-      }
-      nav{
-        div .menu{
-          margin-bottom: 0;
-          height: 201px;
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          border-top: 1px solid $green;
-          li{
-            width: 50%;
-            height: 40px;
-            padding-left: 30px;
-            border-bottom: 1px solid $green;
-            a{
-              color: $black;
-              font-size: 12px;
-              text-decoration: none;
-              &:before{
-                content: '>';
-                font-size: 20px;
-                font-weight: bold;
-                margin-right: 10px;
-              }
-            }
-          }
-          li:nth-child(5){
-            border-bottom: none;
-          }
-          li:nth-child(-n+5){
-            border-right: 1px solid $green; 
-          }
-          li:last-child{
-            border-bottom: 1px solid $green; 
-          }
-        }
-      }
-    }
-  }
-
-  .copyright{
-    margin: 0;
-    background: $green;
-    color: $white;
-    text-align: center;
-    font-size: 12px;
-    height: 40px;
-    line-height: 40px;
-  }
+  height: 62px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 .footer-bottom{
   background-color: #fbffdf;
