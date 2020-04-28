@@ -482,7 +482,7 @@
           <div class="contact-btn">無料お見積りはこちら</div>
         </div>
 
-        <div class="area">
+        <div id="area" class="area">
           <div class="content-head voice-head">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/corresponding-area.svg">
             <h3>対応エリア</h3>
