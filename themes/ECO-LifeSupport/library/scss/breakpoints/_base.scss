@@ -90,7 +90,8 @@ LINK STYLES
 *********************/
 
 a, a:visited {
-	color: $link-color;
+  color: $link-color;
+  text-decoration: none;
 
 	/* on hover */
 	&:hover, &:focus {
@@ -173,6 +174,8 @@ HEADER STYLES
 *********************/
 header{
   background: $white;
+  position: fixed;
+  width: 100%;
   .header-top{
     height: 60px;
     margin: 0 5%;
@@ -254,6 +257,7 @@ header{
 }
 
 
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -262,6 +266,7 @@ POSTS & CONTENT STYLES
   z-index: -100;
   width: 100%;
   top: 60px;
+  padding-bottom: 62px;
 }
 #main{
   background: $white;
@@ -567,6 +572,20 @@ POSTS & CONTENT STYLES
     }
   }
 }
+
+//SERVICE ABOUT
+.service-about{
+  .about-head{
+    height: 55px;
+    justify-content: flex-start;
+    .about-head-paragraph{
+      height: 55px;
+      line-height: 55px;
+      padding-left: 10px;
+    }
+  }
+}
+
 
 //NOTICE
 .notice{
@@ -1004,10 +1023,10 @@ POSTS & CONTENT STYLES
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 336px;
-    height: 626px;
     margin: 20px auto;
     &-item{
       text-align: center;
+      width: 158px;
       img{
         width: 158px;
         height: 150px;
@@ -1218,6 +1237,19 @@ POSTS & CONTENT STYLES
           position: absolute;
           top: 30px;
           right: 15px;
+        }
+      }
+      .isOpen{
+        &:after{
+        content: attr(data-question);
+        background-image: url('../images/icon/arrow-down-white.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 13px;
+        position: absolute;
+        top: 20px;
+        right: 15px;
         }
       }
     }
@@ -1943,17 +1975,6 @@ POSTS & CONTENT STYLES
         line-height: 2;
         letter-spacing: 5px;
         font-size: 16px;
-        &:after{
-          content: '';
-          background-image: url('../images/icon/arrow-up-white.png');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 15px;
-          height: 15px;
-          position: absolute;
-          top: 10px;
-          right: 20px;
-        }
         p{
           margin: 0;
           text-align: center;
@@ -1962,6 +1983,30 @@ POSTS & CONTENT STYLES
           height: 36px;
           line-height: 36px;
           letter-spacing: 1;
+          &:after{
+            content: '';
+            background-image: url('../images/icon/arrow-up-white.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+          }
+        }
+        .isOpen{
+          &:after{
+            content: '';
+            background-image: url('../images/icon/arrow-down-white.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+          }
         }
       }
       &-area{
@@ -2011,6 +2056,72 @@ POSTS & CONTENT STYLES
     }
   }
 }
+.footer-top{
+  background: $gray;
+  &-inner{
+    &-info{
+      text-align: center;
+      .logo{
+        a img{
+          display: block;
+          width: 159px;
+          margin: auto;
+        }
+      }
+      .address{
+        li{
+          font-size: 14px;
+        }
+      }
+    }
+    nav{
+      div .menu{
+        margin-bottom: 0;
+        height: 201px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-top: 1px solid $green;
+        li{
+          width: 50%;
+          height: 40px;
+          padding-left: 30px;
+          border-bottom: 1px solid $green;
+          a{
+            color: $black;
+            font-size: 12px;
+            text-decoration: none;
+            &:before{
+              content: '>';
+              font-size: 20px;
+              font-weight: bold;
+              margin-right: 10px;
+            }
+          }
+        }
+        li:nth-child(5){
+          border-bottom: none;
+        }
+        li:nth-child(-n+5){
+          border-right: 1px solid $green; 
+        }
+        li:last-child{
+          border-bottom: 1px solid $green; 
+        }
+      }
+    }
+  }
+}
+
+.copyright{
+  margin: 0;
+  background: $green;
+  color: $white;
+  text-align: center;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+}
 
 /*********************
 FOOTER STYLES
@@ -2018,72 +2129,7 @@ FOOTER STYLES
 
 footer{
   padding-top: 30px;
-  .footer-top{
-    background: $gray;
-    &-inner{
-      &-info{
-        text-align: center;
-        .logo{
-          a img{
-            display: block;
-            width: 159px;
-            margin: auto;
-          }
-        }
-        .address{
-          li{
-            font-size: 14px;
-          }
-        }
-      }
-      nav{
-        div .menu{
-          margin-bottom: 0;
-          height: 201px;
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          border-top: 1px solid $green;
-          li{
-            width: 50%;
-            height: 40px;
-            padding-left: 30px;
-            border-bottom: 1px solid $green;
-            a{
-              color: $black;
-              font-size: 12px;
-              text-decoration: none;
-              &:before{
-                content: '>';
-                font-size: 20px;
-                font-weight: bold;
-                margin-right: 10px;
-              }
-            }
-          }
-          li:nth-child(5){
-            border-bottom: none;
-          }
-          li:nth-child(-n+5){
-            border-right: 1px solid $green; 
-          }
-          li:last-child{
-            border-bottom: 1px solid $green; 
-          }
-        }
-      }
-    }
-  }
-
-  .copyright{
-    margin: 0;
-    background: $green;
-    color: $white;
-    text-align: center;
-    font-size: 12px;
-    height: 40px;
-    line-height: 40px;
-  }
+}
   .footer-bottom{
     background-color: #fbffdf;
     &-left{
@@ -2101,7 +2147,6 @@ footer{
         img{
           display: block;
           width: 30px;
-          
         }
         &-details{
           .phone-number{
@@ -2141,7 +2186,7 @@ footer{
       }
     }
   }
-}
+
 
 
 

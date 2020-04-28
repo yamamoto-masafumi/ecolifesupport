@@ -1,4 +1,4 @@
-  <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
     <div id="footer_main" class="footer-bottom">
       <div class="footer-bottom-left">
         <div class="tags">

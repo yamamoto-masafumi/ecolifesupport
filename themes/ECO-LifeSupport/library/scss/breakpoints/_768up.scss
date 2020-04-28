@@ -54,6 +54,7 @@ COMMON STYLES
 HEADER STYLES
 *********************/
 header{
+  position: static;
   padding: 0 0 20px;
   .header-top{
     height: 130px;
@@ -139,7 +140,7 @@ header{
         text-align: center;
         position: relative;
         padding-bottom: 10px;
-        border-bottom: 0 none;
+        border-bottom: 3px solid rgba(0,0,0,0);
         &:before{
           content: '';
           position: absolute;
@@ -168,6 +169,7 @@ header{
           color: $black;
           text-decoration: none;
           padding: 0;
+          cursor: pointer;
           img{
             display: block;
             width: 20px;
@@ -198,8 +200,9 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
-  width: 100%;
+  z-index: 100000;
+  width: 100vw;
+  background: $white;
 }
 
 
@@ -208,6 +211,7 @@ CONTENT STYLES
 *********************/
 .absolute{
   position: static;
+  padding-bottom: 155px;
 }
 //SLIDE
 .slide{
@@ -220,7 +224,7 @@ CONTENT STYLES
     width: 44px;
     height: 44px;
     background-size: cover;
-    position: absolute
+    position: absolute;
   }
   .swiper-button-prev{
     background-image: url('../images/icon/arrow-left-green.svg');
@@ -452,14 +456,11 @@ body{
   background: $white;
   display: flex;
   &-head{
-    width: auto;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
     &-paragraph{
-      position: absolute;
-      top: -42px;
-      right: -189px;
+      width: 162px;
     }
     img{
       display: block;
@@ -475,8 +476,23 @@ body{
     }
   }
   &-paragraph{
-    margin: 30px 0 0 20px;
+    width: 290%;
     font-size: 16px;
+  }
+}
+//SERVICE ABOUT
+.service-about{
+  justify-content: space-around;
+  .about-pc{
+    margin-left: 20px;
+    &-head{
+      color: $green;
+      font-size: 20px;
+    }
+    .about-paragraph{
+      width: 93%;
+      font-size: 14px;
+    }
   }
 }
 
@@ -513,6 +529,8 @@ body{
     }
     .notice-paragraph{
       border: none;
+      height: 50px;
+      line-height: 50px;
       span{
         font-size: 16px;
       }
@@ -748,6 +766,7 @@ body{
     width: 85%;
     height: 900px;
     &-item{
+      width: 354px;
       img{
         width: 354px;
         height: 277px;
@@ -778,6 +797,59 @@ body{
   &-bottom{
     margin-left: 180px;
     color: $black;
+  }
+}
+//USERVOISE-SIDE pc
+.uservoicelist{
+  background-color: #ff8000;
+  width: 100%;
+  padding: 50px 0;
+  // padding-top: 1200px;
+}
+.uservoicelisttitle{
+  background-color: $white;
+  width: 89%;
+  margin: auto;
+  margin-top: 40px;
+  .voicetitle{
+    background-color: $green;
+    color: $white;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 50px;
+    border-radius: 10px 10px 0 0 ;
+  }
+  .border{
+    margin: auto;
+    margin-top: -15px;
+    border-bottom: 3px solid #00c1e1;
+  }
+}
+.listbox{
+  border: 1px solid $green;
+  margin-top: 0;
+  .imgbox{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    img{
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+    }
+  // .sp-slide{
+  // .swiper-wrapper .swiper-slide{
+  // .text{
+  // .detail{
+  // display: none;
+  // }
+  // }
+  // }
   }
 }
 
@@ -1039,75 +1111,74 @@ body{
     }
   }
 }
-
-
-
-/*********************
-FOOTER STYLES
-*********************/
-footer{
-  .footer-top{
-    &:before{
+.footer-top{
+  &:before{
+    display: none;
+  }
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1125px;
+    margin: auto;
+    padding: 20px 0;
+    &-info{
+      text-align: left;
+    }
+    .logo{
+      height: 51px;
+      a img{
+        object-fit: cover;
+        width: auto;
+        height: 100%;
+      }
+    }
+    .address{
+      li{
+        padding: 5px 0;
+        font-size: 16px;
+      }
+    }
+    .cf:after{
       display: none;
     }
-    &-inner{
-      display: flex;
-      justify-content: space-between;
-      max-width: 1125px;
-      margin: auto;
-      padding: 20px 0;
-      &-info{
-        text-align: left;
-      }
-      .logo{
-        height: 51px;
-        a img{
-          object-fit: cover;
-          width: auto;
-          height: 100%;
-        }
-      }
-      .address{
-        li{
-          padding: 5px 0;
-          font-size: 16px;
-        }
-      }
-      .cf:after{
-        display: none;
-      }
-      nav{
-        div{
-          .menu{
-            width: 300px;
-            height: 200px;
-            border: none;
-            li{
-              a{
-                &:before{
-                  display: none;
-                }
+    nav{
+      div{
+        .menu{
+          width: 300px;
+          height: 200px;
+          border: none;
+          li{
+            a{
+              &:before{
+                display: none;
               }
             }
-            li + li{
-              border: none;
-            }
-            li:nth-child(n+6){
-              border: none;
-            }
-            li:nth-child(-n+5){
-              border-bottom: none;
-              border-right: none;
-            }
+          }
+          li + li{
+            border: none;
+          }
+          li:nth-child(n+6){
+            border: none;
+          }
+          li:nth-child(-n+5){
+            border-bottom: none;
+            border-right: none;
           }
         }
       }
     }
   }
+}
 
-  .copyright{
-    margin-bottom: -40px;
-  }
+.copyright{
+  margin-bottom: -40px;
+}
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
   .footer-bottom{
     background-image: url('../images/background/navigation1.png');
     background-size: contain;
@@ -1165,9 +1236,12 @@ footer{
     }
     &-right{
       padding-top: 0;
+      align-items: center;
       .phone{
-        height: 70px;
-        width: 228px;
+        height: 49px;
+        width: 198px;
+        justify-content: flex-start;
+        margin-left: 10px;
         img{
           margin-right: 10px;
         }
@@ -1197,7 +1271,7 @@ footer{
       }
     }
   }
-}
+
 // 画面下に表示する帯
 .clone {
   position: fixed;
@@ -1207,7 +1281,7 @@ footer{
   width: 100%;
   transition: .3s;
   transform: translateY(100%);
-  height: 150px;
+  height: 115px;
 }
 .is-show {
   transform: translateY(0);
