@@ -48,36 +48,51 @@
                     <?php endwhile; ?>
                   <?php endif; wp_reset_postdata();?>
                 </div>
-                <?php
-                  $big = 999999999;
-                  echo paginate_links(array(
-                    'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
-                    'show_all' => true,
-                    'type' => 'list',
-                    'format' => '?paged=%#%',
-                    'current' => max(1, get_query_var('paged')),
-                    'total' => $query->max_num_pages,
-                    'prev_text' => 'Prev',
-                    'next_text' => 'Next',
-                  ));
-                ?>
-              </div>
-              <div class="notice-menu-right">
-                <!-- 過去のお知らせ一覧 -->
-                <div class="past-notice">
-                  <ul>
+
+                <div class="pagenationbtn">
+                  <div class="page">
                     <?php
-                      print_r(wp_get_archives(array(
-                        'type' => 'monthly',
-                        'format' => 'html',
-                        'echo' => 1,
-                        'order' => 'DESC'
-                      )));
+                      $big = 999999999;
+                      echo paginate_links(array(
+                        'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+                        'show_all' => true,
+                        'type' => 'list',
+                        'format' => '?paged=%#%',
+                        'current' => max(1, get_query_var('paged')),
+                        'total' => $query->max_num_pages,
+                        'prev_text' => 'Prev',
+                        'next_text' => 'Next',
+                      ));
                     ?>
-                  </ul>
+                  </div>
+                </div>
             </div>
-          </div>
         </div>
+
+              <div class="noticelist">
+                <div class="noticelist-inner">
+                <?php if(wp_is_mobile()) : ?>
+                      <?php else : ?>
+                        <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png"></div>
+                      <?php endif; ?>
+                <p class="past-title">過去の知らせ</p>
+                  <!-- 過去のお知らせ一覧 -->
+                  <div class="past-notice">
+                    <ul>
+                      <?php
+                        print_r(wp_get_archives(array(
+                          'type' => 'monthly',
+                          'format' => 'html',
+                          'echo' => 1,
+                          'order' => 'DESC'
+                        )));
+                      ?>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+
+            
 
 		<?php // all js scripts are loaded in library/bones.php ?>
 	</body>
