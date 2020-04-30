@@ -144,7 +144,6 @@
               </p>
             </div>
           </div>
-          <a href="<?php echo home_url('/service'); ?>"><div class="service-btn">サービス料金へ</div></a>
         </div>
 
         <div class="plan">
@@ -265,9 +264,7 @@
                   </span>
                 </p>
               </div>
-
           </div>
-          <a href="<?php echo home_url('/price'); ?>"><div class="plan-btn">詳しくはこちら</div></a>
         </div>
 
         <div class="price">
