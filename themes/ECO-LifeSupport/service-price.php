@@ -144,7 +144,6 @@
               </p>
             </div>
           </div>
-          <div class="service-btn">サービス料金へ</div>
         </div>
 
         <div class="plan">
@@ -265,9 +264,7 @@
                   </span>
                 </p>
               </div>
-
           </div>
-          <div class="plan-btn">詳しくはこちら</div>
         </div>
 
         <div class="price">

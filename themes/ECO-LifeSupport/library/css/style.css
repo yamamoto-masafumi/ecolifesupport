@@ -1728,7 +1728,7 @@ POSTS & CONTENT STYLES
   color: #00AE78;
   font-size: 27px;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 /* line 287, ../scss/breakpoints/_base.scss */
 .watch:before {
