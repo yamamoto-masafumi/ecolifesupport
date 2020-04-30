@@ -2426,6 +2426,9 @@ FOOTER STYLES
 
 footer{
   padding-top: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
   .footer-bottom{
     background-color: #fbffdf;
