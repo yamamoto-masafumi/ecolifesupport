@@ -491,7 +491,8 @@
     </nav>
   </div>
 </div>
-</div>
 <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
+</div>
+
 
 <?php get_footer(); ?>

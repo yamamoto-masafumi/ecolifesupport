@@ -1485,40 +1485,33 @@
       </main>
   </div>
 </div>
-
-<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-        <div id="inner-footer" class="cf footer-top">
-          <div class="footer-top-inner">
-            <div class="footer-top-inner-info">
-              <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
-                <a href="<?php echo home_url(); ?>" rel="nofollow">
-                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
-                </a>
-              </div>
-              <ul class="address">
-                <li>〒144-0052</li>
-                <li>東京都大田区蒲田5-21-13</li>
-                <li>ペガサスステーションプラザ蒲田B2</li>
-              </ul>
-            </div>
-            <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-              <?php
-                wp_nav_menu(array(
-                'menu' => 'FooterMenu',
-                'menu_class' => 'menu',
-                'container' => 'div',
-                ));
-              ?>
-            </nav>
-          </div>
-        </div>
-
-        <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
-			</footer>
-		</div>
-		<?php // all js scripts are loaded in library/bones.php ?>
-	</body>
-</html> <!-- end of site. what a ride! -->
+<div id="inner-footer" class="cf footer-top">
+  <div class="footer-top-inner">
+    <div class="footer-top-inner-info">
+      <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
+        <a href="<?php echo home_url(); ?>" rel="nofollow">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
+        </a>
+      </div>
+      <ul class="address">
+        <li>〒144-0052</li>
+        <li>東京都大田区蒲田5-21-13</li>
+        <li>ペガサスステーションプラザ蒲田B2</li>
+      </ul>
+    </div>
+    <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <?php
+        wp_nav_menu(array(
+        'menu' => 'FooterMenu',
+        'menu_class' => 'menu',
+        'container' => 'div',
+        ));
+      ?>
+    </nav>
+  </div>
+</div>
+<p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
+</div>
 
 <?php get_footer(); ?>
 </div>
