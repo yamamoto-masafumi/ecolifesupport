@@ -1,4 +1,3 @@
-<?php get_header(); ?>
 <?php
 /*
  * Template Name: お知らせ一覧
@@ -17,72 +16,85 @@
         </div>
       </header>
       <p class="header-bottom">HOME > <span>お知らせ</span></p>
-
-      <div class="notice-menu">
-        <div class="notice-menu-left">
+      <div class="page-notice">
+        <div class="notice-menu">
           <div class="notice-title">
             <h3>お知らせ一覧</h3>
             <div class="border"></div>
           </div>
           <div class="inner-notice">
-            <?php 
-              $paged = get_query_var('paged') ? get_query_var('paged') : 1;
-              $args = array(
-                'post_type' => 'post',
-                'post_status' => array('publish'),
-                'order'=>'desc',
-                'orderby'=>'post_date',
-                'paged' => $paged,
-                'posts_per_page' => 10,
-                'date_query' => array(
-                  array(
-                    'relation'=>'OR',
-                    'inclusive'=>true,
-                    array( 'year'=> get_the_date('Y'), 'monthnum'=> get_the_date('m') ),
-                  ),
-                )
-              );
-              $query = new WP_Query($args);
-              if ( $query->have_posts() ) :
-                while ( $query->have_posts() ) : $query->the_post();?>
-                <div class="inner-notice-menu month-<?php echo get_the_date('m'); ?>">
-                  <span class="date"><?php echo get_the_date('Y.m.d'); ?></span>
-                  <span class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
-                  <div class="border"></div>
-                </div>
-              <?php endwhile; ?>
-            <?php endif; wp_reset_postdata();?>
-          </div>
-          <?php
-            $big = 999999999;
-            echo paginate_links(array(
-              'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
-              'show_all' => true,
-              'type' => 'list',
-              'format' => '?paged=%#%',
-              'current' => max(1, get_query_var('paged')),
-              'total' => $query->max_num_pages,
-              'prev_text' => 'Prev',
-              'next_text' => 'Next',
-            ));
-          ?>
-        </div>
-        <div class="notice-menu-right">
-          <!-- 過去のお知らせ一覧 -->
-          <div class="past-notice">
-            <ul>
+            <div class="noticelist">
               <?php
-                print_r(wp_get_archives(array(
-                  'type' => 'monthly',
-                  'format' => 'html',
-                  'echo' => 1,
-                  'order' => 'DESC'
-                )));
-              ?>
-            </ul>
+                $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+                $args = array(
+                  'post_type' => 'post',
+                  'post_status' => array('publish'),
+                  'order'=>'desc',
+                  'orderby'=>'post_date',
+                  'paged' => $paged,
+                  'posts_per_page' => 10,
+                  'date_query' => array(
+                    array(
+                      'relation'=>'OR',
+                      'inclusive'=>true,
+                      array( 'year'=> get_the_date('Y'), 'monthnum'=> get_the_date('m') ),
+                    ),
+                  )
+                );
+                $query = new WP_Query($args);
+                if ( $query->have_posts() ) :
+                  while ( $query->have_posts() ) : $query->the_post();?>
+                  <div class="inner-notice-menu month-<?php echo get_the_date('m'); ?>">
+                    <span class="date"><?php echo get_the_date('Y.m.d'); ?></span>
+                    <span class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
+                    <div class="border"></div>
+                  </div>
+                <?php endwhile; ?>
+              <?php endif; wp_reset_postdata();?>
+            </div>
+            <div class="pagenationbtn">
+              <div class="page">
+                <?php
+                  $big = 999999999;
+                  echo paginate_links(array(
+                    'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+                    'show_all' => true,
+                    'type' => 'list',
+                    'format' => '?paged=%#%',
+                    'current' => max(1, get_query_var('paged')),
+                    'total' => $query->max_num_pages,
+                    'prev_text' => 'Prev',
+                    'next_text' => 'Next',
+                  ));
+                ?>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="noticelist">
+          <div class="noticelist-inner">
+            <?php if(wp_is_mobile()) : ?>
+            <?php else : ?>
+              <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png"></div>
+            <?php endif; ?>
+            <p class="past-title">過去の知らせ</p>
+            <!-- 過去のお知らせ一覧 -->
+            <div class="past-notice">
+              <ul>
+                <?php
+                  print_r(wp_get_archives(array(
+                    'type' => 'monthly',
+                    'format' => 'html',
+                    'echo' => 1,
+                    'order' => 'DESC'
+                  )));
+                ?>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-
       <div class="contact">
         <div class="content-head voice-head">
           <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/inquiry.svg">
@@ -96,10 +108,10 @@
           <span class="phone-number">0120-994-834</span>
           <span class="phone-time">8:00-21:00（年中無休）</span>
         </div>
-        <div class="contact-btn">無料お見積りはこちら</div>
+        <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
       </div>
 
-      <div class="area">
+      <div id="area" class="area">
         <div class="content-head voice-head">
           <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/corresponding-area.svg">
           <h3>対応エリア</h3>
@@ -218,6 +230,12 @@
                     case 'Kanagawa':
                       $pref = '神奈川県';
                       break;
+                    case 'Saitama':
+                      $pref = '埼玉県';
+                      break;
+                    case 'Chiba':
+                      $pref = '千葉県';
+                      break;
                   }
                   echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                   echo '<div class="sp-hidden">';
@@ -234,6 +252,9 @@
                             break;
                           case 'Sagamihara':
                             $district = '相模原市';
+                            break;
+                          case 'Chiba':
+                            $district = '千葉市';
                             break;
                         }
                         echo '<p class="ku">' . $district . '</p>';
@@ -273,6 +294,12 @@
                     case 'Kanagawa':
                       $pref = '神奈川県';
                       break;
+                    case 'Saitama':
+                      $pref = '埼玉県';
+                      break;
+                    case 'Chiba':
+                      $pref = '千葉県';
+                      break;
                   }
                   echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                   echo '<div class="sp-hidden">';
@@ -289,6 +316,9 @@
                             break;
                           case 'Sagamihara':
                             $district = '相模原市';
+                            break;
+                          case 'Chiba':
+                            $district = '千葉市';
                             break;
                         }
                         echo '<p class="ku">' . $district . '</p>';
@@ -328,6 +358,12 @@
                     case 'Kanagawa':
                       $pref = '神奈川県';
                       break;
+                    case 'Saitama':
+                      $pref = '埼玉県';
+                      break;
+                    case 'Chiba':
+                      $pref = '千葉県';
+                      break;
                   }
                   echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                   echo '<div class="sp-hidden">';
@@ -344,6 +380,9 @@
                             break;
                           case 'Sagamihara':
                             $district = '相模原市';
+                            break;
+                          case 'Chiba':
+                            $district = '千葉市';
                             break;
                         }
                         echo '<p class="ku">' . $district . '</p>';
@@ -383,6 +422,12 @@
                     case 'Kanagawa':
                       $pref = '神奈川県';
                       break;
+                    case 'Saitama':
+                      $pref = '埼玉県';
+                      break;
+                    case 'Chiba':
+                      $pref = '千葉県';
+                      break;
                   }
                   echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                   echo '<div class="sp-hidden">';
@@ -399,6 +444,9 @@
                             break;
                           case 'Sagamihara':
                             $district = '相模原市';
+                            break;
+                          case 'Chiba':
+                            $district = '千葉市';
                             break;
                         }
                         echo '<p class="ku">' . $district . '</p>';
@@ -438,6 +486,12 @@
                     case 'Kanagawa':
                       $pref = '神奈川県';
                       break;
+                    case 'Saitama':
+                      $pref = '埼玉県';
+                      break;
+                    case 'Chiba':
+                      $pref = '千葉県';
+                      break;
                   }
                   echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                   echo '<div class="sp-hidden">';
@@ -454,6 +508,9 @@
                             break;
                           case 'Sagamihara':
                             $district = '相模原市';
+                            break;
+                          case 'Chiba':
+                            $district = '千葉市';
                             break;
                         }
                         echo '<p class="ku">' . $district . '</p>';
@@ -484,41 +541,35 @@
     </main>
   </div>
 </div>
-<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-  <div id="inner-footer" class="cf footer-top">
-    <div class="footer-top-inner">
-      <div class="footer-top-inner-info">
-        <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
-          <a href="<?php echo home_url(); ?>" rel="nofollow">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
-          </a>
-        </div>
-        <ul class="address">
-          <li>〒144-0052</li>
-          <li>東京都大田区蒲田5-21-13</li>
-          <li>ペガサスステーションプラザ蒲田B2</li>
-        </ul>
+
+<div id="inner-footer" class="cf footer-top">
+  <div class="footer-top-inner">
+    <div class="footer-top-inner-info">
+      <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
+        <a href="<?php echo home_url(); ?>" rel="nofollow">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
+        </a>
       </div>
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-        <?php
-          wp_nav_menu(array(
-          'menu' => 'FooterMenu',
-          'menu_class' => 'menu',
-          'container' => 'div',
-          ));
-        ?>
-      </nav>
+      <ul class="address">
+        <li>〒144-0052</li>
+        <li>東京都大田区蒲田5-21-13</li>
+        <li>ペガサスステーションプラザ蒲田B2</li>
+      </ul>
     </div>
+    <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <?php
+        wp_nav_menu(array(
+        'menu' => 'FooterMenu',
+        'menu_class' => 'menu',
+        'container' => 'div',
+        ));
+      ?>
+    </nav>
   </div>
-
-  <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
-</footer>
-		</div>
-		<?php // all js scripts are loaded in library/bones.php ?>
-	</body>
-
-
-<?php //get_footer(); ?>
 </div>
 
+<p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
+
+
+</div>
 <?php get_footer(); ?>

@@ -211,7 +211,7 @@ CONTENT STYLES
 *********************/
 .absolute{
   position: static;
-  padding-bottom: 155px;
+  padding-bottom: 10px;
 }
 //SLIDE
 .slide{
@@ -503,13 +503,16 @@ body{
 }
 
 //NOTICE LIST
-.notice-menu{
-  float: left;
-  background-color: $white;
-  width: 56%;
-  margin: auto;
-  margin-left: 160px;
+.page-notice{
+  display: flex; 
+  justify-content: center;
+  .notice-menu{
+    background-color: $white;
+    width: 56%;
+    margin: 0;
+  }
 }
+
 .inner-notice{
   width: 100%;
   margin: auto;
@@ -538,7 +541,6 @@ body{
 
 //NOTICE-LIST-SIDE
 .noticelist{
-  float: left;
   width: 17%;
   margin-top: -76px;
   .tree{
