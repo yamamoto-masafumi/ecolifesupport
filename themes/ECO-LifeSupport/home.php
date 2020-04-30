@@ -81,7 +81,6 @@
               </div>
             </div>
           </div>
-          <a href="<?php echo home_url('/feature'); ?>"><div class="feature-btn">詳しくはこちら</div></a>
         </div>
 
         <div class="service">
@@ -274,7 +273,7 @@
               </div>
 
           </div>
-          <a href="<?php echo home_url('/price'); ?>"><div class="plan-btn">詳しくはこちら</div></a>
+          <a href="<?php echo home_url('/service'); ?>"><div class="plan-btn">詳しくはこちら</div></a>
         </div>
 
         <div class="voice">
@@ -341,7 +340,7 @@
             <div class="swiper-button-prev sp-prev"></div>
             <div class="swiper-button-next sp-next"></div>
           </div>
-          <a href="<?php echo home_url('/voice'); ?>"><div class="voice-btn">お客様の声一覧</div></a>
+          <a href="<?php echo home_url('/user-voice'); ?>"><div class="voice-btn">お客様の声一覧</div></a>
         </div>
 
         <div class="flow">
@@ -455,7 +454,7 @@
               </p>
             </div>
           </div>
-          <a href="<?php echo home_url('/question'); ?>"><div class="question-btn">よくある質問一覧</div></a>
+          <a href="<?php echo home_url('/faq'); ?>"><div class="question-btn">よくある質問一覧</div></a>
         </div>
 
         <div class="contact">
