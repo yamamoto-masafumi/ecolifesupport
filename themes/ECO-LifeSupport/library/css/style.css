@@ -4162,7 +4162,8 @@ footer {
   position: relative;
 }
 
-.user-header .userheader-title {
+/* line 2502, ../scss/breakpoints/_base.scss */
+.user-header .header-title {
   width: 171px;
   height: 60px;
   margin: auto;
@@ -4171,7 +4172,8 @@ footer {
   left: 30%;
 }
 
-.user-header .userheader-title h3 {
+/* line 2509, ../scss/breakpoints/_base.scss */
+.user-header .header-title h3 {
   border: solid 2px #fff;
   color: #fff;
   display: inline-block;
@@ -4179,6 +4181,7 @@ footer {
   font-weight: bold;
 }
 
+/* line 2518, ../scss/breakpoints/_base.scss */
 .user-header::before {
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -4189,18 +4192,21 @@ footer {
   content: ' ';
 }
 
+/* line 2527, ../scss/breakpoints/_base.scss */
 .userheader-bottom {
   font-size: 12px;
   color: #323944;
   margin-left: 20px;
 }
 
+/* line 2537, ../scss/breakpoints/_base.scss */
 .uservoice-bigtitle {
   font-size: 20px;
   font-weight: bold;
   border-bottom: solid 5px #24bfcb;
 }
 
+/* line 2543, ../scss/breakpoints/_base.scss */
 .uservoice-bigtitle ::before {
   position: absolute;
   width: 10px;
@@ -4209,6 +4215,7 @@ footer {
   content: "";
 }
 
+/* line 2565, ../scss/breakpoints/_base.scss */
 .uservoice-lists {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4219,14 +4226,15 @@ footer {
       flex-wrap: wrap;
 }
 
+/* line 2569, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list {
   padding-top: 20px;
 }
-
+/* line 2571, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .imgbox {
   position: relative;
 }
-
+/* line 2573, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .imgbox img {
   width: 340px;
   height: 240px;
@@ -4234,6 +4242,7 @@ footer {
      object-fit: cover;
 }
 
+/* line 2579, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .title {
   font-size: 12px;
   color: #30BD92;
@@ -4242,6 +4251,7 @@ footer {
   margin: 10px 0;
 }
 
+/* line 2586, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .detail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4251,30 +4261,36 @@ footer {
   margin: 10px 0;
 }
 
+/* line 2600, ../scss/breakpoints/_base.scss */
 .company-contents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+/* line 2607, ../scss/breakpoints/_base.scss */
 .company-contents-company-inner .title .border .bordergreen {
   font-size: 100px;
 }
 
+/* line 2624, ../scss/breakpoints/_base.scss */
 .company-content {
   height: 1450px;
 }
 
+/* line 2627, ../scss/breakpoints/_base.scss */
 .contact-contents {
   height: 1100px;
 }
 
+/* line 2630, ../scss/breakpoints/_base.scss */
 .company-contents,
 .contact-contents {
   background-color: #fff;
   width: 100%;
 }
 
+/* line 2634, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner,
 .company-contents .inner-contact,
 .contact-contents .company-inner,
@@ -4283,6 +4299,7 @@ footer {
   margin: auto;
 }
 
+/* line 2645, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .border,
 .company-contents .inner-contact .border,
 .contact-contents .company-inner .border,
@@ -4292,6 +4309,7 @@ footer {
   margin-bottom: 30px;
 }
 
+/* line 2651, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .bordergreen,
 .company-contents .inner-contact .bordergreen,
 .contact-contents .company-inner .bordergreen,
@@ -4301,6 +4319,7 @@ footer {
   border-bottom: 1px solid #00AE78;
 }
 
+/* line 2656, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .text,
 .company-contents .inner-contact .text,
 .contact-contents .company-inner .text,
@@ -4310,6 +4329,7 @@ footer {
   padding-bottom: 20px;
 }
 
+/* line 2660, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .text ul,
 .company-contents .inner-contact .text ul,
 .contact-contents .company-inner .text ul,
@@ -4319,6 +4339,7 @@ footer {
   padding-top: 20px;
 }
 
+/* line 2665, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .text li,
 .company-contents .inner-contact .text li,
 .contact-contents .company-inner .text li,
@@ -4329,6 +4350,7 @@ footer {
   margin: auto;
 }
 
+/* line 2670, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .text li span,
 .company-contents .inner-contact .text li span,
 .contact-contents .company-inner .text li span,
@@ -4336,6 +4358,7 @@ footer {
   margin-left: 2px;
 }
 
+/* line 2674, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .text .item,
 .company-contents .inner-contact .text .item,
 .contact-contents .company-inner .text .item,
@@ -4344,6 +4367,7 @@ footer {
   font-weight: bold;
 }
 
+/* line 2678, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .text .itemtext,
 .company-contents .inner-contact .text .itemtext,
 .contact-contents .company-inner .text .itemtext,
@@ -4352,6 +4376,7 @@ footer {
   margin-left: 40px;
 }
 
+/* line 2682, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .text .itemtext2,
 .company-contents .inner-contact .text .itemtext2,
 .contact-contents .company-inner .text .itemtext2,
@@ -4360,6 +4385,7 @@ footer {
   margin-left: 34px;
 }
 
+/* line 2687, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form,
 .company-contents .inner-contact .contact-form,
 .contact-contents .company-inner .contact-form,
@@ -4367,6 +4393,7 @@ footer {
   margin: auto;
 }
 
+/* line 2689, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form,
 .company-contents .inner-contact .contact-form .application-form,
 .contact-contents .company-inner .contact-form .application-form,
@@ -4384,6 +4411,7 @@ footer {
   /* エラーメッセージを見やすくする */
 }
 
+/* line 2697, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form .must,
 .company-contents .inner-contact .contact-form .application-form .must,
 .contact-contents .company-inner .contact-form .application-form .must,
@@ -4396,6 +4424,7 @@ footer {
   border-radius: 3px;
 }
 
+/* line 2706, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form form p,
 .company-contents .inner-contact .contact-form .application-form form p,
 .contact-contents .company-inner .contact-form .application-form form p,
@@ -4403,6 +4432,7 @@ footer {
   font-weight: 600;
 }
 
+/* line 2710, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
 .company-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
 .company-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
@@ -4420,6 +4450,7 @@ footer {
   border-radius: 3px;
 }
 
+/* line 2724, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
 .company-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
 .company-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
@@ -4432,6 +4463,7 @@ footer {
   color: #E1E1E1;
 }
 
+/* line 2730, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form input.wpcf7-submit,
 .company-contents .inner-contact .contact-form .application-form input.wpcf7-submit,
 .contact-contents .company-inner .contact-form .application-form input.wpcf7-submit,
@@ -4446,6 +4478,7 @@ footer {
   border-radius: 3px;
 }
 
+/* line 2741, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form span.wpcf7-not-valid-tip,
 .company-contents .company-inner .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
 .company-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
@@ -4458,6 +4491,7 @@ footer {
   font-weight: bold;
 }
 
+/* line 2746, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form .btn,
 .company-contents .inner-contact .contact-form .application-form .btn,
 .contact-contents .company-inner .contact-form .application-form .btn,
@@ -4465,18 +4499,22 @@ footer {
   text-align: center;
 }
 
+
+/* line 2771, ../scss/breakpoints/_base.scss */
 .sp-uservoice {
   background-color: #fff;
   width: 100%;
   margin: auto;
 }
 
+/* line 2775, ../scss/breakpoints/_base.scss */
 .sp-uservoice-bigtitle {
   width: 89%;
   margin: auto;
   margin-top: 40px;
 }
 
+/* line 2779, ../scss/breakpoints/_base.scss */
 .sp-uservoice-bigtitle h3 {
   background-color: #fff;
   font-size: 20px;
@@ -4486,12 +4524,14 @@ footer {
   padding-left: 9px;
 }
 
+/* line 2787, ../scss/breakpoints/_base.scss */
 .sp-uservoice-bigtitle .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
 
+/* line 2793, ../scss/breakpoints/_base.scss */
 .sp-uservoice-lists {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4502,21 +4542,24 @@ footer {
       flex-wrap: wrap;
 }
 
+/* line 2797, ../scss/breakpoints/_base.scss */
 .sp-uservoice-lists .sp-uservoice-list {
   width: 80%;
   padding-top: 20px;
 }
 
+/* line 2800, ../scss/breakpoints/_base.scss */
 .sp-uservoice-lists .sp-uservoice-list .imgbox {
   position: relative;
 }
-
+/* line 2802, ../scss/breakpoints/_base.scss */
 .sp-uservoice-lists .sp-uservoice-list .imgbox img {
   display: block;
   float: left;
   width: 28%;
 }
 
+/* line 2808, ../scss/breakpoints/_base.scss */
 .sp-uservoice-lists .sp-uservoice-list .title {
   width: 180px;
   font-size: 13px;
@@ -4526,6 +4569,7 @@ footer {
   margin-left: 100px;
 }
 
+/* line 2816, ../scss/breakpoints/_base.scss */
 .sp-uservoice-lists .sp-uservoice-list .detail {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -4536,24 +4580,28 @@ footer {
   padding-left: 18px;
 }
 
+/* line 2825, ../scss/breakpoints/_base.scss */
 .sp-uservoice-lists .sp-uservoice-list .borderblue {
   width: 100%;
   margin: auto;
   border-bottom: 1px dotted #00C1E1;
 }
 
+/* line 2836, ../scss/breakpoints/_base.scss */
 .uservoicedetails-menu {
   background-color: #fff;
   width: 100%;
   margin: auto;
 }
 
+/* line 2840, ../scss/breakpoints/_base.scss */
 .uservoicedetails-menu .uservoicedetails-title {
   width: 89%;
   margin: auto;
   margin-top: 40px;
 }
 
+/* line 2844, ../scss/breakpoints/_base.scss */
 .uservoicedetails-menu .uservoicedetails-title h3 {
   background-color: #fff;
   font-size: 20px;
@@ -4563,18 +4611,22 @@ footer {
   padding-left: 9px;
 }
 
+/* line 2852, ../scss/breakpoints/_base.scss */
 .uservoicedetails-menu .uservoicedetails-title .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
 
+
+/* line 2859, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails {
   width: 100%;
   margin: auto;
   background-color: #fff;
 }
 
+/* line 2863, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog {
   position: relative;
   width: 100%;
@@ -4583,18 +4635,21 @@ footer {
   padding-top: 20px;
 }
 
+/* line 2869, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog h2 {
   color: #FF3898;
   font-size: 16px;
   font-weight: bold;
 }
 
+/* line 2874, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog img {
   display: block;
   width: 100%;
   height: auto;
 }
 
+/* line 2879, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table {
   background-color: #E5FFF2;
   width: 100%;
@@ -4602,18 +4657,21 @@ footer {
   padding-top: 5px;
 }
 
+/* line 2884, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage {
   width: 84%;
   margin: auto;
   margin-top: 10px;
 }
 
+/* line 2888, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage ul {
   width: 100%;
   margin: auto;
   padding: 6px 0;
 }
 
+/* line 2893, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage li {
   display: inline-block;
   vertical-align: top;
@@ -4621,44 +4679,53 @@ footer {
   margin: auto;
 }
 
+/* line 2899, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .item {
   color: #00AE78;
   font-weight: bold;
 }
 
+/* line 2903, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext {
   color: #444;
   margin-left: 46px;
 }
 
+/* line 2907, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext2 {
   color: #444;
   margin-left: 58px;
 }
 
+/* line 2911, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext3 {
   color: #444;
   margin-left: 70px;
 }
 
+/* line 2915, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext4 {
   color: #444;
   margin-left: 120px;
   margin-top: -20px;
 }
 
+/* line 2920, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .borderblue {
   width: 100%;
   margin: auto;
   border-bottom: 1px dotted #00C1E1;
 }
 
+/* line 2927, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .bordersolid {
   width: 100%;
   margin: auto;
   border-bottom: 1px solid #00C1E1;
 }
 
+
+/* line 2936, ../scss/breakpoints/_base.scss */
 .uservoicelists {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4669,12 +4736,14 @@ footer {
       flex-wrap: wrap;
 }
 
+/* line 2940, ../scss/breakpoints/_base.scss */
 .uservoicelists .uservoice-list {
   width: 95%;
   margin: auto;
   padding-top: 20px;
 }
 
+/* line 2944, ../scss/breakpoints/_base.scss */
 .uservoicelists .uservoice-list .article {
   color: #444;
   font-size: 16px;
@@ -4682,16 +4751,18 @@ footer {
   margin-top: 0;
 }
 
+/* line 2950, ../scss/breakpoints/_base.scss */
 .uservoicelists .uservoice-list .imgbox {
   position: relative;
 }
-
+/* line 2952, ../scss/breakpoints/_base.scss */
 .uservoicelists .uservoice-list .imgbox img {
   display: block;
   float: left;
   width: 28%;
 }
 
+/* line 2958, ../scss/breakpoints/_base.scss */
 .uservoicelists .uservoice-list .title {
   width: 150px;
   font-size: 13px;
@@ -4701,6 +4772,7 @@ footer {
   margin-left: 100px;
 }
 
+/* line 2966, ../scss/breakpoints/_base.scss */
 .uservoicelists .uservoice-list .detail {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -4711,17 +4783,21 @@ footer {
   padding-left: 18px;
 }
 
+/* line 2975, ../scss/breakpoints/_base.scss */
 .uservoicelists .uservoice-list .borderblue {
   width: 100%;
   margin: auto;
   border-bottom: 1px dotted #00C1E1;
 }
 
+
+/* line 2984, ../scss/breakpoints/_base.scss */
 .uservoicelist {
   width: 100%;
   padding: 50px 0;
 }
 
+/* line 2987, ../scss/breakpoints/_base.scss */
 .uservoicelist .uservoicelisttitle {
   background-color: #fff;
   width: 89%;
@@ -4729,6 +4805,7 @@ footer {
   margin-top: 40px;
 }
 
+/* line 2992, ../scss/breakpoints/_base.scss */
 .uservoicelist .uservoicelisttitle .voicetitle {
   background-color: #00AE78;
   color: #fff;
@@ -4742,12 +4819,14 @@ footer {
   border-radius: 10px 10px 0 0;
 }
 
+/* line 3004, ../scss/breakpoints/_base.scss */
 .uservoicelist .uservoicelisttitle .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
 
+/* line 3011, ../scss/breakpoints/_base.scss */
 .uservoicelist .listbox {
   background-color: #fff;
   border: 1px solid #00AE78;
@@ -4755,6 +4834,7 @@ footer {
   margin-top: 0;
 }
 
+/* line 3016, ../scss/breakpoints/_base.scss */
 .uservoicelist .listbox .imgbox {
   display: inline-block;
   width: 93%;
@@ -4763,6 +4843,7 @@ footer {
   position: relative;
 }
 
+/* line 3022, ../scss/breakpoints/_base.scss */
 .uservoicelist .listbox .imgbox img {
   float: left;
   width: 40%;
@@ -4770,6 +4851,7 @@ footer {
   margin-right: 10px;
 }
 
+/* line 3029, ../scss/breakpoints/_base.scss */
 .uservoicelist .listbox .imgbox .label {
   width: 110px;
   height: 20px;
@@ -4780,6 +4862,7 @@ footer {
   padding-left: 10px;
 }
 
+/* line 3038, ../scss/breakpoints/_base.scss */
 .uservoicelist .listbox .imgbox .interviewee {
   width: 150px;
   font-size: 13px;
@@ -4787,6 +4870,7 @@ footer {
   border-bottom: 1px solid #999;
 }
 
+/* line 3045, ../scss/breakpoints/_base.scss */
 .uservoicelist .listbox .borderblue {
   width: 100%;
   margin: auto;
@@ -4794,6 +4878,7 @@ footer {
   border-bottom: 1px dotted #00C1E1;
 }
 
+/* line 3051, ../scss/breakpoints/_base.scss */
 .uservoicelist .listbox .borderwhite {
   width: 100%;
   margin: auto;
@@ -4801,6 +4886,7 @@ footer {
   border-bottom: 1px dotted #fff;
 }
 
+/* line 3059, ../scss/breakpoints/_base.scss */
 .label {
   width: 110px;
   height: 20px;
@@ -4811,6 +4897,7 @@ footer {
   padding-left: 12px;
 }
 
+/* line 3068, ../scss/breakpoints/_base.scss */
 .interviewee {
   width: 150px;
   font-size: 13px;

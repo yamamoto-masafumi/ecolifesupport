@@ -10,7 +10,7 @@
   <div id="inner-content">
       <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
-      <header class="sub-header-question">
+      <header class="question-header">
         <div class="header-title">
           <h3>よくある質問</h3>
         </div>
@@ -22,50 +22,50 @@
           <div class="inner-menu">
           <ul>
             <li>
-              <a href=""><p>サービスについて</p></a>
+              <a href="about-service"><p class="one-line">サービスについて</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
-              <a href=""><p>料金について</p></a>
+              <a href="#about-charges"><p class="one-line">料金について</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
-              <a href=""><p>不用品回収<br>について</a></p>
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
-            </li>
-          </ul>
-          <ul class="faq-question-menu">
-            <li>
-              <a href=""><p>ゴミ屋敷の片付け<br>について</p></a>
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
-            </li>
-            <li>
-              <a href=""><p>粗大ゴミの回収<br>について</p></a>
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
-            </li>
-            <li>
-              <a href=""><p>遺品整理について</a></p>
+              <a href="#disused"><p class="two-line">不用品回収<br>について</a></p>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
           </ul>
           <ul class="faq-question-menu">
             <li>
-              <a href=""><p>生前処理について</p></a>
+              <a href="#about-garbage"><p class="two-line">ゴミ屋敷の片付け<br>について</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
-              <a href=""><p>不用品の回収<br>について</p></a>
+              <a href="#trash"><p class="two-line">粗大ゴミの回収<br>について</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
-              <a href=""><p>対応エリア<br>について</a></p>
+              <a href="#rearranging-relics"><p class="one-line">遺品整理について</a></p>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
+            </li>
+          </ul>
+          <ul class="faq-question-menu">
+            <li>
+              <a href="#pre-treatment"><p class="one-line">生前処理について</p></a>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
+            </li>
+            <li>
+              <a href="#purchasing"><p class="two-line">不用品の回収<br>について</p></a>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
+            </li>
+            <li>
+              <a href="#corresponding-area"><p class="two-line">対応エリア<br>について</a></p>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
           </ul>
           </div>
         </div>
         <div class="question-green">
-            <div class="title">サービスについて</div>
+            <div id="about-service" class="title">サービスについて</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -73,9 +73,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              フリーダイヤル0120-994-838からお申し込み下さい。<br>
-              また、メールフォームにてお申込みが可能です。<br>
-              お申込みの際に詳しい内容をお伝え頂きましたら、簡単お見積りが可能です。
+                フリーダイヤル0120-994-838からお申し込み下さい。<br>
+                また、メールフォームにてお申込みが可能です。<br>
+                お申込みの際に詳しい内容をお伝え頂きましたら、簡単お見積りが可能です。
               </p>
             </div>
           </div>
@@ -85,9 +85,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-                当日申し込み、即日対応で作業が可能です。<br>
-                東京・埼玉・神奈川のお客様でしたら、最短30分で現地へ到着が可能です。<br>
-                また、対応地域外でも回収可能な場合がございますので、まずはお気軽に無料お問い合わせください。
+                  当日申し込み、即日対応で作業が可能です。<br>
+                  東京・埼玉・神奈川のお客様でしたら、最短30分で現地へ到着が可能です。<br>
+                  また、対応地域外でも回収可能な場合がございますので、まずはお気軽に無料お問い合わせください。
               </p>
             </div>
           </div>
@@ -97,8 +97,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              お見積り後のキャンセルは可能です。<br>
-              お見積りにご納得いかない旨をお伝え頂ければ、スタッフが対応させて頂きます。
+                お見積り後のキャンセルは可能です。<br>
+                お見積りにご納得いかない旨をお伝え頂ければ、スタッフが対応させて頂きます。
               </p>
             </div>
           </div>
@@ -108,14 +108,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              分別をして頂く必要はありません。<br>
-              回収の際にスタッフが丁重に分別を行いますので、ご安心下さい。
+                分別をして頂く必要はありません。<br>
+                回収の際にスタッフが丁重に分別を行いますので、ご安心下さい。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">料金について</div>
+            <div id="about-charges" class="title">料金について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -123,12 +123,12 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              エコライフサポートでは、出張お見積りは完全無料で行っております。<br>
-              お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。<br>
-              その場合、現地への出張費用無料、お見積り無料です。<br>
-              また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心下さい。<br>
-              お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。<br>
-              どうぞお気軽に、無料出張お見積りをご依頼くださいませ。
+                エコライフサポートでは、出張お見積りは完全無料で行っております。<br>
+                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。<br>
+                その場合、現地への出張費用無料、お見積り無料です。<br>
+                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心下さい。<br>
+                お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。<br>
+                どうぞお気軽に、無料出張お見積りをご依頼くださいませ。
               </p>
             </div>
           </div>
@@ -138,7 +138,7 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              1K程度なら規模にもよりますが、だいたいのお客様が14,980円の軽トラ乗せ放題パックをご利用しております。
+                1K程度なら規模にもよりますが、だいたいのお客様が14,980円の軽トラ乗せ放題パックをご利用しております。
               </p>
             </div>
           </div>
@@ -148,9 +148,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              エコライフサポートでのお支払い方法、現金・クレジットカード・銀行振込みが対応しています。<br>
-              現金、クレジットカードでのお支払いが難しい場合は、銀行振込みによる後払いも可能ですので、お気軽にご相談下さい。<br>
-              領収書が必要なお客様は、お支払いの際にお申し付け下さい。
+                エコライフサポートでのお支払い方法、現金・クレジットカード・銀行振込みが対応しています。<br>
+                現金、クレジットカードでのお支払いが難しい場合は、銀行振込みによる後払いも可能ですので、お気軽にご相談下さい。<br>
+                領収書が必要なお客様は、お支払いの際にお申し付け下さい。
               </p>
             </div>
           </div>
@@ -160,16 +160,16 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              エコライフサポートではお見積り確定後に、無断で金額が変わることはありません。<br>
-              お客様に確認して頂いたお見積り金額で作業を行わさせて頂きますのでご安心ください。<br>
-              追加で作業をご依頼頂いた際は、改めてお見積り金額をお伝えした上で作業を行わせて頂きます。<br>
-              ※作業料、送料がかかる場合がございます。
+                エコライフサポートではお見積り確定後に、無断で金額が変わることはありません。<br>
+                お客様に確認して頂いたお見積り金額で作業を行わさせて頂きますのでご安心ください。<br>
+                追加で作業をご依頼頂いた際は、改めてお見積り金額をお伝えした上で作業を行わせて頂きます。<br>
+                ※作業料、送料がかかる場合がございます。
               </p>
             </div>
           </div>
         </div>
         <div class="question-blue">
-            <div class="title">不用品回収について</div>
+            <div id="disused" class="title">不用品回収について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -177,8 +177,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              不用品、粗大ゴミの量は少なくても問題ありません。<br>
-              お客様のご希望の不用品を、格安で回収させて頂きます。
+                不用品、粗大ゴミの量は少なくても問題ありません。<br>
+                お客様のご希望の不用品を、格安で回収させて頂きます。
               </p>
             </div>
           </div>
@@ -188,9 +188,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい小型不用品2台と大型家具2台くらいなら 14980円の<br>
-              軽トラパックを選ぶお客様が多くいらっしゃいます。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい小型不用品2台と大型家具2台くらいなら 14980円の<br>
+                軽トラパックを選ぶお客様が多くいらっしゃいます。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -200,8 +200,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
@@ -211,14 +211,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">ゴミ屋敷の片付けについて</div>
+            <div id="about-garbage" class="title">ゴミ屋敷の片付けについて</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -226,9 +226,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              お任せください。ご近所の方に知られないようにゴミ屋敷の掃除を行います。<br>
-              お客様のプライバシーを第一に、提案をさせて頂きますので、ご安心ください。<br>
-              また、ゴミのまとめ作業なども承れますのでご相談ください。
+                お任せください。ご近所の方に知られないようにゴミ屋敷の掃除を行います。<br>
+                お客様のプライバシーを第一に、提案をさせて頂きますので、ご安心ください。<br>
+                また、ゴミのまとめ作業なども承れますのでご相談ください。
               </p>
             </div>
           </div>
@@ -238,9 +238,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              迅速丁寧な作業を心がけております。<br>
-              規模にもよりますが、20分〜1.5時間程です。<br>
-              まずはお気軽にお問い合わせください。
+                迅速丁寧な作業を心がけております。<br>
+                規模にもよりますが、20分〜1.5時間程です。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -250,8 +250,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
@@ -261,15 +261,15 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい1DK程度のゴミの片付けなら 14980円の軽トラパックから59800円の2tトラック乗せ放題パックを選んでいただくお客様が多くいらっしゃいます。<br>
-              もちろん荷造りやお掃除もいたします。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい1DK程度のゴミの片付けなら 14980円の軽トラパックから59800円の2tトラック乗せ放題パックを選んでいただくお客様が多くいらっしゃいます。<br>
+                もちろん荷造りやお掃除もいたします。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-purple">
-            <div class="title">粗大ゴミ回収について</div>
+            <div id="trash" class="title">粗大ゴミ回収について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -277,8 +277,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              分別や解体をして頂く必要はありません。<br>
-              回収の際にスタッフが丁重に分別を行いますので、ご安心ください。
+                分別や解体をして頂く必要はありません。<br>
+                回収の際にスタッフが丁重に分別を行いますので、ご安心ください。
               </p>
             </div>
           </div>
@@ -288,8 +288,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
@@ -299,8 +299,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい大型家具4台くらいなら 29800円の1tパック乗せ放題から59800円の2tトラック乗せ放題パックで対応する場合が多いです。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい大型家具4台くらいなら 29800円の1tパック乗せ放題から59800円の2tトラック乗せ放題パックで対応する場合が多いです。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -310,14 +310,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">遺品整理について</div>
+            <div id="rearranging-relics" class="title">遺品整理について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -325,9 +325,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              事前のやりとりをしっかり行った上で整理をさせていただきます。<br>
-              その場合はメールにて詳細を頂戴しております。
+                可能です。<br>
+                事前のやりとりをしっかり行った上で整理をさせていただきます。<br>
+                その場合はメールにて詳細を頂戴しております。
               </p>
             </div>
           </div>
@@ -337,8 +337,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              ご安心ください。<br>
-              エコライフサポートでは遺品整理のご相談も承っております。
+                ご安心ください。<br>
+                エコライフサポートでは遺品整理のご相談も承っております。
               </p>
             </div>
           </div>
@@ -348,8 +348,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -359,14 +359,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-pink">
-            <div class="title">生前処理について</div>
+            <div id="pre-treatment" class="title">生前処理について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -374,9 +374,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              ご安心ください。<br>
-              エコライフサポートではお見積りと同様、処分品のご相談も無料で承っております。<br>
-              まずはお気軽にお問い合わせください。
+                ご安心ください。<br>
+                エコライフサポートではお見積りと同様、処分品のご相談も無料で承っております。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -386,8 +386,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
@@ -397,8 +397,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -408,14 +408,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">不用品の買取について</div>
+            <div id="purchasing" class="title">不用品の買取について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -423,8 +423,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              ペットによるキズや汚れ、タバコの匂いや汚れがある品物。製造後で11年以上経過しているお品物。生もの。等ございます。<br>
-              ますはお気軽にご相談ください。
+                ペットによるキズや汚れ、タバコの匂いや汚れがある品物。製造後で11年以上経過しているお品物。生もの。等ございます。<br>
+                ますはお気軽にご相談ください。
               </p>
             </div>
           </div>
@@ -434,8 +434,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              使用年数と状態にもよりますが、世間でよく言われている相場基準のわかりやすい目安は、“購入価格の１０％前後”です。大型家具ならだいたい1万〜5万での買取が多いです。<br>
-              ※但し、全ての家具や家電に値段がつくわけではないのでご了承ください。
+                使用年数と状態にもよりますが、世間でよく言われている相場基準のわかりやすい目安は、“購入価格の１０％前後”です。大型家具ならだいたい1万〜5万での買取が多いです。<br>
+                ※但し、全ての家具や家電に値段がつくわけではないのでご了承ください。
               </p>
             </div>
           </div>
@@ -445,8 +445,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
@@ -456,71 +456,58 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              どちらでも対応可能です。<br>
-              まずはお気軽にご相談ください。
+                どちらでも対応可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-green">
-            <div class="title">対応エリアについて</div>
+            <div id="corresponding-area" class="title">対応エリアについて</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
-              <p>どのように回収を申し込んだら良いですか？</p>
+              <p>対応エリアはどこですか？</p>
             </div>
             <div class="list-answer hidden">
               <p>
-                フリーダイヤル0120-994-838からお申込み下さい。<br>
-                また、メールフォームにてお申込みが可能です。<br>
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。<br>
-                その場合、現地への出張費用無料、お見積り無料です。<br>
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。<br>
+                東京・神奈川・埼玉・千葉を中心に関東全域が対応エリアです。<br>
+                また、対応地域外でも回収可能な場合がございますので、まずはお気軽にお問い合わせください。
+              </p>
+            </div>
+          </div>
+          <div class="list">
+            <div class="list-question">
+              <p>出張見積りはいくらですか？また最短駆けつけ可能時間を教えてください。</p>
+            </div>
+            <div class="list-answer hidden">
+              <p>
+                出張見積りは完全無料です。
+                対応エリアなら最短30分で駆けつけます。
+              </p>
+            </div>
+          </div>
+          <div class="list">
+            <div class="list-question">
+              <p>対応エリア外の場合、追加料金などかかりますか？</p>
+            </div>
+            <div class="list-answer hidden">
+              <p>
+                かかりません。<br>
+                まずはお気軽にご相談ください。<br>
                 お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
               </p>
             </div>
           </div>
           <div class="list">
             <div class="list-question">
-              <p>申し込み当日でも作業を行ってもらえますか？</p>
+              <p>引越し希望です。対応エリア外⇆対応エリアなのですが・・・</p>
             </div>
             <div class="list-answer hidden">
               <p>
-                フリーダイヤル0120-994-838からお申込み下さい。
-                また、メールフォームにてお申込みが可能です。
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。
-                その場合、現地への出張費用無料、お見積り無料です。
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。
-                お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
-              </p>
-            </div>
-          </div>
-          <div class="list">
-            <div class="list-question">
-              <p>依頼後に値段は変わりませんか？</p>
-            </div>
-            <div class="list-answer hidden">
-              <p>
-                フリーダイヤル0120-994-838からお申込み下さい。
-                また、メールフォームにてお申込みが可能です。
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。
-                その場合、現地への出張費用無料、お見積り無料です。
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。
-                お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
-              </p>
-            </div>
-          </div>
-          <div class="list">
-            <div class="list-question">
-              <p>近所の人にバレずにゴミ屋敷を回収して頂きたいです。</p>
-            </div>
-            <div class="list-answer hidden">
-              <p>
-                フリーダイヤル0120-994-838からお申込み下さい。
-                また、メールフォームにてお申込みが可能です。
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。
-                その場合、現地への出張費用無料、お見積り無料です。
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。
+                大丈夫です。<br>
+                一番お客様にとって最善のご提案をさせていただきます。<br>
+                まずはお気軽にご相談ください。<br>
                 お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
               </p>
             </div>
@@ -532,50 +519,50 @@
           <div class="inner-menu">
           <ul>
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#about-service"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
               <span>サービスについて</span></a>
             </li>
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#about-charges"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
               <span>料金について</span></a>
             </li>
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#disused"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
                 <span>不用品回収について</span></a>
             </li>
           </ul>
           <ul class="faq-question-menu">
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#about-garbage"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
                 <span>ゴミ屋敷の片付けについて</span></a>
             </li>
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#trash"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
                 <span>粗大ゴミの回収について</span></a>
             </li>
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#rearranging-relics"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
                 <span>遺品整理について</span></a>
             </li>
           </ul>
           <ul class="faq-question-menu">
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#pre-treatment"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
                 <span>生前処理について</a>
             </li>
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#purchasing"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
                 <span>不用品の回収について</a>
             </li>
             <li>
-              <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
+              <a href="#corresponding-area"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
                 <span>対応エリアについて</a>
             </li>
           </ul>
           </div>
         </div>
         <div class="question-green">
-            <div class="title">サービスについて</div>
+            <div id="about-service" class="title">サービスについて</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -583,9 +570,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              フリーダイヤル0120-994-838からお申し込み下さい。<br>
-              また、メールフォームにてお申込みが可能です。<br>
-              お申込みの際に詳しい内容をお伝え頂きましたら、簡単お見積りが可能です。
+                フリーダイヤル0120-994-838からお申し込み下さい。<br>
+                また、メールフォームにてお申込みが可能です。<br>
+                お申込みの際に詳しい内容をお伝え頂きましたら、簡単お見積りが可能です。
               </p>
             </div>
           </div>
@@ -595,9 +582,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-                当日申し込み、即日対応で作業が可能です。<br>
-                東京・埼玉・神奈川のお客様でしたら、最短30分で現地へ到着が可能です。<br>
-                また、対応地域外でも回収可能な場合がございますので、まずはお気軽に無料お問い合わせください。
+                  当日申し込み、即日対応で作業が可能です。<br>
+                  東京・埼玉・神奈川のお客様でしたら、最短30分で現地へ到着が可能です。<br>
+                  また、対応地域外でも回収可能な場合がございますので、まずはお気軽に無料お問い合わせください。
               </p>
             </div>
           </div>
@@ -607,8 +594,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              お見積り後のキャンセルは可能です。<br>
-              お見積りにご納得いかない旨をお伝え頂ければ、スタッフが対応させて頂きます。
+                お見積り後のキャンセルは可能です。<br>
+                お見積りにご納得いかない旨をお伝え頂ければ、スタッフが対応させて頂きます。
               </p>
             </div>
           </div>
@@ -618,14 +605,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              分別をして頂く必要はありません。<br>
-              回収の際にスタッフが丁重に分別を行いますので、ご安心下さい。
+                分別をして頂く必要はありません。<br>
+                回収の際にスタッフが丁重に分別を行いますので、ご安心下さい。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">料金について</div>
+            <div id="about-charges" class="title">料金について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -633,12 +620,12 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              エコライフサポートでは、出張お見積りは完全無料で行っております。<br>
-              お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。<br>
-              その場合、現地への出張費用無料、お見積り無料です。<br>
-              また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心下さい。<br>
-              お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。<br>
-              どうぞお気軽に、無料出張お見積りをご依頼くださいませ。
+                エコライフサポートでは、出張お見積りは完全無料で行っております。<br>
+                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。<br>
+                その場合、現地への出張費用無料、お見積り無料です。<br>
+                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心下さい。<br>
+                お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。<br>
+                どうぞお気軽に、無料出張お見積りをご依頼くださいませ。
               </p>
             </div>
           </div>
@@ -648,7 +635,7 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              1K程度なら規模にもよりますが、だいたいのお客様が14,980円の軽トラ乗せ放題パックをご利用しております。
+                1K程度なら規模にもよりますが、だいたいのお客様が14,980円の軽トラ乗せ放題パックをご利用しております。
               </p>
             </div>
           </div>
@@ -658,9 +645,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              エコライフサポートでのお支払い方法、現金・クレジットカード・銀行振込みが対応しています。<br>
-              現金、クレジットカードでのお支払いが難しい場合は、銀行振込みによる後払いも可能ですので、お気軽にご相談下さい。<br>
-              領収書が必要なお客様は、お支払いの際にお申し付け下さい。
+                エコライフサポートでのお支払い方法、現金・クレジットカード・銀行振込みが対応しています。<br>
+                現金、クレジットカードでのお支払いが難しい場合は、銀行振込みによる後払いも可能ですので、お気軽にご相談下さい。<br>
+                領収書が必要なお客様は、お支払いの際にお申し付け下さい。
               </p>
             </div>
           </div>
@@ -670,16 +657,16 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              エコライフサポートではお見積り確定後に、無断で金額が変わることはありません。<br>
-              お客様に確認して頂いたお見積り金額で作業を行わさせて頂きますのでご安心ください。<br>
-              追加で作業をご依頼頂いた際は、改めてお見積り金額をお伝えした上で作業を行わせて頂きます。<br>
-              ※作業料、送料がかかる場合がございます。
+                エコライフサポートではお見積り確定後に、無断で金額が変わることはありません。<br>
+                お客様に確認して頂いたお見積り金額で作業を行わさせて頂きますのでご安心ください。<br>
+                追加で作業をご依頼頂いた際は、改めてお見積り金額をお伝えした上で作業を行わせて頂きます。<br>
+                ※作業料、送料がかかる場合がございます。
               </p>
             </div>
           </div>
         </div>
         <div class="question-blue">
-            <div class="title">不用品回収について</div>
+            <div id="disused" class="title">不用品回収について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -687,8 +674,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              不用品、粗大ゴミの量は少なくても問題ありません。<br>
-              お客様のご希望の不用品を、格安で回収させて頂きます。
+                不用品、粗大ゴミの量は少なくても問題ありません。<br>
+                お客様のご希望の不用品を、格安で回収させて頂きます。
               </p>
             </div>
           </div>
@@ -698,9 +685,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい小型不用品2台と大型家具2台くらいなら 14980円の<br>
-              軽トラパックを選ぶお客様が多くいらっしゃいます。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい小型不用品2台と大型家具2台くらいなら 14980円の<br>
+                軽トラパックを選ぶお客様が多くいらっしゃいます。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -710,8 +697,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
@@ -721,14 +708,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">ゴミ屋敷の片付けについて</div>
+            <div id="about-garbage" class="title">ゴミ屋敷の片付けについて</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -736,9 +723,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              お任せください。ご近所の方に知られないようにゴミ屋敷の掃除を行います。<br>
-              お客様のプライバシーを第一に、提案をさせて頂きますので、ご安心ください。<br>
-              また、ゴミのまとめ作業なども承れますのでご相談ください。
+                お任せください。ご近所の方に知られないようにゴミ屋敷の掃除を行います。<br>
+                お客様のプライバシーを第一に、提案をさせて頂きますので、ご安心ください。<br>
+                また、ゴミのまとめ作業なども承れますのでご相談ください。
               </p>
             </div>
           </div>
@@ -748,9 +735,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              迅速丁寧な作業を心がけております。<br>
-              規模にもよりますが、20分〜1.5時間程です。<br>
-              まずはお気軽にお問い合わせください。
+                迅速丁寧な作業を心がけております。<br>
+                規模にもよりますが、20分〜1.5時間程です。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -760,8 +747,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
@@ -771,15 +758,15 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい1DK程度のゴミの片付けなら 14980円の軽トラパックから59800円の2tトラック乗せ放題パックを選んでいただくお客様が多くいらっしゃいます。<br>
-              もちろん荷造りやお掃除もいたします。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい1DK程度のゴミの片付けなら 14980円の軽トラパックから59800円の2tトラック乗せ放題パックを選んでいただくお客様が多くいらっしゃいます。<br>
+                もちろん荷造りやお掃除もいたします。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-purple">
-            <div class="title">粗大ゴミ回収について</div>
+            <div id="trash" class="title">粗大ゴミ回収について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -787,8 +774,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              分別や解体をして頂く必要はありません。<br>
-              回収の際にスタッフが丁重に分別を行いますので、ご安心ください。
+                分別や解体をして頂く必要はありません。<br>
+                回収の際にスタッフが丁重に分別を行いますので、ご安心ください。
               </p>
             </div>
           </div>
@@ -798,8 +785,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
@@ -809,8 +796,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい大型家具4台くらいなら 29800円の1tパック乗せ放題から59800円の2tトラック乗せ放題パックで対応する場合が多いです。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい大型家具4台くらいなら 29800円の1tパック乗せ放題から59800円の2tトラック乗せ放題パックで対応する場合が多いです。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -820,14 +807,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">遺品整理について</div>
+            <div id="rearranging-relics" class="title">遺品整理について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -835,9 +822,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              事前のやりとりをしっかり行った上で整理をさせていただきます。<br>
-              その場合はメールにて詳細を頂戴しております。
+                可能です。<br>
+                事前のやりとりをしっかり行った上で整理をさせていただきます。<br>
+                その場合はメールにて詳細を頂戴しております。
               </p>
             </div>
           </div>
@@ -847,8 +834,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              ご安心ください。<br>
-              エコライフサポートでは遺品整理のご相談も承っております。
+                ご安心ください。<br>
+                エコライフサポートでは遺品整理のご相談も承っております。
               </p>
             </div>
           </div>
@@ -858,8 +845,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -869,14 +856,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-pink">
-            <div class="title">生前処理について</div>
+            <div id="pre-treatment" class="title">生前処理について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -884,9 +871,9 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              ご安心ください。<br>
-              エコライフサポートではお見積りと同様、処分品のご相談も無料で承っております。<br>
-              まずはお気軽にお問い合わせください。
+                ご安心ください。<br>
+                エコライフサポートではお見積りと同様、処分品のご相談も無料で承っております。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -896,8 +883,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              基本的には、どんなものでも回収可能です。<br>
-              医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
+                基本的には、どんなものでも回収可能です。<br>
+                医療器具・生もの・危険物等・一部回収できない物もございます。ご了承ください。
               </p>
             </div>
           </div>
@@ -907,8 +894,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
-              まずはお気軽にお問い合わせください。
+                規模にもよりますが、だいたい一部屋分の小物と大型家具くらいなら 14980円の軽トラパックから39800円の1.5tトラック乗せ放題パックで対応する場合が多いです。<br>
+                まずはお気軽にお問い合わせください。
               </p>
             </div>
           </div>
@@ -918,14 +905,14 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-white">
-            <div class="title">不用品の買取について</div>
+            <div id="purchasing" class="title">不用品の買取について</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
@@ -933,8 +920,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              ペットによるキズや汚れ、タバコの匂いや汚れがある品物。製造後で11年以上経過しているお品物。生もの。等ございます。<br>
-              ますはお気軽にご相談ください。
+                ペットによるキズや汚れ、タバコの匂いや汚れがある品物。製造後で11年以上経過しているお品物。生もの。等ございます。<br>
+                ますはお気軽にご相談ください。
               </p>
             </div>
           </div>
@@ -944,8 +931,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              使用年数と状態にもよりますが、世間でよく言われている相場基準のわかりやすい目安は、“購入価格の１０％前後”です。大型家具ならだいたい1万〜5万での買取が多いです。<br>
-              ※但し、全ての家具や家電に値段がつくわけではないのでご了承ください。
+                使用年数と状態にもよりますが、世間でよく言われている相場基準のわかりやすい目安は、“購入価格の１０％前後”です。大型家具ならだいたい1万〜5万での買取が多いです。<br>
+                ※但し、全ての家具や家電に値段がつくわけではないのでご了承ください。
               </p>
             </div>
           </div>
@@ -955,8 +942,8 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              可能です。<br>
-              まずはお気軽にご相談ください。
+                可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
@@ -966,78 +953,64 @@
             </div>
             <div class="list-answer hidden">
               <p>
-              どちらでも対応可能です。<br>
-              まずはお気軽にご相談ください。
+                どちらでも対応可能です。<br>
+                まずはお気軽にご相談ください。
               </p>
             </div>
           </div>
         </div>
         <div class="question-green">
-            <div class="title">対応エリアについて</div>
+            <div id="corresponding-area" class="title">対応エリアについて</div>
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
-              <p>どのように回収を申し込んだら良いですか？</p>
+              <p>対応エリアはどこですか？</p>
             </div>
             <div class="list-answer hidden">
               <p>
-                フリーダイヤル0120-994-838からお申込み下さい。<br>
-                また、メールフォームにてお申込みが可能です。<br>
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。<br>
-                その場合、現地への出張費用無料、お見積り無料です。<br>
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。<br>
+                東京・神奈川・埼玉・千葉を中心に関東全域が対応エリアです。<br>
+                また、対応地域外でも回収可能な場合がございますので、まずはお気軽にお問い合わせください。
+              </p>
+            </div>
+          </div>
+          <div class="list">
+            <div class="list-question">
+              <p>出張見積りはいくらですか？また最短駆けつけ可能時間を教えてください。</p>
+            </div>
+            <div class="list-answer hidden">
+              <p>
+                出張見積りは完全無料です。
+                対応エリアなら最短30分で駆けつけます。
+              </p>
+            </div>
+          </div>
+          <div class="list">
+            <div class="list-question">
+              <p>対応エリア外の場合、追加料金などかかりますか？</p>
+            </div>
+            <div class="list-answer hidden">
+              <p>
+                かかりません。<br>
+                まずはお気軽にご相談ください。<br>
                 お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
               </p>
             </div>
           </div>
           <div class="list">
             <div class="list-question">
-              <p>申し込み当日でも作業を行ってもらえますか？</p>
+              <p>引越し希望です。対応エリア外⇆対応エリアなのですが・・・</p>
             </div>
             <div class="list-answer hidden">
               <p>
-                フリーダイヤル0120-994-838からお申込み下さい。
-                また、メールフォームにてお申込みが可能です。
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。
-                その場合、現地への出張費用無料、お見積り無料です。
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。
-                お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
-              </p>
-            </div>
-          </div>
-          <div class="list">
-            <div class="list-question">
-              <p>依頼後に値段は変わりませんか？</p>
-            </div>
-            <div class="list-answer hidden">
-              <p>
-                フリーダイヤル0120-994-838からお申込み下さい。
-                また、メールフォームにてお申込みが可能です。
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。
-                その場合、現地への出張費用無料、お見積り無料です。
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。
-                お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
-              </p>
-            </div>
-          </div>
-          <div class="list">
-            <div class="list-question">
-              <p>近所の人にバレずにゴミ屋敷を回収して頂きたいです。</p>
-            </div>
-            <div class="list-answer hidden">
-              <p>
-                フリーダイヤル0120-994-838からお申込み下さい。
-                また、メールフォームにてお申込みが可能です。
-                お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。
-                その場合、現地への出張費用無料、お見積り無料です。
-                また、お客様がお見積りにご納得されていない場合、無断で作業は絶対に行いませんので、ご安心ください。
+                大丈夫です。<br>
+                一番お客様にとって最善のご提案をさせていただきます。<br>
+                まずはお気軽にご相談ください。<br>
                 お客様がご安心して依頼して頂けるよう、私たちはお客様がご納得された後に作業を行います。
               </p>
             </div>
           </div>
         </div>
         <?php endif; ?>
-
 
         <div class="contact">
           <div class="content-head voice-head">
@@ -1052,7 +1025,7 @@
             <span class="phone-number">0120-994-834</span>
             <span class="phone-time">8:00-21:00（年中無休）</span>
           </div>
-          <div class="contact-btn">無料お見積りはこちら</div>
+          <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
         </div>
 
         <div id="area" class="area">
@@ -1483,34 +1456,35 @@
           </div>
         </div>
       </main>
-  </div>
-</div>
-<div id="inner-footer" class="cf footer-top">
-  <div class="footer-top-inner">
-    <div class="footer-top-inner-info">
-      <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
-        <a href="<?php echo home_url(); ?>" rel="nofollow">
-          <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
-        </a>
-      </div>
-      <ul class="address">
-        <li>〒144-0052</li>
-        <li>東京都大田区蒲田5-21-13</li>
-        <li>ペガサスステーションプラザ蒲田B2</li>
-      </ul>
     </div>
-    <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-      <?php
-        wp_nav_menu(array(
-        'menu' => 'FooterMenu',
-        'menu_class' => 'menu',
-        'container' => 'div',
-        ));
-      ?>
-    </nav>
   </div>
-</div>
-<p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
+  <div id="inner-footer" class="cf footer-top">
+    <div class="footer-top-inner">
+      <div class="footer-top-inner-info">
+        <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
+          <a href="<?php echo home_url(); ?>" rel="nofollow">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
+          </a>
+        </div>
+        <ul class="address">
+          <li>〒144-0052</li>
+          <li>東京都大田区蒲田5-21-13</li>
+          <li>ペガサスステーションプラザ蒲田B2</li>
+        </ul>
+      </div>
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <?php
+          wp_nav_menu(array(
+          'menu' => 'FooterMenu',
+          'menu_class' => 'menu',
+          'container' => 'div',
+          ));
+        ?>
+      </nav>
+    </div>
+  </div>
+
+  <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
 </div>
 
 <?php get_footer(); ?>
