@@ -305,7 +305,7 @@ CONTENT STYLES
 body{
   background: $white;
   #content{
-    max-width: 1300px;
+    max-width: 1125px;
     margin: auto;
   }
 }
@@ -854,6 +854,7 @@ body{
   height: 265px;
   margin: auto;
   padding-top: 30px;
+  margin-top: 300px;
   &-img{
     position: relative;
     img{

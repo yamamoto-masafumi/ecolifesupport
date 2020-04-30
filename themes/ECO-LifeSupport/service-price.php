@@ -511,7 +511,7 @@
               </p>
             </div>
           </div>
-          <div class="question-btn">よくある質問一覧</div>
+          <a href="<?php echo home_url('/question'); ?>"><div class="question-btn">よくある質問一覧</div></a>
         </div>
 
         <div class="contact">
@@ -527,7 +527,7 @@
             <span class="phone-number">0120-994-834</span>
             <span class="phone-time">8:00-21:00（年中無休）</span>
           </div>
-          <div class="contact-btn">無料お見積りはこちら</div>
+          <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
         </div>
 
         <div id="area" class="area">
