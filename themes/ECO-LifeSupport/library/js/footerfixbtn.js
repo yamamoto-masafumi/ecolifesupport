@@ -6,7 +6,7 @@ jQuery(function($) {
 
     win.on('load scroll', function() {
       var value = $(this).scrollTop();
-      if ( value > 700 ) {
+      if ( value > 400 ) {
         cloneFooter.addClass(showClass);
       } else {
         cloneFooter.removeClass(showClass);
@@ -14,7 +14,7 @@ jQuery(function($) {
     });
   }else{
     $(window).on('load scroll', function(){
-      if($(window).scrollTop() > 700){
+      if($(window).scrollTop() > 400){
         $('footer').slideDown();
       }else{
         $('footer').slideUp();

@@ -887,6 +887,11 @@ background-color: $green;
   color: $white;
   background: $green;
   border-radius: 5px;
+  &:hover{
+    color: $white;
+    border-color: #8ff18b;
+    background-color: #8ff18b;
+  }
   &:before{
     content: '';
     position: absolute;
@@ -1167,6 +1172,11 @@ background-color: $green;
     color: $white;
     background: $green;
     border-radius: 5px;
+    &:hover{
+      color: $white;
+      border-color: #8FF18B;
+      background-color: #8FF18B;
+    }
     &:after{
       content: '';
       position: absolute;
@@ -1177,6 +1187,9 @@ background-color: $green;
       background-image: url('../images/icon/arrow-right-white.svg');
       background-size: cover;
     }
+  }
+  a{
+    text-decoration: none;
   }
 }
 
@@ -1223,6 +1236,11 @@ background-color: $green;
     color: $white;
     background: $green;
     border-radius: 5px;
+    &:hover{
+      color: $white;	
+      border-color: #8FF18B;	
+      background-color: #8FF18B;
+    }
     &:after{
       content: '';
       position: absolute;
@@ -1233,6 +1251,9 @@ background-color: $green;
       background-image: url('../images/icon/arrow-right-white.svg');
       background-size: cover;
     }
+  }
+  a{
+    text-decoration: none;
   }
 }
 
@@ -1380,6 +1401,11 @@ background-color: $green;
     border: 1px solid $green;
     border-radius: 5px;
     text-align: center;
+    &:hover{
+      color: $white;	
+      border-color: #8FF18B;	
+      background-color: #8FF18B;
+    }
     &:after{
       content: '';
       position: absolute;
@@ -1390,6 +1416,9 @@ background-color: $green;
       background-image: url('../images/icon/arrow-right-green.png');
       background-size: cover;
     }
+  }
+  a{
+    text-decoration: none;
   }
 }
 
@@ -1488,7 +1517,9 @@ background-color: $green;
           width: 21px;
           height: 13px;
           position: absolute;
-          top: 30px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
           right: 15px;
         }
       }
@@ -1512,18 +1543,19 @@ background-color: $green;
       border-radius: 3px;
       p{
         margin-left: auto;
-        padding: 10px;
+        padding: 20px 20px 40px 10px;
         font-size: 14px;
         color: $black;
         line-height: 2;
         margin-left: 50px;
         &:before{
           content: 'A .';
-          font-size: 30px;
-          color: $green;
+          font-size: 24px;
+          color: $l-green;
           width: 40px;
           position: absolute;
           left: 20px;
+          top: 10px;
         }
       }
     }
@@ -1540,6 +1572,11 @@ background-color: $green;
     border: 1px solid $green;
     border-radius: 5px;
     text-align: center;
+    &:hover{
+      color: $white;	
+      border-color: #8FF18B;	
+      background-color: #8FF18B;
+    }
     &:after{
       content: '';
       position: absolute;
@@ -1550,6 +1587,9 @@ background-color: $green;
       background-image: url('../images/icon/arrow-right-green.png');
       background-size: cover;
     }
+  }
+  a{
+    text-decoration: none;
   }
 }
 // よくある質問で使用
@@ -1686,7 +1726,9 @@ background-color: $green;
           width: 21px;
           height: 13px;
           position: absolute;
-          top: 30px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
           right: 15px;
         }
       }
@@ -1697,18 +1739,19 @@ background-color: $green;
       border-radius: 3px;
       p{
         margin-left: auto;
-        padding: 10px;
+        padding: 20px 20px 40px 10px;
         font-size: 14px;
         color: $black;
         line-height: 2;
         margin-left: 50px;
         &:before{
           content: 'A .';
-          font-size: 30px;
-          color: $green;
+          font-size: 24px;
+          color: $l-green;
           width: 40px;
           position: absolute;
           left: 20px;
+          top: 10px;
         }
       }
     }
@@ -1791,7 +1834,9 @@ background-color: $green;
           width: 21px;
           height: 13px;
           position: absolute;
-          top: 30px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
           right: 15px;
         }
       }
@@ -1802,18 +1847,19 @@ background-color: $green;
       border-radius: 3px;
       p{
         margin-left: auto;
-        padding: 10px;
+        padding: 20px 20px 40px 10px;
         font-size: 14px;
         color: $black;
         line-height: 2;
         margin-left: 50px;
         &:before{
           content: 'A .';
-          font-size: 30px;
-          color: $green;
+          font-size: 24px;
+          color: $l-green;
           width: 40px;
           position: absolute;
           left: 20px;
+          top: 10px;
         }
       }
     }
@@ -1896,7 +1942,9 @@ background-color: $green;
           width: 21px;
           height: 13px;
           position: absolute;
-          top: 30px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
           right: 15px;
         }
       }
@@ -1907,18 +1955,19 @@ background-color: $green;
       border-radius: 3px;
       p{
         margin-left: auto;
-        padding: 10px;
+        padding: 20px 20px 40px 10px;
         font-size: 14px;
         color: $black;
         line-height: 2;
         margin-left: 50px;
         &:before{
           content: 'A .';
-          font-size: 30px;
-          color: $green;
+          font-size: 24px;
+          color: $l-green;
           width: 40px;
           position: absolute;
           left: 20px;
+          top: 10px;
         }
       }
     }
@@ -2001,7 +2050,9 @@ background-color: $green;
           width: 21px;
           height: 13px;
           position: absolute;
-          top: 30px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
           right: 15px;
         }
       }
@@ -2012,18 +2063,19 @@ background-color: $green;
       border-radius: 3px;
       p{
         margin-left: auto;
-        padding: 10px;
+        padding: 20px 20px 40px 10px;
         font-size: 14px;
         color: $black;
         line-height: 2;
         margin-left: 50px;
         &:before{
           content: 'A .';
-          font-size: 30px;
-          color: $green;
+          font-size: 24px;
+          color: $l-green;
           width: 40px;
           position: absolute;
           left: 20px;
+          top: 10px;
         }
       }
     }
@@ -2106,7 +2158,9 @@ background-color: $green;
           width: 21px;
           height: 13px;
           position: absolute;
-          top: 30px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
           right: 15px;
         }
       }
@@ -2117,18 +2171,19 @@ background-color: $green;
       border-radius: 3px;
       p{
         margin-left: auto;
-        padding: 10px;
+        padding: 20px 20px 40px 10px;
         font-size: 14px;
         color: $black;
         line-height: 2;
         margin-left: 50px;
         &:before{
           content: 'A .';
-          font-size: 30px;
-          color: $green;
+          font-size: 24px;
+          color: $l-green;
           width: 40px;
           position: absolute;
           left: 20px;
+          top: 10px;
         }
       }
     }
@@ -2219,6 +2274,11 @@ background-color: $green;
     background: $red;
     border-radius: 5px;
     text-align: center;
+    &:hover{
+      color: $white;
+      border-color: #8FF18B;
+      background-color: #8FF18B;
+    }
     &:after{
       content: '';
       position: absolute;
@@ -2229,6 +2289,9 @@ background-color: $green;
       background-image: url('../images/icon/arrow-right-white.svg');
       background-size: cover;
     }
+  }
+  a{
+    text-decoration: none;
   }
 }
 
@@ -2470,6 +2533,11 @@ footer{
         border-radius: 5px;
         height: 42px;
         width: 147px;
+        &:hover{
+          color: $white;	
+          border-color: #8FF18B;	
+          background-color: #8FF18B;
+        }        
         img{
           display: block;
           height: 25px;
@@ -2483,6 +2551,9 @@ footer{
           font-size: 16px;
           text-align: center;
         }
+      }
+      a{
+        text-decoration: none;
       }
     }
   }
