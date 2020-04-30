@@ -56,7 +56,7 @@
               <div class="page">
                 <?php
                   $big = 999999999;
-                  echo paginate_links(array(
+                  echo paginate_links2(array(
                     'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
                     'show_all' => false,
                     'end_size' => 0,
