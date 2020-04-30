@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-18 10:46:51+0000\n"
+"PO-Revision-Date: 2020-01-24 01:02:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -64,10 +64,6 @@ msgstr "会員の方は、限定展示やセールにアクセスできます。
 #: inc/starter-content.php:144
 msgid "Become a Member and Get Exclusive Offers!"
 msgstr "会員になって限定オファーへアクセス。"
-
-#: inc/starter-content.php:129
-msgid "”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”"
-msgstr "「哲学者ドナ・ハラウェイが証明したとおり、サイボーグは敬虔ではないのです。彼らは宇宙のことを覚えていません。」"
 
 #: inc/starter-content.php:113
 msgid "From Signac to Matisse"
@@ -138,7 +134,7 @@ msgstr "7階建ての印象的な建築の現代美術館では、国際的な�
 msgid "Works and Days"
 msgstr "作品と日程"
 
-#: template-parts/modal-search.php:20 searchform.php:24
+#: searchform.php:24 template-parts/modal-search.php:20
 msgid "Search for:"
 msgstr "検索対象:"
 
@@ -146,23 +142,23 @@ msgstr "検索対象:"
 msgid "search again"
 msgstr "再検索"
 
-#. translators: %s: Number of search results
+#. translators: %s: Number of search results.
 #: index.php:39
 msgid "We found %s result for your search."
 msgid_plural "We found %s results for your search."
 msgstr[0] "検索結果が%s件見つかりました。"
 
-#. translators: %s: HTML character for up arrow
+#. translators: %s: HTML character for up arrow.
 #: footer.php:49
 msgid "Up %s"
 msgstr "上 %s"
 
-#. translators: %s: HTML character for up arrow
+#. translators: %s: HTML character for up arrow.
 #: footer.php:43
 msgid "To the top %s"
 msgstr "上へ %s"
 
-#. translators: Copyright date format, see https://secure.php.net/date
+#. translators: Copyright date format, see https://www.php.net/date
 #: footer.php:25
 msgctxt "copyright date format"
 msgid "Y"
@@ -180,13 +176,13 @@ msgstr "編集"
 msgid "Leave a comment"
 msgstr "コメントを残す"
 
-#. translators: %s: post title
+#. translators: %s: Post title.
 #: comments.php:37
 msgctxt "comments title"
 msgid "One reply on &ldquo;%s&rdquo;"
 msgstr "「%s」への1件の返信"
 
-#. translators: 1: number of comments, 2: post title
+#. translators: 1: Number of comments, 2: Post title.
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s reply on &ldquo;%2$s&rdquo;"
@@ -201,7 +197,7 @@ msgstr "コメント"
 msgid "Comments are closed."
 msgstr "コメントは受け付けていません。"
 
-#: functions.php:491 inc/starter-content.php:176 inc/starter-content.php:186
+#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:494
 msgid "Primary"
 msgstr "メイン"
 
@@ -214,7 +210,7 @@ msgstr "﻿ソーシャルリンクメニュー"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "編集 <span class=\"screen-reader-text\">%s</span>"
 
-#: functions.php:258
+#: functions.php:261
 msgid "Footer Menu"
 msgstr "フッターメニュー"
 
@@ -222,7 +218,7 @@ msgstr "フッターメニュー"
 msgid "Footer"
 msgstr "フッター"
 
-#: functions.php:496
+#: functions.php:499
 msgid "Secondary"
 msgstr "サブ"
 
@@ -238,22 +234,22 @@ msgstr "新しいコメント"
 msgid "Older Comments"
 msgstr "過去のコメント"
 
-#. translators: %d: ID of a post
-#: classes/class-twentytwenty-walker-page.php:82
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
 msgid "#%d (no title)"
 msgstr "#%d (タイトルなし)"
 
-#: functions.php:514
+#: functions.php:517
 msgid "Background Color"
 msgstr "背景色"
 
-#. translators: %s: Author name
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:354
+#. translators: %s: Author name.
+#: inc/template-tags.php:354 template-parts/entry-author-bio.php:20
 msgid "By %s"
 msgstr "作成者: %s"
 
-#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
-#: inc/template-tags.php:389
+#: inc/template-tags.php:389 template-parts/entry-header.php:36
+#: template-parts/content-cover.php:70
 msgid "Categories"
 msgstr "カテゴリー"
 
@@ -285,7 +281,7 @@ msgstr "投稿"
 msgid "Powered by WordPress"
 msgstr "Powered by WordPress"
 
-#: functions.php:259
+#: functions.php:262
 msgid "Social Menu"
 msgstr "ソーシャルメニュー"
 
@@ -311,22 +307,17 @@ msgctxt "submit button"
 msgid "Search"
 msgstr "検索"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Page"
 msgstr "ページ"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Pages:"
 msgstr "ページ:"
 
 #: classes/class-twentytwenty-walker-comment.php:92
 msgid "Your comment is awaiting moderation."
 msgstr "コメントは承認待ちです。"
-
-#. Translators: 1 = comment date, 2 = comment time
-#: classes/class-twentytwenty-walker-comment.php:69
-msgid "%1$s at %2$s"
-msgstr "%1$s%2$s"
 
 #: template-parts/content-cover.php:88
 msgid "Scroll Down"
@@ -380,79 +371,79 @@ msgstr "投稿者"
 msgid "Continue reading"
 msgstr "続きを読む"
 
-#: functions.php:548
+#: functions.php:551
 msgctxt "Short name of the larger font size in the block editor."
 msgid "XL"
 msgstr "超特大"
 
-#: functions.php:547
+#: functions.php:550
 msgctxt "Name of the larger font size in the block editor"
 msgid "Larger"
 msgstr "特大"
 
-#: functions.php:542
+#: functions.php:545
 msgctxt "Short name of the large font size in the block editor."
 msgid "L"
 msgstr "大"
 
-#: functions.php:541
+#: functions.php:544
 msgctxt "Name of the large font size in the block editor"
 msgid "Large"
 msgstr "大"
 
-#: functions.php:536
+#: functions.php:539
 msgctxt "Short name of the regular font size in the block editor."
 msgid "M"
 msgstr "中"
 
-#: functions.php:535
+#: functions.php:538
 msgctxt "Name of the regular font size in the block editor"
 msgid "Regular"
 msgstr "通常"
 
-#: functions.php:530
+#: functions.php:533
 msgctxt "Short name of the small font size in the block editor."
 msgid "S"
 msgstr "小"
 
-#: functions.php:529
+#: functions.php:532
 msgctxt "Name of the small font size in the block editor"
 msgid "Small"
 msgstr "小"
 
-#: functions.php:501
+#: functions.php:504
 msgid "Subtle Background"
 msgstr "繊細な背景"
 
-#: functions.php:486
+#: functions.php:489
 msgid "Accent Color"
 msgstr "アクセント色"
 
-#: functions.php:375
+#: functions.php:378
 msgid "Footer #2"
 msgstr "フッター2"
 
-#: functions.php:363
+#: functions.php:366
 msgid "Footer #1"
 msgstr "フッター1"
 
-#: functions.php:338
+#: functions.php:341
 msgid "Skip to the content"
 msgstr "コンテンツへスキップ"
 
-#: functions.php:257
+#: functions.php:260
 msgid "Mobile Menu"
 msgstr "モバイルメニュー"
 
-#: functions.php:256
+#: functions.php:259
 msgid "Desktop Expanded Menu"
 msgstr "デスクトップ展開メニュー"
 
-#: functions.php:255
+#: functions.php:258
 msgid "Desktop Horizontal Menu"
 msgstr "デスクトップ水平メニュー"
 
-#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:555
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:555
 msgid "Show sub menu"
 msgstr "サブメニューを表示"
 
@@ -497,11 +488,11 @@ msgstr "アーカイブページで投稿に表示:"
 msgid "Creates a parallax effect when the visitor scrolls."
 msgstr "訪問者がスクロールした際にパララックス効果を作成します。"
 
-#: functions.php:377
+#: functions.php:380
 msgid "Widgets in this area will be displayed in the second column in the footer."
 msgstr "このエリアのウィジェットはフッターの2列目に表示されます。"
 
-#: functions.php:365
+#: functions.php:368
 msgid "Widgets in this area will be displayed in the first column in the footer."
 msgstr "このエリアのウィジェットはフッターの1列目に表示されます。"
 
@@ -520,6 +511,11 @@ msgstr "投稿者より"
 #: index.php:48
 msgid "We could not find any results for your search. You can give it another try through the search form below."
 msgstr "検索結果が見つかりませんでした。以下の検索フォームからもう一度お試しください。"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:69
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
 
 #. Author URI of the theme
 #: footer.php:32
