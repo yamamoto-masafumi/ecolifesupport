@@ -3893,8 +3893,8 @@ footer {
 /* line 2150, ../scss/breakpoints/_base.scss */
 .footer-bottom-right .quote:hover {
   color: #fff;
-  border-color: #8FF18B;
-  background-color: #8FF18B;
+  border-color: #ffcf09;
+  background-color: #ffcf09;
 }
 /* line 2155, ../scss/breakpoints/_base.scss */
 .footer-bottom-right .quote img {
