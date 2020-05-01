@@ -19,7 +19,7 @@
           <?php if(wp_is_mobile()) : ?>
           <p class="userheader-bottom">HOME > <span>お客様の声 > </span><span>不用品回収思った以上に安く利用でき...</span></p>
           <?php else : ?>
-          <p class="userheader-bottom">HOME > <span>お客様の声 > </span><span>不用品回収思った以上に安く利用できとっても満足です！</span></p>
+          <p class="header-bottom">HOME > <span>お客様の声 > </span><span>不用品回収思った以上に安く利用できとっても満足です！</span></p>
           <?php endif; ?>
 
             <div class="uservoicedetails-menu">

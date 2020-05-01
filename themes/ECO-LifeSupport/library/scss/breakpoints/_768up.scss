@@ -519,7 +519,7 @@ body{
 .inner-notice{
   width: 100%;
   margin: auto;
-  margin-left: 40px;
+  margin-left: 0px;
   background-color: $white;
   .noticelist{
     .title{
@@ -536,9 +536,10 @@ body{
   width: 200px;
   height: 40px;
   margin: auto;
+  margin-bottom: 100px;
   .page{
-    width: 100%;
-    margin-left: -86px;
+    width: 100px;
+    margin-left: -50px;
   }
 }
 
@@ -614,12 +615,42 @@ body{
 }
 
 //POST
-.post-menu{
-  float: left;
-  background-color: $white;
-  width: 56%;
+.single-format{
+  display: flex;
   margin: auto;
-  margin-left: 160px;
+  margin-left: -176px;
+  // background-color: #999;
+  .post-menu{
+    background-color: $white;
+    width: 60%;
+    margin: auto;
+    margin-right: -40px;
+    .notice-title{
+      width: 84%;
+      margin: auto;
+      margin-top: 40px;
+      margin-left: 50px;
+    }
+    .post-contents{
+      width: 100%;
+      margin: 0;
+      font-size: 14px;
+      margin-left: 50px;
+    }
+    .post-btn{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 240px;
+      position: relative;
+      width: 188px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      color: $white;
+      background: $green;
+      border-radius: 5px;
+    }
+  }
 }
 
 //h2 common
@@ -857,6 +888,7 @@ body{
   height: 265px;
   margin: auto;
   padding-top: 30px;
+  margin-top: 300px;
   &-img{
     position: relative;
     img{
@@ -872,59 +904,7 @@ body{
     color: $black;
   }
 }
-//USERVOISE-SIDE pc
-.uservoicelist{
-  background-color: #ff8000;
-  width: 100%;
-  padding: 50px 0;
-  // padding-top: 1200px;
-}
-.uservoicelisttitle{
-  background-color: $white;
-  width: 89%;
-  margin: auto;
-  margin-top: 40px;
-  .voicetitle{
-    background-color: $green;
-    color: $white;
-    width: 100%;
-    height: 60px;
-    font-size: 20px;
-    font-weight: bolder;
-    margin: auto;
-    padding-top: 15px;
-    padding-left: 50px;
-    border-radius: 10px 10px 0 0 ;
-  }
-  .border{
-    margin: auto;
-    margin-top: -15px;
-    border-bottom: 3px solid #00c1e1;
-  }
-}
-.listbox{
-  border: 1px solid $green;
-  margin-top: 0;
-  .imgbox{
-    width: 90%;
-    margin: auto;
-    position: relative;
-    img{
-      display: inline-block;
-      width: 100%;
-      height: auto;
-      margin-top: 30px;
-    }
-  // .sp-slide{
-  // .swiper-wrapper .swiper-slide{
-  // .text{
-  // .detail{
-  // display: none;
-  // }
-  // }
-  // }
-  }
-}
+
 
 //FLOW
 .flow{
@@ -966,43 +946,32 @@ body{
 //QUESTION
 .question{
   .list{
+    width: 69%;
+    margin: 30px auto;
     &-question{
-      cursor: pointer;
-      height: 50px;
-      line-height: 30px;
+      padding: 18px 0;
       p{
         font-size: 20px;
+        margin-left: 80px;
+        width: 100%;
         &:before{
+          content: 'Q.';
           font-size: 30px;
-          width: 40px;
-          position: absolute;
-          top: 10px;
-          left: 20px;
-        }
-        &:after{
-          top: 18px;
-          right: 15px;
+          top: 15px;
+          left: 40px;
         }
       }
     }
     &-answer{
-      background: $cream;
-      position: relative;
-      border-radius: 3px;
       p{
-        margin-left: auto;
-        padding: 10px;
-        font-size: 14px;
-        color: $black;
-        line-height: 2;
-        margin-left: 50px;
+        padding: 40px 20px 40px 10px;
+        margin-left: 80px;
         &:before{
           content: 'A .';
           font-size: 30px;
-          color: $green;
-          width: 40px;
-          position: absolute;
-          left: 20px;
+          left: 40px;
+          top: 28px;
+
         }
       }
     }
@@ -1035,10 +1004,10 @@ body{
         a{
           color: $black;
           text-decoration-line: none;
-         }
          &:hover{
           border-bottom: 3px solid #8ff18b;
           padding-bottom: 10px;
+         }
         }
         p{
         margin-top: 25px;
@@ -1599,11 +1568,11 @@ footer{
 
   //USERVOICE-DETAILS
   .uservoicedetails-menu{
-    float: left;
+    display: flex;
     background-color: $white;
     width: 56%;
     margin: auto;
-    margin-left: 160px;
+    margin-left: 200px;
     .uservoicedetails-title{
       width: 89%;
       margin: auto;
@@ -1699,7 +1668,7 @@ footer{
   }
 
   //USERVOICE-DETAILS-ARTICLE
-  .uservoicelistpc{
+  .uservoicelistspc{
     background-color: $white;
     .imgpc{
       width: 100%;
@@ -1763,9 +1732,10 @@ footer{
 
   //USERVOICE-DETAILS-SIDE-PC
   .uservoicelist{
-    float: left;
-    width: 17%;
+    display: flex;
+    width: 30%;
     margin-top: -32px;
+    margin-left: 38px;
   }
   .uservoicelisttitle{
     background-color: $white;
