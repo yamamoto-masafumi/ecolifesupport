@@ -2218,41 +2218,40 @@ footer{
 
 
 .uservoice{
-  
-    &-bigtitle{
-      font-size: 20px;
-      font-weight: bold;
-        }
-    &-lists{
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      .uservoice-list{
-        padding-top: 20px;
-        .imgbox{
-          position: relative;
-          img{
-            width: 340px;
-            height: 240px;
-            object-fit: cover;
-          }
-        }
-        .title{
-          font-size: 12px;
-          color: #30BD92;
-          border-bottom: solid 2px #30BD92 ;
-          font-weight: bold;
-          margin: 10px 0;
-        }
-        .detail{
-          display: flex;
-          // display: none;
-          font-size: 15px;
-          font-weight: bold;
-          margin: 10px 0;
+  &-bigtitle{
+    font-size: 20px;
+    font-weight: bold;
+      }
+  &-lists{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .uservoice-list{
+      padding-top: 20px;
+      .imgbox{
+        position: relative;
+        img{
+          width: 340px;
+          height: 240px;
+          object-fit: cover;
         }
       }
-    } 
+      .title{
+        font-size: 12px;
+        color: #30BD92;
+        border-bottom: solid 2px #30BD92 ;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+      .detail{
+        display: flex;
+        // display: none;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+    }
+  } 
 }
 
 
@@ -2260,25 +2259,9 @@ footer{
 
 .company-contents{
   display: flex;
-  &-company-inner{
-    // margin-left: 100px;
-    // margin: 100px 100px 100px 100px;
-    .title{    
-      .border{
-        .bordergreen{
-          font-size: 100px;
-
-        }
-        
-
-      }
-
-    }
-
-
+  .bordergreen{
+    font-size: 100px;
   }
-
-
 }
 
 //company-outline
@@ -2296,17 +2279,9 @@ footer{
   .inner-contact{
     width: 89%;
     margin: auto;
-    // .title{
-    //   text-align: center;
-    //   font-size: 20px;
-    //   font-weight: bold;
-    //   color: $green;
-    //   padding-top: 30px;
-    // }
     .border{
       width: 40px;
       margin: auto;
-      // border-bottom: 4px solid #00C1E1;
       margin-bottom: 30px;
     }
     .bordergreen{
@@ -2436,21 +2411,6 @@ footer{
     }
   }
 }
-
-
-// .map_canvas{
-// 	// position: relative;
-// 	padding: 0 0 56%;
-// 	height: 0;
-// 	// overflow: hidden;
-// }
-// .map_canvas iframe{
-// 	// position: absolute;
-// 	top: 0;
-// 	left: 0;
-// 	width: 100% !important;
-// 	height: 100% !important;
-// }
 
 
 // USERVOICE
