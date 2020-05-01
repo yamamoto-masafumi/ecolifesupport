@@ -676,10 +676,10 @@ POSTS & CONTENT STYLES
 }
 //PAGENATION	
 .pagenationbtn{	
-width: 200px;	
 height: 40px;	
 margin: auto;	
 margin-top: -16px;	
+margin-left: 90px;
 .page{	
 width: 100%;	
 margin-left: -50px;	
@@ -706,6 +706,16 @@ color: #fff;
 border-color: $green;	
 background-color: $green;	
 }	
+.dots{
+  padding: 3px 12px;
+  border: 1px solid $green;
+  background-color: $white;
+  &:hover{
+    color: $white;
+    border-color: $green;
+    background-color: $green;
+  }
+}
 }	
 }	
 }	
@@ -1673,7 +1683,7 @@ background-color: $green;
 }
 
 //QUESTION-GREEN
-.question-green{
+.question-green,.question-blue,.question-purple,.question-pink,.question-white{
   background-color: #E5FFF2;
   background-size: cover;
   padding: 50px 0;
@@ -1732,6 +1742,22 @@ background-color: $green;
           right: 15px;
         }
       }
+      .isOpen{
+        &:after{
+        content: attr(data-question);
+        background-image: url('../images/icon/arrow-down-white.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 13px;
+        position: absolute;
+        top: 50%;
+        -webkit-transform : translateY(-50%);
+        transform : translateY(-50%);
+        right: 15px;
+        right: 15px;
+        }
+      }
     }
     &-answer{
       background: $cream;
@@ -1783,435 +1809,23 @@ background-color: $green;
 //QUESTION-BLUE
 .question-blue{
   background-color: #E7FBFF;
-  background-size: cover;
-  padding: 50px 0;
-  .title{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: $green;
-  }
-  .border{
-    width: 40px;
-    margin: auto;
-    padding-top: 10px;
-    border-bottom: 4px solid #00c1e1;
-  }
-  .list{
-    width: 90%;
-    margin: 30px auto;
-    p{
-      margin: 0;
-    }
-    &-question{
-      background: $green;
-      padding: 10px;
-      border-radius: 5px;
-      position: relative;
-      height: 72px;
-      line-height: 24px;
-      padding: 12px 0;
-      p{
-        font-size: 16px;
-        color: $white;
-        font-weight: bold;
-        margin-left: 50px;
-        width: 70%;
-        &:before{
-          content: 'Q.';
-          font-size: 24px;
-          color: $white;
-          width: 50px;
-          position: absolute;
-          top: 10px;
-          left: 20px;
-        }
-        &:after{
-          content: attr(data-question);
-          background-image: url('../images/icon/arrow-up-white.png');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 21px;
-          height: 13px;
-          position: absolute;
-          top: 50%;
-          transform : translateY(-50%);
-          -webkit-transform : translateY(-50%);
-          right: 15px;
-        }
-      }
-    }
-    &-answer{
-      background: $cream;
-      position: relative;
-      border-radius: 3px;
-      p{
-        margin-left: auto;
-        padding: 20px 20px 40px 10px;
-        font-size: 14px;
-        color: $black;
-        line-height: 2;
-        margin-left: 50px;
-        &:before{
-          content: 'A .';
-          font-size: 24px;
-          color: $l-green;
-          width: 40px;
-          position: absolute;
-          left: 20px;
-          top: 10px;
-        }
-      }
-    }
-  }
-  &-btn{
-    margin: 20px auto;
-    position: relative;
-    width: 202px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
-    color: $black;
-    background: $white;
-    border: 1px solid $green;
-    border-radius: 5px;
-    text-align: center;
-    &:after{
-      content: '';
-      position: absolute;
-      right: 10px;
-      top: 16px;
-      width: 9px;
-      height: 14px;
-      background-image: url('../images/icon/arrow-right-green.png');
-      background-size: cover;
-    }
-  }
 }
+
 //QUESTION-PURPLE
 .question-purple{
   background-color: #F8F2FF;
-  background-size: cover;
-  padding: 50px 0;
-  .title{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: $green;
-  }
-  .border{
-    width: 40px;
-    margin: auto;
-    padding-top: 10px;
-    border-bottom: 4px solid #00c1e1;
-  }
-  .list{
-    width: 90%;
-    margin: 30px auto;
-    p{
-      margin: 0;
-    }
-    &-question{
-      background: $green;
-      padding: 10px;
-      border-radius: 5px;
-      position: relative;
-      height: 72px;
-      line-height: 24px;
-      padding: 12px 0;
-      p{
-        font-size: 16px;
-        color: $white;
-        font-weight: bold;
-        margin-left: 50px;
-        width: 70%;
-        &:before{
-          content: 'Q.';
-          font-size: 24px;
-          color: $white;
-          width: 50px;
-          position: absolute;
-          top: 10px;
-          left: 20px;
-        }
-        &:after{
-          content: attr(data-question);
-          background-image: url('../images/icon/arrow-up-white.png');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 21px;
-          height: 13px;
-          position: absolute;
-          top: 50%;
-          transform : translateY(-50%);
-          -webkit-transform : translateY(-50%);
-          right: 15px;
-        }
-      }
-    }
-    &-answer{
-      background: $cream;
-      position: relative;
-      border-radius: 3px;
-      p{
-        margin-left: auto;
-        padding: 20px 20px 40px 10px;
-        font-size: 14px;
-        color: $black;
-        line-height: 2;
-        margin-left: 50px;
-        &:before{
-          content: 'A .';
-          font-size: 24px;
-          color: $l-green;
-          width: 40px;
-          position: absolute;
-          left: 20px;
-          top: 10px;
-        }
-      }
-    }
-  }
-  &-btn{
-    margin: 20px auto;
-    position: relative;
-    width: 202px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
-    color: $black;
-    background: $white;
-    border: 1px solid $green;
-    border-radius: 5px;
-    text-align: center;
-    &:after{
-      content: '';
-      position: absolute;
-      right: 10px;
-      top: 16px;
-      width: 9px;
-      height: 14px;
-      background-image: url('../images/icon/arrow-right-green.png');
-      background-size: cover;
-    }
-  }
 }
+
 //QUESTION-PINK
 .question-pink{
   background-color: #FFF1F8;
-  background-size: cover;
-  padding: 50px 0;
-  .title{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: $green;
-  }
-  .border{
-    width: 40px;
-    margin: auto;
-    padding-top: 10px;
-    border-bottom: 4px solid #00c1e1;
-  }
-  .list{
-    width: 90%;
-    margin: 30px auto;
-    p{
-      margin: 0;
-    }
-    &-question{
-      background: $green;
-      padding: 10px;
-      border-radius: 5px;
-      position: relative;
-      height: 72px;
-      line-height: 24px;
-      padding: 12px 0;
-      p{
-        font-size: 16px;
-        color: $white;
-        font-weight: bold;
-        margin-left: 50px;
-        width: 70%;
-        &:before{
-          content: 'Q.';
-          font-size: 24px;
-          color: $white;
-          width: 50px;
-          position: absolute;
-          top: 10px;
-          left: 20px;
-        }
-        &:after{
-          content: attr(data-question);
-          background-image: url('../images/icon/arrow-up-white.png');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 21px;
-          height: 13px;
-          position: absolute;
-          top: 50%;
-          transform : translateY(-50%);
-          -webkit-transform : translateY(-50%);
-          right: 15px;
-        }
-      }
-    }
-    &-answer{
-      background: $cream;
-      position: relative;
-      border-radius: 3px;
-      p{
-        margin-left: auto;
-        padding: 20px 20px 40px 10px;
-        font-size: 14px;
-        color: $black;
-        line-height: 2;
-        margin-left: 50px;
-        &:before{
-          content: 'A .';
-          font-size: 24px;
-          color: $l-green;
-          width: 40px;
-          position: absolute;
-          left: 20px;
-          top: 10px;
-        }
-      }
-    }
-  }
-  &-btn{
-    margin: 20px auto;
-    position: relative;
-    width: 202px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
-    color: $black;
-    background: $white;
-    border: 1px solid $green;
-    border-radius: 5px;
-    text-align: center;
-    &:after{
-      content: '';
-      position: absolute;
-      right: 10px;
-      top: 16px;
-      width: 9px;
-      height: 14px;
-      background-image: url('../images/icon/arrow-right-green.png');
-      background-size: cover;
-    }
-  }
 }
-//QUESTION-WHITE
+
+//QUESTION-PINK
 .question-white{
   background-color: $white;
-  background-size: cover;
-  padding: 50px 0;
-  .title{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: $green;
-  }
-  .border{
-    width: 40px;
-    margin: auto;
-    padding-top: 10px;
-    border-bottom: 4px solid #00c1e1;
-  }
-  .list{
-    width: 90%;
-    margin: 30px auto;
-    p{
-      margin: 0;
-    }
-    &-question{
-      background: $green;
-      padding: 10px;
-      border-radius: 5px;
-      position: relative;
-      height: 72px;
-      line-height: 24px;
-      padding: 12px 0;
-      p{
-        font-size: 16px;
-        color: $white;
-        font-weight: bold;
-        margin-left: 50px;
-        width: 70%;
-        &:before{
-          content: 'Q.';
-          font-size: 24px;
-          color: $white;
-          width: 50px;
-          position: absolute;
-          top: 10px;
-          left: 20px;
-        }
-        &:after{
-          content: attr(data-question);
-          background-image: url('../images/icon/arrow-up-white.png');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 21px;
-          height: 13px;
-          position: absolute;
-          top: 50%;
-          transform : translateY(-50%);
-          -webkit-transform : translateY(-50%);
-          right: 15px;
-        }
-      }
-    }
-    &-answer{
-      background: $cream;
-      position: relative;
-      border-radius: 3px;
-      p{
-        margin-left: auto;
-        padding: 20px 20px 40px 10px;
-        font-size: 14px;
-        color: $black;
-        line-height: 2;
-        margin-left: 50px;
-        &:before{
-          content: 'A .';
-          font-size: 24px;
-          color: $l-green;
-          width: 40px;
-          position: absolute;
-          left: 20px;
-          top: 10px;
-        }
-      }
-    }
-  }
-  &-btn{
-    margin: 20px auto;
-    position: relative;
-    width: 202px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
-    color: $black;
-    background: $white;
-    border: 1px solid $green;
-    border-radius: 5px;
-    text-align: center;
-    &:after{
-      content: '';
-      position: absolute;
-      right: 10px;
-      top: 16px;
-      width: 9px;
-      height: 14px;
-      background-image: url('../images/icon/arrow-right-green.png');
-      background-size: cover;
-    }
-  }
 }
+
 
 //CONTACT
 .contact{
@@ -2276,8 +1890,8 @@ background-color: $green;
     text-align: center;
     &:hover{
       color: $white;
-      border-color: #8FF18B;
-      background-color: #8FF18B;
+      border-color: #ffcf09;
+      background-color: #ffcf09;
     }
     &:after{
       content: '';
@@ -2820,6 +2434,31 @@ footer{
     }
   }
 }
+}
+
+//COMPANY-OUTLINE
+.company-contents{
+  .company-inner{
+    li{
+      display: flex;
+      margin: 10px 0;
+      border-bottom: solid 1px $green;
+      padding: 5px 0 15px 20px;
+      h4{
+        width: 70px;
+        font-size: 16px;
+        margin: 0;
+      }
+      p{
+        width: 215px;
+        margin: 0 0 0 30px;
+        font-size: 16px;
+      }
+      .ggmap{
+        margin-left: 30px;
+      }
+    }
+  }
 }
 
 

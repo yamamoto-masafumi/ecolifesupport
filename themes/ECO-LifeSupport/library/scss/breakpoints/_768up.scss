@@ -29,6 +29,9 @@ COMMON STYLES
 .pc-br{
   display: block;
 }
+.pc-hidden{
+  display: none;
+}
 .no-pc-br{
   display: none;
 }
@@ -305,7 +308,7 @@ CONTENT STYLES
 body{
   background: $white;
   #content{
-    max-width: 1125px;
+    max-width: 1300px;
     margin: auto;
   }
 }
@@ -854,7 +857,6 @@ body{
   height: 265px;
   margin: auto;
   padding-top: 30px;
-  margin-top: 300px;
   &-img{
     position: relative;
     img{
@@ -1399,7 +1401,7 @@ footer{
   transform: translateY(0);
 }
 
-
+// COMPANY-OUTLINE&CONTACT
 .company-content{
   height: 980px;
 }
@@ -1477,6 +1479,29 @@ footer{
       font-weight: bold;
     }
     }
+    }
+  }
+}
+
+.company-contents{
+  .company-inner{
+    width: 800px;
+    ul{
+      li{
+        margin: 30px 0;
+        padding: 5px 0 32px 20px;
+        p{
+          width: 624px;
+        }
+        .ggmap{
+          width: 624px;
+          height: 338px;
+          iframe{
+            width: 100%;
+            padding-top: 0;
+          }
+        }
+      }
     }
   }
 }
