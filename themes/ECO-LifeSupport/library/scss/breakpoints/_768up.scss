@@ -110,6 +110,11 @@ header{
         border-radius: 5px;
         height: 56px;
         width: 190px;
+        &:hover{
+          color: $white;	
+          border-color: #ffcf09;	
+          background-color: #ffcf09;
+        } 
         img{
           display: block;
           height: 40px;
@@ -383,78 +388,77 @@ body{
   .inner-contact{
     width: 63%;
     margin: auto;
-    .title{
-      font-size: 24px;
-      padding-top: 70px;
-    }
-    .border{
-      margin-top: -12px;
-    }
-    .text{
-      width: 100%;
-      margin: auto;
-      padding-bottom: 18px;
-      li{
-        margin-left: 50px;
+      .title{
+        font-size: 24px;
+        padding-top: 70px;
       }
-      .itemtext{
-        margin-left: 80px;
+      .border{
+        margin-top: -12px;
       }
-      .itemtext2{
-        margin-left: 74px;
-      }
-    }
-
-  .contact-form{
-    margin: auto;
-    .application-form{
-      width: 100%;
-      background-color: $white;
-      color: $black;
-      font-weight: 600;
-      margin: auto;
-      tr{
-        // background-color: #999;
+      .text{
         width: 100%;
-      th{
-        width: 30%;
-        padding-top: 20px;
-        text-align: left;
-      }
-      .message{
-        vertical-align: top;
-        padding-top: 50px;
-        padding-left: 90px;
-      }
-      .contactmessage{
-        vertical-align: top;
-        padding-top: 50px;
+        margin: auto;
+        padding-bottom: 18px;
+        li{
+          margin-left: 50px;
+        }
+        .itemtext{
+          margin-left: 80px;
+        }
+        .itemtext2{
+          margin-left: 74px;
+        }
       }
 
-      td{
-        width: 70%;
-        padding-top: 20px;
-        padding-left: 40px;
+      .contact-form{
+      margin: auto;
+      .application-form{
+        width: 100%;
+        background-color: $white;
+        color: $black;
+        font-weight: 600;
+        margin: auto;
+        tr{
+          width: 100%;
+          th{
+            width: 30%;
+            padding-top: 20px;
+            text-align: left;
+          }
+          .message{
+            vertical-align: top;
+            padding-top: 50px;
+            padding-left: 90px;
+          }
+          .contactmessage{
+            vertical-align: top;
+            padding-top: 50px;
+          }
+
+          td{
+            width: 70%;
+            padding-top: 20px;
+            padding-left: 40px;
+          }
+        }
+
+      /* 必須項目の入力欄を黄色にする */
+        input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+        textarea.wpcf7-form-control.wpcf7-textarea {
+
+          background: #FBFFDF;
+          color: #444;
+        }
+
+        /* エラーメッセージを見やすくする */
+        span.wpcf7-not-valid-tip,
+        .wpcf7-response-output.wpcf7-validation-errors {
+          color: red;
+          font-weight: bold;
+        }
       }
-    }
-
-    /* 必須項目の入力欄を黄色にする */
-    input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-    textarea.wpcf7-form-control.wpcf7-textarea {
-
-      background: #FBFFDF;
-      color: #E1E1E1;
-    }
-
-    /* エラーメッセージを見やすくする */
-    span.wpcf7-not-valid-tip,
-    .wpcf7-response-output.wpcf7-validation-errors {
-	    color: red;
-      font-weight: bold;
-    }
     }
   }
-}
 }
 
 
@@ -618,24 +622,38 @@ body{
 .single-format{
   display: flex;
   margin: auto;
-  margin-left: -176px;
-  // background-color: #999;
+  background-color: #999;
   .post-menu{
-    background-color: $white;
-    width: 60%;
+    background-color: #eee;
+    width: 100%;
     margin: auto;
-    margin-right: -40px;
+    // margin-right: -40px;
     .notice-title{
-      width: 84%;
+      width: 58%;
       margin: auto;
       margin-top: 40px;
-      margin-left: 50px;
+      margin-left: 200px;
+      h3{
+        font-size: 24px;
+        padding-left: 9px;
+      }
+      .border{
+        margin: auto;
+        margin-top: -12px;
+        border-bottom: 3px solid #00c1e1;
+      }
+      .thetime{
+        text-align: right;
+        font-size: 14px;
+        padding-right: 10px;
+        margin-top: 0px;
+        color: $green;
+      }
     }
     .post-contents{
       width: 100%;
-      margin: 0;
       font-size: 14px;
-      margin-left: 50px;
+      margin-left: 190px;
     }
     .post-btn{
       margin-top: 100px;
@@ -1439,7 +1457,7 @@ footer{
     input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
     textarea.wpcf7-form-control.wpcf7-textarea {
       background: #FBFFDF;
-      color: #E1E1E1;
+      color: #444;
     }
     /* エラーメッセージを見やすくする */
     span.wpcf7-not-valid-tip,
@@ -1546,10 +1564,10 @@ footer{
         }
       }
       .title{
-        width: 180px;
+        width: 152px;
         font-size: 12px;
         color: $green;
-        border-bottom: 1px solid $green;
+        border-bottom: 1px solid #999;
         font-weight: bold;
         margin: 10px 0;
       }
@@ -1560,240 +1578,254 @@ footer{
         font-weight: bold;
         margin: 10px 0;
       }
+      a{
+        color: #444;
+        &:hover{
+          color: #8FF18B;
+        }
+      }
       .borderblue{
         display: none;
       }
     }
   }
+}
 
   //USERVOICE-DETAILS
-  .uservoicedetails-menu{
-    display: flex;
-    background-color: $white;
-    width: 56%;
+.uservoicedetails-menu{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  .uservoicedetails-title{
+    width: 50%;
     margin: auto;
+    margin-top: 50px;
     margin-left: 200px;
-    .uservoicedetails-title{
-      width: 89%;
-      margin: auto;
-      margin-top: 40px;
-      h3{
-        background-color: $white;
-        font-size: 20px;
-        font-weight: bolder;
-        color: #444;
-        border-left: 5px solid $green;
-        padding-left: 9px;
-      }
-      .border{
-        margin: auto;
-        margin-top: -15px;
-        border-bottom: 3px solid #00c1e1;
-      }
-    }
-  }
-  .inner-uservoicedetails{
-    width: 100%;
-    margin: auto;
-    background-color: $white;
-    .uservoicedetails-blog{
-      position: relative;
-      width: 100%;
-      color: #444;
-      font-size: 14px;
-      padding-top: 20px;
-      h2{
-        color: #ff3898;
-        font-size: 16px;
-        font-weight: bold;
-      }
-      img{
-        display: block;
-        width: 100%;
-      }
-      .usage-table{
-        background-color: #e5fff2;
-        width: 100%;
-        height: 260px;
-        padding-top: 5px;
-        .inner-usage{
-          width: 84%;
-          margin: auto;
-          margin-top: 10px;
-          ul{
-            width: 100%;
-            margin: auto;
-            padding: 6px 0;
-          }
-          li{
-            display: inline-block;
-            vertical-align: top;
-            font-size: 12px;
-            margin: auto;
-          }
-          .item{
-            color: $green;
-            font-weight: bold;
-          }
-          .itemtext{
-            color: #444;
-            margin-left: 56px;
-          }
-          .itemtext2{
-            color: #444;
-            margin-left: 68px;
-          }
-          .itemtext3{
-            color: #444;
-            margin-left: 80px;
-          }
-          .itemtext4{
-            color: #444;
-            margin-left: 40px;
-            margin-top: 0;
-          }
-          .borderblue{
-            width: 100%;
-            margin: auto;
-            border-bottom: 1px dotted #00c1e1;
-          }
-        }
-      }
-      .bordersolid{
-        width: 100%;
-        margin: auto;
-        border-bottom: 1px solid #00c1e1;
-      }
-    }
-  }
-
-  //USERVOICE-DETAILS-ARTICLE
-  .uservoicelistspc{
-    background-color: $white;
-    .imgpc{
-      width: 100%;
-      display: inline-block;
-      .article{
-        color: #444;
-        font-size: 16px;
-        font-weight: bold;
-        padding-top: 10px;
-        margin-left: 10px;
-      }
-      .uservoice-list{
-        float: left;
-        width: 50%;
-        margin: auto;
-        margin-top: -10px;
-        .imgbox{
-          width: 100%;
-          position: relative;
-          padding: 10px;
-          img{
-            display: block;
-            width: 100%;
-          }
-        }
-        .labelpc{
-          position: absolute;
-          top: 10px;
-          left: 10px;
-          width: 120px;
-          line-height: 2;
-          color: $white;
-          background: $green;
-          text-align: center;
-          font-size: 12px;
-        }
-        .title{
-          width: 150px;
-          font-size: 13px;
-          color: $green;
-          border-bottom: 1px solid #999;
-          margin-bottom: -10px;
-          margin-left: 10px;
-        }
-        .detail{
-          display: -webkit-box;
-          -webkit-box-orient: vertical;
-          -webkit-line-clamp: 2;
-          overflow: hidden;
-          width: 100%;
-          font-size: 15px;
-          font-weight: bold;
-          padding-left: 10px;
-        }
-        .borderblue{
-          display: none;
-        }
-      }
-    }
-  }
-
-  //USERVOICE-DETAILS-SIDE-PC
-  .uservoicelist{
-    display: flex;
-    width: 30%;
-    margin-top: -32px;
-    margin-left: 38px;
-  }
-  .uservoicelisttitle{
-    background-color: $white;
-    width: 89%;
-    margin: auto;
-    .voicetitle{
-      background-color: $green;
-      color: $white;
-      width: 100%;
-      height: 60px;
+    h3{
+      background-color: $white;
       font-size: 20px;
       font-weight: bolder;
-      margin: auto;
-      padding-top: 15px;
-      padding-left: 50px;
-      border-radius: 10px 10px 0 0;
+      color: #444;
+      border-left: 5px solid $green;
+      padding-left: 9px;
     }
     .border{
       margin: auto;
       margin-top: -15px;
       border-bottom: 3px solid #00c1e1;
     }
-    .tree{
-      width: 100%;
-      margin: auto;
-      img{
-        width: 80%;
-        margin-left: 20px;
-        margin-bottom: -6px;
-      }
-    }
-  }
-  .listbox{
-    border: 1px solid $green;
-    margin-top: 0;
-    .imgbox{
-      display: inline;
-      margin: auto;
-      position: relative;
-      .pcimg{
-        width: 430px;
-      }
-    }
-  }
-  .label{
-    width: 110px;
-    height: 20px;
-    color: $white;
-    background: $green;
-    text-align: center;
-    font-size: 13px;
-    padding-left: 12px;
-  }
-  .interviewee{
-    width: 150px;
-    font-size: 13px;
-    color: $green;
-    margin-left: 10px;
-    border-bottom: 1px solid #999;
   }
 }
+.inner-uservoicedetails{
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: $white;
+  .uservoicedetails-blog{
+    position: relative;
+    width: 100%;
+    color: #444;
+    font-size: 14px;
+    padding-top: 20px;
+    h2{
+      color: #FF3898;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    img{
+      display: block;
+      width: 100%;
+    }
+    .usage-table{
+      background-color: #e5fff2;
+      width: 100%;
+      height: 260px;
+      padding-top: 5px;
+      .inner-usage{
+        width: 84%;
+        margin: auto;
+        margin-top: 10px;
+        ul{
+          width: 100%;
+          margin: auto;
+          padding: 6px 0;
+        }
+        li{
+          display: inline-block;
+          vertical-align: top;
+          font-size: 12px;
+          margin: auto;
+        }
+        .item{
+          color: $green;
+          font-weight: bold;
+        }
+        .itemtext{
+          color: #444;
+          margin-left: 56px;
+        }
+        .itemtext2{
+          color: #444;
+          margin-left: 68px;
+        }
+        .itemtext3{
+          color: #444;
+          margin-left: 80px;
+        }
+        .itemtext4{
+          color: #444;
+          margin-left: 40px;
+          margin-top: 0;
+        }
+        .borderblue{
+          width: 100%;
+          margin: auto;
+          border-bottom: 1px dotted #00c1e1;
+        }
+      }
+    }
+    .bordersolid{
+      width: 100%;
+      margin: auto;
+      border-bottom: 1px solid #00c1e1;
+    }
+  }
+}
+
+//USERVOICE-DETAILS-ARTICLE
+.uservoicelistspc{
+  background-color: $white;
+  .article{
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .imgpc{
+    display: flex;
+    width: 100%;
+    .uservoice-list{
+      width: 100%;
+      margin: auto;
+      margin-top: -10px;
+      .imgbox{
+        width: 100%;
+        position: relative;
+        padding: 10px;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+      .labelpc{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 120px;
+        line-height: 2;
+        color: $white;
+        background: $green;
+        text-align: center;
+        font-size: 12px;
+      }
+      .title{
+        width: 150px;
+        font-size: 13px;
+        color: $green;
+        border-bottom: 1px solid #999;
+        margin-bottom: -10px;
+        margin-left: 10px;
+      }
+      .detail{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        width: auto;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 10px;
+      }
+      a{
+        color: #444;
+        &:hover{
+          color: #8FF18B;
+          background-color: #8FF18B;
+        }
+      }
+      .borderblue{
+        display: none;
+      }
+    }
+  }
+}
+
+//USERVOICE-DETAILS-SIDE-PC
+.uservoicelist{
+  width: 18%;
+  margin-top: -26px;
+  margin-right: 180px;
+}
+.uservoicelisttitle{
+  background-color: $white;
+  width: 89%;
+  margin: auto;
+  .voicetitle{
+    background-color: $green;
+    color: $white;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 50px;
+    border-radius: 10px 10px 0 0;
+  }
+  .border{
+    margin: auto;
+    margin-top: -15px;
+    border-bottom: 3px solid #00c1e1;
+  }
+  .tree{
+    width: 100%;
+    margin: auto;
+    img{
+      width: 80%;
+      margin-left: 20px;
+      margin-bottom: -6px;
+    }
+  }
+}
+.listbox{
+  border: 1px solid $green;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .imgbox{
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    img{
+      width: 100%;
+      margin: auto;
+    }
+    .label{
+      width: 110px;
+      height: 20px;
+      color: $white;
+      background: $green;
+      text-align: center;
+      font-size: 13px;
+      padding-left: 12px;
+    }
+    .interviewee{
+      width: 150px;
+      font-size: 13px;
+      color: $green;
+      margin-left: 0px;
+      border-bottom: 1px solid #999;
+    }
+  }
+}
+
