@@ -504,7 +504,7 @@ POSTS & CONTENT STYLES
     input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
     textarea.wpcf7-form-control.wpcf7-textarea {
       background: #FBFFDF;
-      color: #E1E1E1;
+      color: #444;
     }
     /* 送信ボタンを見やすくする */
     input.wpcf7-submit {
@@ -675,50 +675,51 @@ POSTS & CONTENT STYLES
   }
 }
 //PAGENATION	
-.pagenationbtn{	
-height: 40px;	
-margin: auto;	
-margin-top: -16px;	
-margin-left: 90px;
-.page{	
-width: 100%;	
-margin-left: -50px;	
-.page-numbers{	
-display: flex;	
-width: 100%;	
-font-size: 16px;	
-color: $green;	
-.current{	
-background-color: $green;	
-color: $white;	
-border: 1px solid $green;	
-text-decoration: none;	
-padding: 3px 12px;	
-}	
-a {	
-background-color: $white;	
-border: 1px solid $green;	
-text-decoration: none;	
-padding: 3px 12px;	
-}	
-&:hover{	
-color: #fff;	
-border-color: $green;	
-background-color: $green;	
-}	
-.dots{
-  padding: 3px 12px;
-  border: 1px solid $green;
-  background-color: $white;
-  &:hover{
-    color: $white;
-    border-color: $green;
-    background-color: $green;
+.pagenationbtn{
+  height: 40px;
+  margin: auto;
+  margin-top: -16px;
+  margin-left: 90px;
+  .page{
+    width: 100px;
+    margin-left: -50px;
+    .page-numbers{
+      display: flex;
+      width: 100%;
+      font-size: 16px;
+      color: $green;
+      .current{
+        background-color: $green;
+        color: $white;
+        border: 1px solid $green;
+        text-decoration: none;
+        padding: 3px 12px;
+      }
+      a {
+        background-color: $white;
+        border: 1px solid $green;
+        text-decoration: none;
+        padding: 3px 12px;
+      }
+      &:hover{
+        color: #fff;
+        border-color: $green;
+        background-color: $green;
+      }
+      .dots{
+        padding: 3px 12px;
+        border: 1px solid $green;
+        background-color: $white;
+        &:hover{
+          color: #fff;
+          border-color: $green;
+          background-color: $green;
+        }
+      }
+    }
   }
 }
-}	
-}	
-}	
+
 // NOTICE-LIST-SIDE	
 .noticelist{	
   width: 100%;	
@@ -850,14 +851,14 @@ background-color: $green;
 
 //POST
 .single-format{
-  display: flex;
+  // display: flex;
   justify-content: center;
   .post-menu{
     background-color: $white;
-    max-width: 650px;
-    margin: 0;
+    width: 100%;
+    margin: auto;
     .notice-title{
-      width: 100%;
+      width: 90%;
       margin: auto;
       margin-top: 40px;
       h3{
@@ -876,12 +877,15 @@ background-color: $green;
       .thetime{
         text-align: right;
         font-size: 13px;
+        padding-right: 10px;
         color: $green;
       }
     }
     .post-contents{
-      width: 89%;
-      margin: 0;
+      width: 90%;
+      margin: auto;
+      margin-left: 20px;
+      padding: 0 14px;
       font-size: 14px;
     }
   }
@@ -1542,7 +1546,10 @@ background-color: $green;
         width: 21px;
         height: 13px;
         position: absolute;
-        top: 20px;
+        top: 50%;
+        -webkit-transform : translateY(-50%);
+        transform : translateY(-50%);
+        right: 15px;
         right: 15px;
         }
       }
@@ -1682,8 +1689,12 @@ background-color: $green;
   }
 }
 
-//QUESTION-GREEN
-.question-green,.question-blue,.question-purple,.question-pink,.question-white{
+//QUESTION-COLOR
+.question-green,
+.question-blue,
+.question-purple,
+.question-pink,
+.question-white{
   background-color: #E5FFF2;
   background-size: cover;
   padding: 50px 0;
@@ -1782,29 +1793,6 @@ background-color: $green;
       }
     }
   }
-  &-btn{
-    margin: 20px auto;
-    position: relative;
-    width: 202px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
-    color: $black;
-    background: $white;
-    border: 1px solid $green;
-    border-radius: 5px;
-    text-align: center;
-    &:after{
-      content: '';
-      position: absolute;
-      right: 10px;
-      top: 16px;
-      width: 9px;
-      height: 14px;
-      background-image: url('../images/icon/arrow-right-green.png');
-      background-size: cover;
-    }
-  }
 }
 //QUESTION-BLUE
 .question-blue{
@@ -1821,7 +1809,7 @@ background-color: $green;
   background-color: #FFF1F8;
 }
 
-//QUESTION-PINK
+//QUESTION-WHITE
 .question-white{
   background-color: $white;
 }
@@ -2245,7 +2233,6 @@ footer{
       }
       .detail{
         display: flex;
-        // display: none;
         font-size: 15px;
         font-weight: bold;
         margin: 10px 0;
@@ -2320,71 +2307,71 @@ footer{
         margin-left: 34px;
       }
     }
-  .contact-form{
-    margin: auto;
-    .application-form{
-      width: 100%;
-      background-color: $white;
-      color: $black;
-      font-weight: 600;
+
+    
+    .contact-form{
       margin: auto;
-    //APPLICATION-FORM
-    /* 必須マーク */
-    .must{
-      color: $white;
-      font-weight: bold;
-      margin-right: 10px;
-      padding: 3px 22px;
-      background: $green;
-      border-radius: 3px;
-    }
-    /* 項目名を太字にする */
-    form p {
-      font-weight: 600;
-    }
-    /* 入力項目を見やすくする */
-    input.wpcf7-form-control.wpcf7-text,
-    textarea.wpcf7-form-control.wpcf7-textarea {
-      width: 100%;
-      height: 44px;
-      padding: 8px 15px;
-      margin-right: 10px;
-      margin-top: 10px;
-      border: 1px solid $green;
-      border-radius: 3px;
-    }
-    // textarea.wpcf7-form-control.wpcf7-textarea {
-    //   height: 44px;
-    // }
-    /* 必須項目の入力欄を黄色にする */
-    input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-    textarea.wpcf7-form-control.wpcf7-textarea {
-      background: #FBFFDF;
-      color: #E1E1E1;
-    }
-    /* 送信ボタンを見やすくする */
-    input.wpcf7-submit {
-      width: 236px;
-      height: 46px;
-      background: $green;
-      color: #fff;
-      font-size: 16px;
-      font-weight: bold;
-      border: 1px solid $green;
-      border-radius: 3px;
-    }
-    /* エラーメッセージを見やすくする */
-    span.wpcf7-not-valid-tip,
-    .wpcf7-response-output.wpcf7-validation-errors {
-      color: red;
-      font-weight: bold;
-    }
-    .btn{
-      text-align: center;
-    }
+      .application-form{
+        width: 100%;
+        background-color: $white;
+        color: $black;
+        font-weight: 600;
+        margin: auto;
+
+        //APPLICATION-FORM
+        /* 必須マーク */
+        .must{
+          color: $white;
+          font-weight: bold;
+          margin-right: 10px;
+          padding: 3px 22px;
+          background: $green;
+          border-radius: 3px;
+        }
+        /* 項目名を太字にする */
+        form p {
+          font-weight: 600;
+        }
+        /* 入力項目を見やすくする */
+        input.wpcf7-form-control.wpcf7-text,
+        textarea.wpcf7-form-control.wpcf7-textarea {
+          width: 100%;
+          height: 44px;
+          padding: 8px 15px;
+          margin-right: 10px;
+          margin-top: 10px;
+          border: 1px solid $green;
+          border-radius: 3px;
+        }
+        /* 必須項目の入力欄を黄色にする */
+        input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+        textarea.wpcf7-form-control.wpcf7-textarea {
+          background: #FBFFDF;
+          color: #444;
+        }
+        /* 送信ボタンを見やすくする */
+        input.wpcf7-submit {
+          width: 236px;
+          height: 46px;
+          background: $green;
+          color: #fff;
+          font-size: 16px;
+          font-weight: bold;
+          border: 1px solid $green;
+          border-radius: 3px;
+        }
+        /* エラーメッセージを見やすくする */
+        span.wpcf7-not-valid-tip,
+        .wpcf7-response-output.wpcf7-validation-errors {
+          color: red;
+          font-weight: bold;
+        }
+        .btn{
+          text-align: center;
+        }
+      }
     }
   }
-}
 }
 
 //COMPANY-OUTLINE
@@ -2472,6 +2459,9 @@ footer{
         width: 100%;
         margin: auto;
         border-bottom: 1px dotted #00C1E1;
+      }
+      a{
+        color: #444;
       }
     }
   } 
@@ -2583,16 +2573,16 @@ footer{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  .article{
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+  }
   .uservoice-list{
     width: 95%;
     margin: auto;
     padding-top: 20px;
-    .article{
-      color: #444;
-      font-size: 16px;
-      font-weight: bold;
-      margin-top: 0;
-    }
     .imgbox{
       position: relative;
       img{
@@ -2621,7 +2611,11 @@ footer{
     .borderblue{
       width: 100%;
       margin: auto;
+      padding-top: 10px;
       border-bottom: 1px dotted #00C1E1;
+    }
+    a{
+      color: #444;
     }
   }
 }
@@ -2653,45 +2647,52 @@ footer{
       border-bottom: 3px solid #00c1e1;
       }
     }
-
   .listbox{
+    width:100%;
     background-color: $white;
     border: 1px solid $green;
     border-radius: 0 0 10px 10px;
-    margin-top: 0;
-  .imgbox{
-    display: inline-block;
-    width: 93%;
-    margin-left: 10px;
-    margin-top: 30px;
-    position: relative;
-    img{
-      float: left;
-      width: 40%;
-      margin-top: -10px;
-      margin-right: 10px;
-
-    }
-    .label{
-      width: 110px;
-      height: 20px;
-      color: $white;
-      background: $green;
-      text-align: center;
-      font-size: 13px;
-      padding-left: 10px;
-    }
-    .interviewee{
-      width: 150px;
-      font-size: 13px;
-      color: $green;
-      border-bottom: 1px solid #999;
+    margin-top: -1px;
+    .inner{
+      display: flex;
+      .imgbox{
+        width: 40%;
+        margin-left: 10px;
+        margin-top: 30px;
+        position: relative;
+        img{
+          width: 88%;
+          margin-top: -10px;
+          margin-right: 10px;
+        }
+      }
+      .labeltext{
+        width: 60%;
+        .label{
+          width: 92px;
+          height: 18px;
+          color: $white;
+          background: $green;
+          text-align: center;
+          font-size: 10px;
+          margin-top: 40px;
+          padding-left: 6px;
+        }
+        .interviewee{
+          width: 154px;
+          margin-left: 0px;
+          margin-top: -4px;
+          font-size: 13px;
+          color: $green;
+          border-bottom: 1px solid #999;
+        }
+      }
     }
   }
   .borderblue{
-    width: 100%;
+    width: 94%;
     margin: auto;
-    padding-top: 20px;
+    padding: 10px;
     border-bottom: 1px dotted #00C1E1;
   }
   .borderwhite{
@@ -2699,7 +2700,6 @@ footer{
     margin: auto;
     padding-top: 20px;
     border-bottom: 1px dotted $white;
-  }
   }
 }
 .label{
@@ -2718,5 +2718,3 @@ footer{
   margin-left: 10px;
   border-bottom: 1px solid #999;
 }
-
-
