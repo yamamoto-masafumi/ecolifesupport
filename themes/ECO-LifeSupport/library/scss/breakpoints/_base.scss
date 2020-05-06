@@ -1140,134 +1140,175 @@ POSTS & CONTENT STYLES
 }
 
 //SERVICE
-.service{
+.servicebackground{
   background-image: url('../images/background/about-service-bg.png');
-  text-align: center;
-  padding: 50px 0;
-  &-lists{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    .service-list{
-      padding-top: 20px;
-      .imgbox{
-        position: relative;
-        img{
-          width: 157px;
-          height: 98px;
-          object-fit: cover;
+  .service{
+    text-align: center;
+    padding: 50px 0;
+    &-lists{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .service-list{
+        padding-top: 20px;
+        .imgbox{
+          position: relative;
+          img{
+            width: 157px;
+            height: 98px;
+            object-fit: cover;
+          }
+          .ribbon{
+            display: block;
+            position: absolute;
+            width: 45px;
+            height: 59px;
+            top: -10px;
+            left: -10px;
+          }
         }
-        .ribbon{
-          display: block;
-          position: absolute;
-          width: 45px;
-          height: 59px;
-          top: -10px;
-          left: -10px;
-        }
-      }
-      .title{
-        font-size: 16px;
-        font-weight: bold;
-        margin: 10px 0;
-      }
-      .detail{
-        display: none;
-      }
-    }
-  }
-  &-btn{
-    margin: 20px auto;
-    position: relative;
-    width: 202px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
-    color: $white;
-    background: $green;
-    border-radius: 5px;
-    &:hover{
-      color: $white;
-      border-color: #8FF18B;
-      background-color: #8FF18B;
-    }
-    &:after{
-      content: '';
-      position: absolute;
-      right: 10px;
-      top: 16px;
-      width: 9px;
-      height: 14px;
-      background-image: url('../images/icon/arrow-right-white.svg');
-      background-size: cover;
-    }
-  }
-  a{
-    text-decoration: none;
-  }
-}
-
-//PLAN
-.plan{
-  background: #e5fff2;
-  padding: 50px 0;
-  text-align: center;
-  &-lists{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    .plan-list{
-      padding-top: 20px;
-      img{
-        display: block;
-        width: 158px;
-        height: 150px;
-        object-fit: contain;
-      }
-      .balloon{
-        display: none;
-      }
-      p{
-        margin: 0;
-        padding: 0;
         .title{
-          font-size: 15px;
+          font-size: 16px;
           font-weight: bold;
+          margin: 10px 0;
         }
         .detail{
           display: none;
         }
       }
     }
-  }
-  &-btn{
-    margin: 20px auto;
-    position: relative;
-    width: 202px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
-    color: $white;
-    background: $green;
-    border-radius: 5px;
-    &:hover{
-      color: $white;	
-      border-color: #8FF18B;	
-      background-color: #8FF18B;
+    &-btn{
+      margin: 20px auto;
+      position: relative;
+      width: 202px;
+      height: 46px;
+      line-height: 46px;
+      font-size: 16px;
+      color: $white;
+      background: $green;
+      border-radius: 5px;
+      &:hover{
+        color: $white;
+        border-color: #8FF18B;
+        background-color: #8FF18B;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        right: 10px;
+        top: 16px;
+        width: 9px;
+        height: 14px;
+        background-image: url('../images/icon/arrow-right-white.svg');
+        background-size: cover;
+      }
     }
-    &:after{
-      content: '';
-      position: absolute;
-      right: 10px;
-      top: 16px;
-      width: 9px;
-      height: 14px;
-      background-image: url('../images/icon/arrow-right-white.svg');
-      background-size: cover;
+    a{
+      text-decoration: none;
     }
   }
-  a{
-    text-decoration: none;
+}
+
+//PLAN
+.planbackground{
+  background: #e5fff2;
+  .plan{
+    padding: 50px 0;
+    text-align: center;
+    &-lists{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .plan-list{
+        padding-top: 20px;
+        img{
+          display: block;
+          width: 158px;
+          height: 150px;
+          object-fit: contain;
+        }
+        .balloon{
+          display: none;
+        }
+        p{
+          margin: 0;
+          padding: 0;
+          .title{
+            font-size: 15px;
+            font-weight: bold;
+          }
+          .detail{
+            display: none;
+          }
+        }
+      }
+    }
+    &-btn{
+      margin: 20px auto;
+      position: relative;
+      width: 202px;
+      height: 46px;
+      line-height: 46px;
+      font-size: 16px;
+      color: $white;
+      background: $green;
+      border-radius: 5px;
+      &:hover{
+        color: $white;	
+        border-color: #8FF18B;	
+        background-color: #8FF18B;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        right: 10px;
+        top: 16px;
+        width: 9px;
+        height: 14px;
+        background-image: url('../images/icon/arrow-right-white.svg');
+        background-size: cover;
+      }
+    }
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+//PLAN-SERVICE-PRICE-PAGE
+.planbackground2{
+  background: $white;
+  .plan2{
+    padding: 50px 0;
+    text-align: center;
+    &-lists{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .plan-list{
+        padding-top: 20px;
+        img{
+          display: block;
+          width: 158px;
+          height: 150px;
+          object-fit: contain;
+        }
+        .balloon{
+          display: none;
+        }
+        p{
+          margin: 0;
+          padding: 0;
+          .title{
+            font-size: 15px;
+            font-weight: bold;
+          }
+          .detail{
+            display: none;
+          }
+        }
+      }
+    }
   }
 }
 
