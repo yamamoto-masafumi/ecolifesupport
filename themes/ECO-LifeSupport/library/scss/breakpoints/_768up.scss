@@ -760,9 +760,11 @@ body{
 //SERVICE
 .servicebackground{
   width: 100%;
+  background-image: url('../images/background/about-service-bg.png');
   .service{
     max-width: 1222px;
     margin: auto;
+    margin-top: 30px;
     &-lists{
       .service-list{
         max-width: 294px;
@@ -931,7 +933,7 @@ body{
 
 //PRICE-LIST
 .price{
-  margin-top: 100px;
+  margin-top: 140px;
   &-list{
     width: 1100px;
     height: 528px;
@@ -939,6 +941,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-around;
+    margin-top: 50px;
     .price-item{
       img{
         width: 171px;
@@ -950,9 +953,13 @@ body{
 
 //PURCHASE
 .purchase{
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
   &-list{
     width: 85%;
     height: 900px;
+    margin-top: 50px;
     &-item{
       width: 354px;
       img{
@@ -971,8 +978,10 @@ body{
   width: 60%;
   height: 265px;
   margin: auto;
-  padding-top: 30px;
-  margin-top: 300px;
+  margin-top: 40px;
+  &-title{
+    margin-left: -118px;
+  }
   &-img{
     position: relative;
     img{
@@ -984,6 +993,7 @@ body{
     }
   }
   &-bottom{
+    width: 100%;
     margin-left: 180px;
     color: $black;
   }
@@ -1253,7 +1263,7 @@ body{
         cursor: pointer;
         height: 43px;
         border-radius: 5px 5px 0 0;
-        &:after{
+        p:after{
           display: none;
         }
       }
@@ -1490,50 +1500,57 @@ footer{
         margin-left: 74px;
       }
     }
-  .contact-form{
-    margin: auto;
-    .application-form{
+    .contact-form{
       width: 100%;
-      background-color: $white;
-      color: $black;
-      font-weight: 600;
       margin: auto;
-      tr{
-        // background-color: #999;
-        width: 100%;
-      th{
-        width: 30%;
-        padding-top: 20px;
-        text-align: left;
+      .application-form{
+        width: 110%;
+        background-color: $white;
+        color: $black;
+        font-weight: 600;
+        margin: auto;
+        margin-left: -30px;
+        tr{
+          width: 100%;
+          th{
+            width: 30%;
+            padding-top: 20px;
+            text-align: left;
+          }
+          .message{
+            vertical-align: top;
+            padding-top: 50px;
+            padding-left: 90px;
+          }
+          .contactmessage{
+            vertical-align: top;
+            padding-top: 50px;
+          }
+          td{
+            width: 100%;
+            padding-top: 20px;
+            padding-left: 0px;
+          }
+        }
+
+        /* 必須項目の入力欄を黄色にする */
+        input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+        textarea.wpcf7-form-control.wpcf7-textarea {
+          background: #FBFFDF;
+          color: #444;
+        }
+
+        input.wpcf7-submit{
+          margin-left: -200px;
+        }
+
+        /* エラーメッセージを見やすくする */
+        span.wpcf7-not-valid-tip,
+        .wpcf7-response-output.wpcf7-validation-errors {
+          color: red;
+          font-weight: bold;
+        }
       }
-      .message{
-        vertical-align: top;
-        padding-top: 50px;
-        padding-left: 90px;
-      }
-      .contactmessage{
-        vertical-align: top;
-        padding-top: 50px;
-      }
-      td{
-        width: 70%;
-        padding-top: 20px;
-        padding-left: 40px;
-      }
-    }
-    /* 必須項目の入力欄を黄色にする */
-    input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-    textarea.wpcf7-form-control.wpcf7-textarea {
-      background: #FBFFDF;
-      color: #444;
-    }
-    /* エラーメッセージを見やすくする */
-    span.wpcf7-not-valid-tip,
-    .wpcf7-response-output.wpcf7-validation-errors {
-      color: red;
-      font-weight: bold;
-    }
-    }
     }
   }
 }
@@ -1707,8 +1724,8 @@ footer{
     .usage-table{
       background-color: #e5fff2;
       width: 100%;
-      height: 260px;
-      padding-top: 5px;
+      height: 100%;
+      padding: 5px 0 20px 0;
       .inner-usage{
         width: 84%;
         margin: auto;
@@ -1731,19 +1748,23 @@ footer{
         .itemtext{
           color: #444;
           margin-left: 56px;
+          width: 76%;
         }
         .itemtext2{
           color: #444;
           margin-left: 68px;
+          width: 76%;
         }
         .itemtext3{
           color: #444;
           margin-left: 80px;
+          width: 76%;
         }
         .itemtext4{
           color: #444;
-          margin-left: 40px;
+          margin-left: 38px;
           margin-top: 0;
+          width: 75%;
         }
         .borderblue{
           width: 100%;
@@ -1798,7 +1819,7 @@ footer{
         font-size: 12px;
       }
       .title{
-        width: 150px;
+        width: 160px;
         font-size: 13px;
         color: $green;
         border-bottom: 1px solid #999;

@@ -151,10 +151,13 @@
         <div class="planbackground2">
           <div class="plan2">
             <div class="content-head plan-head">
-              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/rate-plan-blue.svg">
+            <?php if(wp_is_mobile()) : ?>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/rate-plan.svg">
               <h3>料金プラン</h3>
               <p class="h3-sub">ABOUT PRICE</p>
             </div>
+            <?php else : ?>
+            <?php endif; ?>
             <div class="plan2-lists">
 
                 <div class="plan-list">
@@ -339,42 +342,66 @@
           </div>
           <ul class="purchase-list">
             <li class="purchase-list-item">
+              <?php if(wp_is_mobile()) : ?>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/sp-purchase-list1-largeelectric.png">
+              <?php else : ?>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/purchase-list1-largeelectric.png">
+              <?php endif; ?>
               <p class="purchase-list-item-text">大型家電</p>
               <p class="item-explain">
                 冷蔵後・冷凍庫・ワインセラー・洗濯機・エアコン・空気清浄機・掃除機・テレビ・他
               </p>
             </li>
             <li class="purchase-list-item">
+              <?php if(wp_is_mobile()) : ?>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/sp-purchase-list2-digital.png">
+              <?php else : ?>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/purchase-list2-digital.png">
+              <?php endif; ?>
               <p class="purchase-list-item-text">デジタル・オーディオ機器</p>
               <p class="item-explain">
                 デスクトップ・ノートパソコン・デジタルカメラ・一眼レフカメラ・スピーカー・ターンテーブル・アンプ・他
               </p>
             </li>
             <li class="purchase-list-item">
+              <?php if(wp_is_mobile()) : ?>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/sp-purchase-list3-furniture.png">
+              <?php else : ?>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/purchase-list3-furniture.png">
+              <?php endif; ?>
               <p class="purchase-list-item-text">生活家具</p>
               <p class="item-explain">
                 食器棚・ダイニングセット・テーブル・他
               </p>
             </li>
             <li class="purchase-list-item">
+              <?php if(wp_is_mobile()) : ?>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/sp-purchase-list4-antique.png">
+              <?php else : ?>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/purchase-list4-antique.png">
+              <?php endif; ?>
               <p class="purchase-list-item-text">骨董品</p>
               <p class="item-explain">
                 絵画（日本画、洋画、現代アート）・掛軸・茶道具・陶器・工芸品・刀剣・甲冑・中国骨董・象牙・珊瑚・他
               </p>
             </li>
             <li class="purchase-list-item">
+              <?php if(wp_is_mobile()) : ?>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/sp-purchase-list5-toy.png">
+              <?php else : ?>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/purchase-list5-toy.png">
+              <?php endif; ?>
               <p class="purchase-list-item-text">おもちゃ</p>
               <p class="item-explain">
                 プラレール・人形・フィギュア・ラジコン・プラモデル・レトロ玩具・他
               </p>
             </li>
             <li class="purchase-list-item">
+              <?php if(wp_is_mobile()) : ?>
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/sp-purchase-list6-other.png">
+              <?php else : ?>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/purchase-list6-other.png">
+              <?php endif; ?>
               <p class="purchase-list-item-text">その他</p>
               <p class="item-explain">
                 ソファ・自転車・衣類・鞄・靴・布団・毛布・他

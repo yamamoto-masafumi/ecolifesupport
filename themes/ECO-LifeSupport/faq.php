@@ -22,7 +22,7 @@
           <div class="inner-menu">
           <ul>
             <li>
-              <a href="about-service"><p class="one-line">サービスについて</p></a>
+              <a href="#about-service"><p class="one-line">サービスについて</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
