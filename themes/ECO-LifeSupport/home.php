@@ -83,198 +83,202 @@
           </div>
         </div>
 
-        <div class="service">
-          <div class="content-head service-head">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/service.svg">
-            <h3>サービス内容</h3>
-            <p class="h3-sub">ABOUT SERVICE</p>
+        <div class="servicebackground">
+          <div class="service">
+            <div class="content-head service-head">
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/service.svg">
+              <h3>サービス内容</h3>
+              <p class="h3-sub">ABOUT SERVICE</p>
+            </div>
+            <div class="service-lists">
+              <div class="service-list">
+                <div class="imgbox">
+                  <img class="ribbon" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/ribbon-gold.png">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-fuyouhin.jpg">
+                </div>
+                <p class="title">不用品回収</p>
+                <p class="text">
+                  <span class="detail">不用品はもちろん思い出の詰まった物です。<br>
+                  アクセサリーのような小さなものから自動車等の大物まで何でも回収致します！</span>
+                </p>
+              </div>
+              <div class="service-list">
+                <div class="imgbox">
+                  <img class="ribbon" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/ribbon-silver.png">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-gomiyashiki.jpg">
+                </div>
+                <p class="title">ゴミ屋敷の片付け</p>
+                <p class="text">
+                  <span class="detail">不用品の片付けや大量のゴミの回収、荒れたお庭の手入れから倉庫などの片付け、お掃除まで即時対応します。</span>
+                </p>
+              </div>
+              <div class="service-list">
+                <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-sodaigomi.jpg">
+                </div>
+                <p class="title">粗大ゴミ回収</p>
+                <p class="text">
+                  <span class="detail">ご家庭やオフィスなどで不用になった小物から大型家電、机や冷蔵庫など大型で処分が難しいものを低価格で即日回収いたします。</span>
+                </p>
+              </div>
+              <div class="service-list">
+                <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-ihinseiri.png">
+                </div>
+                <p class="title">遺品整理</p>
+                <p class="text">
+                  <span class="detail">お客様のご要望に寄り添って最善の方法をご提供しています。まとまったお時間が取れないなど、お片づけを行います。</span>
+                </p>
+              </div>
+              <div class="service-list">
+                <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-seizenshori.jpg">
+                </div>
+                <p class="title">生前処分</p>
+                <p class="text">
+                  <span class="detail">遠方で処分が難しい、すぐに整理が必要！<br>
+                    など、さまざまなお客様のご要望に応え、精一杯心をこめて生前処分を行います。</span>
+                </p>
+              </div>
+              <div class="service-list">
+                <div class="imgbox">
+                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-huyouhin-kaitori.png">
+                </div>
+                <p class="title">不用品の買取</p>
+                <p class="text">
+                  <span class="detail">まだ使える不用品、骨董、古美術品、珍品、おもちゃなどを買取致します。<br>
+                    まずはお気軽にお問い合わせください。</span>
+                </p>
+              </div>
+            </div>
+            <a href="<?php echo home_url('/service'); ?>"><div class="service-btn">サービス料金へ</div></a>
           </div>
-          <div class="service-lists">
-            <div class="service-list">
-              <div class="imgbox">
-                <img class="ribbon" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/ribbon-gold.png">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-fuyouhin.jpg">
-              </div>
-              <p class="title">不用品回収</p>
-              <p class="text">
-                <span class="detail">不用品はもちろん思い出の詰まった物です。<br>
-                アクセサリーのような小さなものから自動車等の大物まで何でも回収致します！</span>
-              </p>
-            </div>
-            <div class="service-list">
-              <div class="imgbox">
-                <img class="ribbon" src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/ribbon-silver.png">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-gomiyashiki.jpg">
-              </div>
-              <p class="title">ゴミ屋敷の片付け</p>
-              <p class="text">
-                <span class="detail">不用品の片付けや大量のゴミの回収、荒れたお庭の手入れから倉庫などの片付け、お掃除まで即時対応します。</span>
-              </p>
-            </div>
-            <div class="service-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-sodaigomi.jpg">
-              </div>
-              <p class="title">粗大ゴミ回収</p>
-              <p class="text">
-                <span class="detail">ご家庭やオフィスなどで不用になった小物から大型家電、机や冷蔵庫など大型で処分が難しいものを低価格で即日回収いたします。</span>
-              </p>
-            </div>
-            <div class="service-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-ihinseiri.png">
-              </div>
-              <p class="title">遺品整理</p>
-              <p class="text">
-                <span class="detail">お客様のご要望に寄り添って最善の方法をご提供しています。まとまったお時間が取れないなど、お片づけを行います。</span>
-              </p>
-            </div>
-            <div class="service-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-seizenshori.jpg">
-              </div>
-              <p class="title">生前処分</p>
-              <p class="text">
-                <span class="detail">遠方で処分が難しい、すぐに整理が必要！<br>
-                  など、さまざまなお客様のご要望に応え、精一杯心をこめて生前処分を行います。</span>
-              </p>
-            </div>
-            <div class="service-list">
-              <div class="imgbox">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/service/about-service-huyouhin-kaitori.png">
-              </div>
-              <p class="title">不用品の買取</p>
-              <p class="text">
-                <span class="detail">まだ使える不用品、骨董、古美術品、珍品、おもちゃなどを買取致します。<br>
-                  まずはお気軽にお問い合わせください。</span>
-              </p>
-            </div>
-          </div>
-          <a href="<?php echo home_url('/service'); ?>"><div class="service-btn">サービス料金へ</div></a>
         </div>
 
-        <div class="plan">
-          <div class="content-head plan-head">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/rate-plan-blue.svg">
-            <h3>料金プラン</h3>
-            <p class="h3-sub">ABOUT PRICE</p>
-          </div>
-          <div class="plan-lists">
+        <div class="planbackground">
+          <div class="plan">
+            <div class="content-head plan-head">
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/rate-plan-blue.svg">
+              <h3>料金プラン</h3>
+              <p class="h3-sub">ABOUT PRICE</p>
+            </div>
+            <div class="plan-lists">
 
-              <div class="plan-list">
-                <div class="balloon">
-                  <p>少量の粗大ゴミ回収ならこちらの定額プラン</p>
+                <div class="plan-list">
+                  <div class="balloon">
+                    <p>少量の粗大ゴミ回収ならこちらの定額プラン</p>
+                  </div>
+                  <div class="imgbox">
+                    <?php if(wp_is_mobile()) : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-light-pack-sp.png">
+                    <?php else : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-light-pack.png">
+                    <?php endif; ?>
+                  </div>
+                  <p class="text">
+                    <span class="title">ライトパック</span>
+                    <span class="detail">
+                      少量の粗大ゴミやコンパクトな家具ならこちらの定額プラン。
+                      迅速にご対応しますのでお問い合わせください。
+                    </span>
+                  </p>
                 </div>
-                <div class="imgbox">
-                  <?php if(wp_is_mobile()) : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-light-pack-sp.png">
-                  <?php else : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-light-pack.png">
-                  <?php endif; ?>
+                <div class="plan-list">
+                  <div class="balloon">
+                    <p>1K程度のお片付けにおすすめの定額プラン</p>
+                  </div>
+                  <div class="imgbox">
+                    <?php if(wp_is_mobile()) : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-keitora-pack-sp.png">
+                    <?php else : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-keitora-pack.png">
+                    <?php endif; ?>
+                  </div>
+                  <p class="text">
+                    <span class="title">軽トラ乗せ放題パック</span>
+                    <span class="detail">
+                      1K程度のお片づけやお引っ越し、お片づけ、大量な家具の処分などにオススメな軽トラ定額プランです。
+                    </span>
+                  </p>
                 </div>
-                <p class="text">
-                  <span class="title">ライトパック</span>
-                  <span class="detail">
-                    少量の粗大ゴミやコンパクトな家具ならこちらの定額プラン。
-                    迅速にご対応しますのでお問い合わせください。
-                  </span>
-                </p>
-              </div>
-              <div class="plan-list">
-                <div class="balloon">
-                  <p>1K程度のお片付けにおすすめの定額プラン</p>
+                <div class="plan-list">
+                  <div class="balloon">
+                    <p>大型家具の処分などにお得な定額プラン</p>
+                  </div>
+                  <div class="imgbox">
+                    <?php if(wp_is_mobile()) : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1t-pack-sp.png">
+                    <?php else : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1t-pack.png">
+                    <?php endif; ?>
+                  </div>
+                  <p class="text">
+                    <span class="title">1tトラック<br class="no-pc-br">乗せ放題パック</span>
+                    <span class="detail">
+                      大型家具の処分や１DKのお引っ越し、お片づけや大量のゴミ処分にお得な定額プランです。
+                    </span>
+                  </p>
                 </div>
-                <div class="imgbox">
-                  <?php if(wp_is_mobile()) : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-keitora-pack-sp.png">
-                  <?php else : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-keitora-pack.png">
-                  <?php endif; ?>
+                <div class="plan-list">
+                  <div class="balloon">
+                    <p>引っ越しなどにお得な定額プラン</p>
+                  </div>
+                  <div class="imgbox">
+                    <?php if(wp_is_mobile()) : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1-5t-pack-sp.png">
+                    <?php else : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1-5t-pack.png">
+                    <?php endif; ?>
+                  </div>
+                  <p class="text">
+                    <span class="title">1.5tトラック<br class="no-pc-br">乗せ放題パック</span>
+                    <span class="detail">
+                      大型家具の処分や2Kのお引っ越し、オフィス用家具処分、大量のゴミ処分にお得な定額プラン。
+                    </span>
+                  </p>
                 </div>
-                <p class="text">
-                  <span class="title">軽トラ乗せ放題パック</span>
-                  <span class="detail">
-                    1K程度のお片づけやお引っ越し、お片づけ、大量な家具の処分などにオススメな軽トラ定額プランです。
-                  </span>
-                </p>
-              </div>
-              <div class="plan-list">
-                <div class="balloon">
-                  <p>大型家具の処分などにお得な定額プラン</p>
+                <div class="plan-list">
+                  <div class="balloon">
+                    <p>大量の粗大ゴミ回収などの大量詰め込みプラン</p>
+                  </div>
+                  <div class="imgbox">
+                    <?php if(wp_is_mobile()) : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-2t-pack-sp.png">
+                    <?php else : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-2t-pack.png">
+                    <?php endif; ?>
+                  </div>
+                  <p class="text">
+                    <span class="title">2tトラック<br class="no-pc-br">乗せ放題パック</span>
+                    <span class="detail">
+                      2DKのお引っ越し、オフィス用家具処分、ゴミ屋敷のお片づけ、倉庫の不用品処分にお得な定額プラン。
+                    </span>
+                  </p>
                 </div>
-                <div class="imgbox">
-                  <?php if(wp_is_mobile()) : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1t-pack-sp.png">
-                  <?php else : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1t-pack.png">
-                  <?php endif; ?>
+                <div class="plan-list">
+                  <div class="balloon">
+                    <p>産業廃棄物処分の格安プランと<br>
+                      不用品の買取プラン</p>
+                  </div>
+                  <div class="imgbox">
+                    <?php if(wp_is_mobile()) : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-sangyouhaikibutu-pack-sp.png">
+                    <?php else : ?>
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-sangyouhaikibutu-pack.png">
+                    <?php endif; ?>
+                  </div>
+                  <p class="text">
+                    <span class="title">産業廃棄物回収パック・<br class="no-pc-br">不用品の買取</span>
+                    <span class="detail">
+                      産業廃棄物処理・不用品回収の問題にも迅速スピード対応かつ、格安プランでご案内致します。
+                    </span>
+                  </p>
                 </div>
-                <p class="text">
-                  <span class="title">1tトラック<br class="no-pc-br">乗せ放題パック</span>
-                  <span class="detail">
-                    大型家具の処分や１DKのお引っ越し、お片づけや大量のゴミ処分にお得な定額プランです。
-                  </span>
-                </p>
-              </div>
-              <div class="plan-list">
-                <div class="balloon">
-                  <p>引っ越しなどにお得な定額プラン</p>
-                </div>
-                <div class="imgbox">
-                  <?php if(wp_is_mobile()) : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1-5t-pack-sp.png">
-                  <?php else : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-1-5t-pack.png">
-                  <?php endif; ?>
-                </div>
-                <p class="text">
-                  <span class="title">1.5tトラック<br class="no-pc-br">乗せ放題パック</span>
-                  <span class="detail">
-                    大型家具の処分や2Kのお引っ越し、オフィス用家具処分、大量のゴミ処分にお得な定額プラン。
-                  </span>
-                </p>
-              </div>
-              <div class="plan-list">
-                <div class="balloon">
-                  <p>大量の粗大ゴミ回収などの大量詰め込みプラン</p>
-                </div>
-                <div class="imgbox">
-                  <?php if(wp_is_mobile()) : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-2t-pack-sp.png">
-                  <?php else : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-2t-pack.png">
-                  <?php endif; ?>
-                </div>
-                <p class="text">
-                  <span class="title">2tトラック<br class="no-pc-br">乗せ放題パック</span>
-                  <span class="detail">
-                    2DKのお引っ越し、オフィス用家具処分、ゴミ屋敷のお片づけ、倉庫の不用品処分にお得な定額プラン。
-                  </span>
-                </p>
-              </div>
-              <div class="plan-list">
-                <div class="balloon">
-                  <p>産業廃棄物処分の格安プランと<br>
-                    不用品の買取プラン</p>
-                </div>
-                <div class="imgbox">
-                  <?php if(wp_is_mobile()) : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-sangyouhaikibutu-pack-sp.png">
-                  <?php else : ?>
-                    <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/plan/about-praice-sangyouhaikibutu-pack.png">
-                  <?php endif; ?>
-                </div>
-                <p class="text">
-                  <span class="title">産業廃棄物回収パック・<br class="no-pc-br">不用品の買取</span>
-                  <span class="detail">
-                    産業廃棄物処理・不用品回収の問題にも迅速スピード対応かつ、格安プランでご案内致します。
-                  </span>
-                </p>
-              </div>
 
           </div>
           <a href="<?php echo home_url('/service'); ?>"><div class="plan-btn">詳しくはこちら</div></a>
         </div>
+      </div>
 
         <div class="voice">
           <div class="content-head voice-head">
