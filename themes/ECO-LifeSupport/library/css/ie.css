@@ -1149,69 +1149,71 @@ body #content {
 /* line 761, ../scss/breakpoints/_768up.scss */
 .servicebackground {
   width: 100%;
+  background-image: url("../images/background/about-service-bg.png");
 }
-/* line 763, ../scss/breakpoints/_768up.scss */
+/* line 764, ../scss/breakpoints/_768up.scss */
 .servicebackground .service {
   max-width: 1222px;
   margin: auto;
+  margin-top: 30px;
 }
-/* line 767, ../scss/breakpoints/_768up.scss */
+/* line 769, ../scss/breakpoints/_768up.scss */
 .servicebackground .service-lists .service-list {
   max-width: 294px;
   margin: 0 2%;
 }
-/* line 770, ../scss/breakpoints/_768up.scss */
+/* line 772, ../scss/breakpoints/_768up.scss */
 .servicebackground .service-lists .service-list .imgbox {
   margin: 0;
   width: 100%;
 }
-/* line 773, ../scss/breakpoints/_768up.scss */
+/* line 775, ../scss/breakpoints/_768up.scss */
 .servicebackground .service-lists .service-list .imgbox img {
   display: block;
   width: 100%;
   height: 194px;
   object-fit: cover;
 }
-/* line 779, ../scss/breakpoints/_768up.scss */
+/* line 781, ../scss/breakpoints/_768up.scss */
 .servicebackground .service-lists .service-list .imgbox .ribbon {
   width: 84px;
   height: 111px;
   top: -20px;
   left: -20px;
 }
-/* line 786, ../scss/breakpoints/_768up.scss */
+/* line 788, ../scss/breakpoints/_768up.scss */
 .servicebackground .service-lists .service-list .text {
   font-size: 20px;
   width: 100%;
   margin: 0;
 }
-/* line 791, ../scss/breakpoints/_768up.scss */
+/* line 793, ../scss/breakpoints/_768up.scss */
 .servicebackground .service-lists .service-list .detail {
   display: block;
   font-size: 14px;
   text-align: left;
 }
 
-/* line 802, ../scss/breakpoints/_768up.scss */
+/* line 804, ../scss/breakpoints/_768up.scss */
 .planbackground {
   width: 100%;
 }
-/* line 804, ../scss/breakpoints/_768up.scss */
+/* line 806, ../scss/breakpoints/_768up.scss */
 .planbackground .plan {
   max-width: 1122px;
   margin: auto;
 }
-/* line 808, ../scss/breakpoints/_768up.scss */
+/* line 810, ../scss/breakpoints/_768up.scss */
 .planbackground .plan-lists .plan-list {
   max-width: 354px;
   margin: auto;
 }
-/* line 811, ../scss/breakpoints/_768up.scss */
+/* line 813, ../scss/breakpoints/_768up.scss */
 .planbackground .plan-lists .plan-list img {
   width: 100%;
   height: 280px;
 }
-/* line 815, ../scss/breakpoints/_768up.scss */
+/* line 817, ../scss/breakpoints/_768up.scss */
 .planbackground .plan-lists .plan-list .balloon {
   position: relative;
   display: flex;
@@ -1226,7 +1228,7 @@ body #content {
   align-items: center;
   justify-content: center;
 }
-/* line 828, ../scss/breakpoints/_768up.scss */
+/* line 830, ../scss/breakpoints/_768up.scss */
 .planbackground .plan-lists .plan-list .balloon:before {
   content: "";
   position: absolute;
@@ -1236,40 +1238,40 @@ body #content {
   border: 15px solid transparent;
   border-top: 15px solid #00aac6;
 }
-/* line 838, ../scss/breakpoints/_768up.scss */
+/* line 840, ../scss/breakpoints/_768up.scss */
 .planbackground .plan-lists .plan-list .text {
   text-align: left;
 }
-/* line 840, ../scss/breakpoints/_768up.scss */
+/* line 842, ../scss/breakpoints/_768up.scss */
 .planbackground .plan-lists .plan-list .text .title {
   font-size: 20px;
 }
-/* line 843, ../scss/breakpoints/_768up.scss */
+/* line 845, ../scss/breakpoints/_768up.scss */
 .planbackground .plan-lists .plan-list .text .detail {
   display: block;
   font-size: 14px;
 }
 
-/* line 854, ../scss/breakpoints/_768up.scss */
+/* line 856, ../scss/breakpoints/_768up.scss */
 .planbackground2 {
   width: 100%;
 }
-/* line 856, ../scss/breakpoints/_768up.scss */
+/* line 858, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2 {
   max-width: 1122px;
   margin: auto;
 }
-/* line 860, ../scss/breakpoints/_768up.scss */
+/* line 862, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2-lists .plan-list {
   margin: auto;
   max-width: 354px;
 }
-/* line 863, ../scss/breakpoints/_768up.scss */
+/* line 865, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2-lists .plan-list img {
   width: 100%;
   height: 280px;
 }
-/* line 867, ../scss/breakpoints/_768up.scss */
+/* line 869, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2-lists .plan-list .balloon {
   position: relative;
   display: flex;
@@ -1284,7 +1286,7 @@ body #content {
   align-items: center;
   justify-content: center;
 }
-/* line 880, ../scss/breakpoints/_768up.scss */
+/* line 882, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2-lists .plan-list .balloon:before {
   content: "";
   position: absolute;
@@ -1294,32 +1296,32 @@ body #content {
   border: 15px solid transparent;
   border-top: 15px solid #00aac6;
 }
-/* line 890, ../scss/breakpoints/_768up.scss */
+/* line 892, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2-lists .plan-list .text {
   text-align: left;
 }
-/* line 892, ../scss/breakpoints/_768up.scss */
+/* line 894, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2-lists .plan-list .text .title {
   font-size: 20px;
 }
-/* line 895, ../scss/breakpoints/_768up.scss */
+/* line 897, ../scss/breakpoints/_768up.scss */
 .planbackground2 .plan2-lists .plan-list .text .detail {
   display: block;
   font-size: 14px;
 }
 
-/* line 906, ../scss/breakpoints/_768up.scss */
+/* line 908, ../scss/breakpoints/_768up.scss */
 .voice {
   background-size: 86%;
   background-repeat: no-repeat;
   background-position: top;
   margin-top: 40px;
 }
-/* line 911, ../scss/breakpoints/_768up.scss */
+/* line 913, ../scss/breakpoints/_768up.scss */
 .voice .sp-slide {
   max-width: 1220px;
 }
-/* line 913, ../scss/breakpoints/_768up.scss */
+/* line 915, ../scss/breakpoints/_768up.scss */
 .voice .sp-slide .swiper-wrapper .swiper-slide {
   width: 48%;
   display: flex;
@@ -1327,24 +1329,24 @@ body #content {
   flex-wrap: wrap;
   margin-top: 20px;
 }
-/* line 919, ../scss/breakpoints/_768up.scss */
+/* line 921, ../scss/breakpoints/_768up.scss */
 .voice .sp-slide .swiper-wrapper .swiper-slide .imgbox {
   width: 48%;
 }
-/* line 922, ../scss/breakpoints/_768up.scss */
+/* line 924, ../scss/breakpoints/_768up.scss */
 .voice .sp-slide .swiper-wrapper .swiper-slide .text {
   width: 46%;
 }
-/* line 924, ../scss/breakpoints/_768up.scss */
+/* line 926, ../scss/breakpoints/_768up.scss */
 .voice .sp-slide .swiper-wrapper .swiper-slide .text .detail {
   display: block;
 }
 
-/* line 933, ../scss/breakpoints/_768up.scss */
-.price {
-  margin-top: 100px;
-}
 /* line 935, ../scss/breakpoints/_768up.scss */
+.price {
+  margin-top: 140px;
+}
+/* line 937, ../scss/breakpoints/_768up.scss */
 .price-list {
   width: 1100px;
   height: 528px;
@@ -1352,45 +1354,56 @@ body #content {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
+  margin-top: 50px;
 }
-/* line 943, ../scss/breakpoints/_768up.scss */
+/* line 946, ../scss/breakpoints/_768up.scss */
 .price-list .price-item img {
   width: 171px;
   height: 117px;
 }
 
-/* line 953, ../scss/breakpoints/_768up.scss */
+/* line 955, ../scss/breakpoints/_768up.scss */
+.purchase {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+/* line 959, ../scss/breakpoints/_768up.scss */
 .purchase-list {
   width: 85%;
   height: 900px;
+  margin-top: 50px;
 }
-/* line 956, ../scss/breakpoints/_768up.scss */
+/* line 963, ../scss/breakpoints/_768up.scss */
 .purchase-list-item {
   width: 354px;
 }
-/* line 958, ../scss/breakpoints/_768up.scss */
+/* line 965, ../scss/breakpoints/_768up.scss */
 .purchase-list-item img {
   width: 354px;
   height: 277px;
 }
-/* line 962, ../scss/breakpoints/_768up.scss */
+/* line 969, ../scss/breakpoints/_768up.scss */
 .purchase-list-item .item-explain {
   display: block;
 }
 
-/* line 970, ../scss/breakpoints/_768up.scss */
+/* line 977, ../scss/breakpoints/_768up.scss */
 .penalty {
   width: 60%;
   height: 265px;
   margin: auto;
-  padding-top: 30px;
-  margin-top: 300px;
+  margin-top: 40px;
 }
-/* line 976, ../scss/breakpoints/_768up.scss */
+/* line 982, ../scss/breakpoints/_768up.scss */
+.penalty-title {
+  margin-left: -118px;
+}
+/* line 985, ../scss/breakpoints/_768up.scss */
 .penalty-img {
   position: relative;
 }
-/* line 978, ../scss/breakpoints/_768up.scss */
+/* line 987, ../scss/breakpoints/_768up.scss */
 .penalty-img img {
   width: 240px;
   height: 164px;
@@ -1398,49 +1411,50 @@ body #content {
   top: -50px;
   left: -90px;
 }
-/* line 986, ../scss/breakpoints/_768up.scss */
+/* line 995, ../scss/breakpoints/_768up.scss */
 .penalty-bottom {
+  width: 100%;
   margin-left: 180px;
   color: #323944;
 }
 
-/* line 995, ../scss/breakpoints/_768up.scss */
+/* line 1005, ../scss/breakpoints/_768up.scss */
 .flow .steps {
   max-width: 1240px;
   display: flex;
   position: relative;
   margin: auto;
 }
-/* line 1000, ../scss/breakpoints/_768up.scss */
+/* line 1010, ../scss/breakpoints/_768up.scss */
 .flow .steps .step {
   display: block;
   width: 17%;
 }
-/* line 1003, ../scss/breakpoints/_768up.scss */
+/* line 1013, ../scss/breakpoints/_768up.scss */
 .flow .steps .step img {
   margin: auto;
   width: 180px;
   height: 180px;
 }
-/* line 1008, ../scss/breakpoints/_768up.scss */
+/* line 1018, ../scss/breakpoints/_768up.scss */
 .flow .steps .step-detail {
   margin: 0;
 }
-/* line 1010, ../scss/breakpoints/_768up.scss */
+/* line 1020, ../scss/breakpoints/_768up.scss */
 .flow .steps .step-detail-title {
   font-size: 20px;
   text-align: center;
   margin: 10px 0;
 }
-/* line 1015, ../scss/breakpoints/_768up.scss */
+/* line 1025, ../scss/breakpoints/_768up.scss */
 .flow .steps .step-detail-text {
   font-size: 14px;
 }
-/* line 1019, ../scss/breakpoints/_768up.scss */
+/* line 1029, ../scss/breakpoints/_768up.scss */
 .flow .steps .step:before {
   display: none;
 }
-/* line 1023, ../scss/breakpoints/_768up.scss */
+/* line 1033, ../scss/breakpoints/_768up.scss */
 .flow .steps-arrow {
   display: block;
   height: 20px;
@@ -1448,34 +1462,34 @@ body #content {
   top: 100px;
 }
 
-/* line 1034, ../scss/breakpoints/_768up.scss */
+/* line 1044, ../scss/breakpoints/_768up.scss */
 .question .list {
   width: 69%;
   margin: 30px auto;
 }
-/* line 1037, ../scss/breakpoints/_768up.scss */
+/* line 1047, ../scss/breakpoints/_768up.scss */
 .question .list-question {
   padding: 18px 0;
 }
-/* line 1039, ../scss/breakpoints/_768up.scss */
+/* line 1049, ../scss/breakpoints/_768up.scss */
 .question .list-question p {
   font-size: 20px;
   margin-left: 80px;
   width: 100%;
 }
-/* line 1043, ../scss/breakpoints/_768up.scss */
+/* line 1053, ../scss/breakpoints/_768up.scss */
 .question .list-question p:before {
   content: 'Q.';
   font-size: 30px;
   top: 15px;
   left: 40px;
 }
-/* line 1052, ../scss/breakpoints/_768up.scss */
+/* line 1062, ../scss/breakpoints/_768up.scss */
 .question .list-answer p {
   padding: 40px 20px 40px 10px;
   margin-left: 80px;
 }
-/* line 1055, ../scss/breakpoints/_768up.scss */
+/* line 1065, ../scss/breakpoints/_768up.scss */
 .question .list-answer p:before {
   content: 'A .';
   font-size: 30px;
@@ -1483,26 +1497,26 @@ body #content {
   top: 28px;
 }
 
-/* line 1068, ../scss/breakpoints/_768up.scss */
+/* line 1078, ../scss/breakpoints/_768up.scss */
 .faq-question {
   background-color: #fff;
   width: 100%;
   height: 375px;
   text-align: left;
 }
-/* line 1073, ../scss/breakpoints/_768up.scss */
+/* line 1083, ../scss/breakpoints/_768up.scss */
 .faq-question .inner-menu {
   max-width: 1300px;
   padding-top: 40px;
   width: 72%;
   margin: auto;
 }
-/* line 1078, ../scss/breakpoints/_768up.scss */
+/* line 1088, ../scss/breakpoints/_768up.scss */
 .faq-question .inner-menu ul {
   margin: auto;
   margin-left: 20px;
 }
-/* line 1081, ../scss/breakpoints/_768up.scss */
+/* line 1091, ../scss/breakpoints/_768up.scss */
 .faq-question .inner-menu ul li {
   font-size: 20px;
   font-weight: bold;
@@ -1513,26 +1527,26 @@ body #content {
   background-color: #fff;
   padding: 20px;
 }
-/* line 1090, ../scss/breakpoints/_768up.scss */
+/* line 1100, ../scss/breakpoints/_768up.scss */
 .faq-question .inner-menu ul li a {
   color: #323944;
   text-decoration-line: none;
 }
-/* line 1093, ../scss/breakpoints/_768up.scss */
+/* line 1103, ../scss/breakpoints/_768up.scss */
 .faq-question .inner-menu ul li a:hover {
   border-bottom: 3px solid #8ff18b;
   padding-bottom: 10px;
 }
-/* line 1098, ../scss/breakpoints/_768up.scss */
+/* line 1108, ../scss/breakpoints/_768up.scss */
 .faq-question .inner-menu ul li p {
   margin-top: 25px;
 }
-/* line 1103, ../scss/breakpoints/_768up.scss */
+/* line 1113, ../scss/breakpoints/_768up.scss */
 .faq-question .inner-menu .faq-question-menu {
   margin-top: -17px;
 }
 
-/* line 1115, ../scss/breakpoints/_768up.scss */
+/* line 1125, ../scss/breakpoints/_768up.scss */
 .question-green .list,
 .question-blue .list,
 .question-purple .list,
@@ -1541,7 +1555,7 @@ body #content {
   width: 69%;
   margin: 30px auto;
 }
-/* line 1118, ../scss/breakpoints/_768up.scss */
+/* line 1128, ../scss/breakpoints/_768up.scss */
 .question-green .list-question,
 .question-blue .list-question,
 .question-purple .list-question,
@@ -1549,7 +1563,7 @@ body #content {
 .question-white .list-question {
   padding: 18px 0;
 }
-/* line 1120, ../scss/breakpoints/_768up.scss */
+/* line 1130, ../scss/breakpoints/_768up.scss */
 .question-green .list-question p,
 .question-blue .list-question p,
 .question-purple .list-question p,
@@ -1559,7 +1573,7 @@ body #content {
   margin-left: 80px;
   width: 100%;
 }
-/* line 1124, ../scss/breakpoints/_768up.scss */
+/* line 1134, ../scss/breakpoints/_768up.scss */
 .question-green .list-question p:before,
 .question-blue .list-question p:before,
 .question-purple .list-question p:before,
@@ -1570,7 +1584,7 @@ body #content {
   top: 15px;
   left: 40px;
 }
-/* line 1133, ../scss/breakpoints/_768up.scss */
+/* line 1143, ../scss/breakpoints/_768up.scss */
 .question-green .list-answer p,
 .question-blue .list-answer p,
 .question-purple .list-answer p,
@@ -1579,7 +1593,7 @@ body #content {
   padding: 40px 20px 40px 10px;
   margin-left: 80px;
 }
-/* line 1136, ../scss/breakpoints/_768up.scss */
+/* line 1146, ../scss/breakpoints/_768up.scss */
 .question-green .list-answer p:before,
 .question-blue .list-answer p:before,
 .question-purple .list-answer p:before,
@@ -1591,13 +1605,13 @@ body #content {
   top: 28px;
 }
 
-/* line 1148, ../scss/breakpoints/_768up.scss */
+/* line 1158, ../scss/breakpoints/_768up.scss */
 .contact {
   background-image: url("../images/background/contact-bg.png");
   background-size: contain;
   min-height: 557px;
 }
-/* line 1152, ../scss/breakpoints/_768up.scss */
+/* line 1162, ../scss/breakpoints/_768up.scss */
 .contact-watch {
   margin: auto;
   height: 40px;
@@ -1607,43 +1621,43 @@ body #content {
   border-radius: 0;
   background: transparent;
 }
-/* line 1160, ../scss/breakpoints/_768up.scss */
+/* line 1170, ../scss/breakpoints/_768up.scss */
 .contact-watch:before {
   border: none;
 }
-/* line 1164, ../scss/breakpoints/_768up.scss */
+/* line 1174, ../scss/breakpoints/_768up.scss */
 .contact-text {
   font-size: 20px;
 }
-/* line 1168, ../scss/breakpoints/_768up.scss */
+/* line 1178, ../scss/breakpoints/_768up.scss */
 .contact .phone img {
   width: 40px;
 }
-/* line 1171, ../scss/breakpoints/_768up.scss */
+/* line 1181, ../scss/breakpoints/_768up.scss */
 .contact .phone-number {
   font-size: 50px;
 }
-/* line 1174, ../scss/breakpoints/_768up.scss */
+/* line 1184, ../scss/breakpoints/_768up.scss */
 .contact .phone-time {
   font-size: 20px;
 }
-/* line 1178, ../scss/breakpoints/_768up.scss */
+/* line 1188, ../scss/breakpoints/_768up.scss */
 .contact-btn {
   width: 236px;
   height: 46px;
   line-height: 46px;
   font-size: 16px;
 }
-/* line 1183, ../scss/breakpoints/_768up.scss */
+/* line 1193, ../scss/breakpoints/_768up.scss */
 .contact-btn:after {
   top: 16px;
 }
 
-/* line 1191, ../scss/breakpoints/_768up.scss */
+/* line 1201, ../scss/breakpoints/_768up.scss */
 .area-text {
   font-size: 20px;
 }
-/* line 1194, ../scss/breakpoints/_768up.scss */
+/* line 1204, ../scss/breakpoints/_768up.scss */
 .area .lists {
   display: flex;
   justify-content: space-around;
@@ -1651,78 +1665,78 @@ body #content {
   margin: auto;
   position: relative;
 }
-/* line 1200, ../scss/breakpoints/_768up.scss */
+/* line 1210, ../scss/breakpoints/_768up.scss */
 .area .lists .list {
   height: 43px;
   margin: 0 2px 0 0;
 }
-/* line 1204, ../scss/breakpoints/_768up.scss */
+/* line 1214, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(1) .list-area {
   border-top: 10px solid #69ea35;
 }
-/* line 1207, ../scss/breakpoints/_768up.scss */
+/* line 1217, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(1) .active {
   background: #69ea35;
 }
-/* line 1212, ../scss/breakpoints/_768up.scss */
+/* line 1222, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(2) .list-area {
   border-top: 10px solid #11d3ff;
 }
-/* line 1215, ../scss/breakpoints/_768up.scss */
+/* line 1225, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(2) .active {
   background: #11d3ff;
 }
-/* line 1220, ../scss/breakpoints/_768up.scss */
+/* line 1230, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(3) .list-area {
   border-top: 10px solid #148eff;
 }
-/* line 1223, ../scss/breakpoints/_768up.scss */
+/* line 1233, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(3) .active {
   background: #148eff;
 }
-/* line 1228, ../scss/breakpoints/_768up.scss */
+/* line 1238, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(4) .list-area {
   border-top: 10px solid #b57afc;
 }
-/* line 1231, ../scss/breakpoints/_768up.scss */
+/* line 1241, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(4) .active {
   background: #b57afc;
 }
-/* line 1236, ../scss/breakpoints/_768up.scss */
+/* line 1246, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(5) .list-area {
   border-top: 10px solid #fb72bc;
 }
-/* line 1239, ../scss/breakpoints/_768up.scss */
+/* line 1249, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(5) .active {
   background: #fb72bc;
 }
-/* line 1243, ../scss/breakpoints/_768up.scss */
+/* line 1253, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(6) {
   margin: 0;
 }
-/* line 1245, ../scss/breakpoints/_768up.scss */
+/* line 1255, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(6) .list-area {
   border-top: 10px solid #ffcf09;
 }
-/* line 1248, ../scss/breakpoints/_768up.scss */
+/* line 1258, ../scss/breakpoints/_768up.scss */
 .area .lists .list:nth-child(6) .active {
   background: #ffcf09;
 }
-/* line 1252, ../scss/breakpoints/_768up.scss */
+/* line 1262, ../scss/breakpoints/_768up.scss */
 .area .lists .list-type {
   cursor: pointer;
   height: 43px;
   border-radius: 5px 5px 0 0;
 }
-/* line 1256, ../scss/breakpoints/_768up.scss */
-.area .lists .list-type:after {
+/* line 1266, ../scss/breakpoints/_768up.scss */
+.area .lists .list-type p:after {
   display: none;
 }
-/* line 1260, ../scss/breakpoints/_768up.scss */
+/* line 1270, ../scss/breakpoints/_768up.scss */
 .area .lists .list .active {
   height: 46px;
 }
-/* line 1263, ../scss/breakpoints/_768up.scss */
+/* line 1273, ../scss/breakpoints/_768up.scss */
 .area .lists .list-area {
   position: absolute;
   max-width: 1125px;
@@ -1730,20 +1744,20 @@ body #content {
   top: 46px;
   left: 0;
 }
-/* line 1270, ../scss/breakpoints/_768up.scss */
+/* line 1280, ../scss/breakpoints/_768up.scss */
 .area .lists .list-area .pref:after {
   display: none;
 }
-/* line 1273, ../scss/breakpoints/_768up.scss */
+/* line 1283, ../scss/breakpoints/_768up.scss */
 .area .lists .list-area .pref ~ .pref {
   border-top: 0 none;
 }
 
-/* line 1282, ../scss/breakpoints/_768up.scss */
+/* line 1292, ../scss/breakpoints/_768up.scss */
 .footer-top:before {
   display: none;
 }
-/* line 1285, ../scss/breakpoints/_768up.scss */
+/* line 1295, ../scss/breakpoints/_768up.scss */
 .footer-top-inner {
   display: flex;
   justify-content: space-between;
@@ -1751,54 +1765,54 @@ body #content {
   margin: auto;
   padding: 20px 0;
 }
-/* line 1291, ../scss/breakpoints/_768up.scss */
+/* line 1301, ../scss/breakpoints/_768up.scss */
 .footer-top-inner-info {
   text-align: left;
 }
-/* line 1294, ../scss/breakpoints/_768up.scss */
+/* line 1304, ../scss/breakpoints/_768up.scss */
 .footer-top-inner .logo {
   height: 51px;
 }
-/* line 1296, ../scss/breakpoints/_768up.scss */
+/* line 1306, ../scss/breakpoints/_768up.scss */
 .footer-top-inner .logo a img {
   object-fit: cover;
   width: auto;
   height: 100%;
 }
-/* line 1303, ../scss/breakpoints/_768up.scss */
+/* line 1313, ../scss/breakpoints/_768up.scss */
 .footer-top-inner .address li {
   padding: 5px 0;
   font-size: 16px;
 }
-/* line 1308, ../scss/breakpoints/_768up.scss */
+/* line 1318, ../scss/breakpoints/_768up.scss */
 .footer-top-inner .cf:after {
   display: none;
 }
-/* line 1313, ../scss/breakpoints/_768up.scss */
+/* line 1323, ../scss/breakpoints/_768up.scss */
 .footer-top-inner nav div .menu {
   width: 300px;
   height: 200px;
   border: none;
 }
-/* line 1319, ../scss/breakpoints/_768up.scss */
+/* line 1329, ../scss/breakpoints/_768up.scss */
 .footer-top-inner nav div .menu li a:before {
   display: none;
 }
-/* line 1324, ../scss/breakpoints/_768up.scss */
+/* line 1334, ../scss/breakpoints/_768up.scss */
 .footer-top-inner nav div .menu li + li {
   border: none;
 }
-/* line 1327, ../scss/breakpoints/_768up.scss */
+/* line 1337, ../scss/breakpoints/_768up.scss */
 .footer-top-inner nav div .menu li:nth-child(n+6) {
   border: none;
 }
-/* line 1330, ../scss/breakpoints/_768up.scss */
+/* line 1340, ../scss/breakpoints/_768up.scss */
 .footer-top-inner nav div .menu li:nth-child(-n+5) {
   border-bottom: none;
   border-right: none;
 }
 
-/* line 1340, ../scss/breakpoints/_768up.scss */
+/* line 1350, ../scss/breakpoints/_768up.scss */
 .copyright {
   margin-bottom: -40px;
 }
@@ -1806,12 +1820,12 @@ body #content {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1348, ../scss/breakpoints/_768up.scss */
+/* line 1358, ../scss/breakpoints/_768up.scss */
 footer {
   display: none;
 }
 
-/* line 1351, ../scss/breakpoints/_768up.scss */
+/* line 1361, ../scss/breakpoints/_768up.scss */
 .footer-bottom {
   background-image: url("../images/background/navigation1.png");
   background-size: contain;
@@ -1820,18 +1834,18 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-/* line 1358, ../scss/breakpoints/_768up.scss */
+/* line 1368, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left {
   display: block;
 }
-/* line 1360, ../scss/breakpoints/_768up.scss */
+/* line 1370, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags {
   display: flex;
   justify-content: space-between;
   width: 332px;
   margin-bottom: 10px;
 }
-/* line 1365, ../scss/breakpoints/_768up.scss */
+/* line 1375, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags .tag {
   display: block;
   width: 50px;
@@ -1842,88 +1856,88 @@ footer {
   color: #fff;
   border-radius: 5px;
 }
-/* line 1374, ../scss/breakpoints/_768up.scss */
+/* line 1384, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags .tag:nth-child(1) {
   background: #69ea35;
 }
-/* line 1377, ../scss/breakpoints/_768up.scss */
+/* line 1387, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags .tag:nth-child(2) {
   background: #11d3ff;
 }
-/* line 1380, ../scss/breakpoints/_768up.scss */
+/* line 1390, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags .tag:nth-child(3) {
   background: #148eff;
 }
-/* line 1383, ../scss/breakpoints/_768up.scss */
+/* line 1393, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags .tag:nth-child(4) {
   background: #b57afc;
 }
-/* line 1386, ../scss/breakpoints/_768up.scss */
+/* line 1396, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags .tag:nth-child(5) {
   background: #fb72bc;
 }
-/* line 1389, ../scss/breakpoints/_768up.scss */
+/* line 1399, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .tags .tag:nth-child(6) {
   background: #ffcf09;
   width: 57px;
 }
-/* line 1395, ../scss/breakpoints/_768up.scss */
+/* line 1405, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .is-show {
   transform: translateY(0);
 }
-/* line 1398, ../scss/breakpoints/_768up.scss */
+/* line 1408, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .logo {
   height: 51px;
 }
-/* line 1400, ../scss/breakpoints/_768up.scss */
+/* line 1410, ../scss/breakpoints/_768up.scss */
 .footer-bottom-left .logo a img {
   object-fit: cover;
   height: 100%;
 }
-/* line 1406, ../scss/breakpoints/_768up.scss */
+/* line 1416, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right {
   padding-top: 0;
   align-items: center;
 }
-/* line 1409, ../scss/breakpoints/_768up.scss */
+/* line 1419, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right .phone {
   height: 49px;
   width: 198px;
   justify-content: flex-start;
   margin-left: 10px;
 }
-/* line 1414, ../scss/breakpoints/_768up.scss */
+/* line 1424, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right .phone img {
   margin-right: 10px;
 }
-/* line 1418, ../scss/breakpoints/_768up.scss */
+/* line 1428, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right .phone-details .phone-number {
   font-size: 20px;
 }
-/* line 1421, ../scss/breakpoints/_768up.scss */
+/* line 1431, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right .phone-details .phone-time {
   font-size: 13px;
 }
-/* line 1426, ../scss/breakpoints/_768up.scss */
+/* line 1436, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right .quote {
   margin: 10px;
   padding: 8px;
   height: 56px;
   width: 190px;
 }
-/* line 1431, ../scss/breakpoints/_768up.scss */
+/* line 1441, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right .quote img {
   display: block;
   height: 40px;
 }
-/* line 1435, ../scss/breakpoints/_768up.scss */
+/* line 1445, ../scss/breakpoints/_768up.scss */
 .footer-bottom-right .quote span {
   height: 40px;
   line-height: 40px;
   font-size: 20px;
 }
 
-/* line 1445, ../scss/breakpoints/_768up.scss */
+/* line 1455, ../scss/breakpoints/_768up.scss */
 .clone {
   position: fixed;
   bottom: 0;
@@ -1935,23 +1949,23 @@ footer {
   height: 115px;
 }
 
-/* line 1455, ../scss/breakpoints/_768up.scss */
+/* line 1465, ../scss/breakpoints/_768up.scss */
 .is-show {
   transform: translateY(0);
 }
 
-/* line 1460, ../scss/breakpoints/_768up.scss */
+/* line 1470, ../scss/breakpoints/_768up.scss */
 .company-content {
   height: 980px;
 }
 
-/* line 1463, ../scss/breakpoints/_768up.scss */
+/* line 1473, ../scss/breakpoints/_768up.scss */
 .recruitment-contents,
 .contact-contents {
   background-color: #fff;
   width: 100%;
 }
-/* line 1467, ../scss/breakpoints/_768up.scss */
+/* line 1477, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner,
 .recruitment-contents .inner-contact,
 .contact-contents .company-inner,
@@ -1959,7 +1973,7 @@ footer {
   width: 63%;
   margin: auto;
 }
-/* line 1471, ../scss/breakpoints/_768up.scss */
+/* line 1481, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .title,
 .recruitment-contents .inner-contact .title,
 .contact-contents .company-inner .title,
@@ -1967,14 +1981,14 @@ footer {
   font-size: 24px;
   padding-top: 70px;
 }
-/* line 1475, ../scss/breakpoints/_768up.scss */
+/* line 1485, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .border,
 .recruitment-contents .inner-contact .border,
 .contact-contents .company-inner .border,
 .contact-contents .inner-contact .border {
   margin-top: -12px;
 }
-/* line 1478, ../scss/breakpoints/_768up.scss */
+/* line 1488, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .text,
 .recruitment-contents .inner-contact .text,
 .contact-contents .company-inner .text,
@@ -1983,55 +1997,57 @@ footer {
   margin: auto;
   padding-bottom: 18px;
 }
-/* line 1482, ../scss/breakpoints/_768up.scss */
+/* line 1492, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .text li,
 .recruitment-contents .inner-contact .text li,
 .contact-contents .company-inner .text li,
 .contact-contents .inner-contact .text li {
   margin-left: 50px;
 }
-/* line 1486, ../scss/breakpoints/_768up.scss */
+/* line 1496, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .text .itemtext,
 .recruitment-contents .inner-contact .text .itemtext,
 .contact-contents .company-inner .text .itemtext,
 .contact-contents .inner-contact .text .itemtext {
   margin-left: 80px;
 }
-/* line 1489, ../scss/breakpoints/_768up.scss */
+/* line 1499, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .text .itemtext2,
 .recruitment-contents .inner-contact .text .itemtext2,
 .contact-contents .company-inner .text .itemtext2,
 .contact-contents .inner-contact .text .itemtext2 {
   margin-left: 74px;
 }
-/* line 1493, ../scss/breakpoints/_768up.scss */
+/* line 1503, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form,
 .recruitment-contents .inner-contact .contact-form,
 .contact-contents .company-inner .contact-form,
 .contact-contents .inner-contact .contact-form {
+  width: 100%;
   margin: auto;
 }
-/* line 1495, ../scss/breakpoints/_768up.scss */
+/* line 1506, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form,
 .recruitment-contents .inner-contact .contact-form .application-form,
 .contact-contents .company-inner .contact-form .application-form,
 .contact-contents .inner-contact .contact-form .application-form {
-  width: 100%;
+  width: 110%;
   background-color: #fff;
   color: #323944;
   font-weight: 600;
   margin: auto;
+  margin-left: -30px;
   /* 必須項目の入力欄を黄色にする */
   /* エラーメッセージを見やすくする */
 }
-/* line 1501, ../scss/breakpoints/_768up.scss */
+/* line 1513, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form tr,
 .recruitment-contents .inner-contact .contact-form .application-form tr,
 .contact-contents .company-inner .contact-form .application-form tr,
 .contact-contents .inner-contact .contact-form .application-form tr {
   width: 100%;
 }
-/* line 1504, ../scss/breakpoints/_768up.scss */
+/* line 1515, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form tr th,
 .recruitment-contents .inner-contact .contact-form .application-form tr th,
 .contact-contents .company-inner .contact-form .application-form tr th,
@@ -2040,7 +2056,7 @@ footer {
   padding-top: 20px;
   text-align: left;
 }
-/* line 1509, ../scss/breakpoints/_768up.scss */
+/* line 1520, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form tr .message,
 .recruitment-contents .inner-contact .contact-form .application-form tr .message,
 .contact-contents .company-inner .contact-form .application-form tr .message,
@@ -2049,7 +2065,7 @@ footer {
   padding-top: 50px;
   padding-left: 90px;
 }
-/* line 1514, ../scss/breakpoints/_768up.scss */
+/* line 1525, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form tr .contactmessage,
 .recruitment-contents .inner-contact .contact-form .application-form tr .contactmessage,
 .contact-contents .company-inner .contact-form .application-form tr .contactmessage,
@@ -2057,16 +2073,16 @@ footer {
   vertical-align: top;
   padding-top: 50px;
 }
-/* line 1518, ../scss/breakpoints/_768up.scss */
+/* line 1529, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form tr td,
 .recruitment-contents .inner-contact .contact-form .application-form tr td,
 .contact-contents .company-inner .contact-form .application-form tr td,
 .contact-contents .inner-contact .contact-form .application-form tr td {
-  width: 70%;
+  width: 100%;
   padding-top: 20px;
-  padding-left: 40px;
+  padding-left: 0px;
 }
-/* line 1525, ../scss/breakpoints/_768up.scss */
+/* line 1537, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
 .recruitment-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
 .recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
@@ -2078,7 +2094,14 @@ footer {
   background: #FBFFDF;
   color: #444;
 }
-/* line 1531, ../scss/breakpoints/_768up.scss */
+/* line 1543, ../scss/breakpoints/_768up.scss */
+.recruitment-contents .company-inner .contact-form .application-form input.wpcf7-submit,
+.recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-submit,
+.contact-contents .company-inner .contact-form .application-form input.wpcf7-submit,
+.contact-contents .inner-contact .contact-form .application-form input.wpcf7-submit {
+  margin-left: -200px;
+}
+/* line 1548, ../scss/breakpoints/_768up.scss */
 .recruitment-contents .company-inner .contact-form .application-form span.wpcf7-not-valid-tip,
 .recruitment-contents .company-inner .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
 .recruitment-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
@@ -2091,31 +2114,31 @@ footer {
   font-weight: bold;
 }
 
-/* line 1542, ../scss/breakpoints/_768up.scss */
+/* line 1559, ../scss/breakpoints/_768up.scss */
 .company-contents .company-inner {
   width: 800px;
 }
-/* line 1545, ../scss/breakpoints/_768up.scss */
+/* line 1562, ../scss/breakpoints/_768up.scss */
 .company-contents .company-inner ul li {
   margin: 30px 0;
   padding: 5px 0 32px 20px;
 }
-/* line 1548, ../scss/breakpoints/_768up.scss */
+/* line 1565, ../scss/breakpoints/_768up.scss */
 .company-contents .company-inner ul li p {
   width: 624px;
 }
-/* line 1551, ../scss/breakpoints/_768up.scss */
+/* line 1568, ../scss/breakpoints/_768up.scss */
 .company-contents .company-inner ul li .ggmap {
   width: 624px;
   height: 338px;
 }
-/* line 1554, ../scss/breakpoints/_768up.scss */
+/* line 1571, ../scss/breakpoints/_768up.scss */
 .company-contents .company-inner ul li .ggmap iframe {
   width: 100%;
   padding-top: 0;
 }
 
-/* line 1565, ../scss/breakpoints/_768up.scss */
+/* line 1582, ../scss/breakpoints/_768up.scss */
 .map-title {
   float: left;
   text-align: center;
@@ -2125,7 +2148,7 @@ footer {
   font-weight: 600;
 }
 
-/* line 1574, ../scss/breakpoints/_768up.scss */
+/* line 1591, ../scss/breakpoints/_768up.scss */
 .ggmap {
   position: relative;
   padding-left: 50%;
@@ -2135,7 +2158,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 1583, ../scss/breakpoints/_768up.scss */
+/* line 1600, ../scss/breakpoints/_768up.scss */
 .ggmap iframe,
 .ggmap object,
 .ggmap embed {
@@ -2147,19 +2170,19 @@ footer {
   height: 100%;
 }
 
-/* line 1596, ../scss/breakpoints/_768up.scss */
+/* line 1613, ../scss/breakpoints/_768up.scss */
 .uservoice {
   background-color: #fff;
   width: 100%;
   margin: auto;
 }
-/* line 1600, ../scss/breakpoints/_768up.scss */
+/* line 1617, ../scss/breakpoints/_768up.scss */
 .uservoice-bigtitle {
   width: 84%;
   margin: auto;
   margin-top: 40px;
 }
-/* line 1604, ../scss/breakpoints/_768up.scss */
+/* line 1621, ../scss/breakpoints/_768up.scss */
 .uservoice-bigtitle h3 {
   background-color: #fff;
   font-size: 20px;
@@ -2168,13 +2191,13 @@ footer {
   border-left: 5px solid #00AE78;
   padding-left: 9px;
 }
-/* line 1612, ../scss/breakpoints/_768up.scss */
+/* line 1629, ../scss/breakpoints/_768up.scss */
 .uservoice-bigtitle .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
-/* line 1618, ../scss/breakpoints/_768up.scss */
+/* line 1635, ../scss/breakpoints/_768up.scss */
 .uservoice-lists {
   display: flex;
   justify-content: space-around;
@@ -2182,21 +2205,21 @@ footer {
   width: 87%;
   margin: auto;
 }
-/* line 1624, ../scss/breakpoints/_768up.scss */
+/* line 1641, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list {
   padding-top: 20px;
 }
-/* line 1626, ../scss/breakpoints/_768up.scss */
+/* line 1643, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list .imgbox {
   position: relative;
 }
-/* line 1628, ../scss/breakpoints/_768up.scss */
+/* line 1645, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list .imgbox img {
   width: 340px;
   height: 240px;
   object-fit: cover;
 }
-/* line 1634, ../scss/breakpoints/_768up.scss */
+/* line 1651, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list .title {
   width: 152px;
   font-size: 12px;
@@ -2205,7 +2228,7 @@ footer {
   font-weight: bold;
   margin: 10px 0;
 }
-/* line 1642, ../scss/breakpoints/_768up.scss */
+/* line 1659, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list .detail {
   width: 340px;
   display: flex;
@@ -2213,33 +2236,33 @@ footer {
   font-weight: bold;
   margin: 10px 0;
 }
-/* line 1649, ../scss/breakpoints/_768up.scss */
+/* line 1666, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list a {
   color: #444;
 }
-/* line 1651, ../scss/breakpoints/_768up.scss */
+/* line 1668, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list a:hover {
   color: #8FF18B;
 }
-/* line 1655, ../scss/breakpoints/_768up.scss */
+/* line 1672, ../scss/breakpoints/_768up.scss */
 .uservoice-lists .uservoice-list .borderblue {
   display: none;
 }
 
-/* line 1663, ../scss/breakpoints/_768up.scss */
+/* line 1680, ../scss/breakpoints/_768up.scss */
 .uservoicedetails-menu {
   display: flex;
   width: 100%;
   margin: auto;
 }
-/* line 1667, ../scss/breakpoints/_768up.scss */
+/* line 1684, ../scss/breakpoints/_768up.scss */
 .uservoicedetails-menu .uservoicedetails-title {
   width: 50%;
   margin: auto;
   margin-top: 50px;
   margin-left: 200px;
 }
-/* line 1672, ../scss/breakpoints/_768up.scss */
+/* line 1689, ../scss/breakpoints/_768up.scss */
 .uservoicedetails-menu .uservoicedetails-title h3 {
   background-color: #fff;
   font-size: 20px;
@@ -2248,21 +2271,21 @@ footer {
   border-left: 5px solid #00AE78;
   padding-left: 9px;
 }
-/* line 1680, ../scss/breakpoints/_768up.scss */
+/* line 1697, ../scss/breakpoints/_768up.scss */
 .uservoicedetails-menu .uservoicedetails-title .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
 
-/* line 1687, ../scss/breakpoints/_768up.scss */
+/* line 1704, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails {
   width: 100%;
   margin: auto;
   margin-top: 10px;
   background-color: #fff;
 }
-/* line 1692, ../scss/breakpoints/_768up.scss */
+/* line 1709, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog {
   position: relative;
   width: 100%;
@@ -2270,87 +2293,91 @@ footer {
   font-size: 14px;
   padding-top: 20px;
 }
-/* line 1698, ../scss/breakpoints/_768up.scss */
+/* line 1715, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog h2 {
   color: #FF3898;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 1703, ../scss/breakpoints/_768up.scss */
+/* line 1720, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog img {
   display: block;
   width: 100%;
 }
-/* line 1707, ../scss/breakpoints/_768up.scss */
+/* line 1724, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table {
   background-color: #e5fff2;
   width: 100%;
-  height: 260px;
-  padding-top: 5px;
+  height: 100%;
+  padding: 5px 0 20px 0;
 }
-/* line 1712, ../scss/breakpoints/_768up.scss */
+/* line 1729, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage {
   width: 84%;
   margin: auto;
   margin-top: 10px;
 }
-/* line 1716, ../scss/breakpoints/_768up.scss */
+/* line 1733, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage ul {
   width: 100%;
   margin: auto;
   padding: 6px 0;
 }
-/* line 1721, ../scss/breakpoints/_768up.scss */
+/* line 1738, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage li {
   display: inline-block;
   vertical-align: top;
   font-size: 12px;
   margin: auto;
 }
-/* line 1727, ../scss/breakpoints/_768up.scss */
+/* line 1744, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .item {
   color: #00AE78;
   font-weight: bold;
 }
-/* line 1731, ../scss/breakpoints/_768up.scss */
+/* line 1748, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext {
   color: #444;
   margin-left: 56px;
+  width: 76%;
 }
-/* line 1735, ../scss/breakpoints/_768up.scss */
+/* line 1753, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext2 {
   color: #444;
   margin-left: 68px;
+  width: 76%;
 }
-/* line 1739, ../scss/breakpoints/_768up.scss */
+/* line 1758, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext3 {
   color: #444;
   margin-left: 80px;
+  width: 76%;
 }
-/* line 1743, ../scss/breakpoints/_768up.scss */
+/* line 1763, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext4 {
   color: #444;
-  margin-left: 40px;
+  margin-left: 38px;
   margin-top: 0;
+  width: 75%;
 }
-/* line 1748, ../scss/breakpoints/_768up.scss */
+/* line 1769, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .borderblue {
   width: 100%;
   margin: auto;
   border-bottom: 1px dotted #00c1e1;
 }
-/* line 1755, ../scss/breakpoints/_768up.scss */
+/* line 1776, ../scss/breakpoints/_768up.scss */
 .inner-uservoicedetails .uservoicedetails-blog .bordersolid {
   width: 100%;
   margin: auto;
   border-bottom: 1px solid #00c1e1;
 }
 
-/* line 1764, ../scss/breakpoints/_768up.scss */
+/* line 1785, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc {
   background-color: #fff;
 }
-/* line 1766, ../scss/breakpoints/_768up.scss */
+/* line 1787, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .article {
   color: #444;
   font-size: 16px;
@@ -2358,29 +2385,29 @@ footer {
   padding-top: 10px;
   margin-left: 10px;
 }
-/* line 1773, ../scss/breakpoints/_768up.scss */
+/* line 1794, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc {
   display: flex;
   width: 100%;
 }
-/* line 1776, ../scss/breakpoints/_768up.scss */
+/* line 1797, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list {
   width: 100%;
   margin: auto;
   margin-top: -10px;
 }
-/* line 1780, ../scss/breakpoints/_768up.scss */
+/* line 1801, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list .imgbox {
   width: 100%;
   position: relative;
   padding: 10px;
 }
-/* line 1784, ../scss/breakpoints/_768up.scss */
+/* line 1805, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list .imgbox img {
   display: block;
   width: 100%;
 }
-/* line 1789, ../scss/breakpoints/_768up.scss */
+/* line 1810, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list .labelpc {
   position: absolute;
   top: 10px;
@@ -2392,16 +2419,16 @@ footer {
   text-align: center;
   font-size: 12px;
 }
-/* line 1800, ../scss/breakpoints/_768up.scss */
+/* line 1821, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list .title {
-  width: 150px;
+  width: 160px;
   font-size: 13px;
   color: #00AE78;
   border-bottom: 1px solid #999;
   margin-bottom: -10px;
   margin-left: 10px;
 }
-/* line 1808, ../scss/breakpoints/_768up.scss */
+/* line 1829, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list .detail {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -2412,34 +2439,34 @@ footer {
   font-weight: bold;
   padding-left: 10px;
 }
-/* line 1818, ../scss/breakpoints/_768up.scss */
+/* line 1839, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list a {
   color: #444;
 }
-/* line 1820, ../scss/breakpoints/_768up.scss */
+/* line 1841, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list a:hover {
   color: #8FF18B;
   background-color: #8FF18B;
 }
-/* line 1825, ../scss/breakpoints/_768up.scss */
+/* line 1846, ../scss/breakpoints/_768up.scss */
 .uservoicelistspc .imgpc .uservoice-list .borderblue {
   display: none;
 }
 
-/* line 1833, ../scss/breakpoints/_768up.scss */
+/* line 1854, ../scss/breakpoints/_768up.scss */
 .uservoicelist {
   width: 18%;
   margin-top: -26px;
   margin-right: 180px;
 }
 
-/* line 1838, ../scss/breakpoints/_768up.scss */
+/* line 1859, ../scss/breakpoints/_768up.scss */
 .uservoicelisttitle {
   background-color: #fff;
   width: 89%;
   margin: auto;
 }
-/* line 1842, ../scss/breakpoints/_768up.scss */
+/* line 1863, ../scss/breakpoints/_768up.scss */
 .uservoicelisttitle .voicetitle {
   background-color: #00AE78;
   color: #fff;
@@ -2452,42 +2479,42 @@ footer {
   padding-left: 50px;
   border-radius: 10px 10px 0 0;
 }
-/* line 1854, ../scss/breakpoints/_768up.scss */
+/* line 1875, ../scss/breakpoints/_768up.scss */
 .uservoicelisttitle .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
-/* line 1859, ../scss/breakpoints/_768up.scss */
+/* line 1880, ../scss/breakpoints/_768up.scss */
 .uservoicelisttitle .tree {
   width: 100%;
   margin: auto;
 }
-/* line 1862, ../scss/breakpoints/_768up.scss */
+/* line 1883, ../scss/breakpoints/_768up.scss */
 .uservoicelisttitle .tree img {
   width: 80%;
   margin-left: 20px;
   margin-bottom: -6px;
 }
 
-/* line 1869, ../scss/breakpoints/_768up.scss */
+/* line 1890, ../scss/breakpoints/_768up.scss */
 .listbox {
   border: 1px solid #00AE78;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 1873, ../scss/breakpoints/_768up.scss */
+/* line 1894, ../scss/breakpoints/_768up.scss */
 .listbox .imgbox {
   margin: auto;
   padding: 10px;
   position: relative;
 }
-/* line 1877, ../scss/breakpoints/_768up.scss */
+/* line 1898, ../scss/breakpoints/_768up.scss */
 .listbox .imgbox img {
   width: 100%;
   margin: auto;
 }
-/* line 1881, ../scss/breakpoints/_768up.scss */
+/* line 1902, ../scss/breakpoints/_768up.scss */
 .listbox .imgbox .label {
   width: 110px;
   height: 20px;
@@ -2497,7 +2524,7 @@ footer {
   font-size: 13px;
   padding-left: 12px;
 }
-/* line 1890, ../scss/breakpoints/_768up.scss */
+/* line 1911, ../scss/breakpoints/_768up.scss */
 .listbox .imgbox .interviewee {
   width: 150px;
   font-size: 13px;

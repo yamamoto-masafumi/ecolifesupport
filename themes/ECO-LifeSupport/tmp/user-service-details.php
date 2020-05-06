@@ -33,18 +33,18 @@
                 <div class="inner-uservoicedetails">
                   <div class="uservoicedetails-blog">
                     <?php if(wp_is_mobile()) : ?>
-                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/sp-user-voice-details-1-1.jpg">
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/sp-user-voice-details-1-1.jpg" alt="不用品回収依頼の女性">
                     <?php else : ?>
-                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/user-voice-details-1-1.jpg">
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/user-voice-details-1-1.jpg" alt="不用品回収依頼の女性">
                     <?php endif; ?>
                       <p>家具を一新しようと色々見積もり依頼を出しましたが、ここが一番安くて即日だったのでとても助かりました！スタッフの方々もみなさん感じが良くて、また頼みたいなと思いました。</p>
                       <br>
                       <h2>早くて安価な価格にサービス精神を感じました！</h2>
                       <br>
                     <?php if(wp_is_mobile()) : ?>
-                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/sp-user-voice-details-1-2.jpg">
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/sp-user-voice-details-1-2.jpg" alt="不用品回収物">
                     <?php else : ?>
-                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/user-voice-details-1-2.jpg">
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/user-voice-details-1-2.jpg" alt="不用品回収物">
                     <?php endif; ?>
                       <p>頼んだ時は電話をして40分程で来てくれました。<br>
                           電話のスタッフさんも丁寧に内容を聞いてくださり安心しました。<br>
@@ -52,14 +52,15 @@
                           他社は7万円の見積りだったのに会社が違うだけでこんなにも変わるなんて。。</p>
                           <br>
                     <?php if(wp_is_mobile()) : ?>
-                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/sp-user-voice-details-1-3.jpg">
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/sp-user-voice-details-1-3.jpg" alt="不用品回収後の部屋">
                     <?php else : ?>
-                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/user-voice-details-1-3.jpg">
+                      <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/uservoice-details/user-voice-details-1-3.jpg" alt="不用品回収後の部屋">
                     <?php endif; ?>
                       <p>あまりにも見積りが安くてあとで追加料金がかかるのかなと思っていましたが、<br>
                           見積りと同じ金額で引き取っていただき、おかげで家具一新が早めにできて助かりました。<br>
                           エコライフサポートさんお得すぎます！<br>
-                          ありがとうございました！</p>
+                          ありがとうございました！
+                          </p>
                           <br>
                           
                         <div class="usage-table">
@@ -150,8 +151,8 @@
 
                   <?php else : ?>
                     <div class="uservoicelistspc">
-                    <p class="article">不用品回収の関連記事</p>
-                      <div class="imgpc">
+                      <p class="article">不用品回収の関連記事</p>
+                        <div class="imgpc">
 
                         <div class="uservoice-list">
                           <div class="imgbox">
