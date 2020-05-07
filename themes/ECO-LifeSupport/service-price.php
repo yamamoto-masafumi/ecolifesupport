@@ -542,7 +542,7 @@
               </p>
             </div>
           </div>
-          <a href="<?php echo home_url('/question'); ?>"><div class="question-btn">よくある質問一覧</div></a>
+          <a href="<?php echo home_url('/faq'); ?>"><div class="question-btn">よくある質問一覧</div></a>
         </div>
 
         <div class="contact">

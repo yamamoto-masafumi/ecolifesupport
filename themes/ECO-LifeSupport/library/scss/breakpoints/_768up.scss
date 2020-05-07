@@ -59,9 +59,12 @@ HEADER STYLES
 header{
   position: static;
   padding: 0 0 20px;
+  width: 100%;
+  margin: auto;
   .header-top{
+    max-width: 1100px;
     height: 130px;
-    margin: 0 10%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     &-left{
@@ -135,16 +138,17 @@ header{
     display: none;
   }
   .hamburger-nav{
+    width: 100%;
     display: block;
     .menu-MainMenu{
       display: block;
+      width: 800px;
       height: 70px;
       border: 0 none;
-      max-width: 1008px;
       margin: auto;
       li{
         display: inline-block;
-        width: 16.4%;
+        width: 16.3%;
         text-align: center;
         position: relative;
         padding-bottom: 10px;
@@ -223,6 +227,9 @@ CONTENT STYLES
 }
 //SLIDE
 .slide{
+  .swiper-wrapper{
+    margin-left: 0px;
+  }
   .prev-top,
   .next-top{
     display: block;
@@ -622,14 +629,13 @@ body{
 .single-format{
   display: flex;
   margin: auto;
-  background-color: #999;
   .post-menu{
-    background-color: #eee;
-    width: 100%;
+    width: 58%;
     margin: auto;
-    // margin-right: -40px;
+    margin-left: -200px;
+    margin-right: 100px;
     .notice-title{
-      width: 58%;
+      width: 86%;
       margin: auto;
       margin-top: 40px;
       margin-left: 200px;
@@ -668,6 +674,10 @@ body{
       background: $green;
       border-radius: 5px;
     }
+  }
+  .noticelist{
+    margin-top: -60px;
+    margin-left: 30px;
   }
 }
 
@@ -1159,6 +1169,9 @@ body{
   background-image: url('../images/background/contact-bg.png');
   background-size: contain;
   min-height: 557px;
+  .watch{
+    padding-top: 40px;
+  }
   &-watch{
     margin: auto;
     height: 40px;
@@ -1172,6 +1185,7 @@ body{
     }
   }
   &-text{
+    padding-top: 40px;
     font-size: 20px;
   }
   .phone{
@@ -1361,10 +1375,12 @@ footer{
 .footer-bottom{
   background-image: url('../images/background/navigation1.png');
   background-size: contain;
+  background-position: top;
   background-repeat: no-repeat;
-  padding: 20px 10%;
+  padding: 20px 100px;
+  width: 1100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   &-left{
     display: block;
     .tags{
@@ -1415,7 +1431,7 @@ footer{
   }
   &-right{
     padding-top: 0;
-    align-items: center;
+    margin-left: 100px;
     .phone{
       height: 49px;
       width: 198px;
@@ -1458,6 +1474,7 @@ footer{
   left: 0;
   z-index: 2;
   width: 100%;
+  margin: auto;
   transition: .3s;
   transform: translateY(100%);
   height: 115px;
@@ -1819,7 +1836,7 @@ footer{
         font-size: 12px;
       }
       .title{
-        width: 160px;
+        width: 170px;
         font-size: 13px;
         color: $green;
         border-bottom: 1px solid #999;
