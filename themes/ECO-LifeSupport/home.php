@@ -6,9 +6,15 @@
       <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
         <div id="swiper-top" class="slide swiper-container">
           <div class="swiper-wrapper">
+          <?php if(wp_is_mobile()) : ?>
+          　<div class="swiper-slide"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/slide/slider-sp.png"></div>
+            <div class="swiper-slide"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/slide/slider-sp-2.png"></div>
+            <div class="swiper-slide"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/slide/slider-sp-3.png"></div>
+            <?php else : ?>
             <div class="swiper-slide"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/slide/slider-img1.png"></div>
             <div class="swiper-slide"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/slide/slider-img2.png"></div>
             <div class="swiper-slide"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/slide/slider-img3.png"></div>
+            <?php endif; ?>
           </div>
           <div class="swiper-pagination pagination-top"></div>
           <div class="swiper-button-prev prev-top"></div>
@@ -31,16 +37,16 @@
           <?php if(wp_is_mobile()) : ?>
             <h2 class="notice-head">お知らせ</h2>
             <p class="notice-paragraph">
-              <span class="date">2020.03.09</span>
-              <span class="detail">不用品回収を行いました。</span>
+              <span class="date"><?php echo get_the_date('Y.m.d'); ?></span>
+              <span class="detail"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
             </p>
             <p class="notice-link"><a href="<?php echo home_url('/notice'); ?>">お知らせ一覧</a></p>
           <?php else : ?>
             <div class="notice-pc">
               <h2 class="notice-head"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/speech-ballon-border.svg"><span>お知らせ</span></h2>
               <p class="notice-paragraph">
-                <span class="date">2020.03.09</span>
-                <span class="detail">不用品回収を行いました。</span>
+                <span class="date"><?php echo get_the_date('Y.m.d'); ?></span>
+                <span class="detail"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
               </p>
               <p class="notice-link"><a href="<?php echo home_url('/notice'); ?>">お知らせ一覧</a></p>
             </div>
@@ -468,7 +474,11 @@
             <p class="h3-sub">CONTACT</p>
           </div>
           <div class="watch contact-watch"></div>
+          <?php if(wp_is_mobile()) : ?>
           <p class="contact-text">まずはお気軽に<br>お問い合わせください。</p>
+          <?php else : ?>
+          <p class="contact-text">まずはお気軽にお問い合わせください。</p>
+          <?php endif; ?>
           <div id="phone" class="phone">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
             <span class="phone-number">0120-994-834</span>

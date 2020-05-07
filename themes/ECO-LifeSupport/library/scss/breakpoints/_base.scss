@@ -338,6 +338,7 @@ POSTS & CONTENT STYLES
 //SLIDE
 .slide{
   .swiper-wrapper{
+    margin-left: -16px;
     .swiper-slide{
       img{
         display: block;
@@ -851,7 +852,6 @@ POSTS & CONTENT STYLES
 
 //POST
 .single-format{
-  // display: flex;
   justify-content: center;
   .post-menu{
     background-color: $white;
@@ -887,6 +887,10 @@ POSTS & CONTENT STYLES
       margin-left: 20px;
       padding: 0 14px;
       font-size: 14px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
@@ -1424,10 +1428,12 @@ POSTS & CONTENT STYLES
 
 //VOICE
 .voice{
+  background-size: 86%;
   background-image: url('../images/background/users-voice-bg.png');
-  background-size: contain;
+  background-position: top;
   background-repeat: no-repeat;
-  padding: 50px 0;
+  padding: 20px 0;
+  margin-top: 40px;
   .sp-slide{
     .swiper-wrapper .swiper-slide{
       .text{
@@ -1556,7 +1562,7 @@ POSTS & CONTENT STYLES
         font-size: 16px;
         color: $white;
         font-weight: bold;
-        margin-left: 50px;
+        margin-left: 60px;
         width: 70%;
         &:before{
           content: 'Q.';
@@ -1564,8 +1570,10 @@ POSTS & CONTENT STYLES
           color: $white;
           width: 50px;
           position: absolute;
-          top: 10px;
           left: 20px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
         }
         &:after{
           content: attr(data-question);
@@ -1772,7 +1780,7 @@ POSTS & CONTENT STYLES
         font-size: 16px;
         color: $white;
         font-weight: bold;
-        margin-left: 50px;
+        margin-left: 60px;
         width: 70%;
         &:before{
           content: 'Q.';
@@ -1780,8 +1788,10 @@ POSTS & CONTENT STYLES
           color: $white;
           width: 50px;
           position: absolute;
-          top: 10px;
           left: 20px;
+          top: 50%;
+          transform : translateY(-50%);
+          -webkit-transform : translateY(-50%);
         }
         &:after{
           content: attr(data-question);
@@ -2020,23 +2030,30 @@ POSTS & CONTENT STYLES
         padding: 10px;
         .pref{
           position: relative;
-          margin: 0;
-          height: 32px;
-          line-height: 32px;
+          width: 88%;
+          margin: auto;
+          height: 44px;
+          line-height: 44px;
+          padding-bottom: 2px;
+          border-top: 1px solid #ebebeb;
           img{
             display: inline-block;
             width: 15px;
             height: 15px;
+            margin-top: 15px;
           }
           span{
             color: $green;
             font-size: 16px;
             border-bottom: 1px solid $green;
-            margin-bottom: 0;
+            margin-left: 8px;
+            margin-top: 20px;
           }
           &:after{
             content: '+';
             position: absolute;
+            font-size: 20px;
+            color: $green;
             right: 0;
             top: 0;
           }
@@ -2048,9 +2065,11 @@ POSTS & CONTENT STYLES
         .city,
         .town,
         .village{
-          margin: 16px 0;
+          width: 90%;
+          margin: auto;
           line-height: 2;
           span{
+            color: #444;
             font-size: 14px;
             border-bottom: 1px solid $black;
           }
@@ -2063,10 +2082,11 @@ POSTS & CONTENT STYLES
   }
 }
 .footer-top{
-  background: $gray;
+  background: #f8f8f8;
   &-inner{
     &-info{
       text-align: center;
+      padding-top: 30px;
       .logo{
         a img{
           display: block;
@@ -2091,7 +2111,8 @@ POSTS & CONTENT STYLES
         li{
           width: 50%;
           height: 40px;
-          padding-left: 30px;
+          padding-left: 50px;
+          padding-top: 5px;
           border-bottom: 1px solid $green;
           a{
             color: $black;
@@ -2099,9 +2120,12 @@ POSTS & CONTENT STYLES
             text-decoration: none;
             &:before{
               content: '>';
+              position: absolute;
+              margin-top: -3px;
+              height: 40px;
               font-size: 20px;
               font-weight: bold;
-              margin-right: 10px;
+              margin-left: -20px;
             }
           }
         }

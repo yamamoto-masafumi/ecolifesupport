@@ -478,7 +478,7 @@
           </div>
           <div class="list">
             <div class="list-question">
-              <p>出張見積りはいくらですか？また最短駆けつけ可能時間を教えてください。</p>
+              <p>出張見積りはいくらですか？最短駆けつけ可能時間を教えてください。</p>
             </div>
             <div class="list-answer hidden">
               <p>
@@ -975,7 +975,7 @@
           </div>
           <div class="list">
             <div class="list-question">
-              <p>出張見積りはいくらですか？また最短駆けつけ可能時間を教えてください。</p>
+              <p>出張見積りはいくらですか？最短駆けつけ可能時間を教えてください。</p>
             </div>
             <div class="list-answer hidden">
               <p>
