@@ -810,11 +810,11 @@ POSTS & CONTENT STYLES
   }
   &-paragraph{
     border: 1px solid $green;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 90%;
     margin: auto;
-    padding: 0 10px;
-    background: $white;
+    padding: 5px 10px;
+    background:  $white;
     .date{
       display: inline-block;
       width: 100px;

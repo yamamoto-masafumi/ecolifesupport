@@ -2390,10 +2390,10 @@ POSTS & CONTENT STYLES
 /* line 811, ../scss/breakpoints/_base.scss */
 .notice-paragraph {
   border: 1px solid #00AE78;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 90%;
   margin: auto;
-  padding: 0 10px;
+  padding: 5px 10px;
   background: #fff;
 }
 /* line 818, ../scss/breakpoints/_base.scss */
