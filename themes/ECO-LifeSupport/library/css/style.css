@@ -5612,57 +5612,58 @@ you can add resource intensive styles.
     border: none;
     height: 50px;
     line-height: 50px;
+    margin-top: 5px;
   }
-  /* line 645, ../scss/breakpoints/_768up.scss */
+  /* line 646, ../scss/breakpoints/_768up.scss */
   .notice-pc .notice-paragraph span {
     font-size: 16px;
   }
-  /* line 649, ../scss/breakpoints/_768up.scss */
+  /* line 650, ../scss/breakpoints/_768up.scss */
   .notice-pc .notice-link {
     width: 190px;
     display: flex;
     align-items: center;
   }
-  /* line 653, ../scss/breakpoints/_768up.scss */
+  /* line 654, ../scss/breakpoints/_768up.scss */
   .notice-pc .notice-link a {
     font-size: 16px;
   }
-  /* line 655, ../scss/breakpoints/_768up.scss */
+  /* line 656, ../scss/breakpoints/_768up.scss */
   .notice-pc .notice-link a:after {
     top: 4px;
   }
 
-  /* line 664, ../scss/breakpoints/_768up.scss */
+  /* line 665, ../scss/breakpoints/_768up.scss */
   .single-format {
     display: flex;
     margin: auto;
   }
-  /* line 667, ../scss/breakpoints/_768up.scss */
+  /* line 668, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu {
     width: 58%;
     margin: auto;
     margin-left: -200px;
     margin-right: 100px;
   }
-  /* line 672, ../scss/breakpoints/_768up.scss */
+  /* line 673, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .notice-title {
     width: 86%;
     margin: auto;
     margin-top: 40px;
     margin-left: 200px;
   }
-  /* line 677, ../scss/breakpoints/_768up.scss */
+  /* line 678, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .notice-title h3 {
     font-size: 24px;
     padding-left: 9px;
   }
-  /* line 681, ../scss/breakpoints/_768up.scss */
+  /* line 682, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .notice-title .border {
     margin: auto;
     margin-top: -12px;
     border-bottom: 3px solid #00c1e1;
   }
-  /* line 686, ../scss/breakpoints/_768up.scss */
+  /* line 687, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .notice-title .thetime {
     text-align: right;
     font-size: 14px;
@@ -5670,13 +5671,13 @@ you can add resource intensive styles.
     margin-top: 0px;
     color: #00AE78;
   }
-  /* line 694, ../scss/breakpoints/_768up.scss */
+  /* line 695, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .post-contents {
     width: 100%;
     font-size: 14px;
     margin-left: 190px;
   }
-  /* line 699, ../scss/breakpoints/_768up.scss */
+  /* line 700, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .post-btn {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -5690,91 +5691,91 @@ you can add resource intensive styles.
     background: #00AE78;
     border-radius: 5px;
   }
-  /* line 713, ../scss/breakpoints/_768up.scss */
+  /* line 714, ../scss/breakpoints/_768up.scss */
   .single-format .noticelist {
     margin-top: -60px;
     margin-left: 30px;
   }
 
-  /* line 721, ../scss/breakpoints/_768up.scss */
+  /* line 722, ../scss/breakpoints/_768up.scss */
   .content-head img {
     width: 40px;
   }
-  /* line 724, ../scss/breakpoints/_768up.scss */
+  /* line 725, ../scss/breakpoints/_768up.scss */
   .content-head h3 {
     font-size: 24px;
   }
-  /* line 726, ../scss/breakpoints/_768up.scss */
+  /* line 727, ../scss/breakpoints/_768up.scss */
   .content-head h3:before, .content-head h3:after {
     content: '';
     width: 150px;
   }
-  /* line 731, ../scss/breakpoints/_768up.scss */
+  /* line 732, ../scss/breakpoints/_768up.scss */
   .content-head h3:before {
     left: -180px;
   }
-  /* line 734, ../scss/breakpoints/_768up.scss */
+  /* line 735, ../scss/breakpoints/_768up.scss */
   .content-head h3:after {
     right: -180px;
   }
-  /* line 738, ../scss/breakpoints/_768up.scss */
+  /* line 739, ../scss/breakpoints/_768up.scss */
   .content-head .h3-sub {
     font-size: 13px;
     margin: 0;
   }
 
-  /* line 746, ../scss/breakpoints/_768up.scss */
+  /* line 747, ../scss/breakpoints/_768up.scss */
   .feature-details {
     display: flex;
     justify-content: space-around;
   }
-  /* line 749, ../scss/breakpoints/_768up.scss */
+  /* line 750, ../scss/breakpoints/_768up.scss */
   .feature-details-detail {
     margin: 20px 0;
     width: 23%;
   }
-  /* line 752, ../scss/breakpoints/_768up.scss */
+  /* line 753, ../scss/breakpoints/_768up.scss */
   .feature-details-detail img {
     width: 271px;
   }
 
-  /* line 762, ../scss/breakpoints/_768up.scss */
+  /* line 763, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide .swiper-wrapper {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  /* line 767, ../scss/breakpoints/_768up.scss */
+  /* line 768, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide .swiper-wrapper .swiper-slide {
     width: 33%;
   }
-  /* line 771, ../scss/breakpoints/_768up.scss */
+  /* line 772, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide .sp-next,
   .voice .sp-slide .sp-prev {
     display: none;
   }
 
-  /* line 780, ../scss/breakpoints/_768up.scss */
+  /* line 781, ../scss/breakpoints/_768up.scss */
   .compare-top {
     margin: 100px 0;
   }
-  /* line 784, ../scss/breakpoints/_768up.scss */
+  /* line 785, ../scss/breakpoints/_768up.scss */
   .compare-table {
     font-size: 20px;
     width: 85%;
     height: 496px;
     margin: auto;
   }
-  /* line 789, ../scss/breakpoints/_768up.scss */
+  /* line 790, ../scss/breakpoints/_768up.scss */
   .compare-table .ecolife-row {
     font-size: 26px;
   }
-  /* line 792, ../scss/breakpoints/_768up.scss */
+  /* line 793, ../scss/breakpoints/_768up.scss */
   .compare-table .data-top {
     position: relative;
   }
-  /* line 794, ../scss/breakpoints/_768up.scss */
+  /* line 795, ../scss/breakpoints/_768up.scss */
   .compare-table .data-top .compare-ribbon {
     width: 84px;
     height: 111px;
@@ -5783,74 +5784,74 @@ you can add resource intensive styles.
     left: -10px;
   }
 
-  /* line 806, ../scss/breakpoints/_768up.scss */
+  /* line 807, ../scss/breakpoints/_768up.scss */
   .servicebackground {
     width: 100%;
     background-image: url("../images/background/about-service-bg.png");
   }
-  /* line 809, ../scss/breakpoints/_768up.scss */
+  /* line 810, ../scss/breakpoints/_768up.scss */
   .servicebackground .service {
     max-width: 1222px;
     margin: auto;
     margin-top: 30px;
   }
-  /* line 814, ../scss/breakpoints/_768up.scss */
+  /* line 815, ../scss/breakpoints/_768up.scss */
   .servicebackground .service-lists .service-list {
     max-width: 294px;
     margin: 0 2%;
   }
-  /* line 817, ../scss/breakpoints/_768up.scss */
+  /* line 818, ../scss/breakpoints/_768up.scss */
   .servicebackground .service-lists .service-list .imgbox {
     margin: 0;
     width: 100%;
   }
-  /* line 820, ../scss/breakpoints/_768up.scss */
+  /* line 821, ../scss/breakpoints/_768up.scss */
   .servicebackground .service-lists .service-list .imgbox img {
     display: block;
     width: 100%;
     height: 194px;
     object-fit: cover;
   }
-  /* line 826, ../scss/breakpoints/_768up.scss */
+  /* line 827, ../scss/breakpoints/_768up.scss */
   .servicebackground .service-lists .service-list .imgbox .ribbon {
     width: 84px;
     height: 111px;
     top: -20px;
     left: -20px;
   }
-  /* line 833, ../scss/breakpoints/_768up.scss */
+  /* line 834, ../scss/breakpoints/_768up.scss */
   .servicebackground .service-lists .service-list .text {
     font-size: 20px;
     width: 100%;
     margin: 0;
   }
-  /* line 838, ../scss/breakpoints/_768up.scss */
+  /* line 839, ../scss/breakpoints/_768up.scss */
   .servicebackground .service-lists .service-list .detail {
     display: block;
     font-size: 14px;
     text-align: left;
   }
 
-  /* line 849, ../scss/breakpoints/_768up.scss */
+  /* line 850, ../scss/breakpoints/_768up.scss */
   .planbackground {
     width: 100%;
   }
-  /* line 851, ../scss/breakpoints/_768up.scss */
+  /* line 852, ../scss/breakpoints/_768up.scss */
   .planbackground .plan {
     max-width: 1122px;
     margin: auto;
   }
-  /* line 855, ../scss/breakpoints/_768up.scss */
+  /* line 856, ../scss/breakpoints/_768up.scss */
   .planbackground .plan-lists .plan-list {
     max-width: 354px;
     margin: auto;
   }
-  /* line 858, ../scss/breakpoints/_768up.scss */
+  /* line 859, ../scss/breakpoints/_768up.scss */
   .planbackground .plan-lists .plan-list img {
     width: 100%;
     height: 280px;
   }
-  /* line 862, ../scss/breakpoints/_768up.scss */
+  /* line 863, ../scss/breakpoints/_768up.scss */
   .planbackground .plan-lists .plan-list .balloon {
     position: relative;
     display: flex;
@@ -5865,7 +5866,7 @@ you can add resource intensive styles.
     align-items: center;
     justify-content: center;
   }
-  /* line 875, ../scss/breakpoints/_768up.scss */
+  /* line 876, ../scss/breakpoints/_768up.scss */
   .planbackground .plan-lists .plan-list .balloon:before {
     content: "";
     position: absolute;
@@ -5875,40 +5876,40 @@ you can add resource intensive styles.
     border: 15px solid transparent;
     border-top: 15px solid #00aac6;
   }
-  /* line 885, ../scss/breakpoints/_768up.scss */
+  /* line 886, ../scss/breakpoints/_768up.scss */
   .planbackground .plan-lists .plan-list .text {
     text-align: left;
   }
-  /* line 887, ../scss/breakpoints/_768up.scss */
+  /* line 888, ../scss/breakpoints/_768up.scss */
   .planbackground .plan-lists .plan-list .text .title {
     font-size: 20px;
   }
-  /* line 890, ../scss/breakpoints/_768up.scss */
+  /* line 891, ../scss/breakpoints/_768up.scss */
   .planbackground .plan-lists .plan-list .text .detail {
     display: block;
     font-size: 14px;
   }
 
-  /* line 901, ../scss/breakpoints/_768up.scss */
+  /* line 902, ../scss/breakpoints/_768up.scss */
   .planbackground2 {
     width: 100%;
   }
-  /* line 903, ../scss/breakpoints/_768up.scss */
+  /* line 904, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2 {
     max-width: 1122px;
     margin: auto;
   }
-  /* line 907, ../scss/breakpoints/_768up.scss */
+  /* line 908, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2-lists .plan-list {
     margin: auto;
     max-width: 354px;
   }
-  /* line 910, ../scss/breakpoints/_768up.scss */
+  /* line 911, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2-lists .plan-list img {
     width: 100%;
     height: 280px;
   }
-  /* line 914, ../scss/breakpoints/_768up.scss */
+  /* line 915, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2-lists .plan-list .balloon {
     position: relative;
     display: flex;
@@ -5923,7 +5924,7 @@ you can add resource intensive styles.
     align-items: center;
     justify-content: center;
   }
-  /* line 927, ../scss/breakpoints/_768up.scss */
+  /* line 928, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2-lists .plan-list .balloon:before {
     content: "";
     position: absolute;
@@ -5933,32 +5934,32 @@ you can add resource intensive styles.
     border: 15px solid transparent;
     border-top: 15px solid #00aac6;
   }
-  /* line 937, ../scss/breakpoints/_768up.scss */
+  /* line 938, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2-lists .plan-list .text {
     text-align: left;
   }
-  /* line 939, ../scss/breakpoints/_768up.scss */
+  /* line 940, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2-lists .plan-list .text .title {
     font-size: 20px;
   }
-  /* line 942, ../scss/breakpoints/_768up.scss */
+  /* line 943, ../scss/breakpoints/_768up.scss */
   .planbackground2 .plan2-lists .plan-list .text .detail {
     display: block;
     font-size: 14px;
   }
 
-  /* line 953, ../scss/breakpoints/_768up.scss */
+  /* line 954, ../scss/breakpoints/_768up.scss */
   .voice {
     background-size: 86%;
     background-repeat: no-repeat;
     background-position: top;
     margin-top: 40px;
   }
-  /* line 958, ../scss/breakpoints/_768up.scss */
+  /* line 959, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide {
     max-width: 1220px;
   }
-  /* line 960, ../scss/breakpoints/_768up.scss */
+  /* line 961, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide .swiper-wrapper .swiper-slide {
     width: 48%;
     display: flex;
@@ -5966,24 +5967,24 @@ you can add resource intensive styles.
     flex-wrap: wrap;
     margin-top: 20px;
   }
-  /* line 966, ../scss/breakpoints/_768up.scss */
+  /* line 967, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide .swiper-wrapper .swiper-slide .imgbox {
     width: 48%;
   }
-  /* line 969, ../scss/breakpoints/_768up.scss */
+  /* line 970, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide .swiper-wrapper .swiper-slide .text {
     width: 46%;
   }
-  /* line 971, ../scss/breakpoints/_768up.scss */
+  /* line 972, ../scss/breakpoints/_768up.scss */
   .voice .sp-slide .swiper-wrapper .swiper-slide .text .detail {
     display: block;
   }
 
-  /* line 980, ../scss/breakpoints/_768up.scss */
+  /* line 981, ../scss/breakpoints/_768up.scss */
   .price {
     margin-top: 140px;
   }
-  /* line 982, ../scss/breakpoints/_768up.scss */
+  /* line 983, ../scss/breakpoints/_768up.scss */
   .price-list {
     width: 1100px;
     height: 528px;
@@ -5993,54 +5994,54 @@ you can add resource intensive styles.
     align-content: space-around;
     margin-top: 50px;
   }
-  /* line 991, ../scss/breakpoints/_768up.scss */
+  /* line 992, ../scss/breakpoints/_768up.scss */
   .price-list .price-item img {
     width: 171px;
     height: 117px;
   }
 
-  /* line 1000, ../scss/breakpoints/_768up.scss */
+  /* line 1001, ../scss/breakpoints/_768up.scss */
   .purchase {
     width: 100%;
     height: 100%;
     margin-top: 40px;
   }
-  /* line 1004, ../scss/breakpoints/_768up.scss */
+  /* line 1005, ../scss/breakpoints/_768up.scss */
   .purchase-list {
     width: 85%;
     height: 900px;
     margin-top: 50px;
   }
-  /* line 1008, ../scss/breakpoints/_768up.scss */
+  /* line 1009, ../scss/breakpoints/_768up.scss */
   .purchase-list-item {
     width: 354px;
   }
-  /* line 1010, ../scss/breakpoints/_768up.scss */
+  /* line 1011, ../scss/breakpoints/_768up.scss */
   .purchase-list-item img {
     width: 354px;
     height: 277px;
   }
-  /* line 1014, ../scss/breakpoints/_768up.scss */
+  /* line 1015, ../scss/breakpoints/_768up.scss */
   .purchase-list-item .item-explain {
     display: block;
   }
 
-  /* line 1022, ../scss/breakpoints/_768up.scss */
+  /* line 1023, ../scss/breakpoints/_768up.scss */
   .penalty {
     width: 60%;
     height: 265px;
     margin: auto;
     margin-top: 40px;
   }
-  /* line 1027, ../scss/breakpoints/_768up.scss */
+  /* line 1028, ../scss/breakpoints/_768up.scss */
   .penalty-title {
     margin-left: -118px;
   }
-  /* line 1030, ../scss/breakpoints/_768up.scss */
+  /* line 1031, ../scss/breakpoints/_768up.scss */
   .penalty-img {
     position: relative;
   }
-  /* line 1032, ../scss/breakpoints/_768up.scss */
+  /* line 1033, ../scss/breakpoints/_768up.scss */
   .penalty-img img {
     width: 240px;
     height: 164px;
@@ -6048,50 +6049,50 @@ you can add resource intensive styles.
     top: -50px;
     left: -90px;
   }
-  /* line 1040, ../scss/breakpoints/_768up.scss */
+  /* line 1041, ../scss/breakpoints/_768up.scss */
   .penalty-bottom {
     width: 100%;
     margin-left: 180px;
     color: #323944;
   }
 
-  /* line 1050, ../scss/breakpoints/_768up.scss */
+  /* line 1051, ../scss/breakpoints/_768up.scss */
   .flow .steps {
     max-width: 1240px;
     display: flex;
     position: relative;
     margin: auto;
   }
-  /* line 1055, ../scss/breakpoints/_768up.scss */
+  /* line 1056, ../scss/breakpoints/_768up.scss */
   .flow .steps .step {
     display: block;
     width: 17%;
   }
-  /* line 1058, ../scss/breakpoints/_768up.scss */
+  /* line 1059, ../scss/breakpoints/_768up.scss */
   .flow .steps .step img {
     margin: auto;
     width: 180px;
     height: 180px;
   }
-  /* line 1063, ../scss/breakpoints/_768up.scss */
+  /* line 1064, ../scss/breakpoints/_768up.scss */
   .flow .steps .step-detail {
     margin: 0;
   }
-  /* line 1065, ../scss/breakpoints/_768up.scss */
+  /* line 1066, ../scss/breakpoints/_768up.scss */
   .flow .steps .step-detail-title {
     font-size: 20px;
     text-align: center;
     margin: 10px 0;
   }
-  /* line 1070, ../scss/breakpoints/_768up.scss */
+  /* line 1071, ../scss/breakpoints/_768up.scss */
   .flow .steps .step-detail-text {
     font-size: 14px;
   }
-  /* line 1074, ../scss/breakpoints/_768up.scss */
+  /* line 1075, ../scss/breakpoints/_768up.scss */
   .flow .steps .step:before {
     display: none;
   }
-  /* line 1078, ../scss/breakpoints/_768up.scss */
+  /* line 1079, ../scss/breakpoints/_768up.scss */
   .flow .steps-arrow {
     display: block;
     height: 20px;
@@ -6099,33 +6100,33 @@ you can add resource intensive styles.
     top: 100px;
   }
 
-  /* line 1089, ../scss/breakpoints/_768up.scss */
+  /* line 1090, ../scss/breakpoints/_768up.scss */
   .question .list {
     width: 69%;
     margin: 30px auto;
   }
-  /* line 1092, ../scss/breakpoints/_768up.scss */
+  /* line 1093, ../scss/breakpoints/_768up.scss */
   .question .list-question {
     padding: 18px 0;
   }
-  /* line 1094, ../scss/breakpoints/_768up.scss */
+  /* line 1095, ../scss/breakpoints/_768up.scss */
   .question .list-question p {
     font-size: 20px;
     margin-left: 80px;
     width: 100%;
   }
-  /* line 1098, ../scss/breakpoints/_768up.scss */
+  /* line 1099, ../scss/breakpoints/_768up.scss */
   .question .list-question p:before {
     content: 'Q.';
     font-size: 30px;
     left: 40px;
   }
-  /* line 1106, ../scss/breakpoints/_768up.scss */
+  /* line 1107, ../scss/breakpoints/_768up.scss */
   .question .list-answer p {
     padding: 40px 20px 40px 10px;
     margin-left: 80px;
   }
-  /* line 1109, ../scss/breakpoints/_768up.scss */
+  /* line 1110, ../scss/breakpoints/_768up.scss */
   .question .list-answer p:before {
     content: 'A .';
     font-size: 30px;
@@ -6133,26 +6134,26 @@ you can add resource intensive styles.
     top: 28px;
   }
 
-  /* line 1122, ../scss/breakpoints/_768up.scss */
+  /* line 1123, ../scss/breakpoints/_768up.scss */
   .faq-question {
     background-color: #fff;
     width: 100%;
     height: 375px;
     text-align: left;
   }
-  /* line 1127, ../scss/breakpoints/_768up.scss */
+  /* line 1128, ../scss/breakpoints/_768up.scss */
   .faq-question .inner-menu {
     max-width: 1300px;
     padding-top: 40px;
     width: 72%;
     margin: auto;
   }
-  /* line 1132, ../scss/breakpoints/_768up.scss */
+  /* line 1133, ../scss/breakpoints/_768up.scss */
   .faq-question .inner-menu ul {
     margin: auto;
     margin-left: 20px;
   }
-  /* line 1135, ../scss/breakpoints/_768up.scss */
+  /* line 1136, ../scss/breakpoints/_768up.scss */
   .faq-question .inner-menu ul li {
     font-size: 20px;
     font-weight: bold;
@@ -6163,26 +6164,26 @@ you can add resource intensive styles.
     background-color: #fff;
     padding: 20px;
   }
-  /* line 1144, ../scss/breakpoints/_768up.scss */
+  /* line 1145, ../scss/breakpoints/_768up.scss */
   .faq-question .inner-menu ul li a {
     color: #323944;
     text-decoration-line: none;
   }
-  /* line 1147, ../scss/breakpoints/_768up.scss */
+  /* line 1148, ../scss/breakpoints/_768up.scss */
   .faq-question .inner-menu ul li a:hover {
     border-bottom: 3px solid #8ff18b;
     padding-bottom: 10px;
   }
-  /* line 1152, ../scss/breakpoints/_768up.scss */
+  /* line 1153, ../scss/breakpoints/_768up.scss */
   .faq-question .inner-menu ul li p {
     margin-top: 25px;
   }
-  /* line 1157, ../scss/breakpoints/_768up.scss */
+  /* line 1158, ../scss/breakpoints/_768up.scss */
   .faq-question .inner-menu .faq-question-menu {
     margin-top: -17px;
   }
 
-  /* line 1169, ../scss/breakpoints/_768up.scss */
+  /* line 1170, ../scss/breakpoints/_768up.scss */
   .question-green .list,
   .question-blue .list,
   .question-purple .list,
@@ -6191,7 +6192,7 @@ you can add resource intensive styles.
     width: 69%;
     margin: 30px auto;
   }
-  /* line 1172, ../scss/breakpoints/_768up.scss */
+  /* line 1173, ../scss/breakpoints/_768up.scss */
   .question-green .list-question,
   .question-blue .list-question,
   .question-purple .list-question,
@@ -6199,7 +6200,7 @@ you can add resource intensive styles.
   .question-white .list-question {
     padding: 18px 0;
   }
-  /* line 1174, ../scss/breakpoints/_768up.scss */
+  /* line 1175, ../scss/breakpoints/_768up.scss */
   .question-green .list-question p,
   .question-blue .list-question p,
   .question-purple .list-question p,
@@ -6209,7 +6210,7 @@ you can add resource intensive styles.
     margin-left: 80px;
     width: 100%;
   }
-  /* line 1178, ../scss/breakpoints/_768up.scss */
+  /* line 1179, ../scss/breakpoints/_768up.scss */
   .question-green .list-question p:before,
   .question-blue .list-question p:before,
   .question-purple .list-question p:before,
@@ -6219,7 +6220,7 @@ you can add resource intensive styles.
     font-size: 30px;
     left: 40px;
   }
-  /* line 1186, ../scss/breakpoints/_768up.scss */
+  /* line 1187, ../scss/breakpoints/_768up.scss */
   .question-green .list-answer p,
   .question-blue .list-answer p,
   .question-purple .list-answer p,
@@ -6228,7 +6229,7 @@ you can add resource intensive styles.
     padding: 40px 20px 40px 10px;
     margin-left: 80px;
   }
-  /* line 1189, ../scss/breakpoints/_768up.scss */
+  /* line 1190, ../scss/breakpoints/_768up.scss */
   .question-green .list-answer p:before,
   .question-blue .list-answer p:before,
   .question-purple .list-answer p:before,
@@ -6240,17 +6241,17 @@ you can add resource intensive styles.
     top: 28px;
   }
 
-  /* line 1201, ../scss/breakpoints/_768up.scss */
+  /* line 1202, ../scss/breakpoints/_768up.scss */
   .contact {
     background-image: url("../images/background/contact-bg.png");
     background-size: contain;
     min-height: 557px;
   }
-  /* line 1205, ../scss/breakpoints/_768up.scss */
+  /* line 1206, ../scss/breakpoints/_768up.scss */
   .contact .watch {
     padding-top: 40px;
   }
-  /* line 1208, ../scss/breakpoints/_768up.scss */
+  /* line 1209, ../scss/breakpoints/_768up.scss */
   .contact-watch {
     margin: auto;
     height: 40px;
@@ -6260,44 +6261,44 @@ you can add resource intensive styles.
     border-radius: 0;
     background: transparent;
   }
-  /* line 1216, ../scss/breakpoints/_768up.scss */
+  /* line 1217, ../scss/breakpoints/_768up.scss */
   .contact-watch:before {
     border: none;
   }
-  /* line 1220, ../scss/breakpoints/_768up.scss */
+  /* line 1221, ../scss/breakpoints/_768up.scss */
   .contact-text {
     padding-top: 40px;
     font-size: 20px;
   }
-  /* line 1225, ../scss/breakpoints/_768up.scss */
+  /* line 1226, ../scss/breakpoints/_768up.scss */
   .contact .phone img {
     width: 40px;
   }
-  /* line 1228, ../scss/breakpoints/_768up.scss */
+  /* line 1229, ../scss/breakpoints/_768up.scss */
   .contact .phone-number {
     font-size: 50px;
   }
-  /* line 1231, ../scss/breakpoints/_768up.scss */
+  /* line 1232, ../scss/breakpoints/_768up.scss */
   .contact .phone-time {
     font-size: 20px;
   }
-  /* line 1235, ../scss/breakpoints/_768up.scss */
+  /* line 1236, ../scss/breakpoints/_768up.scss */
   .contact-btn {
     width: 236px;
     height: 46px;
     line-height: 46px;
     font-size: 16px;
   }
-  /* line 1240, ../scss/breakpoints/_768up.scss */
+  /* line 1241, ../scss/breakpoints/_768up.scss */
   .contact-btn:after {
     top: 16px;
   }
 
-  /* line 1248, ../scss/breakpoints/_768up.scss */
+  /* line 1249, ../scss/breakpoints/_768up.scss */
   .area-text {
     font-size: 20px;
   }
-  /* line 1251, ../scss/breakpoints/_768up.scss */
+  /* line 1252, ../scss/breakpoints/_768up.scss */
   .area .lists {
     display: flex;
     justify-content: space-around;
@@ -6305,78 +6306,78 @@ you can add resource intensive styles.
     margin: auto;
     position: relative;
   }
-  /* line 1257, ../scss/breakpoints/_768up.scss */
+  /* line 1258, ../scss/breakpoints/_768up.scss */
   .area .lists .list {
     height: 43px;
     margin: 0 2px 0 0;
   }
-  /* line 1261, ../scss/breakpoints/_768up.scss */
+  /* line 1262, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(1) .list-area {
     border-top: 10px solid #69ea35;
   }
-  /* line 1264, ../scss/breakpoints/_768up.scss */
+  /* line 1265, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(1) .active {
     background: #69ea35;
   }
-  /* line 1269, ../scss/breakpoints/_768up.scss */
+  /* line 1270, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(2) .list-area {
     border-top: 10px solid #11d3ff;
   }
-  /* line 1272, ../scss/breakpoints/_768up.scss */
+  /* line 1273, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(2) .active {
     background: #11d3ff;
   }
-  /* line 1277, ../scss/breakpoints/_768up.scss */
+  /* line 1278, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(3) .list-area {
     border-top: 10px solid #148eff;
   }
-  /* line 1280, ../scss/breakpoints/_768up.scss */
+  /* line 1281, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(3) .active {
     background: #148eff;
   }
-  /* line 1285, ../scss/breakpoints/_768up.scss */
+  /* line 1286, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(4) .list-area {
     border-top: 10px solid #b57afc;
   }
-  /* line 1288, ../scss/breakpoints/_768up.scss */
+  /* line 1289, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(4) .active {
     background: #b57afc;
   }
-  /* line 1293, ../scss/breakpoints/_768up.scss */
+  /* line 1294, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(5) .list-area {
     border-top: 10px solid #fb72bc;
   }
-  /* line 1296, ../scss/breakpoints/_768up.scss */
+  /* line 1297, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(5) .active {
     background: #fb72bc;
   }
-  /* line 1300, ../scss/breakpoints/_768up.scss */
+  /* line 1301, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(6) {
     margin: 0;
   }
-  /* line 1302, ../scss/breakpoints/_768up.scss */
+  /* line 1303, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(6) .list-area {
     border-top: 10px solid #ffcf09;
   }
-  /* line 1305, ../scss/breakpoints/_768up.scss */
+  /* line 1306, ../scss/breakpoints/_768up.scss */
   .area .lists .list:nth-child(6) .active {
     background: #ffcf09;
   }
-  /* line 1309, ../scss/breakpoints/_768up.scss */
+  /* line 1310, ../scss/breakpoints/_768up.scss */
   .area .lists .list-type {
     cursor: pointer;
     height: 43px;
     border-radius: 5px 5px 0 0;
   }
-  /* line 1313, ../scss/breakpoints/_768up.scss */
+  /* line 1314, ../scss/breakpoints/_768up.scss */
   .area .lists .list-type p:after {
     display: none;
   }
-  /* line 1317, ../scss/breakpoints/_768up.scss */
+  /* line 1318, ../scss/breakpoints/_768up.scss */
   .area .lists .list .active {
     height: 46px;
   }
-  /* line 1320, ../scss/breakpoints/_768up.scss */
+  /* line 1321, ../scss/breakpoints/_768up.scss */
   .area .lists .list-area {
     position: absolute;
     max-width: 1125px;
@@ -6384,20 +6385,20 @@ you can add resource intensive styles.
     top: 46px;
     left: 0;
   }
-  /* line 1327, ../scss/breakpoints/_768up.scss */
+  /* line 1328, ../scss/breakpoints/_768up.scss */
   .area .lists .list-area .pref:after {
     display: none;
   }
-  /* line 1330, ../scss/breakpoints/_768up.scss */
+  /* line 1331, ../scss/breakpoints/_768up.scss */
   .area .lists .list-area .pref ~ .pref {
     border-top: 0 none;
   }
 
-  /* line 1339, ../scss/breakpoints/_768up.scss */
+  /* line 1340, ../scss/breakpoints/_768up.scss */
   .footer-top:before {
     display: none;
   }
-  /* line 1342, ../scss/breakpoints/_768up.scss */
+  /* line 1343, ../scss/breakpoints/_768up.scss */
   .footer-top-inner {
     display: flex;
     justify-content: space-between;
@@ -6405,54 +6406,54 @@ you can add resource intensive styles.
     margin: auto;
     padding: 20px 0;
   }
-  /* line 1348, ../scss/breakpoints/_768up.scss */
+  /* line 1349, ../scss/breakpoints/_768up.scss */
   .footer-top-inner-info {
     text-align: left;
   }
-  /* line 1351, ../scss/breakpoints/_768up.scss */
+  /* line 1352, ../scss/breakpoints/_768up.scss */
   .footer-top-inner .logo {
     height: 51px;
   }
-  /* line 1353, ../scss/breakpoints/_768up.scss */
+  /* line 1354, ../scss/breakpoints/_768up.scss */
   .footer-top-inner .logo a img {
     object-fit: cover;
     width: auto;
     height: 100%;
   }
-  /* line 1360, ../scss/breakpoints/_768up.scss */
+  /* line 1361, ../scss/breakpoints/_768up.scss */
   .footer-top-inner .address li {
     padding: 5px 0;
     font-size: 16px;
   }
-  /* line 1365, ../scss/breakpoints/_768up.scss */
+  /* line 1366, ../scss/breakpoints/_768up.scss */
   .footer-top-inner .cf:after {
     display: none;
   }
-  /* line 1370, ../scss/breakpoints/_768up.scss */
+  /* line 1371, ../scss/breakpoints/_768up.scss */
   .footer-top-inner nav div .menu {
     width: 320px;
     height: 200px;
     border: none;
   }
-  /* line 1376, ../scss/breakpoints/_768up.scss */
+  /* line 1377, ../scss/breakpoints/_768up.scss */
   .footer-top-inner nav div .menu li a:before {
     display: none;
   }
-  /* line 1381, ../scss/breakpoints/_768up.scss */
+  /* line 1382, ../scss/breakpoints/_768up.scss */
   .footer-top-inner nav div .menu li + li {
     border: none;
   }
-  /* line 1384, ../scss/breakpoints/_768up.scss */
+  /* line 1385, ../scss/breakpoints/_768up.scss */
   .footer-top-inner nav div .menu li:nth-child(n+6) {
     border: none;
   }
-  /* line 1387, ../scss/breakpoints/_768up.scss */
+  /* line 1388, ../scss/breakpoints/_768up.scss */
   .footer-top-inner nav div .menu li:nth-child(-n+5) {
     border-bottom: none;
     border-right: none;
   }
 
-  /* line 1397, ../scss/breakpoints/_768up.scss */
+  /* line 1398, ../scss/breakpoints/_768up.scss */
   .copyright {
     margin-bottom: -40px;
   }
@@ -6460,12 +6461,12 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 1405, ../scss/breakpoints/_768up.scss */
+  /* line 1406, ../scss/breakpoints/_768up.scss */
   footer {
     display: none;
   }
 
-  /* line 1408, ../scss/breakpoints/_768up.scss */
+  /* line 1409, ../scss/breakpoints/_768up.scss */
   .footer-bottom {
     background-image: url("../images/background/navigation1.png");
     background-size: contain;
@@ -6476,18 +6477,18 @@ you can add resource intensive styles.
     display: flex;
     justify-content: center;
   }
-  /* line 1417, ../scss/breakpoints/_768up.scss */
+  /* line 1418, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left {
     display: block;
   }
-  /* line 1419, ../scss/breakpoints/_768up.scss */
+  /* line 1420, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags {
     display: flex;
     justify-content: space-between;
     width: 332px;
     margin-bottom: 10px;
   }
-  /* line 1424, ../scss/breakpoints/_768up.scss */
+  /* line 1425, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags .tag {
     display: block;
     width: 50px;
@@ -6498,88 +6499,88 @@ you can add resource intensive styles.
     color: #fff;
     border-radius: 5px;
   }
-  /* line 1433, ../scss/breakpoints/_768up.scss */
+  /* line 1434, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags .tag:nth-child(1) {
     background: #69ea35;
   }
-  /* line 1436, ../scss/breakpoints/_768up.scss */
+  /* line 1437, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags .tag:nth-child(2) {
     background: #11d3ff;
   }
-  /* line 1439, ../scss/breakpoints/_768up.scss */
+  /* line 1440, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags .tag:nth-child(3) {
     background: #148eff;
   }
-  /* line 1442, ../scss/breakpoints/_768up.scss */
+  /* line 1443, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags .tag:nth-child(4) {
     background: #b57afc;
   }
-  /* line 1445, ../scss/breakpoints/_768up.scss */
+  /* line 1446, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags .tag:nth-child(5) {
     background: #fb72bc;
   }
-  /* line 1448, ../scss/breakpoints/_768up.scss */
+  /* line 1449, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .tags .tag:nth-child(6) {
     background: #ffcf09;
     width: 57px;
   }
-  /* line 1454, ../scss/breakpoints/_768up.scss */
+  /* line 1455, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .is-show {
     transform: translateY(0);
   }
-  /* line 1457, ../scss/breakpoints/_768up.scss */
+  /* line 1458, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .logo {
     height: 51px;
   }
-  /* line 1459, ../scss/breakpoints/_768up.scss */
+  /* line 1460, ../scss/breakpoints/_768up.scss */
   .footer-bottom-left .logo a img {
     object-fit: cover;
     height: 100%;
   }
-  /* line 1465, ../scss/breakpoints/_768up.scss */
+  /* line 1466, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right {
     padding-top: 0;
     margin-left: 100px;
   }
-  /* line 1468, ../scss/breakpoints/_768up.scss */
+  /* line 1469, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .phone {
     height: 49px;
     width: 198px;
     justify-content: flex-start;
     margin-left: 10px;
   }
-  /* line 1473, ../scss/breakpoints/_768up.scss */
+  /* line 1474, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .phone img {
     margin-right: 10px;
   }
-  /* line 1477, ../scss/breakpoints/_768up.scss */
+  /* line 1478, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .phone-details .phone-number {
     font-size: 20px;
   }
-  /* line 1480, ../scss/breakpoints/_768up.scss */
+  /* line 1481, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .phone-details .phone-time {
     font-size: 13px;
   }
-  /* line 1485, ../scss/breakpoints/_768up.scss */
+  /* line 1486, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .quote {
     margin: 10px;
     padding: 8px;
     height: 56px;
     width: 190px;
   }
-  /* line 1490, ../scss/breakpoints/_768up.scss */
+  /* line 1491, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .quote img {
     display: block;
     height: 40px;
   }
-  /* line 1494, ../scss/breakpoints/_768up.scss */
+  /* line 1495, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .quote span {
     height: 40px;
     line-height: 40px;
     font-size: 20px;
   }
 
-  /* line 1504, ../scss/breakpoints/_768up.scss */
+  /* line 1505, ../scss/breakpoints/_768up.scss */
   .clone {
     position: fixed;
     bottom: 0;
@@ -6592,23 +6593,23 @@ you can add resource intensive styles.
     height: 115px;
   }
 
-  /* line 1515, ../scss/breakpoints/_768up.scss */
+  /* line 1516, ../scss/breakpoints/_768up.scss */
   .is-show {
     transform: translateY(0);
   }
 
-  /* line 1520, ../scss/breakpoints/_768up.scss */
+  /* line 1521, ../scss/breakpoints/_768up.scss */
   .company-content {
     height: 980px;
   }
 
-  /* line 1523, ../scss/breakpoints/_768up.scss */
+  /* line 1524, ../scss/breakpoints/_768up.scss */
   .recruitment-contents,
   .contact-contents {
     background-color: #fff;
     width: 100%;
   }
-  /* line 1527, ../scss/breakpoints/_768up.scss */
+  /* line 1528, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner,
   .recruitment-contents .inner-contact,
   .contact-contents .company-inner,
@@ -6616,7 +6617,7 @@ you can add resource intensive styles.
     width: 63%;
     margin: auto;
   }
-  /* line 1531, ../scss/breakpoints/_768up.scss */
+  /* line 1532, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .title,
   .recruitment-contents .inner-contact .title,
   .contact-contents .company-inner .title,
@@ -6624,14 +6625,14 @@ you can add resource intensive styles.
     font-size: 24px;
     padding-top: 70px;
   }
-  /* line 1535, ../scss/breakpoints/_768up.scss */
+  /* line 1536, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .border,
   .recruitment-contents .inner-contact .border,
   .contact-contents .company-inner .border,
   .contact-contents .inner-contact .border {
     margin-top: -12px;
   }
-  /* line 1538, ../scss/breakpoints/_768up.scss */
+  /* line 1539, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .text,
   .recruitment-contents .inner-contact .text,
   .contact-contents .company-inner .text,
@@ -6640,28 +6641,28 @@ you can add resource intensive styles.
     margin: auto;
     padding-bottom: 18px;
   }
-  /* line 1542, ../scss/breakpoints/_768up.scss */
+  /* line 1543, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .text li,
   .recruitment-contents .inner-contact .text li,
   .contact-contents .company-inner .text li,
   .contact-contents .inner-contact .text li {
     margin-left: 50px;
   }
-  /* line 1546, ../scss/breakpoints/_768up.scss */
+  /* line 1547, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .text .itemtext,
   .recruitment-contents .inner-contact .text .itemtext,
   .contact-contents .company-inner .text .itemtext,
   .contact-contents .inner-contact .text .itemtext {
     margin-left: 80px;
   }
-  /* line 1549, ../scss/breakpoints/_768up.scss */
+  /* line 1550, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .text .itemtext2,
   .recruitment-contents .inner-contact .text .itemtext2,
   .contact-contents .company-inner .text .itemtext2,
   .contact-contents .inner-contact .text .itemtext2 {
     margin-left: 74px;
   }
-  /* line 1553, ../scss/breakpoints/_768up.scss */
+  /* line 1554, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form,
   .recruitment-contents .inner-contact .contact-form,
   .contact-contents .company-inner .contact-form,
@@ -6669,7 +6670,7 @@ you can add resource intensive styles.
     width: 100%;
     margin: auto;
   }
-  /* line 1556, ../scss/breakpoints/_768up.scss */
+  /* line 1557, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form,
   .recruitment-contents .inner-contact .contact-form .application-form,
   .contact-contents .company-inner .contact-form .application-form,
@@ -6683,14 +6684,14 @@ you can add resource intensive styles.
     /* 必須項目の入力欄を黄色にする */
     /* エラーメッセージを見やすくする */
   }
-  /* line 1563, ../scss/breakpoints/_768up.scss */
+  /* line 1564, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form tr,
   .recruitment-contents .inner-contact .contact-form .application-form tr,
   .contact-contents .company-inner .contact-form .application-form tr,
   .contact-contents .inner-contact .contact-form .application-form tr {
     width: 100%;
   }
-  /* line 1565, ../scss/breakpoints/_768up.scss */
+  /* line 1566, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form tr th,
   .recruitment-contents .inner-contact .contact-form .application-form tr th,
   .contact-contents .company-inner .contact-form .application-form tr th,
@@ -6699,7 +6700,7 @@ you can add resource intensive styles.
     padding-top: 20px;
     text-align: left;
   }
-  /* line 1570, ../scss/breakpoints/_768up.scss */
+  /* line 1571, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form tr .message,
   .recruitment-contents .inner-contact .contact-form .application-form tr .message,
   .contact-contents .company-inner .contact-form .application-form tr .message,
@@ -6708,7 +6709,7 @@ you can add resource intensive styles.
     padding-top: 50px;
     padding-left: 90px;
   }
-  /* line 1575, ../scss/breakpoints/_768up.scss */
+  /* line 1576, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form tr .contactmessage,
   .recruitment-contents .inner-contact .contact-form .application-form tr .contactmessage,
   .contact-contents .company-inner .contact-form .application-form tr .contactmessage,
@@ -6716,7 +6717,7 @@ you can add resource intensive styles.
     vertical-align: top;
     padding-top: 50px;
   }
-  /* line 1579, ../scss/breakpoints/_768up.scss */
+  /* line 1580, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form tr td,
   .recruitment-contents .inner-contact .contact-form .application-form tr td,
   .contact-contents .company-inner .contact-form .application-form tr td,
@@ -6725,7 +6726,7 @@ you can add resource intensive styles.
     padding-top: 20px;
     padding-left: 0px;
   }
-  /* line 1587, ../scss/breakpoints/_768up.scss */
+  /* line 1588, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
   .recruitment-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
   .recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
@@ -6737,14 +6738,14 @@ you can add resource intensive styles.
     background: #FBFFDF;
     color: #444;
   }
-  /* line 1593, ../scss/breakpoints/_768up.scss */
+  /* line 1594, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form input.wpcf7-submit,
   .recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-submit,
   .contact-contents .company-inner .contact-form .application-form input.wpcf7-submit,
   .contact-contents .inner-contact .contact-form .application-form input.wpcf7-submit {
     margin-left: -200px;
   }
-  /* line 1598, ../scss/breakpoints/_768up.scss */
+  /* line 1599, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form span.wpcf7-not-valid-tip,
   .recruitment-contents .company-inner .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
   .recruitment-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
@@ -6757,31 +6758,31 @@ you can add resource intensive styles.
     font-weight: bold;
   }
 
-  /* line 1609, ../scss/breakpoints/_768up.scss */
+  /* line 1610, ../scss/breakpoints/_768up.scss */
   .company-contents .company-inner {
     width: 800px;
   }
-  /* line 1612, ../scss/breakpoints/_768up.scss */
+  /* line 1613, ../scss/breakpoints/_768up.scss */
   .company-contents .company-inner ul li {
     margin: 30px 0;
     padding: 5px 0 32px 20px;
   }
-  /* line 1615, ../scss/breakpoints/_768up.scss */
+  /* line 1616, ../scss/breakpoints/_768up.scss */
   .company-contents .company-inner ul li p {
     width: 624px;
   }
-  /* line 1618, ../scss/breakpoints/_768up.scss */
+  /* line 1619, ../scss/breakpoints/_768up.scss */
   .company-contents .company-inner ul li .ggmap {
     width: 624px;
     height: 338px;
   }
-  /* line 1621, ../scss/breakpoints/_768up.scss */
+  /* line 1622, ../scss/breakpoints/_768up.scss */
   .company-contents .company-inner ul li .ggmap iframe {
     width: 100%;
     padding-top: 0;
   }
 
-  /* line 1632, ../scss/breakpoints/_768up.scss */
+  /* line 1633, ../scss/breakpoints/_768up.scss */
   .map-title {
     float: left;
     text-align: center;
@@ -6791,7 +6792,7 @@ you can add resource intensive styles.
     font-weight: 600;
   }
 
-  /* line 1641, ../scss/breakpoints/_768up.scss */
+  /* line 1642, ../scss/breakpoints/_768up.scss */
   .ggmap {
     position: relative;
     padding-left: 50%;
@@ -6801,7 +6802,7 @@ you can add resource intensive styles.
     overflow: hidden;
   }
 
-  /* line 1650, ../scss/breakpoints/_768up.scss */
+  /* line 1651, ../scss/breakpoints/_768up.scss */
   .ggmap iframe,
   .ggmap object,
   .ggmap embed {
@@ -6813,19 +6814,19 @@ you can add resource intensive styles.
     height: 100%;
   }
 
-  /* line 1663, ../scss/breakpoints/_768up.scss */
+  /* line 1664, ../scss/breakpoints/_768up.scss */
   .uservoice {
     background-color: #fff;
     width: 100%;
     margin: auto;
   }
-  /* line 1667, ../scss/breakpoints/_768up.scss */
+  /* line 1668, ../scss/breakpoints/_768up.scss */
   .uservoice-bigtitle {
     width: 84%;
     margin: auto;
     margin-top: 40px;
   }
-  /* line 1671, ../scss/breakpoints/_768up.scss */
+  /* line 1672, ../scss/breakpoints/_768up.scss */
   .uservoice-bigtitle h3 {
     background-color: #fff;
     font-size: 20px;
@@ -6834,13 +6835,13 @@ you can add resource intensive styles.
     border-left: 5px solid #00AE78;
     padding-left: 9px;
   }
-  /* line 1679, ../scss/breakpoints/_768up.scss */
+  /* line 1680, ../scss/breakpoints/_768up.scss */
   .uservoice-bigtitle .border {
     margin: auto;
     margin-top: -15px;
     border-bottom: 3px solid #00c1e1;
   }
-  /* line 1685, ../scss/breakpoints/_768up.scss */
+  /* line 1686, ../scss/breakpoints/_768up.scss */
   .uservoice-lists {
     display: flex;
     justify-content: space-around;
@@ -6848,21 +6849,21 @@ you can add resource intensive styles.
     width: 87%;
     margin: auto;
   }
-  /* line 1691, ../scss/breakpoints/_768up.scss */
+  /* line 1692, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list {
     padding-top: 20px;
   }
-  /* line 1693, ../scss/breakpoints/_768up.scss */
+  /* line 1694, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list .imgbox {
     position: relative;
   }
-  /* line 1695, ../scss/breakpoints/_768up.scss */
+  /* line 1696, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list .imgbox img {
     width: 340px;
     height: 240px;
     object-fit: cover;
   }
-  /* line 1701, ../scss/breakpoints/_768up.scss */
+  /* line 1702, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list .title {
     width: 152px;
     font-size: 12px;
@@ -6871,7 +6872,7 @@ you can add resource intensive styles.
     font-weight: bold;
     margin: 10px 0;
   }
-  /* line 1709, ../scss/breakpoints/_768up.scss */
+  /* line 1710, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list .detail {
     width: 340px;
     display: flex;
@@ -6879,33 +6880,33 @@ you can add resource intensive styles.
     font-weight: bold;
     margin: 10px 0;
   }
-  /* line 1716, ../scss/breakpoints/_768up.scss */
+  /* line 1717, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list a {
     color: #444;
   }
-  /* line 1718, ../scss/breakpoints/_768up.scss */
+  /* line 1719, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list a:hover {
     color: #8FF18B;
   }
-  /* line 1722, ../scss/breakpoints/_768up.scss */
+  /* line 1723, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list .borderblue {
     display: none;
   }
 
-  /* line 1730, ../scss/breakpoints/_768up.scss */
+  /* line 1731, ../scss/breakpoints/_768up.scss */
   .uservoicedetails-menu {
     display: flex;
     width: 100%;
     margin: auto;
   }
-  /* line 1734, ../scss/breakpoints/_768up.scss */
+  /* line 1735, ../scss/breakpoints/_768up.scss */
   .uservoicedetails-menu .uservoicedetails-title {
     width: 50%;
     margin: auto;
     margin-top: 50px;
     margin-left: 200px;
   }
-  /* line 1739, ../scss/breakpoints/_768up.scss */
+  /* line 1740, ../scss/breakpoints/_768up.scss */
   .uservoicedetails-menu .uservoicedetails-title h3 {
     background-color: #fff;
     font-size: 20px;
@@ -6914,21 +6915,21 @@ you can add resource intensive styles.
     border-left: 5px solid #00AE78;
     padding-left: 9px;
   }
-  /* line 1747, ../scss/breakpoints/_768up.scss */
+  /* line 1748, ../scss/breakpoints/_768up.scss */
   .uservoicedetails-menu .uservoicedetails-title .border {
     margin: auto;
     margin-top: -15px;
     border-bottom: 3px solid #00c1e1;
   }
 
-  /* line 1754, ../scss/breakpoints/_768up.scss */
+  /* line 1755, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails {
     width: 100%;
     margin: auto;
     margin-top: 10px;
     background-color: #fff;
   }
-  /* line 1759, ../scss/breakpoints/_768up.scss */
+  /* line 1760, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog {
     position: relative;
     width: 100%;
@@ -6936,91 +6937,91 @@ you can add resource intensive styles.
     font-size: 14px;
     padding-top: 20px;
   }
-  /* line 1765, ../scss/breakpoints/_768up.scss */
+  /* line 1766, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog h2 {
     color: #FF3898;
     font-size: 16px;
     font-weight: bold;
   }
-  /* line 1770, ../scss/breakpoints/_768up.scss */
+  /* line 1771, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog img {
     display: block;
     width: 100%;
   }
-  /* line 1774, ../scss/breakpoints/_768up.scss */
+  /* line 1775, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table {
     background-color: #e5fff2;
     width: 100%;
     height: 100%;
     padding: 5px 0 20px 0;
   }
-  /* line 1779, ../scss/breakpoints/_768up.scss */
+  /* line 1780, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage {
     width: 84%;
     margin: auto;
     margin-top: 10px;
   }
-  /* line 1783, ../scss/breakpoints/_768up.scss */
+  /* line 1784, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage ul {
     width: 100%;
     margin: auto;
     padding: 6px 0;
   }
-  /* line 1788, ../scss/breakpoints/_768up.scss */
+  /* line 1789, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage li {
     display: inline-block;
     vertical-align: top;
     font-size: 12px;
     margin: auto;
   }
-  /* line 1794, ../scss/breakpoints/_768up.scss */
+  /* line 1795, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .item {
     color: #00AE78;
     font-weight: bold;
   }
-  /* line 1798, ../scss/breakpoints/_768up.scss */
+  /* line 1799, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext {
     color: #444;
     margin-left: 56px;
     width: 76%;
   }
-  /* line 1803, ../scss/breakpoints/_768up.scss */
+  /* line 1804, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext2 {
     color: #444;
     margin-left: 68px;
     width: 76%;
   }
-  /* line 1808, ../scss/breakpoints/_768up.scss */
+  /* line 1809, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext3 {
     color: #444;
     margin-left: 80px;
     width: 76%;
   }
-  /* line 1813, ../scss/breakpoints/_768up.scss */
+  /* line 1814, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .itemtext4 {
     color: #444;
     margin-left: 38px;
     margin-top: 0;
     width: 75%;
   }
-  /* line 1819, ../scss/breakpoints/_768up.scss */
+  /* line 1820, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .usage-table .inner-usage .borderblue {
     width: 100%;
     margin: auto;
     border-bottom: 1px dotted #00c1e1;
   }
-  /* line 1826, ../scss/breakpoints/_768up.scss */
+  /* line 1827, ../scss/breakpoints/_768up.scss */
   .inner-uservoicedetails .uservoicedetails-blog .bordersolid {
     width: 100%;
     margin: auto;
     border-bottom: 1px solid #00c1e1;
   }
 
-  /* line 1835, ../scss/breakpoints/_768up.scss */
+  /* line 1836, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc {
     background-color: #fff;
   }
-  /* line 1837, ../scss/breakpoints/_768up.scss */
+  /* line 1838, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .article {
     color: #444;
     font-size: 16px;
@@ -7028,29 +7029,29 @@ you can add resource intensive styles.
     padding-top: 10px;
     margin-left: 10px;
   }
-  /* line 1844, ../scss/breakpoints/_768up.scss */
+  /* line 1845, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc {
     display: flex;
     width: 100%;
   }
-  /* line 1847, ../scss/breakpoints/_768up.scss */
+  /* line 1848, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list {
     width: 100%;
     margin: auto;
     margin-top: -10px;
   }
-  /* line 1851, ../scss/breakpoints/_768up.scss */
+  /* line 1852, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list .imgbox {
     width: 100%;
     position: relative;
     padding: 10px;
   }
-  /* line 1855, ../scss/breakpoints/_768up.scss */
+  /* line 1856, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list .imgbox img {
     display: block;
     width: 100%;
   }
-  /* line 1860, ../scss/breakpoints/_768up.scss */
+  /* line 1861, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list .labelpc {
     position: absolute;
     top: 10px;
@@ -7062,7 +7063,7 @@ you can add resource intensive styles.
     text-align: center;
     font-size: 12px;
   }
-  /* line 1871, ../scss/breakpoints/_768up.scss */
+  /* line 1872, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list .title {
     width: 170px;
     font-size: 13px;
@@ -7071,7 +7072,7 @@ you can add resource intensive styles.
     margin-bottom: -10px;
     margin-left: 10px;
   }
-  /* line 1879, ../scss/breakpoints/_768up.scss */
+  /* line 1880, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list .detail {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -7082,34 +7083,34 @@ you can add resource intensive styles.
     font-weight: bold;
     padding-left: 10px;
   }
-  /* line 1889, ../scss/breakpoints/_768up.scss */
+  /* line 1890, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list a {
     color: #444;
   }
-  /* line 1891, ../scss/breakpoints/_768up.scss */
+  /* line 1892, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list a:hover {
     color: #8FF18B;
     background-color: #8FF18B;
   }
-  /* line 1896, ../scss/breakpoints/_768up.scss */
+  /* line 1897, ../scss/breakpoints/_768up.scss */
   .uservoicelistspc .imgpc .uservoice-list .borderblue {
     display: none;
   }
 
-  /* line 1904, ../scss/breakpoints/_768up.scss */
+  /* line 1905, ../scss/breakpoints/_768up.scss */
   .uservoicelist {
     width: 18%;
     margin-top: -26px;
     margin-right: 180px;
   }
 
-  /* line 1909, ../scss/breakpoints/_768up.scss */
+  /* line 1910, ../scss/breakpoints/_768up.scss */
   .uservoicelisttitle {
     background-color: #fff;
     width: 89%;
     margin: auto;
   }
-  /* line 1913, ../scss/breakpoints/_768up.scss */
+  /* line 1914, ../scss/breakpoints/_768up.scss */
   .uservoicelisttitle .voicetitle {
     background-color: #00AE78;
     color: #fff;
@@ -7122,42 +7123,42 @@ you can add resource intensive styles.
     padding-left: 50px;
     border-radius: 10px 10px 0 0;
   }
-  /* line 1925, ../scss/breakpoints/_768up.scss */
+  /* line 1926, ../scss/breakpoints/_768up.scss */
   .uservoicelisttitle .border {
     margin: auto;
     margin-top: -15px;
     border-bottom: 3px solid #00c1e1;
   }
-  /* line 1930, ../scss/breakpoints/_768up.scss */
+  /* line 1931, ../scss/breakpoints/_768up.scss */
   .uservoicelisttitle .tree {
     width: 100%;
     margin: auto;
   }
-  /* line 1933, ../scss/breakpoints/_768up.scss */
+  /* line 1934, ../scss/breakpoints/_768up.scss */
   .uservoicelisttitle .tree img {
     width: 80%;
     margin-left: 20px;
     margin-bottom: -6px;
   }
 
-  /* line 1940, ../scss/breakpoints/_768up.scss */
+  /* line 1941, ../scss/breakpoints/_768up.scss */
   .listbox {
     border: 1px solid #00AE78;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  /* line 1944, ../scss/breakpoints/_768up.scss */
+  /* line 1945, ../scss/breakpoints/_768up.scss */
   .listbox .imgbox {
     margin: auto;
     padding: 10px;
     position: relative;
   }
-  /* line 1948, ../scss/breakpoints/_768up.scss */
+  /* line 1949, ../scss/breakpoints/_768up.scss */
   .listbox .imgbox img {
     width: 100%;
     margin: auto;
   }
-  /* line 1952, ../scss/breakpoints/_768up.scss */
+  /* line 1953, ../scss/breakpoints/_768up.scss */
   .listbox .imgbox .label {
     width: 110px;
     height: 20px;
@@ -7167,7 +7168,7 @@ you can add resource intensive styles.
     font-size: 13px;
     padding-left: 12px;
   }
-  /* line 1961, ../scss/breakpoints/_768up.scss */
+  /* line 1962, ../scss/breakpoints/_768up.scss */
   .listbox .imgbox .interviewee {
     width: 150px;
     font-size: 13px;
