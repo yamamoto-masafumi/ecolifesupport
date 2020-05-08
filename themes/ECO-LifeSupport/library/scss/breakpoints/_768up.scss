@@ -327,8 +327,6 @@ body{
 
 //SUB_HEADER
 .sub-header,
-.sub-header-uservoice,
-.sub-header-question,
 .sub-header-notice,
 .user-header,
 .question-header{
@@ -349,6 +347,43 @@ body{
     }
   }
 }
+
+.sub-header,
+.question-header{
+  .header-title{
+    left: 37%;
+    transform: translateX(-50%);
+    &:after{
+      content: '';
+      position: absolute;
+      right: -294px;
+      top: 50px;
+      width: 71px;
+      height: 62px;
+      background-image: url('../images/icon/header-tree.png');	
+      background-size: cover;
+    }
+  }
+}
+
+.sub-header-notice,
+.user-header{
+  .header-title{
+    left: 36.8%;
+    transform: translateX(-50%);
+    &:after{
+      content: '';
+      position: absolute;
+      right: -294px;
+      top: 50px;
+      width: 71px;
+      height: 62px;
+      background-image: url('../images/icon/header-tree.png');	
+      background-size: cover;
+    }
+  }
+}
+
 
 .header-bottom{
   position: relative;
@@ -1063,7 +1098,6 @@ body{
         &:before{
           content: 'Q.';
           font-size: 30px;
-          top: 15px;
           left: 40px;
         }
       }
@@ -1144,7 +1178,6 @@ body{
         &:before{
           content: 'Q.';
           font-size: 30px;
-          top: 15px;
           left: 40px;
         }
       }
@@ -1335,7 +1368,7 @@ body{
     nav{
       div{
         .menu{
-          width: 300px;
+          width: 320px;
           height: 200px;
           border: none;
           li{
