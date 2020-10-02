@@ -296,12 +296,12 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="imgbox">
-                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin1.jpg">
+					<a href="<?php echo home_url('/user-voice/user1'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin1.jpg"></a>
                   <span class="label">不用品回収</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">東京都 Aさん 一人暮らし</span>
-                  <span class="title">思った以上に安く利用でき<br>とっても満足です！</span>
+						 <a href="<?php echo home_url('/user-voice/user1'); ?>"><span class="title">思った以上に安く利用でき<br>とっても満足です！</span></a>
                   <span class="detail">
                     家具を一新しようと色々見積もり依頼を出しましたが、ここが一番安くて即日だったのでとても助かりました！
                   </span>
@@ -309,12 +309,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin2.jpg">
+						<a href="<?php echo home_url('/user-voice/user2'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin2.jpg"></a>
                   <span class="label">不用品回収</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">埼玉県 Rさん 引っ越し</span>
-                  <span class="title">大きな家具や荷物も気にせず<br>安心して詰め込めます！</span>
+					<a href="<?php echo home_url('/user-voice/user2'); ?>"><span class="title">大きな家具や荷物も気にせず<br>安心して詰め込めます！</span></a>
                   <span class="detail">
                     定額なのが嬉しいですよね。他社が30万で見積もりを出したところその4分の1以下で引っ越しをすることができました。
                   </span>
@@ -322,12 +322,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-ihinseir1.jpg">
+					<a href="<?php echo home_url('/user-voice/user10'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-ihinseir1.jpg"></a>
                   <span class="label">遺品整理</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">神奈川県 Sさん 遺品整理</span>
-                  <span class="title">即日に安価で丁寧に整理を<br>してくれました。</span>
+					<a href="<?php echo home_url('/user-voice/user10'); ?>"><span class="title">即日に安価で丁寧に整理を<br>してくれました。</span></a>
                   <span class="detail">
                     遺品整理の決心まで時間がかかりましたが、早めにしなくてはという気持ちに。すぐに対応してくださり感謝です。
                   </span>
@@ -335,14 +335,14 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-gomiyashiki1.jpg">
+					<a href="<?php echo home_url('/user-voice/user4'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-gomiyashiki1.jpg"></a>
                   <span class="label">ゴミ屋敷の片付け</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">東京都 Yさん 一人暮らし</span>
-                  <span class="title">綺麗な部屋にたった1万円で！<br>片付けもしてくれて満足です。</span>
+					<a href="<?php echo home_url('/user-voice/user4'); ?>"><span class="title">たったの２９,８００円で！<br>片付けもしてくれて満足です。</span></a>
                   <span class="detail">
-                    男の一人暮らしで気付けばゴミ屋敷化。家中のゴミを回収で1万以下！おかげで綺麗な家で気持ちのいい暮らしです。
+                    男の一人暮らしで気付けばゴミ屋敷化。家中のゴミを回収で3万円台！おかげで綺麗な家で気持ちのいい暮らしです。
                   </span>
                 </p>
               </div>
@@ -418,7 +418,7 @@
             </div>
             <div class="list-answer hidden">
               <p>
-                フリーダイヤル0120-994-838からお申込み下さい。<br>
+                フリーダイヤル0120-829-053からお申込み下さい。<br>
                 また、メールフォームにてお申込みが可能です。<br>
                 お電話でのお見積りも、もちろん無料ですが現地で確認をしないと、正確なお見積りが出せないような作業もございます。<br>
                 その場合、現地への出張費用無料、お見積り無料です。<br>
@@ -481,7 +481,7 @@
           <?php endif; ?>
           <div id="phone" class="phone">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
-            <span class="phone-number">0120-994-834</span>
+            <span class="phone-number">0120-829-053</span>
             <span class="phone-time">8:00-21:00（年中無休）</span>
           </div>
           <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
@@ -927,9 +927,9 @@
           </a>
         </div>
         <ul class="address">
-          <li>〒144-0052</li>
-          <li>東京都大田区蒲田5-21-13</li>
-          <li>ペガサスステーションプラザ蒲田B2</li>
+          <li>〒230-0048</li>
+          <li>神奈川県横浜市鶴見区本町通</li>
+          <li>4-170-20-1F</li>
         </ul>
       </div>
       <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
