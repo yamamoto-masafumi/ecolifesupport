@@ -402,10 +402,14 @@
             <p class="h3-sub">CONTACT</p>
           </div>
           <div class="watch contact-watch"></div>
+          <?php if(wp_is_mobile()) : ?>
           <p class="contact-text">まずはお気軽に<br>お問い合わせください。</p>
+          <?php else : ?>
+          <p class="contact-text">まずはお気軽にお問い合わせください。</p>
+          <?php endif; ?>
           <div id="phone" class="phone">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
-            <span class="phone-number">0120-994-834</span>
+            <span class="phone-number">0120-829-053</span>
             <span class="phone-time">8:00-21:00（年中無休）</span>
           </div>
           <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
@@ -849,9 +853,9 @@
           </a>
         </div>
         <ul class="address">
-          <li>〒144-0052</li>
-          <li>東京都大田区蒲田5-21-13</li>
-          <li>ペガサスステーションプラザ蒲田B2</li>
+          	<li>〒230-0048</li>
+          <li>神奈川県横浜市鶴見区本町通</li>
+          <li>4-170-20-1F</li>
         </ul>
       </div>
       <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">

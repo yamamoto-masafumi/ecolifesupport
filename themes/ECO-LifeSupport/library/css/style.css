@@ -30,6 +30,16 @@ the whole project.
   font-feature-settings: 'palt' 1 !important;
   -webkit-font-feature-settings: 'palt' 1 !important;
 }
+span.wpcf7-list-item {
+	width: 100%;
+	text-align: left;
+}
+
+.recruitment span.wpcf7-list-item {
+    display: inline;
+	margin-top: 10px;
+	padding-right: 20px;
+}
 
 /**
  * Correct `block` display not defined in IE 8/9.
@@ -747,6 +757,18 @@ There are four types, but you can add or customize
 them however you see fit.
 */
 @media (max-width: 767px) {
+  /* add */
+  .area .lists {
+      display: block;
+      justify-content: space-around;
+      width: 100%;
+      margin: auto;
+      position: relative;
+  }
+  .area .lists .list{
+    width: calc(100% - 20px)!important;
+    margin: 10px 10px auto!important;
+  }
   /* line 49, ../scss/partials/_grid.scss */
   .m-all {
     float: left;
@@ -1790,6 +1812,7 @@ POSTS & CONTENT STYLES
 .slide .swiper-wrapper {
   margin-left: -16px;
 }
+
 /* line 343, ../scss/breakpoints/_base.scss */
 .slide .swiper-wrapper .swiper-slide img {
   display: block;
@@ -1855,7 +1878,8 @@ POSTS & CONTENT STYLES
 
 /* line 405, ../scss/breakpoints/_base.scss */
 .recruitment-contents {
-  height: 1450px;
+  height: 100%;
+	margin-bottom: -20px;
 }
 
 /* line 408, ../scss/breakpoints/_base.scss */
@@ -1914,7 +1938,7 @@ POSTS & CONTENT STYLES
 .contact-contents .inner-contact .text {
   width: 100%;
   margin: auto;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 /* line 441, ../scss/breakpoints/_base.scss */
 .recruitment-contents .inner-recruitment .text ul,
@@ -1923,7 +1947,7 @@ POSTS & CONTENT STYLES
 .contact-contents .inner-contact .text ul {
   width: 96%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 /* line 446, ../scss/breakpoints/_base.scss */
 .recruitment-contents .inner-recruitment .text li,
@@ -1935,13 +1959,7 @@ POSTS & CONTENT STYLES
   font-size: 16px;
   margin: auto;
 }
-/* line 451, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .text li span,
-.recruitment-contents .inner-contact .text li span,
-.contact-contents .inner-recruitment .text li span,
-.contact-contents .inner-contact .text li span {
-  margin-left: 2px;
-}
+
 /* line 455, ../scss/breakpoints/_base.scss */
 .recruitment-contents .inner-recruitment .text .item,
 .recruitment-contents .inner-contact .text .item,
@@ -1949,6 +1967,9 @@ POSTS & CONTENT STYLES
 .contact-contents .inner-contact .text .item {
   color: #323944;
   font-weight: bold;
+	text-align: left;
+	width: 27%;
+	height: 100%;
 }
 /* line 459, ../scss/breakpoints/_base.scss */
 .recruitment-contents .inner-recruitment .text .itemtext,
@@ -1956,120 +1977,18 @@ POSTS & CONTENT STYLES
 .contact-contents .inner-recruitment .text .itemtext,
 .contact-contents .inner-contact .text .itemtext {
   color: #444;
-  margin-left: 40px;
+  margin-left: 0px;
+  text-align: left;
+	width: 65%;
+	height: 100%;
 }
-/* line 463, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .text .itemtext2,
-.recruitment-contents .inner-contact .text .itemtext2,
-.contact-contents .inner-recruitment .text .itemtext2,
-.contact-contents .inner-contact .text .itemtext2 {
-  color: #444;
-  margin-left: 34px;
-}
+
 /* line 468, ../scss/breakpoints/_base.scss */
 .recruitment-contents .inner-recruitment .contact-form,
 .recruitment-contents .inner-contact .contact-form,
 .contact-contents .inner-recruitment .contact-form,
 .contact-contents .inner-contact .contact-form {
   margin: auto;
-}
-/* line 470, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form,
-.recruitment-contents .inner-contact .contact-form .application-form,
-.contact-contents .inner-recruitment .contact-form .application-form,
-.contact-contents .inner-contact .contact-form .application-form {
-  width: 100%;
-  background-color: #fff;
-  color: #323944;
-  font-weight: 600;
-  margin: auto;
-  /* 必須マーク */
-  /* 項目名を太字にする */
-  /* 入力項目を見やすくする */
-  /* 必須項目の入力欄を黄色にする */
-  /* 送信ボタンを見やすくする */
-  /* エラーメッセージを見やすくする */
-}
-/* line 478, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form .must,
-.recruitment-contents .inner-contact .contact-form .application-form .must,
-.contact-contents .inner-recruitment .contact-form .application-form .must,
-.contact-contents .inner-contact .contact-form .application-form .must {
-  color: #fff;
-  font-weight: bold;
-  margin-right: 10px;
-  padding: 3px 22px;
-  background: #00AE78;
-  border-radius: 3px;
-}
-/* line 487, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form form p,
-.recruitment-contents .inner-contact .contact-form .application-form form p,
-.contact-contents .inner-recruitment .contact-form .application-form form p,
-.contact-contents .inner-contact .contact-form .application-form form p {
-  font-weight: 600;
-}
-/* line 491, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
-.recruitment-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-.recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
-.recruitment-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-.contact-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
-.contact-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-.contact-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
-.contact-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
-  width: 100%;
-  height: 44px;
-  padding: 8px 15px;
-  margin-right: 10px;
-  margin-top: 10px;
-  border: 1px solid #00AE78;
-  border-radius: 3px;
-}
-/* line 505, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-.recruitment-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-.recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-.recruitment-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-.contact-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-.contact-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-.contact-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-.contact-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
-  background: #FBFFDF;
-  color: #444;
-}
-/* line 511, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-submit,
-.recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-submit,
-.contact-contents .inner-recruitment .contact-form .application-form input.wpcf7-submit,
-.contact-contents .inner-contact .contact-form .application-form input.wpcf7-submit {
-  width: 236px;
-  height: 46px;
-  background: #00AE78;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  border: 1px solid #00AE78;
-  border-radius: 3px;
-}
-/* line 522, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
-.recruitment-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
-.recruitment-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
-.recruitment-contents .inner-contact .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
-.contact-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
-.contact-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
-.contact-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
-.contact-contents .inner-contact .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors {
-  color: red;
-  font-weight: bold;
-}
-/* line 527, ../scss/breakpoints/_base.scss */
-.recruitment-contents .inner-recruitment .contact-form .application-form .btn,
-.recruitment-contents .inner-contact .contact-form .application-form .btn,
-.contact-contents .inner-recruitment .contact-form .application-form .btn,
-.contact-contents .inner-contact .contact-form .application-form .btn {
-  text-align: center;
 }
 
 /* line 536, ../scss/breakpoints/_base.scss */
@@ -2484,7 +2403,7 @@ POSTS & CONTENT STYLES
 /* line 891, ../scss/breakpoints/_base.scss */
 .single-format .post-menu .post-contents img {
   width: 100%;
-  height: 100%;
+	height: auto;
 }
 
 /* line 898, ../scss/breakpoints/_base.scss */
@@ -2500,8 +2419,9 @@ POSTS & CONTENT STYLES
   background: #00AE78;
   border-radius: 5px;
 }
+
 /* line 909, ../scss/breakpoints/_base.scss */
-.post-btn:hover {
+.post-btn:hover{
   color: #fff;
   border-color: #8ff18b;
   background-color: #8ff18b;
@@ -2662,7 +2582,12 @@ POSTS & CONTENT STYLES
   display: block;
   font-size: 20px;
   font-weight: bold;
+	color: #444;
 }
+.sp-slide .swiper-wrapper .swiper-slide .text .title:hover{
+	color: #8FF18B;
+}
+
 /* line 1057, ../scss/breakpoints/_base.scss */
 .sp-slide .swiper-wrapper .swiper-slide .text .detail {
   display: block;
@@ -3008,7 +2933,7 @@ POSTS & CONTENT STYLES
 .purchase-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 336px;
   margin: 20px auto;
 }
@@ -3041,6 +2966,7 @@ POSTS & CONTENT STYLES
 }
 /* line 1386, ../scss/breakpoints/_base.scss */
 .penalty-title {
+  margin-bottom: 20px;
   text-align: center;
 }
 /* line 1388, ../scss/breakpoints/_base.scss */
@@ -3074,7 +3000,7 @@ POSTS & CONTENT STYLES
 /* line 1414, ../scss/breakpoints/_base.scss */
 .penalty-img {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 /* line 1417, ../scss/breakpoints/_base.scss */
 .penalty-img img {
@@ -3168,9 +3094,9 @@ POSTS & CONTENT STYLES
 }
 /* line 1502, ../scss/breakpoints/_base.scss */
 .flow .steps .step img {
-  display: block;
-  width: 76px;
-  height: 76px;
+  display: inline-block;
+  width: auto;
+  height: 50px;
 }
 /* line 1507, ../scss/breakpoints/_base.scss */
 .flow .steps .step-detail {
@@ -3193,8 +3119,8 @@ POSTS & CONTENT STYLES
 .flow .steps .step:before {
   content: "";
   position: absolute;
-  top: 110px;
-  left: 38px;
+  top: 94px;
+  left: 22px;
   margin-left: -10px;
   border: 10px solid transparent;
   border-top: 18px solid #bfbfbf;
@@ -3233,9 +3159,10 @@ POSTS & CONTENT STYLES
   padding: 10px;
   border-radius: 5px;
   position: relative;
-  height: 72px;
+  height: 71px;
   line-height: 24px;
   padding: 12px 0;
+  cursor: pointer;
 }
 /* line 1562, ../scss/breakpoints/_base.scss */
 .question .list-question p {
@@ -3253,7 +3180,7 @@ POSTS & CONTENT STYLES
   width: 50px;
   position: absolute;
   left: 20px;
-  top: 50%;
+  top: 28px;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
@@ -3290,6 +3217,9 @@ POSTS & CONTENT STYLES
   background: #fbffdf;
   position: relative;
   border-radius: 3px;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 /* line 1613, ../scss/breakpoints/_base.scss */
 .question .list-answer p {
@@ -3496,12 +3426,12 @@ POSTS & CONTENT STYLES
 .question-pink .list-question,
 .question-white .list-question {
   background: #00AE78;
-  padding: 10px;
   border-radius: 5px;
   position: relative;
-  height: 72px;
+  height: 60px;
   line-height: 24px;
   padding: 12px 0;
+  cursor: pointer;
 }
 /* line 1779, ../scss/breakpoints/_base.scss */
 .question-green .list-question p,
@@ -3577,6 +3507,9 @@ POSTS & CONTENT STYLES
   background: #fbffdf;
   position: relative;
   border-radius: 3px;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 /* line 1831, ../scss/breakpoints/_base.scss */
 .question-green .list-answer p,
@@ -3664,6 +3597,12 @@ POSTS & CONTENT STYLES
   text-align: center;
   letter-spacing: 3px;
 }
+
+.contact-text2{
+  text-align: center;
+  padding: 0 15px;
+}
+
 /* line 1904, ../scss/breakpoints/_base.scss */
 .contact .phone {
   width: 80%;
@@ -3736,10 +3675,11 @@ POSTS & CONTENT STYLES
 }
 /* line 1966, ../scss/breakpoints/_base.scss */
 .area .lists .list {
-  width: 90%;
-  height: 36px;
+  width: calc(100% / 6 - 5px);
+  display: inline-block;
+  height: 45px;
   border-radius: 5px 5px 0 0;
-  margin: 2px auto 0 auto;
+  margin: 5px auto 0 auto;
 }
 /* line 1971, ../scss/breakpoints/_base.scss */
 .area .lists .list:nth-child(1) {
@@ -3769,6 +3709,7 @@ POSTS & CONTENT STYLES
 .area .lists .list-type {
   position: relative;
   line-height: 2;
+  height: 45px;
   letter-spacing: 5px;
   font-size: 16px;
 }
@@ -3778,8 +3719,8 @@ POSTS & CONTENT STYLES
   text-align: center;
   color: #fff;
   font-size: 16px;
-  height: 36px;
-  line-height: 36px;
+  height: 45px;
+  line-height: 45px;
   letter-spacing: 1;
 }
 /* line 2002, ../scss/breakpoints/_base.scss */
@@ -3791,7 +3732,7 @@ POSTS & CONTENT STYLES
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 10px;
+  top: 19px;
   right: 20px;
 }
 /* line 2015, ../scss/breakpoints/_base.scss */
@@ -3803,7 +3744,7 @@ POSTS & CONTENT STYLES
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 10px;
+  top: 19px;
   right: 20px;
 }
 /* line 2028, ../scss/breakpoints/_base.scss */
@@ -3814,9 +3755,7 @@ POSTS & CONTENT STYLES
 /* line 2031, ../scss/breakpoints/_base.scss */
 .area .lists .list-area .pref {
   position: relative;
-  width: 88%;
   margin: auto;
-  height: 44px;
   line-height: 44px;
   padding-bottom: 2px;
   border-top: 1px solid #ebebeb;
@@ -3831,22 +3770,27 @@ POSTS & CONTENT STYLES
 /* line 2045, ../scss/breakpoints/_base.scss */
 .area .lists .list-area .pref span {
   position: absolute;
-  top: 50%;
+  top: 34%;
+	height: 33px;
   transform: translateY(-50%);
   color: #00AE78;
   font-size: 16px;
+	font-weight: bold;
   border-bottom: 1px solid #00AE78;
   margin-left: 8px;
 }
 /* line 2054, ../scss/breakpoints/_base.scss */
 .area .lists .list-area .pref:after {
-  content: '+';
+  content: '';
+	background-image: url("https://test.ecolifesupport.com/wp-content/uploads/plus.svg");
   position: absolute;
-  font-size: 20px;
-  color: #00AE78;
-  right: 0;
-  top: 0;
+  width: 15px;
+  height: 15px;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
 /* line 2062, ../scss/breakpoints/_base.scss */
 .area .lists .list-area .pref ~ .pref {
   border-top: 1px solid #ebebeb;
@@ -3856,8 +3800,8 @@ POSTS & CONTENT STYLES
 .area .lists .list-area .city,
 .area .lists .list-area .town,
 .area .lists .list-area .village {
-  width: 90%;
-  margin: auto;
+  width: auto;
+  margin: auto 20px;
   line-height: 2;
 }
 /* line 2073, ../scss/breakpoints/_base.scss */
@@ -3867,7 +3811,7 @@ POSTS & CONTENT STYLES
 .area .lists .list-area .village span {
   color: #444;
   font-size: 14px;
-  border-bottom: 1px solid #323944;
+  border-bottom: 0px solid #323944;
 }
 /* line 2078, ../scss/breakpoints/_base.scss */
 .area .lists .list-area .district .ku,
@@ -4149,6 +4093,8 @@ footer {
 .contact-contents {
   background-color: #fff;
   width: 100%;
+	height: 100%;
+	padding-bottom: 40px;
 }
 /* line 2336, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner,
@@ -4236,7 +4182,7 @@ footer {
   margin-left: 34px;
 }
 /* line 2383, ../scss/breakpoints/_base.scss */
-.company-contents .company-inner .contact-form,
+.company-contents .company-inner .contact-form ,
 .company-contents .inner-contact .contact-form,
 .contact-contents .company-inner .contact-form,
 .contact-contents .inner-contact .contact-form {
@@ -4259,6 +4205,7 @@ footer {
   /* 送信ボタンを見やすくする */
   /* エラーメッセージを見やすくする */
 }
+
 /* line 2394, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form .must,
 .company-contents .inner-contact .contact-form .application-form .must,
@@ -4278,6 +4225,20 @@ footer {
 .contact-contents .inner-contact .contact-form .application-form form p {
   font-weight: 600;
 }
+
+.contact-contents .inner-contact .contact-form .application-form th{
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.contact-contents .inner-contact .contact-form .application-form td{
+	display: block;
+	width: 100%;
+}
+
+
 /* line 2407, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
 .company-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
@@ -4287,7 +4248,8 @@ footer {
 .contact-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
 .contact-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text,
 .contact-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
-  width: 100%;
+	display: block;
+	width: 100%;
   height: 44px;
   padding: 8px 15px;
   margin-right: 10px;
@@ -4316,11 +4278,14 @@ footer {
   height: 46px;
   background: #00AE78;
   color: #fff;
+	text-align: center;
+	margin-left: 6px; 
   font-size: 16px;
   font-weight: bold;
   border: 1px solid #00AE78;
   border-radius: 3px;
 }
+
 /* line 2435, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner .contact-form .application-form span.wpcf7-not-valid-tip,
 .company-contents .company-inner .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
@@ -4340,6 +4305,21 @@ footer {
 .contact-contents .inner-contact .contact-form .application-form .btn {
   text-align: center;
 }
+.company-inner .contact-form .application-form input.wpcf7-submit, 
+.company-contents .inner-contact .contact-form .application-form input.wpcf7-submit,
+.contact-contents .company-inner .contact-form .application-form input.wpcf7-submit,
+.contact-contents .inner-contact .contact-form .application-form input.wpcf7-submit:hover{
+	 color: #fff;
+  border-color: #8ff18b;
+  background-color: #8ff18b;
+}
+
+	div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
+		border: 1px solid #00ae78;
+		padding: 5px;
+		font-weight: bold;
+		color: #ff0000;
+	}
 
 /* line 2451, ../scss/breakpoints/_base.scss */
 .company-contents .company-inner li {
@@ -4497,6 +4477,11 @@ footer {
   width: 100%;
   height: auto;
 }
+
+.user-text{
+  color: #b7b7b7;
+}
+
 /* line 2586, ../scss/breakpoints/_base.scss */
 .inner-uservoicedetails .uservoicedetails-blog .usage-table {
   background-color: #E5FFF2;
@@ -4871,6 +4856,7 @@ you can add resource intensive styles.
   /* line 26, ../scss/breakpoints/_768up.scss */
   .sp-hidden {
     display: block;
+    margin-bottom: 20px;
   }
 
   /* line 29, ../scss/breakpoints/_768up.scss */
@@ -4894,12 +4880,14 @@ you can add resource intensive styles.
     padding: 0 17px;
     max-width: 324px;
     height: 65px;
-    line-height: 65px;
+    line-height: 58px;
     background: #fff;
     border-radius: 10px;
     border: 2px solid #00AE78;
     font-size: 30px;
     letter-spacing: 5px;
+    margin-right: 15px;
+    margin-top: 5px;
   }
   /* line 49, ../scss/breakpoints/_768up.scss */
   .watch:before {
@@ -4919,16 +4907,19 @@ you can add resource intensive styles.
   }
   /* line 64, ../scss/breakpoints/_768up.scss */
   header .header-top {
-    max-width: 1100px;
-    height: 130px;
-    margin: auto;
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
     display: flex;
+    position: relative;
     justify-content: space-between;
+    left: 0%;
+    transform: translateX(-0%);
   }
   /* line 70, ../scss/breakpoints/_768up.scss */
   header .header-top-left {
     display: block;
-    padding-top: 30px;
+    padding-top: 10px;
   }
   /* line 73, ../scss/breakpoints/_768up.scss */
   header .header-top-left .description {
@@ -4944,7 +4935,7 @@ you can add resource intensive styles.
   /* line 83, ../scss/breakpoints/_768up.scss */
   header .header-top-right {
     display: flex;
-    padding-top: 30px;
+    padding-top: 10px;
   }
   /* line 86, ../scss/breakpoints/_768up.scss */
   header .header-top-right .phone {
@@ -4958,6 +4949,8 @@ you can add resource intensive styles.
   header .header-top-right .phone img {
     display: block;
     width: 40px;
+    height: 40px;
+    margin-top: 6px;
   }
   /* line 97, ../scss/breakpoints/_768up.scss */
   header .header-top-right .phone-details .phone-number {
@@ -5017,6 +5010,7 @@ you can add resource intensive styles.
     height: 70px;
     border: 0 none;
     margin: auto;
+    padding-top: 14px;
   }
   /* line 149, ../scss/breakpoints/_768up.scss */
   header .hamburger-nav .menu-MainMenu li {
@@ -5024,7 +5018,7 @@ you can add resource intensive styles.
     width: 16.3%;
     text-align: center;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     border-bottom: 3px solid transparent;
   }
   /* line 156, ../scss/breakpoints/_768up.scss */
@@ -5204,7 +5198,7 @@ you can add resource intensive styles.
   }
   /* line 322, ../scss/breakpoints/_768up.scss */
   body #content {
-    max-width: 1300px;
+    width: 1300px;
     margin: auto;
   }
 
@@ -5282,7 +5276,7 @@ you can add resource intensive styles.
   /* line 395, ../scss/breakpoints/_768up.scss */
   .header-bottom {
     position: relative;
-    top: -30px;
+    top: -40px;
     z-index: 100;
     color: #fff;
   }
@@ -5290,9 +5284,18 @@ you can add resource intensive styles.
   /* line 403, ../scss/breakpoints/_768up.scss */
   .top-band {
     height: 60px;
-    font-size: 30px;
+    font-size: 20px;
   }
+	
+	.top-band h3{
+		top: 50%;
+		transform: translateY(20%);
+	}
 
+	.policy-contents{
+	margin-top: 70px;	
+	}
+	
   /* line 410, ../scss/breakpoints/_768up.scss */
   .policy-contents-title {
     width: 467px;
@@ -5351,114 +5354,32 @@ you can add resource intensive styles.
   /* line 444, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .inner-recruitment .text li,
   .recruitment-contents .inner-contact .text li,
-  .contact-contents .inner-recruitment .text li,
-  .contact-contents .inner-contact .text li {
+  {
     margin-left: 50px;
   }
   /* line 447, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .inner-recruitment .text .itemtext,
   .recruitment-contents .inner-contact .text .itemtext,
-  .contact-contents .inner-recruitment .text .itemtext,
-  .contact-contents .inner-contact .text .itemtext {
+  {
     margin-left: 80px;
   }
   /* line 450, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .inner-recruitment .text .itemtext2,
   .recruitment-contents .inner-contact .text .itemtext2,
-  .contact-contents .inner-recruitment .text .itemtext2,
-  .contact-contents .inner-contact .text .itemtext2 {
+   {
     margin-left: 74px;
   }
   /* line 455, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .inner-recruitment .contact-form,
   .recruitment-contents .inner-contact .contact-form,
-  .contact-contents .inner-recruitment .contact-form,
-  .contact-contents .inner-contact .contact-form {
+ {
     margin: auto;
   }
-  /* line 457, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form,
-  .recruitment-contents .inner-contact .contact-form .application-form,
-  .contact-contents .inner-recruitment .contact-form .application-form,
-  .contact-contents .inner-contact .contact-form .application-form {
-    width: 100%;
-    background-color: #fff;
-    color: #323944;
-    font-weight: 600;
-    margin: auto;
-    /* 必須項目の入力欄を黄色にする */
-    /* エラーメッセージを見やすくする */
-  }
-  /* line 463, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form tr,
-  .recruitment-contents .inner-contact .contact-form .application-form tr,
-  .contact-contents .inner-recruitment .contact-form .application-form tr,
-  .contact-contents .inner-contact .contact-form .application-form tr {
-    width: 100%;
-  }
-  /* line 465, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form tr th,
-  .recruitment-contents .inner-contact .contact-form .application-form tr th,
-  .contact-contents .inner-recruitment .contact-form .application-form tr th,
-  .contact-contents .inner-contact .contact-form .application-form tr th {
-    width: 30%;
-    padding-top: 20px;
-    text-align: left;
-  }
-  /* line 470, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form tr .message,
-  .recruitment-contents .inner-contact .contact-form .application-form tr .message,
-  .contact-contents .inner-recruitment .contact-form .application-form tr .message,
-  .contact-contents .inner-contact .contact-form .application-form tr .message {
-    vertical-align: top;
-    padding-top: 50px;
-    padding-left: 90px;
-  }
-  /* line 475, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form tr .contactmessage,
-  .recruitment-contents .inner-contact .contact-form .application-form tr .contactmessage,
-  .contact-contents .inner-recruitment .contact-form .application-form tr .contactmessage,
-  .contact-contents .inner-contact .contact-form .application-form tr .contactmessage {
-    vertical-align: top;
-    padding-top: 50px;
-  }
-  /* line 480, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form tr td,
-  .recruitment-contents .inner-contact .contact-form .application-form tr td,
-  .contact-contents .inner-recruitment .contact-form .application-form tr td,
-  .contact-contents .inner-contact .contact-form .application-form tr td {
-    width: 70%;
-    padding-top: 20px;
-    padding-left: 40px;
-  }
-  /* line 488, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-  .recruitment-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-  .recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-  .recruitment-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-  .contact-contents .inner-recruitment .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-  .contact-contents .inner-recruitment .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-  .contact-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-  .contact-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
-    background: #FBFFDF;
-    color: #444;
-  }
-  /* line 496, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
-  .recruitment-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
-  .recruitment-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
-  .recruitment-contents .inner-contact .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
-  .contact-contents .inner-recruitment .contact-form .application-form span.wpcf7-not-valid-tip,
-  .contact-contents .inner-recruitment .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors,
-  .contact-contents .inner-contact .contact-form .application-form span.wpcf7-not-valid-tip,
-  .contact-contents .inner-contact .contact-form .application-form .wpcf7-response-output.wpcf7-validation-errors {
-    color: red;
-    font-weight: bold;
-  }
+ 
 
   /* line 508, ../scss/breakpoints/_768up.scss */
   .about {
-    width: 80%;
+    width: 1000px;
     background: #fff;
     display: flex;
   }
@@ -5467,6 +5388,8 @@ you can add resource intensive styles.
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    width: 250px;
+	  height: auto !important;
   }
   /* line 516, ../scss/breakpoints/_768up.scss */
   .about-head-paragraph {
@@ -5474,22 +5397,31 @@ you can add resource intensive styles.
   }
   /* line 519, ../scss/breakpoints/_768up.scss */
   .about-head img {
-    display: block;
+	 display: block;
     width: 70px;
     height: 47px;
+    margin-right: 10px;
   }
   /* line 524, ../scss/breakpoints/_768up.scss */
-  .about-head .service-about-img {
+  .about-head .service-about-img{
     width: 239px;
     height: 120px;
+	  margin-top: 0;
   }
+	_:-ms-lang(x)::-ms-backdrop, .about-head .service-about-img{
+	 display: block;
+    margin-top: 24px;
+		width: 239px;
+    height: 120px;
+}
+
   /* line 528, ../scss/breakpoints/_768up.scss */
   .about-head p {
     width: 170px;
   }
   /* line 532, ../scss/breakpoints/_768up.scss */
   .about-paragraph {
-    width: 290%;
+    width: calc(100% - 250px);
     font-size: 16px;
   }
 
@@ -5499,7 +5431,7 @@ you can add resource intensive styles.
   }
   /* line 541, ../scss/breakpoints/_768up.scss */
   .service-about .about-pc {
-    margin-left: 20px;
+	  width: 680px;
   }
   /* line 543, ../scss/breakpoints/_768up.scss */
   .service-about .about-pc-head {
@@ -5535,6 +5467,11 @@ you can add resource intensive styles.
   .inner-notice .noticelist .title {
     padding-left: 30px;
   }
+	
+	.inner-notice .noticelist .title a:hover{
+  color: #8ff18b;
+}
+	
   /* line 573, ../scss/breakpoints/_768up.scss */
   .inner-notice .noticelist .title a:after {
     display: none;
@@ -5581,7 +5518,7 @@ you can add resource intensive styles.
     border-radius: 10px;
     background: #fff;
     height: 70px;
-    width: 80%;
+    width: 77%;
     margin: 30px auto;
   }
   /* line 620, ../scss/breakpoints/_768up.scss */
@@ -5673,12 +5610,20 @@ you can add resource intensive styles.
     margin-top: 0px;
     color: #00AE78;
   }
+	
   /* line 695, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .post-contents {
     width: 100%;
     font-size: 14px;
     margin-left: 190px;
   }
+	
+	 .single-format .post-menu .post-contents img{
+    width: 80%;
+  }
+	_:-ms-lang(x)::-ms-backdrop, .single-format .post-menu .post-contents img{
+	 max-width: 70%;
+}
   /* line 700, ../scss/breakpoints/_768up.scss */
   .single-format .post-menu .post-btn {
     margin-top: 100px;
@@ -5693,6 +5638,15 @@ you can add resource intensive styles.
     background: #00AE78;
     border-radius: 5px;
   }
+	
+ .single-format .post-menu .post-btn:hover{
+  color: #fff;
+  border-color: #8ff18b;
+  background-color: #8ff18b;
+}
+	
+
+
   /* line 714, ../scss/breakpoints/_768up.scss */
   .single-format .noticelist {
     margin-top: -60px;
@@ -6005,14 +5959,17 @@ you can add resource intensive styles.
   /* line 1001, ../scss/breakpoints/_768up.scss */
   .purchase {
     width: 100%;
-    height: 100%;
     margin-top: 40px;
   }
   /* line 1005, ../scss/breakpoints/_768up.scss */
   .purchase-list {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-evenly;
+	  margin: 100px;
     width: 85%;
-    height: 900px;
-    margin-top: 50px;
+	 margin-top: 50px;
+	  
   }
   /* line 1009, ../scss/breakpoints/_768up.scss */
   .purchase-list-item {
@@ -6030,39 +5987,42 @@ you can add resource intensive styles.
 
   /* line 1023, ../scss/breakpoints/_768up.scss */
   .penalty {
-    width: 60%;
-    height: 265px;
+    width: 800px;
     margin: auto;
     margin-top: 40px;
   }
   /* line 1028, ../scss/breakpoints/_768up.scss */
   .penalty-title {
-    margin-left: -118px;
+  display: block;
   }
   /* line 1031, ../scss/breakpoints/_768up.scss */
   .penalty-img {
-    position: relative;
+    width: 40%;
+    display: inline-block;
+    padding: 30px;
   }
   /* line 1033, ../scss/breakpoints/_768up.scss */
   .penalty-img img {
-    width: 240px;
-    height: 164px;
-    position: absolute;
-    top: -50px;
-    left: -90px;
+    width: 100%;
+    height: auto;
   }
   /* line 1041, ../scss/breakpoints/_768up.scss */
   .penalty-bottom {
-    width: 100%;
-    margin-left: 180px;
+    width: 59%;
+    padding: 30px 0px;
+    vertical-align: top;
+    margin-left: 0px;
     color: #323944;
+    display: inline-block;
   }
 
   /* line 1051, ../scss/breakpoints/_768up.scss */
   .flow .steps {
-    max-width: 1240px;
+    width: 1240px;
     display: flex;
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     margin: auto;
   }
   /* line 1056, ../scss/breakpoints/_768up.scss */
@@ -6104,35 +6064,38 @@ you can add resource intensive styles.
 
   /* line 1090, ../scss/breakpoints/_768up.scss */
   .question .list {
-    width: 69%;
+    width: 1200px;
     margin: 30px auto;
   }
   /* line 1093, ../scss/breakpoints/_768up.scss */
   .question .list-question {
     padding: 18px 0;
+    width: 800px;
+    margin: 0 auto;
+    height: 60px;
   }
   /* line 1095, ../scss/breakpoints/_768up.scss */
   .question .list-question p {
     font-size: 20px;
-    margin-left: 80px;
+    margin-left: 65px;
     width: 100%;
   }
   /* line 1099, ../scss/breakpoints/_768up.scss */
   .question .list-question p:before {
     content: 'Q.';
     font-size: 30px;
-    left: 40px;
+    left: 20px;
   }
   /* line 1107, ../scss/breakpoints/_768up.scss */
   .question .list-answer p {
     padding: 40px 20px 40px 10px;
-    margin-left: 80px;
+    margin-left: 59px;
   }
   /* line 1110, ../scss/breakpoints/_768up.scss */
   .question .list-answer p:before {
     content: 'A .';
     font-size: 30px;
-    left: 40px;
+    left: 23px;
     top: 28px;
   }
 
@@ -6201,6 +6164,8 @@ you can add resource intensive styles.
   .question-pink .list-question,
   .question-white .list-question {
     padding: 18px 0;
+    width: 800px;
+    margin: 0 auto;
   }
   /* line 1175, ../scss/breakpoints/_768up.scss */
   .question-green .list-question p,
@@ -6272,6 +6237,12 @@ you can add resource intensive styles.
     padding-top: 40px;
     font-size: 20px;
   }
+	
+	.contact-text2{
+    text-align: center;
+    padding: 0 5px;
+  }
+	
   /* line 1226, ../scss/breakpoints/_768up.scss */
   .contact .phone img {
     width: 40px;
@@ -6302,9 +6273,9 @@ you can add resource intensive styles.
   }
   /* line 1252, ../scss/breakpoints/_768up.scss */
   .area .lists {
-    display: flex;
+    display: block;
     justify-content: space-around;
-    max-width: 1125px;
+    width: 1125px;
     margin: auto;
     position: relative;
   }
@@ -6370,6 +6341,15 @@ you can add resource intensive styles.
     cursor: pointer;
     height: 43px;
     border-radius: 5px 5px 0 0;
+  }
+  .area .lists .list-type p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    height: 43px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
   }
   /* line 1314, ../scss/breakpoints/_768up.scss */
   .area .lists .list-type p:after {
@@ -6542,7 +6522,8 @@ you can add resource intensive styles.
   /* line 1466, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right {
     padding-top: 0;
-    margin-left: 100px;
+    margin-left: 40px;
+    padding-bottom: 0;
   }
   /* line 1469, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .phone {
@@ -6550,10 +6531,14 @@ you can add resource intensive styles.
     width: 198px;
     justify-content: flex-start;
     margin-left: 10px;
+    margin-top: 11px;
   }
   /* line 1474, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .phone img {
     margin-right: 10px;
+	  width: 40px;
+	  height: 40px;
+	  margin-top: 6px;
   }
   /* line 1478, ../scss/breakpoints/_768up.scss */
   .footer-bottom-right .phone-details .phone-number {
@@ -6587,8 +6572,9 @@ you can add resource intensive styles.
     position: fixed;
     bottom: 0;
     left: 0;
+    right: 0;
     z-index: 2;
-    width: 100%;
+    width: 1300px;
     margin: auto;
     transition: .3s;
     transform: translateY(100%);
@@ -6597,23 +6583,28 @@ you can add resource intensive styles.
 
   /* line 1516, ../scss/breakpoints/_768up.scss */
   .is-show {
-    transform: translateY(0);
+    transform: translateX(0%);
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   /* line 1521, ../scss/breakpoints/_768up.scss */
-  .company-content {
-    height: 980px;
+  .recruitment-contents,
+	.company-content {
+		width: 100%;
+    height: 100%;
   }
 
   /* line 1524, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents,
   .contact-contents {
     background-color: #fff;
     width: 100%;
+	  height: 100%;
+	  padding-bottom: 100px;
   }
   /* line 1528, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner,
-  .recruitment-contents .inner-contact,
+/*   .recruitment-contents .company-inner,
+  .recruitment-contents .inner-contact, */
   .contact-contents .company-inner,
   .contact-contents .inner-contact {
     width: 63%;
@@ -6665,16 +6656,13 @@ you can add resource intensive styles.
     margin-left: 74px;
   }
   /* line 1554, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form,
-  .recruitment-contents .inner-contact .contact-form,
   .contact-contents .company-inner .contact-form,
   .contact-contents .inner-contact .contact-form {
     width: 100%;
     margin: auto;
   }
+
   /* line 1557, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form .application-form,
-  .recruitment-contents .inner-contact .contact-form .application-form,
   .contact-contents .company-inner .contact-form .application-form,
   .contact-contents .inner-contact .contact-form .application-form {
     width: 110%;
@@ -6686,25 +6674,36 @@ you can add resource intensive styles.
     /* 必須項目の入力欄を黄色にする */
     /* エラーメッセージを見やすくする */
   }
+
+
   /* line 1564, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form .application-form tr,
-  .recruitment-contents .inner-contact .contact-form .application-form tr,
   .contact-contents .company-inner .contact-form .application-form tr,
   .contact-contents .inner-contact .contact-form .application-form tr {
     width: 100%;
   }
   /* line 1566, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form .application-form tr th,
-  .recruitment-contents .inner-contact .contact-form .application-form tr th,
   .contact-contents .company-inner .contact-form .application-form tr th,
   .contact-contents .inner-contact .contact-form .application-form tr th {
-    width: 30%;
+    width: 27%;
     padding-top: 20px;
     text-align: left;
   }
+	.contact-contents .inner-contact .contact-form .application-form th,
+	.contact-contents .inner-contact .contact-form .recruitment .application-form th{
+	display: table-cell;
+	width: 375px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+	.contact-contents .inner-contact .contact-form .application-form td,
+	.contact-contents .inner-contact .contact-form .recruitment .application-form td{
+	display: table-cell;
+	width: 86%;
+}
+
+	
   /* line 1571, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form .application-form tr .message,
-  .recruitment-contents .inner-contact .contact-form .application-form tr .message,
   .contact-contents .company-inner .contact-form .application-form tr .message,
   .contact-contents .inner-contact .contact-form .application-form tr .message {
     vertical-align: top;
@@ -6712,34 +6711,42 @@ you can add resource intensive styles.
     padding-left: 90px;
   }
   /* line 1576, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form .application-form tr .contactmessage,
-  .recruitment-contents .inner-contact .contact-form .application-form tr .contactmessage,
   .contact-contents .company-inner .contact-form .application-form tr .contactmessage,
   .contact-contents .inner-contact .contact-form .application-form tr .contactmessage {
     vertical-align: top;
     padding-top: 50px;
   }
   /* line 1580, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form .application-form tr td,
-  .recruitment-contents .inner-contact .contact-form .application-form tr td,
   .contact-contents .company-inner .contact-form .application-form tr td,
   .contact-contents .inner-contact .contact-form .application-form tr td {
-    width: 100%;
+    width: 630px;
     padding-top: 20px;
     padding-left: 0px;
   }
   /* line 1588, ../scss/breakpoints/_768up.scss */
-  .recruitment-contents .company-inner .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-  .recruitment-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
-  .recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-  .recruitment-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
+
   .contact-contents .company-inner .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
   .contact-contents .company-inner .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea,
   .contact-contents .inner-contact .contact-form .application-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
   .contact-contents .inner-contact .contact-form .application-form textarea.wpcf7-form-control.wpcf7-textarea {
-    background: #FBFFDF;
-    color: #444;
+	  max-width: 100%;
+	  margin-left: 17px;
   }
+	
+	 span .wpcf7-list-item,
+	.recruitment span.wpcf7-list-item{
+		 display: inline;
+		margin-top: 10px;
+		 padding-right: 30px;
+	}
+	
+
+	div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
+		border: 1px solid #00ae78;
+		padding: 5px;
+		font-weight: bold;
+		color: #ff0000;
+	}
   /* line 1594, ../scss/breakpoints/_768up.scss */
   .recruitment-contents .company-inner .contact-form .application-form input.wpcf7-submit,
   .recruitment-contents .inner-contact .contact-form .application-form input.wpcf7-submit,
@@ -6760,10 +6767,16 @@ you can add resource intensive styles.
     font-weight: bold;
   }
 
+
   /* line 1610, ../scss/breakpoints/_768up.scss */
   .company-contents .company-inner {
     width: 800px;
   }
+	
+	.company-contents .company-inner ul{
+		margin-top: 60px;
+	}
+	
   /* line 1613, ../scss/breakpoints/_768up.scss */
   .company-contents .company-inner ul li {
     margin: 30px 0;
@@ -6828,6 +6841,7 @@ you can add resource intensive styles.
     margin: auto;
     margin-top: 40px;
   }
+	
   /* line 1672, ../scss/breakpoints/_768up.scss */
   .uservoice-bigtitle h3 {
     background-color: #fff;
@@ -6837,12 +6851,14 @@ you can add resource intensive styles.
     border-left: 5px solid #00AE78;
     padding-left: 9px;
   }
+	
   /* line 1680, ../scss/breakpoints/_768up.scss */
   .uservoice-bigtitle .border {
     margin: auto;
     margin-top: -15px;
     border-bottom: 3px solid #00c1e1;
   }
+
   /* line 1686, ../scss/breakpoints/_768up.scss */
   .uservoice-lists {
     display: flex;
@@ -6851,6 +6867,7 @@ you can add resource intensive styles.
     width: 87%;
     margin: auto;
   }
+	
   /* line 1692, ../scss/breakpoints/_768up.scss */
   .uservoice-lists .uservoice-list {
     padding-top: 20px;

@@ -14,17 +14,17 @@
         <div class="top-band">
           <h3>お問い合わせ</h3>
         </div>
-
+		  
+		  <div class="contact-text2">
+          <h5>
+          ※お客様の個人情報を、サービスご利用費用のお見積もりの目的以外に使用することはありません。
+          </h5>
+        </div>
+		  
         <div class="contact-contents">
           <div class="inner-contact">
-            <br><br>
             <div class="contact-form">
-            <?php if(wp_is_mobile()) : ?>
-              <?php echo do_shortcode( '[contact-form-7 id="93" title="contact"]' ); ?>
-            <?php else : ?>
-              <br>
-              <?php echo do_shortcode( '[contact-form-7 id="92" title="contact_pc"]' ); ?>
-              <?php endif; ?>
+              <?php echo do_shortcode( '[contact-form-7 id="92" title="contact"]' ); ?>
             </div>
 
         </div>
@@ -42,9 +42,9 @@
         </a>
       </div>
       <ul class="address">
-        <li>〒144-0052</li>
-        <li>東京都大田区蒲田5-21-13</li>
-        <li>ペガサスステーションプラザ蒲田B2</li>
+        <li>〒230-0048</li>
+          <li>神奈川県横浜市鶴見区本町通</li>
+          <li>4-170-20-1F</li>
       </ul>
     </div>
     <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -61,6 +61,5 @@
 <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
 </div>
 
-</div>
+
 <?php get_footer(); ?>
-</div>
