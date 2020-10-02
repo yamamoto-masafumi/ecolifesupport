@@ -1,0 +1,1 @@
+<a href="tel:0120994838"><img class="size-full wp-image-630 aligncenter" src="https://ecolifesupport.com/wp-content/uploads/2018/09/電話_ご連絡下さい.png" alt="お問い合わせ" width="1000" height="300" /></a>

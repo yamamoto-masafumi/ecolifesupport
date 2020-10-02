@@ -65,7 +65,11 @@
                         <br>
                         ありがとうございました。
                         </p>
-                        <br>
+                        <div class="user-text">
+                            <h5>
+                              ※ご本人の希望で画像はイメージです
+                            </h5>
+                          </div>
                         <div class="usage-table">
                             <div class="inner-usage">
                             <ul>
@@ -228,7 +232,7 @@
 
                           <div class="inner">
                             <div class="imgbox">
-                            <a href="<?php echo home_url('/user-voice/user14'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice13.jpg"></a>
+                            <a href="<?php echo home_url('/user-voice/user13'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice13.jpg"></a>
                             </div>
                             <div class="labeltext">
                                 <p class="label">生前処理　</p>
@@ -306,16 +310,20 @@
             <p class="h3-sub">CONTACT</p>
           </div>
           <div class="watch contact-watch"></div>
+          <?php if(wp_is_mobile()) : ?>
           <p class="contact-text">まずはお気軽に<br>お問い合わせください。</p>
+          <?php else : ?>
+          <p class="contact-text">まずはお気軽にお問い合わせください。</p>
+          <?php endif; ?>
           <div id="phone" class="phone">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
-            <span class="phone-number">0120-994-834</span>
+            <span class="phone-number">0120-829-053</span>
             <span class="phone-time">8:00-21:00（年中無休）</span>
           </div>
-          <div class="contact-btn">無料お見積りはこちら</div>
+          <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
         </div>
 
-        <div class="area">
+        <div id="area" class="area">
           <div class="content-head voice-head">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/corresponding-area.svg">
             <h3>対応エリア</h3>
@@ -434,6 +442,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -450,6 +464,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -489,6 +506,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -505,6 +528,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -544,6 +570,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -560,6 +592,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -599,6 +634,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -615,6 +656,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -654,6 +698,12 @@
                       case 'Kanagawa':
                         $pref = '神奈川県';
                         break;
+                      case 'Saitama':
+                        $pref = '埼玉県';
+                        break;
+                      case 'Chiba':
+                        $pref = '千葉県';
+                        break;
                     }
                     echo '<p class="pref">' . '<img src="' . get_bloginfo('template_directory') . '/library/images/icon/pin.svg"><span>' . $pref . '</span></p>';
                     echo '<div class="sp-hidden">';
@@ -670,6 +720,9 @@
                               break;
                             case 'Sagamihara':
                               $district = '相模原市';
+                              break;
+                            case 'Chiba':
+                              $district = '千葉市';
                               break;
                           }
                           echo '<p class="ku">' . $district . '</p>';
@@ -697,39 +750,36 @@
             </div>
           </div>
         </div>
-        <div id="inner-footer" class="cf footer-top">
-          <div class="footer-top-inner">
-            <div class="footer-top-inner-info">
-              <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
-                <a href="<?php echo home_url(); ?>" rel="nofollow">
-                  <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
-                </a>
-              </div>
-              <ul class="address">
-                <li>〒144-0052</li>
-                <li>東京都大田区蒲田5-21-13</li>
-                <li>ペガサスステーションプラザ蒲田B2</li>
-              </ul>
-            </div>
-            <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-              <?php
-                wp_nav_menu(array(
-                'menu' => 'FooterMenu',
-                'menu_class' => 'menu',
-                'container' => 'div',
-                ));
-              ?>      
-            </nav>
-          </div>
-        </div>
-        <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
 
+  <div id="inner-footer" class="cf footer-top">
+    <div class="footer-top-inner">
+      <div class="footer-top-inner-info">
+        <div id="logo" class="logo" itemscope itemtype="http://schema.org/Organization">
+          <a href="<?php echo home_url(); ?>" rel="nofollow">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/logo.svg">
+          </a>
+        </div>
+        <ul class="address">
+          <li>〒230-0048</li>
+          <li>神奈川県横浜市鶴見区本町通</li>
+          <li>4-170-20-1F</li>
+        </ul>
+      </div>
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <?php
+          wp_nav_menu(array(
+          'menu' => 'FooterMenu',
+          'menu_class' => 'menu',
+          'container' => 'div',
+          ));
+        ?>
+      </nav>
+    </div>
+  </div>
+  <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
       </main>
   </div>
 </div>
 </div>
-
-
-
 
 <?php get_footer(); ?>

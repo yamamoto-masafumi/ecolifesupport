@@ -1,0 +1,146 @@
+@charset "utf-8";
+/*
+Theme Name: ★BizVektor子テーマサンプル★
+Theme URI: http://bizvektor.com
+Template: biz-vektor
+Description: 
+Author: ★あなた ｍ９っ・ｗ・）ｂ★
+Tags: 
+Version: 0.1.0
+*/
+
+
+#sideContact{
+	display:none;
+}
+
+
+    @media only screen and (min-width: 970px) {
+      .innerBox, #panList .innerBox, #footMenu .innerBox, #footer .innerBox, #topMainBnrFrame, #pageTitBnr .innerBox, #topMainBnrFrame{
+        width: 1140px !important;
+      }
+      .headMainMenu li{
+        width: 14.28%;
+      }
+      #header .innerBox{
+        width: 1140px !important;
+      }
+      #main #container #sideTower{
+        width: 300px !important;
+      }
+      #main #container .content{
+        width: 800px !important;
+      }
+    }
+
+
+
+/***** コンタクトフォーム *****/
+.table-contactform7{
+  overflow: hidden;
+table-layout: fixed;
+}
+ 
+.required-contactform7{
+  padding: 5px;
+  background: #DE8686;
+  color: #fff;
+  border-radius: 3px;
+  margin-right: 3px;
+}
+ 
+.unrequired-contactform7{
+  padding: 5px;
+  background: #BDBDBD;
+  color: #fff;
+  border-radius: 3px;
+  margin-right: 3px;
+}
+ 
+.table-contactform7 th{
+  font-weight:bold;
+}
+ 
+.table-contactform7 input,
+.table-contactform7 textarea{
+  max-width: 90% !important;
+  margin: 5px 10px 10px 5px;
+}
+ 
+.address-100 input{
+  max-width: 90% !important;
+  margin: 5px 10px 10px 5px;
+}
+ 
+.message-100 textarea{
+  width: 100%;
+  margin: 5px 10px 10px 5px;
+}
+ 
+@media screen and (min-width: 900px){
+  .table-contactform7 th{
+    width:28%;
+  }
+    }
+     
+@media screen and (max-width: 900px){
+.table-contactform7{
+  display:block;
+}     
+       
+  .table-contactform7 tbody,
+  .table-contactform7 tr{
+    display: block;
+    width: 100%;
+  }
+  .table-contactform7 th{
+  width:100%;
+  display:block;
+  margin: 0 auto;
+  border:none;
+}
+.table-contactform7 td{
+  display: list-item;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+	
+	
+  width: 100%;
+  border-top: none !important;
+}
+}
+#footerFloatingMenu{
+	display:none;
+}
+@media screen and (max-width: 480px){
+#topMainBnr:after{
+    padding-top: 125%;
+    height: auto !important;
+}
+}
+
+#footerFloatingMenu a{
+	width:50%;
+	float:left;
+}
+#siteBottom_space{
+height: 40px;
+background-color: #f08122;
+}
+
+
+@media screen and (min-width: 481px){
+	#footerFloatingMenu img{
+		width: 200px;
+	}
+	#footerFloatingMenu a:nth-child(1){
+		text-align:right;
+	}
+	#footerFloatingMenu a:nth-child(2){
+		text-align:left;
+	}
+
+	
+}
+

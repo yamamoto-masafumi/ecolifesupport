@@ -30,7 +30,7 @@
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
-              <a href="#disused"><p class="two-line">不用品回収<br>について</a></p>
+              <a href="#disused"><p class="two-line">不用品回収<br>について</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
           </ul>
@@ -44,7 +44,7 @@
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
-              <a href="#rearranging-relics"><p class="one-line">遺品整理について</a></p>
+              <a href="#rearranging-relics"><p class="one-line">遺品整理について</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
           </ul>
@@ -58,7 +58,7 @@
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
             <li>
-              <a href="#corresponding-area"><p class="two-line">対応エリア<br>について</a></p>
+              <a href="#corresponding-area"><p class="two-line">対応エリア<br>について</p></a>
               <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/arrow-down-green.svg">
             </li>
           </ul>
@@ -73,7 +73,7 @@
             </div>
             <div class="list-answer hidden">
               <p>
-                フリーダイヤル0120-994-838からお申し込み下さい。<br>
+                フリーダイヤル0120-829-053からお申し込み下さい。<br>
                 また、メールフォームにてお申込みが可能です。<br>
                 お申込みの際に詳しい内容をお伝え頂きましたら、簡単お見積りが可能です。
               </p>
@@ -134,7 +134,7 @@
           </div>
           <div class="list">
             <div class="list-question">
-              <p>1K程度の引越しをするとしたら相場はどれくらどれくらいですか？</p>
+              <p>1K程度の引越しをするとしたら相場はどれくらいですか？</p>
             </div>
             <div class="list-answer hidden">
               <p>
@@ -222,7 +222,7 @@
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
-              <p>近所の人にバレずにゴミ屋敷を回収して頂きたいです。</p>
+              <p>近所の人にバレずにゴミ屋敷を掃除して頂きたいです。</p>
             </div>
             <div class="list-answer hidden">
               <p>
@@ -548,15 +548,15 @@
           <ul class="faq-question-menu">
             <li>
               <a href="#pre-treatment"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
-                <span>生前処理について</a>
+				  <span>生前処理について</span></a>
             </li>
             <li>
               <a href="#purchasing"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
-                <span>不用品の回収について</a>
+				  <span>不用品の回収について</span></a>
             </li>
             <li>
               <a href="#corresponding-area"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/triangle-down-green.svg">
-                <span>対応エリアについて</a>
+				  <span>対応エリアについて</span></a>
             </li>
           </ul>
           </div>
@@ -570,7 +570,7 @@
             </div>
             <div class="list-answer hidden">
               <p>
-                フリーダイヤル0120-994-838からお申し込み下さい。<br>
+                フリーダイヤル0120-829-053からお申し込み下さい。<br>
                 また、メールフォームにてお申込みが可能です。<br>
                 お申込みの際に詳しい内容をお伝え頂きましたら、簡単お見積りが可能です。
               </p>
@@ -631,7 +631,7 @@
           </div>
           <div class="list">
             <div class="list-question">
-              <p>1K程度の引越しをするとしたら相場はどれくらどれくらいですか？</p>
+              <p>1K程度の引越しをするとしたら相場はどれくらいですか？</p>
             </div>
             <div class="list-answer hidden">
               <p>
@@ -719,7 +719,7 @@
             <div class="border"></div>
           <div class="list">
             <div class="list-question">
-              <p>近所の人にバレずにゴミ屋敷を回収して頂きたいです。</p>
+              <p>近所の人にバレずにゴミ屋敷を掃除して頂きたいです。</p>
             </div>
             <div class="list-answer hidden">
               <p>
@@ -1019,10 +1019,14 @@
             <p class="h3-sub">CONTACT</p>
           </div>
           <div class="watch contact-watch"></div>
+          <?php if(wp_is_mobile()) : ?>
           <p class="contact-text">まずはお気軽に<br>お問い合わせください。</p>
+          <?php else : ?>
+          <p class="contact-text">まずはお気軽にお問い合わせください。</p>
+          <?php endif; ?>
           <div id="phone" class="phone">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
-            <span class="phone-number">0120-994-834</span>
+            <span class="phone-number">0120-829-053</span>
             <span class="phone-time">8:00-21:00（年中無休）</span>
           </div>
           <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
@@ -1467,9 +1471,10 @@
           </a>
         </div>
         <ul class="address">
-          <li>〒144-0052</li>
-          <li>東京都大田区蒲田5-21-13</li>
-          <li>ペガサスステーションプラザ蒲田B2</li>
+          	<li>〒230-0048</li>
+          <li>神奈川県横浜市鶴見区本町通</li>
+          <li>4-170-20-1F</li>
+
         </ul>
       </div>
       <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -1488,4 +1493,4 @@
 </div>
 
 <?php get_footer(); ?>
-</div>
+

@@ -58,7 +58,9 @@
           <div id="phone" class="phone">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
             <div class="phone-details">
-              <span class="phone-number">0120-994-834</span>
+              <a href="tel:0120-829-053">
+						<span class="phone-number">0120-829-053</span>
+					</a>
               <span class="phone-time">8:00-21:00（年中無休）</span>
             </div>
           </div>

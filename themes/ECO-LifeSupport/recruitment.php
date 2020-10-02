@@ -23,14 +23,14 @@
             <div class="text">
               <ul>
                 <li class="item">
-                  応募資格
+					<p>応募資格</p>
                 </li>
                 <li class="itemtext">
-                  20歳〜30歳<br>
+                 <p> 20歳〜30歳<br>
                   普通免許<br>
                   営業経験ある方<br>
                   研修期間（３ヶ月）<br>
-                  研修終了後、正社員
+					 研修終了後、正社員</p>
                 </li>
               </ul>
             </div>
@@ -38,10 +38,10 @@
             <div class="text">
               <ul>
                 <li class="item">
-                  勤務時間
+					<p>勤務時間</p>
                 </li>
                 <li class="itemtext">
-                  10:00〜19:00（休憩１時間）
+					<p>10:00〜19:00（休憩１時間）</p>
                 </li>
               </ul>
             </div>
@@ -49,11 +49,11 @@
             <div class="text">
               <ul>
                 <li class="item">
-                  給与&emsp;&emsp;
-                </li>
+					<p>給与</p>
+                </li>
                 <li class="itemtext">
-                  研修期間&emsp;&emsp;&emsp;&emsp;250,000円<br>
-                  研修期間終了時&emsp;<span>280,000円</span>
+					<p>研修期間　250,000円<br>
+						研修期間終了時　280,000円</p>
                 </li>
               </ul>
             </div>
@@ -61,29 +61,27 @@
             <div class="text">
               <ul>
                 <li class="item">
-                  昇給・給与
-                </li>
-                <li class="itemtext2">
-                  インセンティブあり<br>
-                  業績に応じてボーナスあり
+					<p>昇給・賞与</p>
+                </li>
+                <li class="itemtext">
+					<p>インセンティブあり<br>
+						業績に応じてボーナスあり</p>
                 </li>
               </ul>
             </div>
-
+			  
             <div class="bordergreen"></div>
             <h3 class="title">応募フォーム</h3>
             <div class="border"></div>
-            <div class="contact-form">
-            <?php if(wp_is_mobile()) : ?>
-              <?php echo do_shortcode( '[contact-form-7 id="87" title="recruitment"]' ); ?>
-            <?php else : ?>
+			</div> 
+			</div>
+			<div class="contact-contents">
+          <div class="inner-contact">
+            <div class="contact-form recruitment">
               <?php echo do_shortcode( '[contact-form-7 id="91" title="recruitment"]' ); ?>
-              <?php endif; ?>
             </div>
-
         </div>
-        </div>
-
+		  </div>
     </main>
   </div>
 </div>
@@ -96,9 +94,9 @@
         </a>
       </div>
       <ul class="address">
-        <li>〒144-0052</li>
-        <li>東京都大田区蒲田5-21-13</li>
-        <li>ペガサスステーションプラザ蒲田B2</li>
+        <li>〒230-0048</li>
+          <li>神奈川県横浜市鶴見区本町通</li>
+          <li>4-170-20-1F</li>
       </ul>
     </div>
     <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -115,6 +113,5 @@
 <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
 </div>
 
-</div>
 <?php get_footer(); ?>
-</div>
+
