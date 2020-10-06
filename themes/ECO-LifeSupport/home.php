@@ -914,6 +914,75 @@
             </div>
           </div>
         </div>
+       
+        <div class="voice yellow-bg">
+          <div class="content-head voice-head">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/speech-ballon.svg">
+            <h3>お役立ちコンテンツ</h3>
+            <p class="h3-sub">USEFUL</p>
+          </div>
+          <div class="sp-slide swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="imgbox">
+					  <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  <!-- <span class="label">不用品回収</span> -->
+                </div>
+                <p class="text">
+                  <span class="interviewee">カテゴリ</span>
+						 <a href=""><span class="title">タイトル</span></a>
+                  <span class="detail">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </span>
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+						<a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  <!-- <span class="label">不用品回収</span> -->
+                </div>
+                <p class="text">
+                  <span class="interviewee">カテゴリ</span>
+					  <a href=""><span class="title">タイトル</span></a>
+                  <span class="detail">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </span>
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+					  <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  <!-- <span class="label">遺品整理</span> -->
+                </div>
+                <p class="text">
+                  <span class="interviewee">カテゴリ</span>
+				  	<a href=""><span class="title">タイトル</span></a>
+                  <span class="detail">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </span>
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+					<a href="<?php echo home_url('/user-voice/user4'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  <!-- <span class="label">ゴミ屋敷の片付け</span> -->
+                </div>
+                <p class="text">
+                  <span class="interviewee">カテゴリ</span>
+					<a href=""><span class="title">タイトル</span></a>
+                  <span class="detail">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-button-prev sp-prev"></div>
+            <div class="swiper-button-next sp-next"></div>
+          </div>
+          <a href=""><div class="voice-btn-witdh">お役立ちコンテンツ一覧</div></a>
+        </div>
+
+
       </main>
     </div>
   </div>

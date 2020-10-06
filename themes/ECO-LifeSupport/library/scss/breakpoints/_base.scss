@@ -935,7 +935,7 @@ POSTS & CONTENT STYLES
   text-align: center;
   img{
     display: block;
-    width: 32px;
+    width: 20px;
     margin: auto;
   }
   h3{
@@ -1430,7 +1430,7 @@ POSTS & CONTENT STYLES
 //VOICE
 .voice{
   background-size: 86%;
-  background-image: url('../images/background/users-voice-bg.png');
+  // background-image: url('../images/background/users-voice-bg.png');
   background-position: top;
   background-repeat: no-repeat;
   padding: 20px 0;
@@ -1482,9 +1482,41 @@ POSTS & CONTENT STYLES
       background-size: cover;
     }
   }
+  &-btn-witdh{
+    margin: 20px auto;
+    position: relative;
+    width: 220px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: $black;
+    background: $white;
+    border: 1px solid $green;
+    border-radius: 5px;
+    text-align: center;
+    &:hover{
+      color: $white;	
+      border-color: #8FF18B;	
+      background-color: #8FF18B;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 16px;
+      width: 9px;
+      height: 14px;
+      background-image: url('../images/icon/arrow-right-green.png');
+      background-size: cover;
+    }
+  }
   a{
     text-decoration: none;
   }
+}
+//お役立ちコンテンツ用に追加 
+.yellow-bg{
+  background-color: #FBFFDF;
 }
 
 //FLOW
