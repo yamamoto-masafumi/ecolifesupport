@@ -418,6 +418,7 @@ body{
   }
 }
 
+.sub-header-useful
 
 .header-bottom{
   position: relative;
@@ -2539,16 +2540,17 @@ footer{
 .usefularticle-format{
   display: flex;
   margin: auto;
+  max-width: 1400px;
   .post-menu{
     width: 58%;
     margin: auto;
-    margin-left: -130px;
-    margin-right: 100px;
+    // margin-left: -130px;
+    // margin-right: 100px;
     .usefularticle-title{
       width: 97%;
-      margin: auto;
+      // margin: auto;
       margin-top: 40px;
-      margin-left: 200px;
+      // margin-left: 200px;
       h3{
         font-size: 24px;
         padding-left: 9px;
@@ -2569,7 +2571,7 @@ footer{
     .post-contents{
       width: 100%;
       font-size: 14px;
-      margin-left: 190px;
+      // margin-left: 190px;
       // 10/15　移動
       .usefularticle-btn{
         margin-top: 30px;
@@ -2637,20 +2639,38 @@ footer{
             flex-direction: column;
             border-bottom: none;
             .thumbnail{
-            img{
-              width: 211px;
-              height: 144px;
+              img{
+                width: 211px;
+                height: 144px;
+              }
             }
-           }
+            .post-title{
+              width: 200px;
+              height: 40px;
+              padding-left: 10px;
+            }
           }
         }
       }
-    }
-    // ここまでがpost-contents　1カラム目
-    .usefularticlelist{
-      width: 30%;
-      margin-left: 200px;
-      padding: 50px 0;
+    }// ここまでがpost-contents
+  }// post-menu　ここまで １カラム目
+ // ここから2
+ .usefularticlelist{
+  width: 300px;
+  margin: auto;
+  margin-top: 0px;
+  padding: 0px 0;
+    &-inner{
+      width: 100%;
+      .tree{
+        width: 100%;
+        img{
+          width: 164px;
+          margin-bottom: -6px;
+          margin-left: 50%;
+          transform: translateX(-50%);
+        }
+      }
     }
   }
 }

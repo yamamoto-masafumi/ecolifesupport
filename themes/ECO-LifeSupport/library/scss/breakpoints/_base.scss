@@ -143,7 +143,7 @@ h2, .h2 {
 	margin-bottom: 0.375em;
 }
 
-.usefularticle-contents{
+.post-contents{
   h2{
     border-left: 5px solid #00AE78;
     background-color: #E5FFF2;
@@ -153,7 +153,7 @@ h2, .h2 {
   }
 }
 // 変更1012
-.usefularticle-contents{
+.post-contents{
   h3{
     border-left: 5px solid #FF3898;
     background-color: #FFF1F8;
@@ -3769,7 +3769,7 @@ footer{
 	    width: 89%;
 	    margin: auto;
 	    margin-top: 40px;
-	    .past-title{
+	    .past-title,.widgettitle{
 	      background-color: $green;
 	      color: $white;
 	      width: 100%;
@@ -3782,7 +3782,7 @@ footer{
 	      border-radius: 10px 10px 0 0;
 	    }
 	  }
-	  .past-useful{
+	  .past-useful,.wpp-no-data{
 	    background-color: $white;
 	    border: 1px solid $green;
 	    border-radius: 0 0 10px 10px;
@@ -4003,13 +4003,14 @@ footer{
       border-bottom: 1px dotted #00C1E1;
       padding-top: 10px;
       padding-bottom: 10px;
-      .thumbnail{
-        img{width: 84px;
-          height: 84px;
-          object-fit: cover;}
-
-        }.post-title{
+        .thumbnail{
+          img{width: 84px;
+            height: 84px;
+            object-fit: cover;}
+        }
+        .post-title{
             padding-left: 10px;
+            margin: auto 0;
           }
         }
       }
