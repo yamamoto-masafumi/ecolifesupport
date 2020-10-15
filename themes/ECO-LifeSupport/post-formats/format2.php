@@ -129,7 +129,7 @@
           <!-- 過去のお知らせ一覧 -->
         </div>
     </div>
-     
+
   </div><!-- usefularticle-formatの閉じ -->
 
 </article>
