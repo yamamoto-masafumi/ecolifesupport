@@ -747,49 +747,40 @@ _:-ms-lang(x)::-ms-backdrop, .about-head .service-about-img{
       width: 100%;
       font-size: 14px;
       margin-left: 190px;
-    .post-btn{
-      margin-top: 100px;
-      margin-bottom: 100px;
-      margin-left: 240px;
-      position: relative;
-      width: 188px;
-      height: 36px;
-      line-height: 36px;
-      text-align: center;
-      color: $white;
-      background: $green;
-      border-radius: 5px;
+      .post-btn{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 240px;
+        position: relative;
+        width: 188px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: $white;
+        background: $green;
+        border-radius: 5px;
+      }
+      img{
+        width: 80%;
+      }
+    }
+    .noticelist{
+      margin-top: -60px;
+      margin-left: 30px;
     }
   }
-  .noticelist{
-    margin-top: -60px;
-    margin-left: 30px;
-  }
+
+
+_:-ms-lang(x)::-ms-backdrop, .single-format .post-menu .post-contents img{
+ max-width: 70%;
 }
 
-// ブログカード　渡辺さん共有 10/14
-// .blog-card:before {
-//   font-size: .8em;
-// }
-// .blog-card-title {
-//   font-size: 1em;
-// }
-// .blog-card-excerpt {
-//   font-size: .74em;
-// }
-
-// .single-format .post-menu .post-contents img{
-//   width: 80%;
-// }
-// _:-ms-lang(x)::-ms-backdrop, .single-format .post-menu .post-contents img{
-//  max-width: 70%;
-// }
-
-// .single-format .post-menu .post-btn:hover{
-//   color: #fff;
-//   border-color: #8ff18b;
-//   background-color: #8ff18b;
-// }
+.single-format .post-menu .post-btn:hover{
+  color: #fff;
+  border-color: #8ff18b;
+  background-color: #8ff18b;
+}
+}
 
 //h2 common
 .content-head{
@@ -2579,6 +2570,20 @@ footer{
       width: 100%;
       font-size: 14px;
       margin-left: 190px;
+      // 10/15　移動
+      .usefularticle-btn{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 240px;
+        position: relative;
+        width: 188px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: $white;
+        background: #FE0101;
+        border-radius: 5px;
+      }
       // 渡辺さんに共有　10/14
       .pagebtn{
         position: relative;
@@ -2641,31 +2646,16 @@ footer{
         }
       }
     }
-  } 
-    // }追加 
-    .usefularticle-btn{
-      margin-top: 30px;
-      margin-bottom: 100px;
-      margin-left: 240px;
-      position: relative;
-      width: 188px;
-      height: 36px;
-      line-height: 36px;
-      text-align: center;
-      color: $white;
-      background: #FE0101;
-      border-radius: 5px;
+    // ここまでがpost-contents　1カラム目
+    .usefularticlelist{
+      width: 30%;
+      margin-left: 200px;
+      padding: 50px 0;
     }
   }
-  .noticelist{
-    margin-top: -60px;
-    margin-left: 30px;
-  }
-// } 消去
-
-.single-format .post-menu .post-contents img{
-  width: 80%;
 }
+
+
 
 
 // .usefularticle-btn{
@@ -2682,12 +2672,6 @@ footer{
 //   border-radius: 5px;
 // }
 
-
-.usefularticlelist{
-  width: 30%;
-  margin-left: 200px;
-  padding: 50px 0;
-}
 
 
   // .usefulart-catalog{
@@ -2717,15 +2701,13 @@ footer{
 
 
 
-// ブログカード　渡辺さん共有 10/14
-.blog-card:before {
-  font-size: .8em;
-}
-.blog-card-title {
-  font-size: 1em;
-}
-.blog-card-excerpt {
-  font-size: .74em;
-}
-
-}
+// ブログカード　渡辺さん共有 10/14　削除
+// .blog-card:before {
+//   font-size: .8em;
+// }
+// .blog-card-title {
+//   font-size: 1em;
+// }
+// .blog-card-excerpt {
+//   font-size: .74em;
+// }
