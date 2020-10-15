@@ -286,7 +286,8 @@
         </div>
       </div>
 
-        <div class="voice">
+      <div class="voice">
+        <div class="inner">
           <div class="content-head voice-head">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/speech-ballon.svg">
             <h3>お客様の声</h3>
@@ -296,12 +297,12 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="imgbox">
-					<a href="<?php echo home_url('/user-voice/user1'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin1.jpg"></a>
+					        <a href="<?php echo home_url('/user-voice/user1'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin1.jpg"></a>
                   <span class="label">不用品回収</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">東京都 Aさん 一人暮らし</span>
-						 <a href="<?php echo home_url('/user-voice/user1'); ?>"><span class="title">思った以上に安く利用でき<br>とっても満足です！</span></a>
+						      <a href="<?php echo home_url('/user-voice/user1'); ?>"><span class="title">思った以上に安く利用でき<br>とっても満足です！</span></a>
                   <span class="detail">
                     家具を一新しようと色々見積もり依頼を出しましたが、ここが一番安くて即日だったのでとても助かりました！
                   </span>
@@ -309,12 +310,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-						<a href="<?php echo home_url('/user-voice/user2'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin2.jpg"></a>
+					      	<a href="<?php echo home_url('/user-voice/user2'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-fuyouhin2.jpg"></a>
                   <span class="label">不用品回収</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">埼玉県 Rさん 引っ越し</span>
-					<a href="<?php echo home_url('/user-voice/user2'); ?>"><span class="title">大きな家具や荷物も気にせず<br>安心して詰め込めます！</span></a>
+					        <a href="<?php echo home_url('/user-voice/user2'); ?>"><span class="title">大きな家具や荷物も気にせず<br>安心して詰め込めます！</span></a>
                   <span class="detail">
                     定額なのが嬉しいですよね。他社が30万で見積もりを出したところその4分の1以下で引っ越しをすることができました。
                   </span>
@@ -322,12 +323,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-					<a href="<?php echo home_url('/user-voice/user10'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-ihinseir1.jpg"></a>
+					        <a href="<?php echo home_url('/user-voice/user10'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-ihinseir1.jpg"></a>
                   <span class="label">遺品整理</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">神奈川県 Sさん 遺品整理</span>
-					<a href="<?php echo home_url('/user-voice/user10'); ?>"><span class="title">即日に安価で丁寧に整理を<br>してくれました。</span></a>
+					        <a href="<?php echo home_url('/user-voice/user10'); ?>"><span class="title">即日に安価で丁寧に整理を<br>してくれました。</span></a>
                   <span class="detail">
                     遺品整理の決心まで時間がかかりましたが、早めにしなくてはという気持ちに。すぐに対応してくださり感謝です。
                   </span>
@@ -335,12 +336,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-					<a href="<?php echo home_url('/user-voice/user4'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-gomiyashiki1.jpg"></a>
+					        <a href="<?php echo home_url('/user-voice/user4'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/voice/users-voice-gomiyashiki1.jpg"></a>
                   <span class="label">ゴミ屋敷の片付け</span>
                 </div>
                 <p class="text">
                   <span class="interviewee">東京都 Yさん 一人暮らし</span>
-					<a href="<?php echo home_url('/user-voice/user4'); ?>"><span class="title">たったの２９,８００円で！<br>片付けもしてくれて満足です。</span></a>
+					        <a href="<?php echo home_url('/user-voice/user4'); ?>"><span class="title">たったの２９,８００円で！<br>片付けもしてくれて満足です。</span></a>
                   <span class="detail">
                     男の一人暮らしで気付けばゴミ屋敷化。家中のゴミを回収で3万円台！おかげで綺麗な家で気持ちのいい暮らしです。
                   </span>
@@ -350,8 +351,9 @@
             <div class="swiper-button-prev sp-prev"></div>
             <div class="swiper-button-next sp-next"></div>
           </div>
-          <a href="<?php echo home_url('/user-voice'); ?>"><div class="voice-btn">お客様の声一覧</div></a>
+          <a href="<?php echo home_url('/user-voice'); ?>"><div class="inner-btn">お客様の声一覧</div></a>
         </div>
+      </div>
 
         <div class="flow">
           <div class="content-head voice-head">
@@ -914,8 +916,9 @@
             </div>
           </div>
         </div>
-       
+
         <div class="voice yellow-bg">
+        <div class="inner">
           <div class="content-head voice-head">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/speech-ballon.svg">
             <h3>お役立ちコンテンツ</h3>
@@ -925,12 +928,12 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="imgbox">
-					  <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  <!-- <span class="label">不用品回収</span> -->
+					        <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  
                 </div>
                 <p class="text">
                   <span class="interviewee">カテゴリ</span>
-						 <a href=""><span class="title">タイトル</span></a>
+						      <a href=""><span class="title">タイトル</span></a>
                   <span class="detail">
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                   </span>
@@ -938,12 +941,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-						<a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  <!-- <span class="label">不用品回収</span> -->
+					      	<a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  
                 </div>
                 <p class="text">
                   <span class="interviewee">カテゴリ</span>
-					  <a href=""><span class="title">タイトル</span></a>
+					        <a href=""><span class="title">タイトル</span></a>
                   <span class="detail">
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                   </span>
@@ -951,12 +954,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-					  <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  <!-- <span class="label">遺品整理</span> -->
+					        <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  
                 </div>
                 <p class="text">
                   <span class="interviewee">カテゴリ</span>
-				  	<a href=""><span class="title">タイトル</span></a>
+					        <a href=""><span class="title">タイトル</span></a>
                   <span class="detail">
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                   </span>
@@ -964,12 +967,12 @@
               </div>
               <div class="swiper-slide">
                 <div class="imgbox">
-					<a href="<?php echo home_url('/user-voice/user4'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  <!-- <span class="label">ゴミ屋敷の片付け</span> -->
+					        <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
+                  
                 </div>
                 <p class="text">
                   <span class="interviewee">カテゴリ</span>
-					<a href=""><span class="title">タイトル</span></a>
+					        <a href=""><span class="title">タイトル</span></a>
                   <span class="detail">
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                   </span>
@@ -979,8 +982,11 @@
             <div class="swiper-button-prev sp-prev"></div>
             <div class="swiper-button-next sp-next"></div>
           </div>
-          <a href=""><div class="voice-btn-witdh">お役立ちコンテンツ一覧</div></a>
+          <a href="<?php echo home_url('/user-voice'); ?>"><div class="inner-btn-witdh">お役立ちコンテンツ一覧</div></a>
         </div>
+      </div>
+
+
 
 
       </main>
