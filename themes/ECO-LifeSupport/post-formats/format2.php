@@ -6,6 +6,7 @@
   </header>
   <p class="header-bottom">HOME > お知らせ > <span><?php the_time('Y.m.d'); echo the_title(); ?></span></p>
   <div class="usefularticle-format">
+    <!-- 1ｶﾗﾑ -->
     <div class="post-menu">
       <div class="usefularticle-title">
         <h3 class="entry-title single-title" itemprop="headline" rel="bookmark"><?php the_title(); ?></h3>
@@ -113,8 +114,9 @@
             </div>
         </div>
       </div>
+    </div><!-- post-menuの閉じ -->
 
-
+      <!-- ２カラム -->
       <!-- ここからサイドバー -->
       <div class="usefularticlelist">
         <div class="usefularticlelist-inner">
@@ -153,7 +155,6 @@
           </div>
       </div>
      
-    </div><!-- post-menuの閉じ -->
   </div><!-- usefularticle-formatの閉じ -->
 
 </article>
