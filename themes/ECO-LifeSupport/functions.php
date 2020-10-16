@@ -512,35 +512,32 @@ function paginate_links2( $args = '' ) {
 	return $r;
 }
 
-// 10/14追加　ブログカード
-// 記事IDを指定して抜粋文を取得
 function ltl_get_the_excerpt($post_id){
     global $post;
     $post_bu = $post;
     $post = get_post($post_id);
     setup_postdata($post_id);
-    $output = get_post_meta($post_id,'_aioseop_description',true);//AllinOneSEOから
+    $output = get_post_meta($post_id,'_aioseop_description',true);
     $post = $post_bu;
     return $output;
     }
-    //ショートコード
+    
     function nlink_scode($atts) {
     extract(shortcode_atts(array(
     'url'=>"",
     'title'=>"",
     'excerpt'=>""
     ),$atts));
-    $id = url_to_postid($url);//URLから投稿IDを取得
-    $no_image = 'noimageに指定したい画像があればここにパス';//アイキャッチ画像がない場合の画像を指定
-    //タイトルを取得
+    $id = url_to_postid($url);
+    $no_image = 'noimageに指定したい画像があればここにパス';
     if(empty($title)){
     $title = esc_html(get_the_title($id));
     }
-    //抜粋文を取得
+    
     if(empty($excerpt)){
     $excerpt = esc_html(ltl_get_the_excerpt($id));
     }
-    //アイキャッチ画像を取得
+    
     if(has_post_thumbnail($id)) {
     $img = wp_get_attachment_image_src(get_post_thumbnail_id($id),'medium');
     $img_tag = "<img src='" . $img[0] . "' alt='{$title}'/>";
