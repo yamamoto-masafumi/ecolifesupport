@@ -268,7 +268,7 @@ CONTENT STYLES
 }
 .sp-slide{
   .swiper-wrapper .swiper-slide{
-    .imgbox{
+    .imgbox,.imgbox2{
       img{
         display: block;
         object-fit: cover;
@@ -324,6 +324,28 @@ CONTENT STYLES
         margin-bottom: 10px;
       }
     }
+    .text2{
+      width: 90%;
+      margin: 20px auto;
+      text-align: left;
+      .title{
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .detail{
+        display: block;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+      .interviewee{
+        display: inline-block;
+        font-size: 13px;
+        color: $green;
+        border-bottom: 2px solid #bfbfbf;
+        margin-bottom: 10px;
+      }
+    }
   }
 }
 
@@ -335,6 +357,19 @@ body{
     margin: auto;
   }
 }
+
+// format2.php 使用
+.post-contents{
+  h2{
+    border-left: 5px solid #00AE78;
+    background-color: #E5FFF2;
+    color: #00AE78;
+    font-weight: bolder;
+    padding-left: 10px;
+    font-size: 24px;
+  }
+}
+
 
 //SUB_HEADER
 .sub-header,
@@ -359,38 +394,17 @@ body{
   }
 }
 
-//SUB_HEADER_USEFUL
-.sub-header,
-.sub-header-useful,
-.user-header,
-.question-header{
-  width: 100%;
-  height: 233px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  .header-title{
-    h3{
-      width: 320px; 
-      height: 80px;
-      font-size: 30px;
-      position: absolute;
-      top: 15%;
-      // left: 80%;
-      text-align: center;
-    }
-  }
-}
+
 
 .sub-header,
 .question-header{
   .header-title{
-    left: 37%;
+    left: 35%;
     transform: translateX(-50%);
     &:after{
       content: '';
       position: absolute;
-      right: -294px;
+      left: 390px;
       top: 50px;
       width: 71px;
       height: 62px;
@@ -400,15 +414,16 @@ body{
   }
 }
 
+
 .sub-header-notice,
 .user-header{
   .header-title{
-    left: 36.8%;
+    left: 37%;
     transform: translateX(-50%);
     &:after{
       content: '';
       position: absolute;
-      right: -294px;
+      left: 390px;
       top: 50px;
       width: 71px;
       height: 62px;
@@ -634,9 +649,11 @@ _:-ms-lang(x)::-ms-backdrop, .about-head .service-about-img{
   height: 40px;
   margin: auto;
   margin-bottom: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
   .page{
     width: 100px;
-    margin-left: -50px;
+    margin-left: 0px;
   }
 }
 
@@ -1031,10 +1048,10 @@ _:-ms-lang(x)::-ms-backdrop, .single-format .post-menu .post-contents img{
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 20px;
-        .imgbox{
+        .imgbox,.imgbox2{
           width: 48%;
         }
-        .text{
+        .text,.text2{
           width: 46%;
           .detail{
             display: block;
@@ -1328,170 +1345,6 @@ _:-ms-lang(x)::-ms-backdrop, .single-format .post-menu .post-contents img{
   }
 }
 
-//AREA
-// .area{
-//   &-text{
-//     font-size: 20px;
-//   }
-//   .lists{
-//     display: block;
-//     justify-content: space-around;
-//     width: 1125px;
-//     margin: auto;
-//     position: relative;
-//     .list{
-//       height: 43px;
-//       margin: 0 2px 0 0;
-//       &:nth-child(1){
-//         .list-area{
-//           border-top: 10px solid #69ea35;
-//         }
-//         .active{
-//           background: #69ea35;
-//         }
-//       }
-//       &:nth-child(2){
-//         .list-area{
-//           border-top: 10px solid #11d3ff;
-//         }
-//         .active{
-//           background: #11d3ff;
-//         }
-//       }
-//       &:nth-child(3){
-//         .list-area{
-//           border-top: 10px solid #148eff;
-//         }
-//         .active{
-//           background: #148eff;
-//         }
-//       }
-//       &:nth-child(4){
-//         .list-area{
-//           border-top: 10px solid #b57afc;
-//         }
-//         .active{
-//           background: #b57afc;
-//         }
-//       }
-//       &:nth-child(5){
-//         .list-area{
-//           border-top: 10px solid #fb72bc;
-//         }
-//         .active{
-//           background: #fb72bc;
-//         }
-//       }
-//       &:nth-child(6){
-//         margin: 0;
-//         .list-area{
-//           border-top: 10px solid #ffcf09;
-//         }
-//         .active{
-//           background: #ffcf09;
-//         }
-//       }
-//       &-type{
-//         cursor: pointer;
-//         height: 43px;
-//         border-radius: 5px 5px 0 0;
-//         p:after{
-//           display: none;
-//         }
-//       }
-//       .active{
-//         height: 46px;
-//       }
-//       &-area{
-//         position: absolute;
-//         max-width: 1125px;
-//         padding: 53px;
-//         top: 46px;
-//         left: 0;
-//         .pref{
-//           &:after{
-//             display: none;
-//           }
-//           &~.pref{
-//             border-top: 0 none;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-// .area .lists .list-type p {
-//   margin: 0;
-//   text-align: center;
-//   color: #fff;
-//   font-size: 16px;
-//   height: 43px;
-//   line-height: 43px;
-//   letter-spacing: 0.1em;
-// }
-
-// .footer-top{
-//   &:before{
-//     display: none;
-//   }
-//   &-inner{
-//     display: flex;
-//     justify-content: space-between;
-//     max-width: 1125px;
-//     margin: auto;
-//     padding: 20px 0;
-//     &-info{
-//       text-align: left;
-//     }
-//     .logo{
-//       height: 51px;
-//       a img{
-//         object-fit: cover;
-//         width: auto;
-//         height: 100%;
-//       }
-//     }
-//     .address{
-//       li{
-//         padding: 5px 0;
-//         font-size: 16px;
-//       }
-//     }
-//     .cf:after{
-//       display: none;
-//     }
-//     nav{
-//       div{
-//         .menu{
-//           width: 320px;
-//           height: 200px;
-//           border: none;
-//           li{
-//             a{
-//               &:before{
-//                 display: none;
-//               }
-//             }
-//           }
-//           li + li{
-//             border: none;
-//           }
-//           li:nth-child(n+6){
-//             border: none;
-//           }
-//           li:nth-child(-n+5){
-//             border-bottom: none;
-//             border-right: none;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-// .copyright{
-//   margin-bottom: -40px;
-// }
 
 //AREA 変更を渡辺さんと共有
 .area{
@@ -2297,16 +2150,33 @@ footer{
   }
 }
 
-// 渡邉追加
-.sub-header-notice,
-.user-header{
+//useful.php format2.php ヘッダー使用
+.sub-header-useful{
+  width: 100%;
+  height: 233px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
   .header-title{
-    left: 36.8%;
+    h3{
+      width: 320px;
+      height: 80px;
+      font-size: 30px;
+      position: absolute;
+      top: 15%;
+      // left: 80%;
+      text-align: center;
+    }
+  }
+}
+.sub-header-useful{
+  .header-title{
+    left: 47%;
     transform: translateX(-50%);
     &:after{
       content: '';
       position: absolute;
-      right: -294px;
+      left: 340px;
       top: 50px;
       width: 71px;
       height: 62px;
@@ -2343,17 +2213,7 @@ footer{
   }
 }
 
-//PAGENATION
-.pagenationbtn{
-  width: 200px;
-  height: 40px;
-  margin: auto;
-  margin-bottom: 100px;
-  .page{
-    width: 100px;
-    margin-left: -50px;
-  }
-}
+
 
 //USEFUL-LIST-SIDE
 .usefullist{
@@ -2428,111 +2288,6 @@ footer{
   }
 }
 
-// POST USEFUL
-// .usefularticle-format{
-//   display: flex;
-//   margin: auto;
-//   .post-menu{
-//     width: 58%;
-//     margin: auto;
-//     margin-left: -130px;
-//     margin-right: 100px;
-//     .useful-title{
-//       width: 97%;
-//       margin: auto;
-//       margin-top: 40px;
-//       margin-left: 200px;
-//       h3{
-//         font-size: 24px;
-//         padding-left: 9px;
-//       }
-//       .border{
-//         margin: auto;
-//         margin-top: -12px;
-//         border-bottom: 3px solid #00c1e1;
-//       }
-//       .thetime{
-//         text-align: right;
-//         font-size: 14px;
-//         padding-right: 10px;
-//         margin-top: 0px;
-//         color: $green;
-//       }
-//     }
-//     .post-contents{
-//       width: 100%;
-//       font-size: 14px;
-//       margin-left: 190px;
-//        // 渡辺さんに共有　10/14
-//        .pagebtn{
-//         position: relative;
-//         display: flex;
-//         justify-content: space-around;
-//         width: 90%;
-//         .prevbtn{
-//           position: absolute;
-//           left: 15px;
-//           a::before{
-//             content: '';
-//             position: absolute;
-//             left: -15px;
-//             top: 3px;
-//             width: 10px;
-//             height: 16px;
-//             background-image: url(../images/icon/arrow-left-green.png) !important ; 
-//             background-size: cover;
-//           }
-//         }
-//         .centerbtn{
-//           // position: absolute;
-//         }
-//         .nextbtn{
-//           position: absolute;
-//           right: 30px;
-//           a::after{
-//             content: '';
-//             position: absolute;
-//             right: -15px;
-//             top: 3px;
-//             width: 10px;
-//             height: 16px;
-//             background-image: url(../images/icon/arrow-right-green.png) !important ;
-//             background-size: cover;
-//           }
-//         }
-//       }
-//     }
-//     }
-//     .post-contents{
-//       width: 100%;
-//       font-size: 14px;
-//       margin-left: 190px;
-//     }
-//     .usefularticle-btn{
-//       margin-top: 30px;
-//       margin-bottom: 100px;
-//       margin-left: 240px;
-//       position: relative;
-//       width: 188px;
-//       height: 36px;
-//       line-height: 36px;
-//       text-align: center;
-//       color: $white;
-//       background: #FE0101;
-//       border-radius: 5px;
-//     }
-//   }
-//   .usefularticlelist{
-//     margin-top: -60px;
-//     margin-left: 30px;
-//   }
-// }
-
-
-
-
-
-
 
 
 //POST 20201014
@@ -2570,7 +2325,7 @@ footer{
     .post-contents{
       width: 100%;
       font-size: 14px;
-      // margin-left: 190px;
+      margin-left: 0px;
       // 10/15　移動
       .usefularticle-btn{
         margin-top: 30px;
@@ -2584,13 +2339,18 @@ footer{
         color: $white;
         background: #FE0101;
         border-radius: 5px;
+        &:hover{
+          color: $white;
+          border-color: #ffcf09;
+          background-color: #ffcf09;
+        }
       }
       // 渡辺さんに共有　10/14
       .pagebtn{
         position: relative;
         display: flex;
         justify-content: space-around;
-        width: 90%;
+        width: 100%;
         .prevbtn{
           position: absolute;
           left: 15px;
@@ -2638,20 +2398,39 @@ footer{
             flex-direction: column;
             border-bottom: none;
             .thumbnail{
-            img{
-              width: 211px;
-              height: 144px;
+              img{
+                width: 211px;
+                height: 144px;
+              }
             }
-           }
+            .post-title{
+              width: 200px;
+              height: 40px;
+              padding-left: 10px;
+            }
           }
         }
       }
     }
     // ここまでがpost-contents　1カラム目
-    .usefularticlelist{
-      width: 300px;
-      margin-left: 100px;
-      padding: 50px 0;
+  }// post-menu 閉じ
+  // ここから２
+  .usefularticlelist{
+    width: 300px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px 0;
+    &-inner{
+      width: 100%;
+      .tree{
+        width: 100%;
+        img{
+          width: 164px;
+          margin-bottom: -6px;
+          margin-left: 50%;
+          transform: translateX(-50%);
+        }
+      }
     }
   }
 }
@@ -2659,85 +2438,12 @@ footer{
 
 
 
-// .usefularticle-btn{
-//   margin-top: 30px;
-//   margin-bottom: 100px;
-//   margin-left: 240px;
-//   position: relative;
-//   width: 188px;
-//   height: 36px;
-//   line-height: 36px;
-//   text-align: center;
-//   color: $white;
-//   background: #FE0101;
-//   border-radius: 5px;
-// }
-
-
-
-  // .usefulart-catalog{
-  //   max-width: 1400px;
-  //   width: 700px;
-  //   margin: auto;
-  //   .relatedposts{
-  //     display: flex;
-  //     flex-wrap: wrap;
-  //     justify-content: space-around;
-  //     padding-bottom: 100px;
-  //     .cell{
-  //       display: flex;
-  //       justify-content: center;
-  //       flex-direction: column;
-  //       border-bottom: none;
-  //       .thumbnail{
-  //       img{
-  //         width: 211px;
-  //         height: 144px;
-  //       }
-  //      }
-  //     }
-  //   }
-  // }20201014
-// }消去
-
-
-
-// ブログカード　渡辺さん共有 10/14　削除
-// .blog-card:before {
-//   font-size: .8em;
-// }
-// .blog-card-title {
-//   font-size: 1em;
-// }
-// .blog-card-excerpt {
-//   font-size: .74em;
-// }
-
-
-
-// 20201015　追加　渡邉
-// .blog-card{
-//   width: 650px;
-//     height: 200px;
-//     .blog-card-thumbnail{
-//       padding: 30px 30px 30px 30px;
-//       .blog-card-thumbnail img{
-//         width: 203px ;
-//         height: 137px;
-//         .blog-card-content{
-//           width: 370px;
-//           height: 54px;
-//           font-size: 18px;
-//       }
-//     }
-//   }
-// }
-
 
   // ブログカード  10/15
   .blog-card{
     width: 650px;
     height: 200px;
+    margin: auto;
     border: 1px solid #00C1E1;
     // margin-left: -10px;
     // background: rgba(251, 140, 0, 0.02);
