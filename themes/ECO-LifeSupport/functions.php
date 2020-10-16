@@ -529,7 +529,7 @@ function ltl_get_the_excerpt($post_id){
     'excerpt'=>""
     ),$atts));
     $id = url_to_postid($url);
-    $no_image = 'noimageに指定したい画像があればここにパス';
+    $no_image = '';
     if(empty($title)){
     $title = esc_html(get_the_title($id));
     }
