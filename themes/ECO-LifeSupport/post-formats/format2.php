@@ -45,7 +45,7 @@
           </div>  
           <div class="entry-content-right"></div>
         </section>
-        <a href="<?php echo home_url('/notice'); ?>"><div class="usefularticle-btn">お問い合わせはこちら></div></a>
+        <a href="<?php echo home_url('/contact'); ?>"><div class="usefularticle-btn">お問い合わせはこちら></div></a>
 
 
         <div class="useful-border"></div>
@@ -77,7 +77,7 @@
        
         <!-- 関連記事 -->
         <div class="usefulart-catalog">
-          <h3>関連記事一覧</h3>
+          <div class="relation">関連記事一覧</div>
           <?php
             $categ = get_the_category($post->ID);
             $catID = array();
@@ -116,44 +116,18 @@
       </div>
     </div><!-- post-menuの閉じ -->
 
-      <!-- ２カラム -->
-      <!-- ここからサイドバー -->
-      <div class="usefularticlelist">
-        <div class="usefularticlelist-inner">
-          <?php if(wp_is_mobile()) : ?>
-          <?php else : ?>
-              <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png"></div>
-          <?php endif; ?>
-            <p class="past-title">人気記事コーナー</p>
-            <!-- 過去のお知らせ一覧 -->
-            <div class="past-useful">
-              <div class="useful-topicks">
-                <div class="useful-pic"><a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail2.png"></a></div>
-                <div class="useful-text"><p>テキストテキストテキ…</p></div>
-              </div>
-              <div class="useful-topicks">
-                <div class="useful-pic"><a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail2.png"></a></div>
-                <div class="useful-text"><p>テキスト</p></div>
-              </div>
-              <div class="useful-topicks">
-                <div class="useful-pic"><a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail2.png"></a></div>
-                <div class="useful-text"><p>テキスト</p></div>
-              </div>
-              <div class="useful-topicks">
-                <div class="useful-pic"><a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail2.png"></a></div>
-                <div class="useful-text"><p>テキスト</p></div>
-              </div>
-              <div class="useful-topicks">
-                <div class="useful-pic"><a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail2.png"></a></div>
-                <div class="useful-text"><p>テキスト</p></div>
-              </div>
-              <div class="useful-topicks">
-                <div class="useful-pic"><a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail2.png"></a></div>
-                <div class="useful-text"><p>テキスト</p></div>
-              </div>
-            </div>
-          </div>
-      </div>
+       <!-- ここからサイドバー -->
+    <div class="usefularticlelist">
+      <div class="usefularticlelist-inner">
+        <?php if(wp_is_mobile()) : ?>
+        <?php else : ?>
+            <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png"></div>
+        <?php endif; ?>
+          <?php get_sidebar(); ?>
+          <!-- <p class="past-title">人気記事コーナー</p> -->
+          <!-- 過去のお知らせ一覧 -->
+        </div>
+    </div>
      
   </div><!-- usefularticle-formatの閉じ -->
 

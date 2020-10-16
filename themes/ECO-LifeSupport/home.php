@@ -924,65 +924,46 @@
             <h3>お役立ちコンテンツ</h3>
             <p class="h3-sub">USEFUL</p>
           </div>
+          
           <div class="sp-slide swiper-container">
             <div class="swiper-wrapper">
+            <?php
+                  $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+                  $args = array(
+                    'post__not_in' => array($post->ID),
+                    'category__in' => $catID,
+                    'posts_per_page' => 4,
+                    'orderby' => 'rand',
+                    'post_type' => 'custom_type'
+                  );
+                  $query = new WP_Query($args);
+                  if ( $query->have_posts() ) :
+                    while ( $query->have_posts() ) : $query->the_post();
+                ?>
               <div class="swiper-slide">
-                <div class="imgbox">
-					        <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  
+                <div class="imgbox2">
+                  <div class="thumbnail">
+                    <a href="<?php the_permalink(); ?>">
+                      <?php if(has_post_thumbnail()): the_post_thumbnail('thumbnail');
+                        else: ?>
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.jpg" alt="<?php the_title(); ?>">
+                      <?php endif; ?>
+                    </a>
+                  </div>
                 </div>
-                <p class="text">
-                  <span class="interviewee">カテゴリ</span>
-						      <a href=""><span class="title">タイトル</span></a>
-                  <span class="detail">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  </span>
-                </p>
-              </div>
-              <div class="swiper-slide">
-                <div class="imgbox">
-					      	<a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  
+                <div class="text2">
+                  <div class="title">
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                  </div>
                 </div>
-                <p class="text">
-                  <span class="interviewee">カテゴリ</span>
-					        <a href=""><span class="title">タイトル</span></a>
-                  <span class="detail">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  </span>
-                </p>
               </div>
-              <div class="swiper-slide">
-                <div class="imgbox">
-					        <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  
-                </div>
-                <p class="text">
-                  <span class="interviewee">カテゴリ</span>
-					        <a href=""><span class="title">タイトル</span></a>
-                  <span class="detail">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  </span>
-                </p>
-              </div>
-              <div class="swiper-slide">
-                <div class="imgbox">
-					        <a href=""><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/thumbnail.png"></a>
-                  
-                </div>
-                <p class="text">
-                  <span class="interviewee">カテゴリ</span>
-					        <a href=""><span class="title">タイトル</span></a>
-                  <span class="detail">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  </span>
-                </p>
-              </div>
+              <?php endwhile; ?>
+              <?php endif; wp_reset_postdata(); ?>
             </div>
             <div class="swiper-button-prev sp-prev"></div>
             <div class="swiper-button-next sp-next"></div>
           </div>
-          <a href="<?php echo home_url('/user-voice'); ?>"><div class="inner-btn-witdh">お役立ちコンテンツ一覧</div></a>
+          <a href="<?php echo home_url('/usefull'); ?>"><div class="inner-btn-witdh">お役立ちコンテンツ一覧</div></a>
         </div>
       </div>
 
