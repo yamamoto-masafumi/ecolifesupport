@@ -931,7 +931,7 @@
                   $paged = get_query_var('paged') ? get_query_var('paged') : 1;
                   $args = array(
                     'post__not_in' => array($post->ID),
-                    'category__in' => $catID,
+                    'category__in' => 'usefull',
                     'posts_per_page' => 4,
                     'orderby' => 'rand',
                     'post_type' => 'custom_type'
