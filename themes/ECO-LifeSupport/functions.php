@@ -534,7 +534,7 @@ function ltl_get_the_excerpt($post_id){
     $title = esc_html(get_the_title($id));
     }
     
-    if(empty($excerpt)){
+    if(isset($excerpt)){
     $excerpt = esc_html(ltl_get_the_excerpt($id));
     }
     
