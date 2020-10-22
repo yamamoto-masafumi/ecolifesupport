@@ -954,8 +954,7 @@
                 </div>
                 <div class="text2">
                   <div class="title">
-                    <div class="interviewee">埼玉県 Rさん 引っ越し</div>
-                    <div><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                   </div>
                   <div class="excerpt">
                     <?php
