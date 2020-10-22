@@ -517,7 +517,7 @@ function ltl_get_the_excerpt($post_id){
     $post_bu = $post;
     $post = get_post($post_id);
     setup_postdata($post_id);
-    $output = get_the_excerpt();
+    $output = get_post_meta($post_id,'_aioseop_description',true);
     $post = $post_bu;
     return $output;
     }
@@ -534,7 +534,7 @@ function ltl_get_the_excerpt($post_id){
     $title = esc_html(get_the_title($id));
     }
     
-    if(empty($excerpt)){
+    if(isset($excerpt)){
     $excerpt = esc_html(ltl_get_the_excerpt($id));
     }
     
