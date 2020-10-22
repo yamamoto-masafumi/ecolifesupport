@@ -930,12 +930,11 @@
             <?php
                   $paged = get_query_var('paged') ? get_query_var('paged') : 1;
                   $args = array(
-                  'post_type' => 'custom_type',
-                  'post_status' => array('publish'),
-                  'order'=>'desc',
-                  'orderby'=>'rand',
-                  'paged' => $paged,
-                  'posts_per_page' => 4
+                    'post__not_in' => array($post->ID),
+                    'category__in' => $catID,
+                    'posts_per_page' => 4,
+                    'orderby' => 'rand',
+                    'post_type' => 'custom_type'
                   );
                   $query = new WP_Query($args);
                   if ( $query->have_posts() ) :
@@ -955,15 +954,6 @@
                 <div class="text2">
                   <div class="title">
                     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                  </div>
-                  <div class="excerpt">
-                    <?php
-                      $my_excerpt = get_the_excerpt();
-                      if ( $my_excerpt != '' ) {
-                        // ここで文字列の生成が行われる。
-                      }
-                      echo $my_excerpt; // 処理された値をページに出力する
-                    ?>
                   </div>
                 </div>
               </div>
