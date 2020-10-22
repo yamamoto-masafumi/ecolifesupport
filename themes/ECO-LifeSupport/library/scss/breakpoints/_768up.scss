@@ -1590,6 +1590,7 @@ footer{
       width: 198px;
       justify-content: flex-start;
       margin-left: 10px;
+      margin-top: 10px;
       img{
         margin-right: 10px;
         width: 40px;
@@ -1712,21 +1713,26 @@ footer{
             padding-left: 0px;
           }
         }
-
+// 渡邉追加　20201021 
         /* 必須項目の入力欄を黄色にする */
         input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
         textarea.wpcf7-form-control.wpcf7-textarea {
           background: #FBFFDF;
           color: #444;
+          max-width: 100%;
+          margin-left: 17px;
         }
 
         input.wpcf7-submit{
           margin-left: -200px;
         }
-
+// 渡邉追加　20201021 
         span.wpcf7-list-item {
           width: auto;
           text-align: left;
+          display: inline;
+          margin-top: 10px;
+          padding-right: 30px;
         }
 
         /* エラーメッセージを見やすくする */

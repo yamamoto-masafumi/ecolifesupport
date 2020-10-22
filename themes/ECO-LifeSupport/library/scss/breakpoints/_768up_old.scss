@@ -494,6 +494,7 @@ body{
 
           background: #FBFFDF;
           color: #444;
+
         }
 
         /* エラーメッセージを見やすくする */
@@ -1594,12 +1595,14 @@ footer{
             padding-left: 0px;
           }
         }
-
+        // 渡邉追加　20201021
         /* 必須項目の入力欄を黄色にする */
         input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
         textarea.wpcf7-form-control.wpcf7-textarea {
           background: #FBFFDF;
           color: #444;
+          max-width: 100%;
+          margin-left: 17px;
         }
 
         input.wpcf7-submit{
