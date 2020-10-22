@@ -498,6 +498,16 @@ POSTS & CONTENT STYLES
       margin: auto;
     //APPLICATION-FORM
     /* 必須マーク */
+    tr{
+      display: block;
+      width: 330px;
+    }
+      th{
+        display: block;
+         width: 100%;
+        text-align: left;
+        padding-top: 20px;
+      }
     .must{
       color: $white;
       font-weight: bold;
@@ -1304,6 +1314,13 @@ span.wpcf7-list-item {
         display: block;
         font-size: 20px;
         font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .excerpt{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
       }
       .detail{
         display: block;
