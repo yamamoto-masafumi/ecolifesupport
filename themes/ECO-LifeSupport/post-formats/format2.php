@@ -117,7 +117,7 @@
     </div><!-- post-menuの閉じ -->
 
        <!-- ここからサイドバー -->
-    <div class="usefularticlelist">
+    <div id="usefularticlelist" class="usefularticlelist">
       <div class="usefularticlelist-inner">
         <?php if(wp_is_mobile()) : ?>
         <?php else : ?>

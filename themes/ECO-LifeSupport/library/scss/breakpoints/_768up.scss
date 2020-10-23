@@ -228,6 +228,12 @@ header{
   background: $white;
 }
 
+.is-fixed2{
+  position: fixed;
+   top: 0px;
+   right: 0px;
+}
+
 
 /*********************
 CONTENT STYLES
@@ -2421,6 +2427,12 @@ footer{
     // ここまでがpost-contents　1カラム目
   }// post-menu 閉じ
   // ここから２
+
+  #usefularticlelist{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -31px;
+  }
   .usefularticlelist{
     width: 300px;
     margin: auto;
