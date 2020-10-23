@@ -1644,9 +1644,9 @@ footer{
   height: 115px;
 }
 .is-show {
-  transform: translateX(0%);
-  left: 50%;
+  left: 0;
   transform: translateX(-50%);
+  transform: translateY(0);
 }
 
 // COMPANY-OUTLINE&CONTACT
@@ -2310,6 +2310,7 @@ footer{
   .post-menu{
     width: 58%;
     margin: auto;
+    margin-top: 0;
     // margin-left: -130px;
     // margin-right: 100px;
     .usefularticle-title{
