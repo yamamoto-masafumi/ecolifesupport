@@ -2990,30 +2990,31 @@ footer {
   height: 54px;
 }
 
-/* line 2507, ../scss/breakpoints/_768up.scss */
+/* line 2508, ../scss/breakpoints/_768up.scss */
 .blog-card-title {
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
-/* line 2515, ../scss/breakpoints/_768up.scss */
+/* line 2517, ../scss/breakpoints/_768up.scss */
 .blog-card-title:hover {
   text-decoration: underline;
 }
 
-/* line 2518, ../scss/breakpoints/_768up.scss */
+/* line 2520, ../scss/breakpoints/_768up.scss */
 .blog-card-excerpt {
-  font-size: .60em;
+  font-size: 15px;
   color: #4C4C4C;
   margin: 0 10px 5px 0;
   line-height: 1.3;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
   overflow: hidden;
   text-overflow: ellipsis;
+  width: inherit;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
-
-/* line 2529, ../scss/breakpoints/_768up.scss */
+/* line 2534, ../scss/breakpoints/_768up.scss */
+.blog-card-excerpt -webkit-line-clam
 .blog-card .clear {
   clear: both;
 }
