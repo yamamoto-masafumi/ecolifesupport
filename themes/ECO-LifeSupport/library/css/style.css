@@ -5527,14 +5527,28 @@ footer {
   padding-left: 20px;
   border-radius: 10px 10px 0 0;
 }
-/* line 3828, ../scss/breakpoints/_base.scss */
+/* line 3827, ../scss/breakpoints/_base.scss */
+.usefularticlelist-inner ul {
+  background-color: #fff;
+  border: 1px solid #00AE78;
+  border-radius: 0 0 10px 10px;
+  margin-top: -1px;
+}
+/* line 3832, ../scss/breakpoints/_base.scss */
+.usefularticlelist-inner ul li {
+  width: 90%;
+  margin: auto;
+  padding: 5px 0;
+  border-bottom: 1px dotted #00C1E1;
+}
+/* line 3840, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful, .usefularticlelist .wpp-no-data {
   background-color: #fff;
   border: 1px solid #00AE78;
   border-radius: 0 0 10px 10px;
   margin-top: -1px;
 }
-/* line 3838, ../scss/breakpoints/_base.scss */
+/* line 3850, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks, .usefularticlelist .wpp-no-data .useful-topicks {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -5542,26 +5556,26 @@ footer {
   display: flex;
   border-bottom: 1px dotted #00C1E1;
 }
-/* line 3844, ../scss/breakpoints/_base.scss */
+/* line 3856, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks .useful-pic, .usefularticlelist .wpp-no-data .useful-topicks .useful-pic {
   margin-right: 20px;
 }
-/* line 3846, ../scss/breakpoints/_base.scss */
+/* line 3858, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks .useful-pic .useful-text, .usefularticlelist .wpp-no-data .useful-topicks .useful-pic .useful-text {
   color: #8FF18B;
 }
-/* line 3848, ../scss/breakpoints/_base.scss */
+/* line 3860, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks .useful-pic .useful-text a, .usefularticlelist .wpp-no-data .useful-topicks .useful-pic .useful-text a {
   text-decoration: none;
   margin-left: 20px;
 }
 
-/* line 3868, ../scss/breakpoints/_base.scss */
+/* line 3880, ../scss/breakpoints/_base.scss */
 .boder_bottum {
   margin-bottom: 50px;
 }
 
-/* line 3883, ../scss/breakpoints/_base.scss */
+/* line 3895, ../scss/breakpoints/_base.scss */
 .usefularticle-btn {
   margin: 20px auto;
   margin-top: 100px;
@@ -5574,13 +5588,13 @@ footer {
   background: #FE0101;
   border-radius: 5px;
 }
-/* line 3894, ../scss/breakpoints/_base.scss */
+/* line 3906, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:hover {
   color: #fff;
   border-color: #8ff18b;
   background-color: #8ff18b;
 }
-/* line 3899, ../scss/breakpoints/_base.scss */
+/* line 3911, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:before {
   content: '';
   position: absolute;
@@ -5591,7 +5605,7 @@ footer {
   background-image: url("../images/icon/arrow-left-white.svg");
   background-size: cover;
 }
-/* line 3909, ../scss/breakpoints/_base.scss */
+/* line 3921, ../scss/breakpoints/_base.scss */
 .usefularticle-btn a {
   color: #fff;
   font-size: 14px;
@@ -5599,23 +5613,23 @@ footer {
   text-decoration: none;
 }
 
-/* line 3925, ../scss/breakpoints/_base.scss */
+/* line 3937, ../scss/breakpoints/_base.scss */
 .usefularticle-format {
   justify-content: center;
 }
-/* line 3927, ../scss/breakpoints/_base.scss */
+/* line 3939, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu {
   background-color: #fff;
   width: 100%;
   margin: auto;
 }
-/* line 3931, ../scss/breakpoints/_base.scss */
+/* line 3943, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title {
   width: 90%;
   margin: auto;
   margin-top: 40px;
 }
-/* line 3935, ../scss/breakpoints/_base.scss */
+/* line 3947, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title h3 {
   background-color: #fff;
   font-size: 20px;
@@ -5624,20 +5638,20 @@ footer {
   border-left: 5px solid #00AE78;
   padding-left: 9px;
 }
-/* line 3943, ../scss/breakpoints/_base.scss */
+/* line 3955, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
-/* line 3948, ../scss/breakpoints/_base.scss */
+/* line 3960, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title .thetime {
   text-align: right;
   font-size: 13px;
   padding-right: 10px;
   color: #00AE78;
 }
-/* line 3955, ../scss/breakpoints/_base.scss */
+/* line 3967, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .post-contents {
   width: 90%;
   margin: auto;
@@ -5645,13 +5659,13 @@ footer {
   padding: 0 14px;
   font-size: 14px;
 }
-/* line 3961, ../scss/breakpoints/_base.scss */
+/* line 3973, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .post-contents img {
   width: 100%;
   height: auto;
 }
 
-/* line 3971, ../scss/breakpoints/_base.scss */
+/* line 3983, ../scss/breakpoints/_base.scss */
 .usefularticle-btn {
   margin: 20px auto;
   margin-top: 100px;
@@ -5664,13 +5678,13 @@ footer {
   background: #00AE78;
   border-radius: 5px;
 }
-/* line 3982, ../scss/breakpoints/_base.scss */
+/* line 3994, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:hover {
   color: #fff;
   border-color: #8ff18b;
   background-color: #8ff18b;
 }
-/* line 3987, ../scss/breakpoints/_base.scss */
+/* line 3999, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:before {
   content: '';
   position: absolute;
@@ -5681,7 +5695,7 @@ footer {
   background-image: url("../images/icon/arrow-left-white.svg");
   background-size: cover;
 }
-/* line 3997, ../scss/breakpoints/_base.scss */
+/* line 4009, ../scss/breakpoints/_base.scss */
 .usefularticle-btn a {
   color: #fff;
   font-size: 14px;
@@ -5689,32 +5703,32 @@ footer {
   text-decoration: none;
 }
 
-/* line 4009, ../scss/breakpoints/_base.scss */
+/* line 4021, ../scss/breakpoints/_base.scss */
 .uservoice-bigtitle {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 4013, ../scss/breakpoints/_base.scss */
+/* line 4025, ../scss/breakpoints/_base.scss */
 .uservoice-lists {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-/* line 4017, ../scss/breakpoints/_base.scss */
+/* line 4029, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list {
   padding-top: 20px;
 }
-/* line 4019, ../scss/breakpoints/_base.scss */
+/* line 4031, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .imgbox {
   position: relative;
 }
-/* line 4021, ../scss/breakpoints/_base.scss */
+/* line 4033, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .imgbox img {
   width: 340px;
   height: 240px;
   object-fit: cover;
 }
-/* line 4027, ../scss/breakpoints/_base.scss */
+/* line 4039, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .title {
   font-size: 12px;
   color: #30BD92;
@@ -5722,7 +5736,7 @@ footer {
   font-weight: bold;
   margin: 10px 0;
 }
-/* line 4034, ../scss/breakpoints/_base.scss */
+/* line 4046, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .detail {
   display: flex;
   font-size: 15px;
@@ -5730,32 +5744,32 @@ footer {
   margin: 10px 0;
 }
 
-/* line 4046, ../scss/breakpoints/_base.scss */
+/* line 4058, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relation {
   color: #444;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 4052, ../scss/breakpoints/_base.scss */
+/* line 4064, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relatedposts .cell {
   display: flex;
   border-bottom: 1px dotted #00C1E1;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 4058, ../scss/breakpoints/_base.scss */
+/* line 4070, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relatedposts .cell .thumbnail img {
   width: 84px;
   height: 84px;
   object-fit: cover;
 }
-/* line 4063, ../scss/breakpoints/_base.scss */
+/* line 4075, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relatedposts .cell .post-title {
   padding-left: 10px;
   margin: auto 0;
 }
 
-/* line 4073, ../scss/breakpoints/_base.scss */
+/* line 4085, ../scss/breakpoints/_base.scss */
 .blog-card {
   width: 311px;
   height: 150px;
@@ -5766,7 +5780,7 @@ footer {
   transition: 0.3s ease-in-out;
 }
 
-/* line 4090, ../scss/breakpoints/_base.scss */
+/* line 4102, ../scss/breakpoints/_base.scss */
 .blog-card:hover {
   cursor: pointer;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
@@ -5775,12 +5789,12 @@ footer {
   transform: translateY(-2px);
 }
 
-/* line 4107, ../scss/breakpoints/_base.scss */
+/* line 4119, ../scss/breakpoints/_base.scss */
 .blog-card a {
   text-decoration: none;
 }
 
-/* line 4110, ../scss/breakpoints/_base.scss */
+/* line 4122, ../scss/breakpoints/_base.scss */
 .blog-card-thumbnail {
   width: 40%;
   display: table-cell;
@@ -5788,31 +5802,31 @@ footer {
   padding: 25px 20px 10px 20px;
 }
 
-/* line 4117, ../scss/breakpoints/_base.scss */
+/* line 4129, ../scss/breakpoints/_base.scss */
 .blog-card-thumbnail img {
   width: 100px !important;
   height: 100px !important;
   object-fit: cover;
 }
 
-/* line 4123, ../scss/breakpoints/_base.scss */
+/* line 4135, ../scss/breakpoints/_base.scss */
 .blog-card-content {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 4128, ../scss/breakpoints/_base.scss */
+/* line 4140, ../scss/breakpoints/_base.scss */
 .blog-card-title {
   font-size: 15px;
   padding-bottom: 10px;
 }
 
-/* line 4138, ../scss/breakpoints/_base.scss */
+/* line 4150, ../scss/breakpoints/_base.scss */
 .blog-card-title:hover {
   text-decoration: underline;
 }
 
-/* line 4141, ../scss/breakpoints/_base.scss */
+/* line 4153, ../scss/breakpoints/_base.scss */
 .blog-card-excerpt {
   color: #4C4C4C;
   margin: 0 10px 5px 0;
@@ -5826,7 +5840,7 @@ footer {
   font-size: 14px;
 }
 
-/* line 4157, ../scss/breakpoints/_base.scss */
+/* line 4169, ../scss/breakpoints/_base.scss */
 .blog-card .clear {
   clear: both;
 }

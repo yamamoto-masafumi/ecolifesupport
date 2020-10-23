@@ -3823,7 +3823,19 @@ footer{
 	      padding-top: 10px;
 	      padding-left: 20px;
 	      border-radius: 10px 10px 0 0;
-	    }
+      }
+      ul{
+        background-color: $white;
+        border: 1px solid $green;
+        border-radius: 0 0 10px 10px;
+        margin-top: -1px;
+        li{
+            width: 90%;
+            margin: auto;
+            padding: 5px 0;
+            border-bottom: 1px dotted #00C1E1;
+        }
+      }
 	  }
 	  .past-useful,.wpp-no-data{
 	    background-color: $white;
