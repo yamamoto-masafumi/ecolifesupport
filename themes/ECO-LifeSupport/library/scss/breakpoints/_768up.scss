@@ -505,7 +505,7 @@ body{
         }
       }
 
-    //   .contact-form{
+    //   .contact {
     //     margin: auto;
     //     .application-form{
     //       width: 100%;
@@ -1590,6 +1590,7 @@ footer{
       width: 198px;
       justify-content: flex-start;
       margin-left: 10px;
+      margin-top: 10px;
       img{
         margin-right: 10px;
         width: 40px;
@@ -1712,21 +1713,26 @@ footer{
             padding-left: 0px;
           }
         }
-
+// 渡邉追加　20201021 
         /* 必須項目の入力欄を黄色にする */
         input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
         textarea.wpcf7-form-control.wpcf7-textarea {
           background: #FBFFDF;
           color: #444;
+          max-width: 100%;
+          margin-left: 17px;
         }
 
         input.wpcf7-submit{
           margin-left: -200px;
         }
-
+// 渡邉追加　20201021 
         span.wpcf7-list-item {
           width: auto;
           text-align: left;
+          display: inline;
+          margin-top: 10px;
+          padding-right: 30px;
         }
 
         /* エラーメッセージを見やすくする */
@@ -2498,6 +2504,7 @@ footer{
     height: 54px;
     // font-size: 18px;
   }
+  // 20201023変更＿渡邉
   .blog-card-title{
     // font-size: .70em;
     // margin: 5px 10px 5px 0px;
@@ -2505,22 +2512,27 @@ footer{
     // line-height: 1.4;
     // padding-left: 10px; 
     font-size: 18px;
+    padding-bottom: 10px;
   }
   .blog-card-title:hover{
     text-decoration: underline;
   }
   .blog-card-excerpt{
-    font-size: .60em;
+    // font-size: .60em;
+    font-size: 15px;
     color: #4C4C4C;
     margin: 0 10px 5px 0;
     line-height: 1.3;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    // display: -webkit-box;
+    // -webkit-box-orient: vertical;
+    // -webkit-line-clamp: 4;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+    width: inherit;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clam
   .blog-card .clear{
     clear: both;
   }
-  
+  }
