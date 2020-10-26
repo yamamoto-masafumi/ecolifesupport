@@ -489,76 +489,91 @@ body{
   .inner-recruitment{
     width: 63%;
     margin: auto;
-      .title{
-        font-size: 24px;
-        padding-top: 70px;
+    .title{
+      font-size: 24px;
+      padding-top: 70px;
+    }
+    .border{
+      margin-top: -12px;
+    }
+    .text{
+      width: 100%;
+      margin: auto;
+      padding-bottom: 18px;
+      li{
+        margin-left: 50px;
       }
-      .border{
-        margin-top: -12px;
+      .itemtext{
+        margin-left: 80px;
       }
-      .text{
-        width: 100%;
+      .itemtext2{
+        margin-left: 74px;
+      }
+    }
+    .contact-form{
+      width: 100%;
+      margin: auto;
+      .application-form{
+        width: 110%;
+        background-color: $white;
+        color: $black;
+        font-weight: 600;
         margin: auto;
-        padding-bottom: 18px;
-        li{
-          margin-left: 50px;
+        margin-left: -30px;
+        tr{
+          width: 100%;
+          th{
+            width: 27%;
+            display: table-cell;
+            padding-top: 20px;
+            text-align: left;
+          }
+          .message{
+            vertical-align: top;
+            padding-top: 50px;
+            padding-left: 90px;
+          }
+          .contactmessage{
+            vertical-align: top;
+            padding-top: 50px;
+          }
+          td{
+            width: 630px;
+            display: table-cell;
+            padding-top: 20px;
+            padding-left: 0px;
+          }
         }
-        .itemtext{
-          margin-left: 80px;
+// 渡邉追加　20201021 
+        /* 必須項目の入力欄を黄色にする */
+        input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+        textarea.wpcf7-form-control.wpcf7-textarea {
+          background: #FBFFDF;
+          color: #444;
+          max-width: 100%;
+          margin-left: 17px;
         }
-        .itemtext2{
-          margin-left: 74px;
+
+        input.wpcf7-submit{
+          margin-left: -200px;
+        }
+// 渡邉追加　20201021 
+        span.wpcf7-list-item {
+          width: auto;
+          text-align: left;
+          display: inline;
+          margin-top: 10px;
+          padding-right: 30px;
+        }
+
+        /* エラーメッセージを見やすくする */
+        span.wpcf7-not-valid-tip,
+        .wpcf7-response-output.wpcf7-validation-errors {
+          color: red;
+          font-weight: bold;
         }
       }
-
-    //   .contact {
-    //     margin: auto;
-    //     .application-form{
-    //       width: 100%;
-    //       background-color: $white;
-    //       color: $black;
-    //       font-weight: 600;
-    //       margin: auto;
-    //       tr{
-    //         width: 100%;
-    //         th{
-    //           width: 30%;
-    //           padding-top: 20px;
-    //           text-align: left;
-    //         }
-    //         .message{
-    //           vertical-align: top;
-    //           padding-top: 50px;
-    //           padding-left: 90px;
-    //         }
-    //         .contactmessage{
-    //           vertical-align: top;
-    //           padding-top: 50px;
-    //         }
-
-    //         td{
-    //           width: 70%;
-    //           padding-top: 20px;
-    //           padding-left: 40px;
-    //         }
-    //       }
-
-    //   /* 必須項目の入力欄を黄色にする */
-    //     input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
-    //     textarea.wpcf7-form-control.wpcf7-textarea {
-
-    //       background: #FBFFDF;
-    //       color: #444;
-    //     }
-
-    //     /* エラーメッセージを見やすくする */
-    //     span.wpcf7-not-valid-tip,
-    //     .wpcf7-response-output.wpcf7-validation-errors {
-    //       color: red;
-    //       font-weight: bold;
-    //     }
-    //   }
-    // }
+    }
   }
 }
 
@@ -1649,7 +1664,7 @@ footer{
   transform: translateY(0);
 }
 
-// COMPANY-OUTLINE&CONTACT
+// COMPANY-OUTLINE&CONTACT 会社概要・お問い合わせフォーム
 .recruitment-contents,
 	.company-content {
 		width: 100%;
@@ -1701,6 +1716,7 @@ footer{
           width: 100%;
           th{
             width: 27%;
+            display: table-cell;
             padding-top: 20px;
             text-align: left;
           }
@@ -1715,6 +1731,7 @@ footer{
           }
           td{
             width: 630px;
+            display: table-cell;
             padding-top: 20px;
             padding-left: 0px;
           }
