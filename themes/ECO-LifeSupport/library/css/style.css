@@ -5158,21 +5158,22 @@ span.wpcf7-list-item {
   height: 40px;
   margin: auto;
   margin-top: -16px;
-  margin-left: 90px;
+  margin-left: 63%;
+  transform: translateX(-50%);
 }
-/* line 3192, ../scss/breakpoints/_base.scss */
+/* line 3193, ../scss/breakpoints/_base.scss */
 .pagenationbtn .page {
   width: 100px;
   margin-left: -50px;
 }
-/* line 3195, ../scss/breakpoints/_base.scss */
+/* line 3196, ../scss/breakpoints/_base.scss */
 .pagenationbtn .page .page-numbers {
   display: flex;
   width: 100%;
   font-size: 16px;
   color: #00AE78;
 }
-/* line 3200, ../scss/breakpoints/_base.scss */
+/* line 3201, ../scss/breakpoints/_base.scss */
 .pagenationbtn .page .page-numbers .current {
   background-color: #00AE78;
   color: #fff;
@@ -5180,45 +5181,45 @@ span.wpcf7-list-item {
   text-decoration: none;
   padding: 3px 12px;
 }
-/* line 3207, ../scss/breakpoints/_base.scss */
+/* line 3208, ../scss/breakpoints/_base.scss */
 .pagenationbtn .page .page-numbers a {
   background-color: #fff;
   border: 1px solid #00AE78;
   text-decoration: none;
   padding: 3px 12px;
 }
-/* line 3213, ../scss/breakpoints/_base.scss */
+/* line 3214, ../scss/breakpoints/_base.scss */
 .pagenationbtn .page .page-numbers:hover {
   color: #fff;
   border-color: #00AE78;
   background-color: #00AE78;
 }
-/* line 3218, ../scss/breakpoints/_base.scss */
+/* line 3219, ../scss/breakpoints/_base.scss */
 .pagenationbtn .page .page-numbers .dots {
   padding: 3px 12px;
   border: 1px solid #00AE78;
   background-color: #fff;
 }
-/* line 3222, ../scss/breakpoints/_base.scss */
+/* line 3223, ../scss/breakpoints/_base.scss */
 .pagenationbtn .page .page-numbers .dots:hover {
   color: #fff;
   border-color: #00AE78;
   background-color: #00AE78;
 }
 
-/* line 3233, ../scss/breakpoints/_base.scss */
+/* line 3234, ../scss/breakpoints/_base.scss */
 .usefullist {
   width: 100%;
   padding: 50px 0;
 }
-/* line 3236, ../scss/breakpoints/_base.scss */
+/* line 3237, ../scss/breakpoints/_base.scss */
 .usefullist-inner {
   background-color: #fff;
   width: 89%;
   margin: auto;
   margin-top: 40px;
 }
-/* line 3241, ../scss/breakpoints/_base.scss */
+/* line 3242, ../scss/breakpoints/_base.scss */
 .usefullist-inner .past-title {
   background-color: #00AE78;
   color: #fff;
@@ -5231,14 +5232,14 @@ span.wpcf7-list-item {
   padding-left: 20px;
   border-radius: 10px 10px 0 0;
 }
-/* line 3254, ../scss/breakpoints/_base.scss */
+/* line 3255, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful {
   background-color: #fff;
   border: 1px solid #00AE78;
   border-radius: 0 0 10px 10px;
   margin-top: -1px;
 }
-/* line 3264, ../scss/breakpoints/_base.scss */
+/* line 3265, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-topicks {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -5246,64 +5247,64 @@ span.wpcf7-list-item {
   display: flex;
   border-bottom: 1px dotted #00C1E1;
 }
-/* line 3270, ../scss/breakpoints/_base.scss */
+/* line 3271, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-topicks .useful-pic {
   margin-right: 20px;
 }
-/* line 3272, ../scss/breakpoints/_base.scss */
+/* line 3273, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-topicks .useful-pic .useful-text {
   color: #8FF18B;
 }
-/* line 3274, ../scss/breakpoints/_base.scss */
+/* line 3275, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-topicks .useful-pic .useful-text a {
   text-decoration: none;
   margin-left: 20px;
 }
-/* line 3293, ../scss/breakpoints/_base.scss */
+/* line 3294, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .yellow-bg {
   background-color: #FBFFDF;
 }
-/* line 3298, ../scss/breakpoints/_base.scss */
+/* line 3299, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow {
   background: #fbffdf;
   padding: 50px 0;
   text-align: center;
 }
-/* line 3302, ../scss/breakpoints/_base.scss */
+/* line 3303, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps {
   margin-top: 20px;
 }
-/* line 3304, ../scss/breakpoints/_base.scss */
+/* line 3305, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step {
   display: flex;
   width: 90%;
   margin: 0 auto 75px;
   position: relative;
 }
-/* line 3309, ../scss/breakpoints/_base.scss */
+/* line 3310, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step img {
   display: block;
   width: 76px;
   height: 76px;
 }
-/* line 3314, ../scss/breakpoints/_base.scss */
+/* line 3315, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step-detail {
   text-align: left;
   margin: 0 10px;
 }
-/* line 3317, ../scss/breakpoints/_base.scss */
+/* line 3318, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step-detail-title {
   display: block;
   color: #ff51a5;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 3323, ../scss/breakpoints/_base.scss */
+/* line 3324, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step-detail-text {
   display: block;
   font-size: 12px;
 }
-/* line 3328, ../scss/breakpoints/_base.scss */
+/* line 3329, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step:before {
   content: "";
   position: absolute;
@@ -5313,36 +5314,36 @@ span.wpcf7-list-item {
   border: 10px solid transparent;
   border-top: 18px solid #bfbfbf;
 }
-/* line 3337, ../scss/breakpoints/_base.scss */
+/* line 3338, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step:last-child {
   margin-bottom: 0;
 }
-/* line 3340, ../scss/breakpoints/_base.scss */
+/* line 3341, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps .step:last-child:before {
   display: none;
 }
-/* line 3344, ../scss/breakpoints/_base.scss */
+/* line 3345, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .flow .steps-arrow {
   display: none;
 }
-/* line 3352, ../scss/breakpoints/_base.scss */
+/* line 3353, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .service-about .about-head {
   height: 55px;
   justify-content: flex-start;
 }
-/* line 3355, ../scss/breakpoints/_base.scss */
+/* line 3356, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .service-about .about-head .about-head-paragraph {
   height: 55px;
   line-height: 55px;
   padding-left: 10px;
 }
-/* line 3365, ../scss/breakpoints/_base.scss */
+/* line 3366, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful {
   background: #f8f9fa;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 3369, ../scss/breakpoints/_base.scss */
+/* line 3370, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-head {
   position: relative;
   font-size: 16px;
@@ -5350,7 +5351,7 @@ span.wpcf7-list-item {
   text-align: center;
   margin: 30px 0;
 }
-/* line 3375, ../scss/breakpoints/_base.scss */
+/* line 3376, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-head:before {
   content: '';
   position: absolute;
@@ -5361,7 +5362,7 @@ span.wpcf7-list-item {
   height: 1px;
   background: #00AE78;
 }
-/* line 3386, ../scss/breakpoints/_base.scss */
+/* line 3387, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-paragraph {
   border: 1px solid #00AE78;
   border-radius: 8px;
@@ -5370,7 +5371,7 @@ span.wpcf7-list-item {
   padding: 5px 10px;
   background: #fff;
 }
-/* line 3393, ../scss/breakpoints/_base.scss */
+/* line 3394, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-paragraph .date {
   display: inline-block;
   width: 100px;
@@ -5378,18 +5379,18 @@ span.wpcf7-list-item {
   font-weight: bold;
   color: #323944;
 }
-/* line 3400, ../scss/breakpoints/_base.scss */
+/* line 3401, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-paragraph .detail {
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
   color: #00AE78;
 }
-/* line 3407, ../scss/breakpoints/_base.scss */
+/* line 3408, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-link {
   text-align: center;
 }
-/* line 3409, ../scss/breakpoints/_base.scss */
+/* line 3410, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-link a {
   font-size: 12px;
   font-weight: bold;
@@ -5397,7 +5398,7 @@ span.wpcf7-list-item {
   text-decoration: none;
   position: relative;
 }
-/* line 3415, ../scss/breakpoints/_base.scss */
+/* line 3416, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .useful-link a:after {
   content: '';
   position: absolute;
@@ -5408,23 +5409,23 @@ span.wpcf7-list-item {
   background-image: url("../images/icon/arrow-right-green.png");
   background-size: cover;
 }
-/* line 3430, ../scss/breakpoints/_base.scss */
+/* line 3431, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format {
   justify-content: center;
 }
-/* line 3432, ../scss/breakpoints/_base.scss */
+/* line 3433, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format .usefularticle-menu {
   background-color: #fff;
   width: 100%;
   margin: auto;
 }
-/* line 3436, ../scss/breakpoints/_base.scss */
+/* line 3437, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format .usefularticle-menu .usefularticle-title {
   width: 90%;
   margin: auto;
   margin-top: 40px;
 }
-/* line 3440, ../scss/breakpoints/_base.scss */
+/* line 3441, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format .usefularticle-menu .usefularticle-title h3 {
   background-color: #fff;
   font-size: 20px;
@@ -5433,20 +5434,20 @@ span.wpcf7-list-item {
   border-left: 5px solid #00AE78;
   padding-left: 9px;
 }
-/* line 3448, ../scss/breakpoints/_base.scss */
+/* line 3449, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format .usefularticle-menu .usefularticle-title .usefularticle-border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
-/* line 3453, ../scss/breakpoints/_base.scss */
+/* line 3454, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format .usefularticle-menu .usefularticle-title .usefularticle-thetime {
   text-align: right;
   font-size: 13px;
   padding-right: 10px;
   color: #00AE78;
 }
-/* line 3460, ../scss/breakpoints/_base.scss */
+/* line 3461, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format .usefularticle-menu .usefularticle-contents {
   width: 90%;
   margin: auto;
@@ -5454,12 +5455,12 @@ span.wpcf7-list-item {
   padding: 0 14px;
   font-size: 14px;
 }
-/* line 3466, ../scss/breakpoints/_base.scss */
+/* line 3467, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle-format .usefularticle-menu .usefularticle-contents img {
   width: 100%;
   height: 100%;
 }
-/* line 3473, ../scss/breakpoints/_base.scss */
+/* line 3474, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle--btn {
   margin: 20px auto;
   margin-top: 100px;
@@ -5472,13 +5473,13 @@ span.wpcf7-list-item {
   background: #00AE78;
   border-radius: 5px;
 }
-/* line 3484, ../scss/breakpoints/_base.scss */
+/* line 3485, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle--btn:hover {
   color: #fff;
   border-color: #8ff18b;
   background-color: #8ff18b;
 }
-/* line 3489, ../scss/breakpoints/_base.scss */
+/* line 3490, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle--btn:before {
   content: '';
   position: absolute;
@@ -5489,7 +5490,7 @@ span.wpcf7-list-item {
   background-image: url("../images/icon/arrow-left-white.svg");
   background-size: cover;
 }
-/* line 3499, ../scss/breakpoints/_base.scss */
+/* line 3500, ../scss/breakpoints/_base.scss */
 .usefullist .past-useful .usefularticle--btn a {
   color: #fff;
   font-size: 14px;
@@ -5497,7 +5498,7 @@ span.wpcf7-list-item {
   text-decoration: none;
 }
 
-/* line 3510, ../scss/breakpoints/_base.scss */
+/* line 3511, ../scss/breakpoints/_base.scss */
 .usefularticle-contents {
   width: 90%;
   margin: auto;
@@ -5505,25 +5506,25 @@ span.wpcf7-list-item {
   padding: 0 14px;
   font-size: 14px;
 }
-/* line 3516, ../scss/breakpoints/_base.scss */
+/* line 3517, ../scss/breakpoints/_base.scss */
 .usefularticle-contents img {
   width: 100%;
   height: 100%;
 }
 
-/* line 3526, ../scss/breakpoints/_base.scss */
+/* line 3527, ../scss/breakpoints/_base.scss */
 .usefularticlelist {
   width: 100%;
   padding: 50px 0;
 }
-/* line 3529, ../scss/breakpoints/_base.scss */
+/* line 3530, ../scss/breakpoints/_base.scss */
 .usefularticlelist-inner {
   background-color: #fff;
   width: 89%;
   margin: auto;
   margin-top: 40px;
 }
-/* line 3534, ../scss/breakpoints/_base.scss */
+/* line 3535, ../scss/breakpoints/_base.scss */
 .usefularticlelist-inner .past-title, .usefularticlelist-inner .widgettitle {
   background-color: #00AE78;
   color: #fff;
@@ -5536,28 +5537,28 @@ span.wpcf7-list-item {
   padding-left: 20px;
   border-radius: 10px 10px 0 0;
 }
-/* line 3546, ../scss/breakpoints/_base.scss */
+/* line 3547, ../scss/breakpoints/_base.scss */
 .usefularticlelist-inner ul {
   background-color: #fff;
   border: 1px solid #00AE78;
   border-radius: 0 0 10px 10px;
   margin-top: -1px;
 }
-/* line 3551, ../scss/breakpoints/_base.scss */
+/* line 3552, ../scss/breakpoints/_base.scss */
 .usefularticlelist-inner ul li {
   width: 90%;
   margin: auto;
   padding: 5px 0;
   border-bottom: 1px dotted #00C1E1;
 }
-/* line 3559, ../scss/breakpoints/_base.scss */
+/* line 3560, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful, .usefularticlelist .wpp-no-data {
   background-color: #fff;
   border: 1px solid #00AE78;
   border-radius: 0 0 10px 10px;
   margin-top: -1px;
 }
-/* line 3569, ../scss/breakpoints/_base.scss */
+/* line 3570, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks, .usefularticlelist .wpp-no-data .useful-topicks {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -5565,26 +5566,26 @@ span.wpcf7-list-item {
   display: flex;
   border-bottom: 1px dotted #00C1E1;
 }
-/* line 3575, ../scss/breakpoints/_base.scss */
+/* line 3576, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks .useful-pic, .usefularticlelist .wpp-no-data .useful-topicks .useful-pic {
   margin-right: 20px;
 }
-/* line 3577, ../scss/breakpoints/_base.scss */
+/* line 3578, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks .useful-pic .useful-text, .usefularticlelist .wpp-no-data .useful-topicks .useful-pic .useful-text {
   color: #8FF18B;
 }
-/* line 3579, ../scss/breakpoints/_base.scss */
+/* line 3580, ../scss/breakpoints/_base.scss */
 .usefularticlelist .past-useful .useful-topicks .useful-pic .useful-text a, .usefularticlelist .wpp-no-data .useful-topicks .useful-pic .useful-text a {
   text-decoration: none;
   margin-left: 20px;
 }
 
-/* line 3599, ../scss/breakpoints/_base.scss */
+/* line 3600, ../scss/breakpoints/_base.scss */
 .boder_bottum {
   margin-bottom: 50px;
 }
 
-/* line 3614, ../scss/breakpoints/_base.scss */
+/* line 3615, ../scss/breakpoints/_base.scss */
 .usefularticle-btn {
   margin: 20px auto;
   margin-top: 100px;
@@ -5597,13 +5598,13 @@ span.wpcf7-list-item {
   background: #FE0101;
   border-radius: 5px;
 }
-/* line 3625, ../scss/breakpoints/_base.scss */
+/* line 3626, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:hover {
   color: #fff;
   border-color: #8ff18b;
   background-color: #8ff18b;
 }
-/* line 3630, ../scss/breakpoints/_base.scss */
+/* line 3631, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:before {
   content: '';
   position: absolute;
@@ -5614,7 +5615,7 @@ span.wpcf7-list-item {
   background-image: url("../images/icon/arrow-left-white.svg");
   background-size: cover;
 }
-/* line 3640, ../scss/breakpoints/_base.scss */
+/* line 3641, ../scss/breakpoints/_base.scss */
 .usefularticle-btn a {
   color: #fff;
   font-size: 14px;
@@ -5622,23 +5623,23 @@ span.wpcf7-list-item {
   text-decoration: none;
 }
 
-/* line 3656, ../scss/breakpoints/_base.scss */
+/* line 3657, ../scss/breakpoints/_base.scss */
 .usefularticle-format {
   justify-content: center;
 }
-/* line 3658, ../scss/breakpoints/_base.scss */
+/* line 3659, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu {
   background-color: #fff;
   width: 100%;
   margin: auto;
 }
-/* line 3662, ../scss/breakpoints/_base.scss */
+/* line 3663, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title {
   width: 90%;
   margin: auto;
   margin-top: 40px;
 }
-/* line 3666, ../scss/breakpoints/_base.scss */
+/* line 3667, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title h3 {
   background-color: #fff;
   font-size: 20px;
@@ -5647,20 +5648,20 @@ span.wpcf7-list-item {
   border-left: 5px solid #00AE78;
   padding-left: 9px;
 }
-/* line 3674, ../scss/breakpoints/_base.scss */
+/* line 3675, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title .border {
   margin: auto;
   margin-top: -15px;
   border-bottom: 3px solid #00c1e1;
 }
-/* line 3679, ../scss/breakpoints/_base.scss */
+/* line 3680, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .usefularticle-title .thetime {
   text-align: right;
   font-size: 13px;
   padding-right: 10px;
   color: #00AE78;
 }
-/* line 3686, ../scss/breakpoints/_base.scss */
+/* line 3687, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .post-contents {
   width: 90%;
   margin: auto;
@@ -5668,13 +5669,13 @@ span.wpcf7-list-item {
   padding: 0 14px;
   font-size: 14px;
 }
-/* line 3692, ../scss/breakpoints/_base.scss */
+/* line 3693, ../scss/breakpoints/_base.scss */
 .usefularticle-format .post-menu .post-contents img {
   width: 100%;
   height: auto;
 }
 
-/* line 3702, ../scss/breakpoints/_base.scss */
+/* line 3703, ../scss/breakpoints/_base.scss */
 .usefularticle-btn {
   margin: 20px auto;
   margin-top: 100px;
@@ -5687,13 +5688,13 @@ span.wpcf7-list-item {
   background: #00AE78;
   border-radius: 5px;
 }
-/* line 3713, ../scss/breakpoints/_base.scss */
+/* line 3714, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:hover {
   color: #fff;
   border-color: #8ff18b;
   background-color: #8ff18b;
 }
-/* line 3718, ../scss/breakpoints/_base.scss */
+/* line 3719, ../scss/breakpoints/_base.scss */
 .usefularticle-btn:before {
   content: '';
   position: absolute;
@@ -5704,7 +5705,7 @@ span.wpcf7-list-item {
   background-image: url("../images/icon/arrow-left-white.svg");
   background-size: cover;
 }
-/* line 3728, ../scss/breakpoints/_base.scss */
+/* line 3729, ../scss/breakpoints/_base.scss */
 .usefularticle-btn a {
   color: #fff;
   font-size: 14px;
@@ -5712,32 +5713,32 @@ span.wpcf7-list-item {
   text-decoration: none;
 }
 
-/* line 3740, ../scss/breakpoints/_base.scss */
+/* line 3741, ../scss/breakpoints/_base.scss */
 .uservoice-bigtitle {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 3744, ../scss/breakpoints/_base.scss */
+/* line 3745, ../scss/breakpoints/_base.scss */
 .uservoice-lists {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-/* line 3748, ../scss/breakpoints/_base.scss */
+/* line 3749, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list {
   padding-top: 20px;
 }
-/* line 3750, ../scss/breakpoints/_base.scss */
+/* line 3751, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .imgbox {
   position: relative;
 }
-/* line 3752, ../scss/breakpoints/_base.scss */
+/* line 3753, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .imgbox img {
   width: 340px;
   height: 240px;
   object-fit: cover;
 }
-/* line 3758, ../scss/breakpoints/_base.scss */
+/* line 3759, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .title {
   font-size: 12px;
   color: #30BD92;
@@ -5745,7 +5746,7 @@ span.wpcf7-list-item {
   font-weight: bold;
   margin: 10px 0;
 }
-/* line 3765, ../scss/breakpoints/_base.scss */
+/* line 3766, ../scss/breakpoints/_base.scss */
 .uservoice-lists .uservoice-list .detail {
   display: flex;
   font-size: 15px;
@@ -5753,32 +5754,32 @@ span.wpcf7-list-item {
   margin: 10px 0;
 }
 
-/* line 3777, ../scss/breakpoints/_base.scss */
+/* line 3778, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relation {
   color: #444;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 3783, ../scss/breakpoints/_base.scss */
+/* line 3784, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relatedposts .cell {
   display: flex;
   border-bottom: 1px dotted #00C1E1;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 3789, ../scss/breakpoints/_base.scss */
+/* line 3790, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relatedposts .cell .thumbnail img {
   width: 84px;
   height: 84px;
   object-fit: cover;
 }
-/* line 3794, ../scss/breakpoints/_base.scss */
+/* line 3795, ../scss/breakpoints/_base.scss */
 .usefulart-catalog .relatedposts .cell .post-title {
   padding-left: 10px;
   margin: auto 0;
 }
 
-/* line 3804, ../scss/breakpoints/_base.scss */
+/* line 3805, ../scss/breakpoints/_base.scss */
 .blog-card {
   width: 311px;
   height: 150px;
@@ -5789,7 +5790,7 @@ span.wpcf7-list-item {
   transition: 0.3s ease-in-out;
 }
 
-/* line 3821, ../scss/breakpoints/_base.scss */
+/* line 3822, ../scss/breakpoints/_base.scss */
 .blog-card:hover {
   cursor: pointer;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
@@ -5798,12 +5799,12 @@ span.wpcf7-list-item {
   transform: translateY(-2px);
 }
 
-/* line 3838, ../scss/breakpoints/_base.scss */
+/* line 3839, ../scss/breakpoints/_base.scss */
 .blog-card a {
   text-decoration: none;
 }
 
-/* line 3841, ../scss/breakpoints/_base.scss */
+/* line 3842, ../scss/breakpoints/_base.scss */
 .blog-card-thumbnail {
   width: 40%;
   display: table-cell;
@@ -5811,31 +5812,31 @@ span.wpcf7-list-item {
   padding: 25px 20px 10px 20px;
 }
 
-/* line 3848, ../scss/breakpoints/_base.scss */
+/* line 3849, ../scss/breakpoints/_base.scss */
 .blog-card-thumbnail img {
   width: 100px !important;
   height: 100px !important;
   object-fit: cover;
 }
 
-/* line 3854, ../scss/breakpoints/_base.scss */
+/* line 3855, ../scss/breakpoints/_base.scss */
 .blog-card-content {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 3859, ../scss/breakpoints/_base.scss */
+/* line 3860, ../scss/breakpoints/_base.scss */
 .blog-card-title {
   font-size: 15px;
   padding-bottom: 10px;
 }
 
-/* line 3869, ../scss/breakpoints/_base.scss */
+/* line 3870, ../scss/breakpoints/_base.scss */
 .blog-card-title:hover {
   text-decoration: underline;
 }
 
-/* line 3872, ../scss/breakpoints/_base.scss */
+/* line 3873, ../scss/breakpoints/_base.scss */
 .blog-card-excerpt {
   color: #4C4C4C;
   margin: 0 10px 5px 0;
@@ -5849,7 +5850,7 @@ span.wpcf7-list-item {
   font-size: 14px;
 }
 
-/* line 3888, ../scss/breakpoints/_base.scss */
+/* line 3889, ../scss/breakpoints/_base.scss */
 .blog-card .clear {
   clear: both;
 }
