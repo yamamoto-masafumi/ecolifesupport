@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-30 06:00:44+0000\n"
+"PO-Revision-Date: 2020-11-10 14:26:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,30 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
+
+#: extensions/blocks/opentable/opentable.php:104
+msgid "Make a reservation"
+msgstr "予約する"
+
+#: extensions/blocks/image-compare/image-compare.php:44
+msgid "Slide to compare images"
+msgstr "画像を比較するためのスライド"
+
+#: extensions/blocks/story/story.php:355
+msgid "Play story in new tab"
+msgstr "新しいタブでストーリーを再生する"
+
+#: modules/shortcodes/youtube.php:301
+msgid "YouTube Poster"
+msgstr "YouTube ポスター"
+
+#: modules/shortcodes/youtube.php:198
+msgid "YouTube Error: missing id and/or list"
+msgstr "YouTube エラー : ID やリストが欠落しています"
+
+#: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-admin-menu.php:63
+msgid "Sorry, you are not allowed to view menus on this site."
+msgstr "このサイトのメニューを表示する権限がありません。"
 
 #: _inc/lib/debugger/class-jetpack-cxn-tests.php:492
 msgid "Invalid Jetpack connection tokens."
@@ -32,7 +56,7 @@ msgstr "テストがタイムアウトしました。エラーが検出された
 msgid "Reconnect Jetpack now"
 msgstr "Jetpack に今すぐ再接続"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3869
+#: _inc/lib/class.core-rest-api-endpoints.php:3880
 msgid "Missing or invalid extension parameter."
 msgstr "拡張機能変数がないか、無効です。"
 
@@ -84,66 +108,64 @@ msgstr "Jetpack 購入を完了してください。 サブスクリプション
 msgid "Jetpack is not connected. No blog token to check."
 msgstr "Jetpack と接続していません。 チェックするブログのトークンはありません。"
 
-#: modules/shortcodes/instagram.php:320
-msgid "Invalid Instagram resource"
-msgstr "無効な Instagram のリソース"
+#: extensions/blocks/donations/donations.php:73 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Choose an amount"
+msgstr "金額を選択"
 
-#: modules/shortcodes/instagram.php:299
-msgid "Jetpack must be active to fetch Instagram embed"
-msgstr "Instagram の埋め込みを取得するには Jetpack が有効である必要があります。"
-
-#: modules/contact-form/grunion-contact-form.php:2440
+#: modules/contact-form/grunion-contact-form.php:2505
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Consent"
 msgstr "承諾"
 
-#: modules/contact-form/grunion-contact-form.php:383
+#: modules/contact-form/grunion-contact-form.php:420
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Can we send you an email from time to time?"
 msgstr "適宜メールでご連絡することを承諾いただけますか ?"
 
-#: modules/contact-form/grunion-contact-form.php:379
+#: modules/contact-form/grunion-contact-form.php:416
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "By submitting your information, you're giving us permission to email you. You may unsubscribe at any time."
 msgstr "情報を送信すると、メールの受信を承諾したことになります。 登録はいつでも解除できます。"
 
 #. translators: placeholder is a plugin name.
-#: _inc/lib/class.core-rest-api-endpoints.php:3731
+#: _inc/lib/class.core-rest-api-endpoints.php:3742
 msgid "Activated %s"
 msgstr "有効化済み %s"
 
 #. translators: placeholder is a plugin slug.
-#: _inc/lib/class.core-rest-api-endpoints.php:3702
+#: _inc/lib/class.core-rest-api-endpoints.php:3713
 msgid "Plugin %s is already active."
 msgstr "プラグイン %s はすでに有効です。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3674
+#: _inc/lib/class.core-rest-api-endpoints.php:3685
 msgid "You did not specify a plugin."
 msgstr "プラグインを指定していません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3661
+#: _inc/lib/class.core-rest-api-endpoints.php:3672
 msgid "Status parameter missing."
 msgstr "ステータスの変数がありません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3623
+#: _inc/lib/class.core-rest-api-endpoints.php:3634
 msgid "Unable to determine what plugin was installed."
 msgstr "インストールされているプラグインを判別できません。"
 
 #. translators: placeholder is a plugin name.
-#: _inc/lib/class.core-rest-api-endpoints.php:3606
+#: _inc/lib/class.core-rest-api-endpoints.php:3617
 msgid "Installed %s"
 msgstr "インストール済み %s"
 
 #. translators: %1$s: plugin name. -- %2$s: error message.
-#: _inc/lib/class.core-rest-api-endpoints.php:3585
+#: _inc/lib/class.core-rest-api-endpoints.php:3596
 msgid "Unable to install %1$s: %2$s "
 msgstr "%1$s をインストールできません : %2$s"
 
 #. translators: %s is an error code (e.g. `token_mismatch`)
-#: _inc/lib/class.core-rest-api-endpoints.php:1843
+#: _inc/lib/class.core-rest-api-endpoints.php:1846
 msgid "Failed fetching site data from WordPress.com (%s). If the problem persists, try reconnecting Jetpack."
 msgstr "WordPress.com からサイトデータを取得できませんでした (%s)。 問題が解決しない場合は Jetpack に再接続してみてください。"
 
@@ -194,6 +216,62 @@ msgstr "常時有効なセキュリティ対策"
 #: 3rd-party/creative-mail.php:102
 msgid "There was an error installing Creative Mail."
 msgstr "Creative Mail のインストール中にエラーが発生しました。"
+
+#: extensions/blocks/donations/donations.php:111 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "One-Time"
+msgstr "1回のみ"
+
+#: extensions/blocks/donations/donations.php:64 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Donate yearly"
+msgstr "年単位で寄付する"
+
+#: extensions/blocks/donations/donations.php:53 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Donate monthly"
+msgstr "月単位で寄付する"
+
+#: extensions/blocks/donations/donations.php:42 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Donate"
+msgstr "寄付"
+
+#: extensions/blocks/donations/donations.php:41
+#: extensions/blocks/donations/donations.php:52
+#: extensions/blocks/donations/donations.php:63 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Your contribution is appreciated."
+msgstr "寄付していただきありがとうございます。"
+
+#: extensions/blocks/donations/donations.php:77 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Or enter a custom amount"
+msgstr "またはカスタム金額を入力"
+
+#: extensions/blocks/donations/donations.php:62 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Make a yearly donation"
+msgstr "毎年寄付する"
+
+#: extensions/blocks/donations/donations.php:51 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Make a monthly donation"
+msgstr "毎月寄付する"
+
+#: extensions/blocks/donations/donations.php:40 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Make a one-time donation"
+msgstr "一度だけ寄付する"
 
 #: extensions/blocks/story/story.php:100 extensions/blocks/story/story.php:160
 msgid "Error retrieving media"
@@ -340,11 +418,11 @@ msgid "Number of tweets shown:"
 msgstr "表示されるツイート数 : "
 
 #. translators: %1$s is the page count
-#: modules/infinite-scroll/infinity.php:1419
+#: modules/infinite-scroll/infinity.php:1435
 msgid "Page: %1$d."
 msgstr "%1$dページです。"
 
-#: modules/infinite-scroll/infinity.php:897
+#: modules/infinite-scroll/infinity.php:913
 msgid "Loading new page"
 msgstr "新しいページを読み込んでいます"
 
@@ -383,15 +461,15 @@ msgstr "%1$s ファイルは、バージョン%2$sの Jetpack プラグインか
 msgid "The %1$s function will be removed from the Jetpack plugin in version %2$s."
 msgstr "%1$s機能は、バージョン%2$sの Jetpack プラグインから削除されます。"
 
-#: class.jetpack.php:7397 class.jetpack-admin.php:74
+#: class.jetpack.php:7386 class.jetpack-admin.php:74
 msgid "Anti-Spam"
 msgstr "スパム対策"
 
-#: class.jetpack.php:7389 class.jetpack.php:7391 _inc/build/admin.js:71
+#: class.jetpack.php:7378 class.jetpack.php:7380 _inc/build/admin.js:67
 msgid "Automatically clear spam from comments and forms. Save time, get more responses, give your visitors a better experience – all without lifting a finger."
 msgstr "コメントやフォームからスパムを自動的に削除します。 何もしなくても時間の節約、レスポンスの増加、訪問者のエクスペリエンスの向上が実現します。"
 
-#: class.jetpack.php:7388 _inc/build/admin.js:71
+#: class.jetpack.php:7377 _inc/build/admin.js:67
 msgid "Jetpack Anti-Spam"
 msgstr "Jetpack Anti-Spam"
 
@@ -417,7 +495,7 @@ msgstr "Jetpack はオフラインモードではありません。"
 msgid "Images"
 msgstr "画像"
 
-#: modules/infinite-scroll/infinity.php:1939
+#: modules/infinite-scroll/infinity.php:1955
 #: _inc/build/instant-search/jp-search.bundle.js:1
 msgid "Page"
 msgstr "固定ページ"
@@ -467,19 +545,19 @@ msgstr "オフラインモードではツイートを展開できません。"
 msgid "Blog token is missing."
 msgstr "ブログのトークンがありません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2550 _inc/build/admin.js:60
+#: _inc/lib/class.core-rest-api-endpoints.php:2561 _inc/build/admin.js:52
 msgid "Privacy Policy URL"
 msgstr "プライバシーポリシー URL"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2543
+#: _inc/lib/class.core-rest-api-endpoints.php:2554
 msgid "Enable support for California Consumer Privacy Act"
 msgstr "カリフォルニア州消費者プライバシー法を有効にする"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2528
+#: _inc/lib/class.core-rest-api-endpoints.php:2539
 msgid "Custom ads.txt"
 msgstr "カスタム ads.txt"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1840
+#: _inc/lib/class.core-rest-api-endpoints.php:1843
 msgid "Failed fetching site data from WordPress.com. If the problem persists, try reconnecting Jetpack."
 msgstr "WordPress.com からサイトデータを取得できませんでした。 問題が解決しない場合は Jetpack に再接続してみてください。"
 
@@ -519,17 +597,9 @@ msgstr "以下の IP は常時許可されています。"
 msgid "%s is already on the always allow list."
 msgstr "%s すでに常時許可リストに含まれています。"
 
-#: modules/contact-form/admin.php:986
+#: modules/contact-form/admin.php:1012
 msgid "An error occurred while trying to empty the Feedback spam folder."
 msgstr "フィードバックのスパムフォルダーを空にしている間にエラーが発生しました。"
-
-#: modules/contact-form/admin.php:928
-msgid "You don&#8217;t have permission to do that."
-msgstr "この操作をする権限がありません。"
-
-#: modules/contact-form/admin.php:919
-msgid "You aren&#8217;t authorized to do that."
-msgstr "この操作をする承認を受けていません。"
 
 #. translators: The placeholder is for showing how much of the process has
 #. completed, as a percent. e.g., "Emptying Spam (40%)"
@@ -684,15 +754,15 @@ msgstr "スキャン状態を正常に受信しました。"
 msgid "%s must be an object."
 msgstr "%s はオブジェクトでなければなりません。"
 
-#: class.jetpack.php:7357
+#: class.jetpack.php:7346
 msgid "Daily Scan"
 msgstr "日次スキャン"
 
-#: class.jetpack.php:7328
+#: class.jetpack.php:7317
 msgid "Your data is being securely backed up daily."
 msgstr "データは毎日安全にバックアップされます。"
 
-#: class.jetpack.php:4046 views/admin/deactivation-dialog.php:54
+#: class.jetpack.php:4041 views/admin/deactivation-dialog.php:54
 msgid "Disconnect and Deactivate"
 msgstr "連携を解除して無効化"
 
@@ -712,8 +782,8 @@ msgid "%s Threat found"
 msgid_plural "%s Threats found"
 msgstr[0] "%s件の脅威が見つかりました"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2092
-#: modules/carousel/jetpack-carousel.php:860 _inc/build/admin.js:60
+#: _inc/lib/class.core-rest-api-endpoints.php:2103
+#: modules/carousel/jetpack-carousel.php:860 _inc/build/admin.js:52
 msgid "Show comments area in carousel"
 msgstr "コメントエリアをカルーセルで表示"
 
@@ -723,7 +793,7 @@ msgid "You can access your backups at <a href=\"%s\" target=\"_blank\" rel=\"noo
 msgstr "バックアップには、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">このダッシュボード</a>からアクセスできます。"
 
 #. translators: %s is the site name
-#: class-jetpack-wizard-banner.php:188 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:188 _inc/build/admin.js:52
 msgid "What will %s be used for?"
 msgstr "%s の用途"
 
@@ -771,39 +841,39 @@ msgstr "Instagram の投稿数"
 msgid "An Instagram Keyring access token."
 msgstr "Instagram Keyring アクセストークン。"
 
-#: class-jetpack-wizard-banner.php:206 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:206 _inc/build/admin.js:52
 msgid "Business Use"
 msgstr "ビジネス向け"
 
-#: class-jetpack-wizard-banner.php:199 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:199 _inc/build/admin.js:52
 msgid "Personal Use"
 msgstr "個人向け"
 
-#: class-jetpack-wizard-banner.php:181 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:181 _inc/build/admin.js:52
 msgid "Answer a few questions and we’ll help you secure, speed up, customize, and grow your WordPress website."
 msgstr "いくつかの質問に答えてください。WordPress サイトのセキュリティ保護、スピードアップ、カスタマイズ、拡大をお手伝いします。"
 
-#: class-jetpack-wizard-banner.php:178 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:178 _inc/build/admin.js:52
 msgid "Jetpack is a cloud-powered tool built by Automattic."
 msgstr "Jetpack は、Automattic によって構築されたクラウド駆動型ツールです。"
 
-#: class-jetpack-wizard-banner.php:175 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:175 _inc/build/admin.js:52
 msgid "Set up Jetpack for better site security, performance, and more."
 msgstr "サイトのセキュリティ、パフォーマンスなどを向上させるため Jetpack を設定"
 
-#: class-jetpack-wizard-banner.php:225 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:225 _inc/build/admin.js:52
 msgid "A jetpack site powering up"
 msgstr "稼働中の Jetpack サイト"
 
-#: class.jetpack.php:7371
+#: class.jetpack.php:7360
 msgid "Records are all posts, pages, custom post types, and other types of content indexed by Jetpack Search."
 msgstr "Jetpack Search でインデックス付けしたすべての投稿、ページ、カスタム投稿タイプ、その他のタイプのコンテンツがレコードになります。"
 
-#: class.jetpack.php:7346
+#: class.jetpack.php:7335
 msgid "Jetpack Scan"
 msgstr "Jetpack Scan"
 
-#: class.jetpack.php:7347 class.jetpack.php:7349 _inc/build/admin.js:71
+#: class.jetpack.php:7336 class.jetpack.php:7338 _inc/build/admin.js:67
 msgid "Automatic scanning and one-click fixes keep your site one step ahead of security threats."
 msgstr "自動スキャンとワンクリック修正で、サイトをセキュリティの脅威から守りましょう。"
 
@@ -858,36 +928,36 @@ msgstr "あなたのサイトは Jetpack に連携していません"
 msgid "Google Calendar"
 msgstr "Google カレンダー"
 
-#: class.jetpack.php:6973
+#: class.jetpack.php:6962
 msgid "Activate Anti-spam"
 msgstr "スパム対策を有効化"
 
-#: class.jetpack.php:6955
+#: class.jetpack.php:6944
 msgctxt "{#} Spam comments blocked by Akismet -- number is on a prior line, text is a caption."
 msgid "Blocked spam comments."
 msgstr "ブロックされたスパムに関するコメント。"
 
-#: class.jetpack.php:6945
+#: class.jetpack.php:6934
 msgid "Brute force attack protection is inactive."
 msgstr "総当たり攻撃に対する保護機能が無効になっています。"
 
-#: class.jetpack.php:6942
+#: class.jetpack.php:6931
 msgid "Activate brute force attack protection"
 msgstr "総当たり攻撃に対する保護機能を有効化"
 
-#: class.jetpack.php:6920
+#: class.jetpack.php:6909
 msgid "Brute force attack protection"
 msgstr "総当たり攻撃に対する保護機能"
 
-#: extensions/blocks/podcast-player/podcast-player.php:111
+#: extensions/blocks/podcast-player/podcast-player.php:115
 msgid "No tracks available to play."
 msgstr "再生可能なトラックはありません。"
 
-#: extensions/blocks/podcast-player/podcast-player.php:86
+#: extensions/blocks/podcast-player/podcast-player.php:90
 msgid "Your podcast URL is invalid and couldn't be embedded. Please double check your URL."
 msgstr "ポッドキャストの URL が無効なため、埋め込めませんでした。URL を再確認してください。"
 
-#: extensions/blocks/podcast-player/podcast-player.php:81
+#: extensions/blocks/podcast-player/podcast-player.php:85
 msgid "No Podcast URL provided. Please enter a valid Podcast RSS feed URL."
 msgstr "ポッドキャストの URL が入力されていません。有効なポッドキャストの RSS フィードの URL を入力してください。"
 
@@ -998,8 +1068,7 @@ msgstr "Jetpack Search サイドバー"
 msgid "Help visitors quickly find answers with highly relevant instant search results and powerful filtering."
 msgstr "関連性の高い結果を表示するクイック検索と強力なフィルター機能により、訪問者が求める回答をすばやく提供します。"
 
-#: class.jetpack.php:7368 class.jetpack.php:7370 _inc/build/admin.js:52
-#: _inc/build/admin.js:60
+#: class.jetpack.php:7357 class.jetpack.php:7359 _inc/build/admin.js:52
 msgid "Incredibly powerful and customizable, Jetpack Search helps your visitors instantly find the right content – right when they need it."
 msgstr "非常に強力でカスタマイズ可能な Jetpack Search は、訪問者が適切なコンテンツを適切なタイミングで瞬時に見つけるのに役立ちます。"
 
@@ -1187,15 +1256,15 @@ msgstr ""
 msgid "Test failed!"
 msgstr "テストに失敗しました !"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2440
+#: _inc/lib/class.core-rest-api-endpoints.php:2451
 msgid "Trigger an auto config of instant search"
 msgstr "クイック検索の自動設定をトリガー"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2432
+#: _inc/lib/class.core-rest-api-endpoints.php:2443
 msgid "Has an active Jetpack Search product purchase"
 msgstr "アクティブな Jetpack Search 商品を購入済み"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2424
+#: _inc/lib/class.core-rest-api-endpoints.php:2435
 msgid "Enable Instant Search"
 msgstr "クイック検索を有効化"
 
@@ -1219,7 +1288,7 @@ msgstr "以前このサイトの購読を登録した際、確認リンクをク
 msgid "You already have several pending email subscriptions. <br /> Approve or delete a few subscriptions at <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">subscribe.wordpress.com</a> before continuing."
 msgstr "すでに承認待ちのメール購読が複数あります。<br />続行する前に、一部の購読を <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">subscribe.wordpress.com</a> で承認または削除してください。"
 
-#: extensions/blocks/calendly/calendly.php:147 _inc/blocks/editor-beta.js:18
+#: extensions/blocks/calendly/calendly.php:143 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Schedule time with me"
@@ -1234,15 +1303,15 @@ msgstr "Eventbrite に登録"
 msgid "To load the block, add the constant %1$s as true to your wp-config.php file"
 msgstr "ブロックをロードするには、wp-config.php ファイルに定数 %1$s を true として追加します"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2399
+#: _inc/lib/class.core-rest-api-endpoints.php:2410
 msgid "Send email notification when someone follows my blog"
 msgstr "ブログがフォローされたときにメール通知を送信"
 
-#: class.jetpack.php:7321
+#: class.jetpack.php:7310
 msgid "Select a backup option:"
 msgstr "バックアップオプションを選択 :"
 
-#: class.jetpack.php:7319
+#: class.jetpack.php:7308
 msgid "Which backup option is best for me?"
 msgstr "最適なバックアップオプションはどれですか ?"
 
@@ -1268,19 +1337,19 @@ msgstr "転送でチェックされる URL の最終的な移動先。"
 msgid "The URL to check for redirects."
 msgstr "転送でチェックされる URL。"
 
-#: class.jetpack.php:7327
+#: class.jetpack.php:7316
 msgid "Daily Backups"
 msgstr "日次バックアップ"
 
-#: class.jetpack.php:7320 _inc/build/admin.js:52
+#: class.jetpack.php:7309 _inc/build/admin.js:52
 msgid "Always-on backups ensure you never lose your site. Your changes are saved as you edit and you have unlimited backup archives."
 msgstr "常時バックアップされるため、サイトが失われることはありません。変更内容は編集中に保存され、バックアップのアーカイブは無制限に利用できます。"
 
-#: class.jetpack.php:7318 _inc/build/admin.js:52
+#: class.jetpack.php:7307 _inc/build/admin.js:52
 msgid "Always-on backups ensure you never lose your site."
 msgstr "常時バックアップされるため、サイトが失われることはありません。"
 
-#: class.jetpack.php:7335 _inc/build/admin.js:71
+#: class.jetpack.php:7324 _inc/build/admin.js:67
 msgid "Your data is being securely backed up as you edit."
 msgstr "データは編集時に安全にバックアップされます。"
 
@@ -1304,11 +1373,11 @@ msgctxt "recipe"
 msgid "Rating"
 msgstr "評価"
 
-#: modules/shortcodes/youtube.php:186
+#: modules/shortcodes/youtube.php:187
 msgid "YouTube Error: empty URL args"
 msgstr "YouTube エラー :空の URL 引数"
 
-#: modules/shortcodes/youtube.php:178
+#: modules/shortcodes/youtube.php:179
 msgid "YouTube Error: bad URL entered"
 msgstr "YouTube エラー :無効な URL が入力されました"
 
@@ -1336,18 +1405,21 @@ msgstr "スライドショーを一時停止"
 #. translators: %d is the slide number (1, 2, 3...)
 #. translators: %d: Slide number.
 #: extensions/blocks/story/story.php:275
-#: extensions/blocks/slideshow/slideshow.php:157 _inc/blocks/story/view.js:1
-#: _inc/blocks/editor-beta.js:18
+#: extensions/blocks/slideshow/slideshow.php:157
 msgid "Go to slide %d"
 msgstr "スライド %d に移動"
 
 #: modules/shortcodes/slideshow.php:309
-#: extensions/blocks/slideshow/slideshow.php:101
+#: extensions/blocks/slideshow/slideshow.php:101 _inc/blocks/story/view.js:1
+#: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor.js:18
 msgid "Previous Slide"
 msgstr "前のスライド"
 
 #: modules/shortcodes/slideshow.php:311
-#: extensions/blocks/slideshow/slideshow.php:100
+#: extensions/blocks/slideshow/slideshow.php:100 _inc/blocks/story/view.js:1
+#: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor.js:18
 msgid "Next Slide"
 msgstr "次のスライド"
 
@@ -1355,7 +1427,7 @@ msgstr "次のスライド"
 msgid "The site is not currently connected, so nothing to do!"
 msgstr "このサイトは現在接続されていないため、操作を行うことができません。"
 
-#: modules/contact-form/grunion-contact-form.php:1933
+#: modules/contact-form/grunion-contact-form.php:1970
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Thank you for your submission!"
@@ -1369,7 +1441,7 @@ msgstr "タイムラインを表示"
 msgid "Custom post description to be used in HTML <meta /> tag."
 msgstr "HTML タグではカスタムの投稿説明が<meta />使用されます。"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:163
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:165
 msgid "Visitors tracked by Jetpack"
 msgstr "Jetpack が追跡した訪問者数"
 
@@ -1381,62 +1453,62 @@ msgstr "Archive.org"
 msgid "Archive.org Book"
 msgstr "Archive.org の書籍"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:286
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:288
 msgid "Site benefits correctly received."
 msgstr "サイトの特典を正常に受信しました。"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:277
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:279
 msgid "The number of times visitors have shared your posts with the world using Jetpack"
 msgstr "Jetpack を使用して、訪問者が投稿を世界中と共有した回数"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:266
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:268
 msgid "Live social media site connections, powered by Jetpack"
 msgstr "Jetpack を使用した、ソーシャルメディアサイトとのライブ連携"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:247
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:249
 msgid "Ad-free, lightning-fast videos delivered by Jetpack"
 msgstr "Jetpack による広告非表示の高速動画配信"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:232
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:234
 msgid "Super-fast, mobile-ready images served by Jetpack"
 msgstr "Jetpack が超高速で提供するモバイル対応画像"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:231
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:233
 msgid "Image Hosting"
 msgstr "画像ホスティング"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:214
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:216
 msgid "Form submissions stored by Jetpack"
 msgstr "送信済みフォームを Jetpack で保存"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:213
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:215
 msgid "Contact Form Feedback"
 msgstr "お問い合わせフォームのフィードバック"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:200
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:202
 msgid "The number of times Jetpack has backed up your site and kept it safe"
 msgstr "Jetpack でサイトをバックアップし、サイトを安全に保護した回数"
 
-#: class.jetpack.php:7317
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:199
+#: class.jetpack.php:7306
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:201
 #: _inc/build/admin.js:52
 msgid "Jetpack Backup"
 msgstr "Jetpack Backup"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:186
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:188
 msgid "People subscribed to your updates through Jetpack"
 msgstr "Jetpack で更新を購読した人の数"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:185
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:187
 msgid "Subscribers"
 msgstr "購読者"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:175
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:177
 msgid "The number of malicious login attempts blocked by Jetpack"
 msgstr "Jetpack が不正ログインを事前にブロックした回数"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:174
-#: _inc/build/admin.js:60
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:176
+#: _inc/build/admin.js:52
 msgid "Brute force protection"
 msgstr "総当たり攻撃からの保護"
 
@@ -1452,15 +1524,15 @@ msgstr "リクエストを確認できませんでした。"
 msgid "Please enter a valid Google API Key."
 msgstr "正しい Google API キーを入力してください。"
 
-#: modules/protect.php:188
+#: modules/protect.php:186
 msgid "https://jetpack.com/support/multisite-protect"
 msgstr "https://jetpack.com/support/multisite-protect"
 
-#: modules/protect.php:182
+#: modules/protect.php:180
 msgid "Thanks for activating Jetpack's brute force attack prevention feature! To start protecting your whole WordPress Multisite Network, please network activate the Jetpack plugin. Due to the way logins are handled on WordPress Multisite Networks, Jetpack must be network activated in order for the brute force attack prevention feature to work properly."
 msgstr "Jetpack の総当たり攻撃対策機能を有効化してくださり、ありがとうございます。WordPress マルチサイトネットワーク全体の保護を開始するには、ネットワークで Jetpack プラグインを有効化してください。WordPress マルチサイトネットワークでのログイン処理方法上の理由から、総当たり攻撃対策機能を正常に機能させるには、ネットワークで Jetpack を有効化する必要があります。"
 
-#: modules/protect.php:180
+#: modules/protect.php:178
 msgid "Jetpack Brute Force Attack Prevention cannot keep your site secure"
 msgstr "Jetpack の総当たり攻撃対策ではサイトのセキュリティを維持できません"
 
@@ -1469,19 +1541,19 @@ msgid "Open images in new tab?"
 msgstr "画像を新しいタブで開きますか ?"
 
 #. translators: Placeholder is a link to a support document.
-#: jetpack.php:112
+#: jetpack.php:131
 msgid "Your installation of Jetpack is incomplete. If you installed Jetpack from GitHub, please refer to this document to set up your development environment: %1$s"
 msgstr "Jetpack のインストールが不完全です。GitHub から Jetpack をインストールした場合は、こちらのドキュメントを参照して開発環境を設定してください。%1$s"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2569
+#: _inc/lib/class.core-rest-api-endpoints.php:2580
 msgid "Include a small chart in your admin bar with a 48-hour traffic snapshot."
 msgstr "48時間分のトラフィックのスナップショットを反映した小さいグラフを管理バーに組み込みます。"
 
-#: modules/scan/class-admin-sidebar-link.php:86 _inc/build/admin.js:71
+#: modules/scan/class-admin-sidebar-link.php:86 _inc/build/admin.js:67
 msgid "Scan"
 msgstr "スキャン"
 
-#: class.jetpack.php:6950 _inc/build/admin.js:60 _inc/build/admin.js:71
+#: class.jetpack.php:6939 _inc/build/admin.js:52 _inc/build/admin.js:67
 msgid "Anti-spam"
 msgstr "スパム対策"
 
@@ -1570,11 +1642,11 @@ msgstr "Medium.com で表示"
 msgid "View this collection on Medium.com"
 msgstr "Medium.com でこのコレクションを表示"
 
-#: modules/comments/comments.php:490
+#: modules/comments/comments.php:515
 msgid "Unknown security token."
 msgstr "不明なセキュリティトークン。"
 
-#: modules/memberships/class-jetpack-memberships.php:141
+#: modules/memberships/class-jetpack-memberships.php:171
 msgid "Recurring Payments plans"
 msgstr "定期支払いプラン"
 
@@ -1586,15 +1658,15 @@ msgstr "プラグインアイコン"
 msgid "About"
 msgstr "プラグインについて"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1888
+#: _inc/lib/class.core-rest-api-endpoints.php:1899
 msgid "No activity found"
 msgstr "アクティビティが見つかりませんでした。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1878
+#: _inc/lib/class.core-rest-api-endpoints.php:1889
 msgid "Could not retrieve site activity."
 msgstr "サイトアクティビティを取得できませんでした。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1862
+#: _inc/lib/class.core-rest-api-endpoints.php:1873
 msgid "Site ID is missing."
 msgstr "サイト ID がありません。"
 
@@ -1603,25 +1675,37 @@ msgid "The WordPress.com API returned a 404 error."
 msgstr "WordPress.com API で404エラーが返ってきました。"
 
 #. translators: Placeholder is a link to a support document.
-#: jetpack.php:131
+#: jetpack.php:150
 msgid "Your installation of Jetpack is incomplete. If you installed Jetpack from GitHub, please refer to <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">this document</a> to set up your development environment."
 msgstr "Jetpack のインストールが不完全です。GitHub から Jetpack をインストールした場合は、<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">こちらのドキュメント</a>を参照して開発環境を設定してください。"
 
 #. translators: Placeholders are numbers, versions of WordPress in use on the
 #. site, and required by WordPress.
-#: jetpack.php:70
+#: jetpack.php:89
 msgid "Your version of WordPress (%1$s) is lower than the version required by Jetpack (%2$s). Please update WordPress to continue enjoying Jetpack."
 msgstr "お使いの WordPress のバージョン (%1$s) では、Jetpack (%2$s) をご利用いただけません。引き続き Jetpack を利用するには、WordPress を更新してください。"
 
-#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:168
+#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:172
 msgid "Logging In..."
 msgstr "ログイン中…"
 
-#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:153
+#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:157
 msgid "Before we continue, please log in to your Jetpack site."
 msgstr "続行するには、Jetpack サイトにログインしてください。"
 
-#: modules/widgets/simple-payments.php:65 _inc/build/admin.js:60
+#: extensions/blocks/donations/donations.php:129 _inc/build/admin.js:67
+#: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Yearly"
+msgstr "年ごと"
+
+#: extensions/blocks/donations/donations.php:120 _inc/build/admin.js:67
+#: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "Monthly"
+msgstr "月ごと"
+
+#: modules/widgets/simple-payments.php:65 _inc/build/admin.js:52
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Pay with PayPal"
@@ -1633,7 +1717,7 @@ msgstr "PayPal 支払い"
 msgid "Email address"
 msgstr "メールアドレス"
 
-#: jetpack.php:84
+#: jetpack.php:103
 msgid "Jetpack requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying Jetpack."
 msgstr "Jetpack は最新バージョンの WordPress が必要なため、一時停止しています。引き続き Jetpack を利用するには、WordPress を更新してください。"
 
@@ -1665,7 +1749,7 @@ msgstr "access_token が必要です。"
 msgid "WooCommerce auth data is already set."
 msgstr "WooCommerce 認証データはすでに設定されています。"
 
-#: extensions/blocks/business-hours/business-hours.php:146
+#: extensions/blocks/business-hours/business-hours.php:147
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Closed"
@@ -2184,7 +2268,7 @@ msgid "Back to Jetpack Dashboard"
 msgstr "Jetpack ダッシュボードに戻る"
 
 #: _inc/lib/admin-pages/class.jetpack-admin-page.php:371
-#: _inc/lib/admin-pages/class-jetpack-about-page.php:45 _inc/build/admin.js:71
+#: _inc/lib/admin-pages/class-jetpack-about-page.php:45 _inc/build/admin.js:75
 msgid "About Jetpack"
 msgstr "Jetpack について"
 
@@ -2298,11 +2382,11 @@ msgstr "商品の作成に失敗しました。"
 msgid "Please set up a Stripe account for this site first"
 msgstr "最初にこちらのサイト用に Stripe アカウントを設定してください"
 
-#: _inc/lib/class-jetpack-instagram-gallery-helper.php:131
+#: _inc/lib/class-jetpack-instagram-gallery-helper.php:109
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-mailchimp.php:82
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-mailchimp.php:113
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-search.php:56
-#: _inc/lib/class-jetpack-tweetstorm-helper.php:1647
+#: _inc/lib/class-jetpack-tweetstorm-helper.php:1681
 msgid "Sorry, something is wrong with your Jetpack connection."
 msgstr "Jetpack 接続に問題が発生しました。"
 
@@ -2393,7 +2477,7 @@ msgstr "パブリサイズサービスのための英数字の ID"
 msgid "Unique identifier for the Publicize Connection"
 msgstr "パブリサイズ接続のための一意の ID"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2535
+#: _inc/lib/class.core-rest-api-endpoints.php:2546
 msgid "Custom ads.txt entries"
 msgstr "カスタム ads.txt エントリー"
 
@@ -2444,17 +2528,13 @@ msgstr "「<strong>Jetpack を設定</strong>」ボタンをクリックする�
 msgid "Are Likes enabled?"
 msgstr "「いいね」は有効になっていますか ?"
 
-#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:315
+#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:314
 msgid "Underline"
 msgstr "下線"
 
-#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:314
+#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:313
 msgid "Justify"
 msgstr "両端揃え"
-
-#: modules/wpcom-block-editor/class-jetpack-wpcom-block-editor.php:310
-msgid "Switch to Classic Editor"
-msgstr "旧エディターに切り替える"
 
 #: modules/copy-post.php:314
 msgid "Copy"
@@ -2527,19 +2607,19 @@ msgstr "%1$s の終了"
 msgid "The %1$s service has shut down. This sharing button is not displayed to your visitors and should be removed."
 msgstr "%1$s サービスは終了しました。この共有ボタンは訪問者に表示されません。ボタンを削除する必要があります。"
 
-#: modules/contact-form/grunion-contact-form.php:2437
+#: modules/contact-form/grunion-contact-form.php:2502
 msgid "Select one"
 msgstr "一つ選択"
 
-#: modules/contact-form/grunion-contact-form.php:2434
+#: modules/contact-form/grunion-contact-form.php:2499
 msgid "Choose one"
 msgstr "一つ選択"
 
-#: modules/contact-form/grunion-contact-form.php:2431
+#: modules/contact-form/grunion-contact-form.php:2496
 msgid "Choose several"
 msgstr "複数選択"
 
-#: modules/contact-form/grunion-contact-form.php:2422
+#: modules/contact-form/grunion-contact-form.php:2487
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Phone"
@@ -2601,7 +2681,7 @@ msgstr "アセット CDN"
 
 #: modules/module-headings.php:102
 msgctxt "Module Description"
-msgid "Jetpack’s downtime monitoring will continuously watch your site, and alert you the moment that downtime is detected."
+msgid "Jetpack’s downtime monitoring will continuously watch your site and alert you the moment that downtime is detected."
 msgstr "Jetpack のダウンタイムモニターはサイトを継続的に監視し、ダウンした場合すぐにアラートを送ります。"
 
 #: modules/module-headings.php:82
@@ -2653,7 +2733,7 @@ msgstr ""
 "WordPress.com では、統計、通知、投稿などにすばやくアクセスできます。\n"
 "\t\tツールバーは WordPress.com に接続されているサイトのすべてのユーザーに対して表示されます。"
 
-#: modules/memberships/class-jetpack-memberships.php:268
+#: modules/memberships/class-jetpack-memberships.php:298
 msgid "Your contribution"
 msgstr "料金プラン"
 
@@ -2675,48 +2755,48 @@ msgid "%1$s post published by %2$l in the year %3$s"
 msgid_plural "%1$s posts published by %2$l in the year %3$s"
 msgstr[0] "%2$lは %3$sに %1$s 件の投稿を公開しました"
 
-#: modules/subscriptions/views.php:733
+#: modules/subscriptions/views.php:743
 msgid "Show total number of followers? (%s follower)"
 msgid_plural "Show total number of followers? (%s followers)"
 msgstr[0] "フォロワーの総数を表示しますか ?(%s 人)"
 
-#: modules/subscriptions/views.php:722
+#: modules/subscriptions/views.php:732
 msgid "Follow Button Text:"
 msgstr "フォローボタンのテキスト:"
 
-#: modules/subscriptions/views.php:714
+#: modules/subscriptions/views.php:724
 msgid "Optional text to display to non-WordPress.com users:"
 msgstr "WordPress.com ユーザー以外の人に表示するテキスト (オプション):"
 
-#: modules/subscriptions/views.php:706
+#: modules/subscriptions/views.php:716
 msgid "Optional text to display to logged in WordPress.com users:"
 msgstr "ログイン中の WordPress.com ユーザーに表示するテキスト (オプション):"
 
-#: modules/subscriptions/views.php:698
+#: modules/subscriptions/views.php:708
 msgid "Widget title for followers:"
 msgstr "フォロワーに表示するウィジェット名:"
 
-#: modules/subscriptions/views.php:690
+#: modules/subscriptions/views.php:700
 msgid "Widget title for non-followers:"
 msgstr "フォローしていない人向けのウィジェットタイトル:"
 
-#: modules/subscriptions/views.php:649
+#: modules/subscriptions/views.php:659
 msgid "Click to follow this blog and receive notifications of new posts by email."
 msgstr "このブログをメール購読するにはクリックしてください。"
 
-#: modules/subscriptions/views.php:648
+#: modules/subscriptions/views.php:658
 msgid "Follow"
 msgstr "フォロー"
 
-#: modules/subscriptions/views.php:647
+#: modules/subscriptions/views.php:657
 msgid "Enter your email address to follow this blog and receive notifications of new posts by email."
 msgstr "新規投稿をメールで受け取るにはメールアドレスを記入してください。"
 
-#: modules/subscriptions/views.php:646
+#: modules/subscriptions/views.php:656
 msgid "You are following this blog"
 msgstr "このサイトをフォロー中です"
 
-#: modules/subscriptions/views.php:645
+#: modules/subscriptions/views.php:655
 msgid "Follow Blog via Email"
 msgstr "ブログをメール購読"
 
@@ -2798,31 +2878,31 @@ msgstr "LinkedIn との連携を維持するには再認証が必要です。再
 msgid "Please select a Facebook Page to publish updates."
 msgstr "更新の公開先とする Facebook を選択してください。"
 
-#: modules/sso.php:195 _inc/build/admin.js:60
+#: modules/sso.php:195 _inc/build/admin.js:52
 msgid "Secure Sign On"
 msgstr "安全なサインオン"
 
-#: modules/simple-payments/simple-payments.php:402
+#: modules/simple-payments/simple-payments.php:379
 msgid "Simple payments; status."
 msgstr "シンプルペイメント; ステータス。"
 
-#: modules/simple-payments/simple-payments.php:394
+#: modules/simple-payments/simple-payments.php:371
 msgid "Simple payments button; paypal email."
 msgstr "シンプルペイメントボタン; PayPal メール。"
 
-#: modules/simple-payments/simple-payments.php:385
+#: modules/simple-payments/simple-payments.php:362
 msgid "Simple payments; allow multiple items"
 msgstr "シンプルペイメント; 複数のアイテムを許可"
 
-#: modules/simple-payments/simple-payments.php:376
+#: modules/simple-payments/simple-payments.php:353
 msgid "Simple payments; text with \"Buy\" or other CTA"
 msgstr "シンプルペイメント; 「購入」またはその他の CTA が含まれるテキスト"
 
-#: modules/simple-payments/simple-payments.php:367
+#: modules/simple-payments/simple-payments.php:344
 msgid "Simple payments; currency code."
 msgstr "シンプルペイメント; 通貨コード。"
 
-#: modules/simple-payments/simple-payments.php:358
+#: modules/simple-payments/simple-payments.php:335
 msgid "Simple payments; price."
 msgstr "シンプルペイメント; 価格。"
 
@@ -2858,7 +2938,7 @@ msgstr "Jetpack Search は、オフラインモードではサポートされて
 msgid "There was an issue retrieving stats. Please try again later."
 msgstr "統計情報の取得中に問題が発生しました。後ほど、もう一度お試しください。"
 
-#: modules/related-posts/jetpack-related-posts.php:581
+#: modules/related-posts/jetpack-related-posts.php:582
 msgid "The following settings will impact all related posts on your site, except for those you created via the block editor:"
 msgstr "次の設定は、ブロックエディターを介して作成された投稿を除き、サイトへの関連投稿すべてに適用されます。"
 
@@ -2912,25 +2992,17 @@ msgstr "入力した Gist ID が間違っています。別の Gist ID をお試
 msgid "Please specify a Gist URL or ID."
 msgstr "Gist の URL または ID を指定してください。"
 
-#: modules/shortcodes/instagram.php:124
-msgid "Instagram Video"
-msgstr "Instagram の動画"
-
-#: modules/shortcodes/instagram.php:117
-msgid "Instagram Photo"
-msgstr "Instagram の写真"
-
-#: modules/stats.php:1411
+#: modules/stats.php:1415
 msgid "View all stats"
 msgstr "すべての統計を表示"
 
 #. translators: Placeholder is a Jetpack logo.
-#: class.jetpack.php:6850
+#: class.jetpack.php:6839
 msgid "Stats <span>by %s</span>"
 msgstr "<span>%sごとの統計</span>"
 
 #. translators: %s is a URL
-#: class.jetpack.php:5968
+#: class.jetpack.php:5951
 msgid "Your site is incorrectly double-encoding redirects from http to https. This is preventing Jetpack from authenticating your connection. Please visit our <a href=\"%s\">support page</a> for details about how to resolve this."
 msgstr "サイトは http から https へのリダイレクトを誤って二重にエンコードしています。これにより、Jetpack は接続を認証できません。この解決方法の詳細については、<a href=\"%s\">サポートページ</a>を参照してください。"
 
@@ -3124,7 +3196,7 @@ msgstr "XML サイトマップについては、<a href=\"%1$s\" rel=\"noopener 
 msgid "This is an XML Sitemap generated by <a href=\"%1$s\" rel=\"noopener noreferrer\" target=\"_blank\">Jetpack</a>, meant to be consumed by search engines like <a href=\"%2$s\" rel=\"noopener noreferrer\" target=\"_blank\">Google</a> or <a href=\"%3$s\" rel=\"noopener noreferrer\" target=\"_blank\">Bing</a>."
 msgstr "これは、<a href=\"%1$s\" rel=\"noopener noreferrer\" target=\"_blank\">Jetpack</a> によって生成された XML サイトマップで、<a href=\"%2$s\" rel=\"noopener noreferrer\" target=\"_blank\">Google</a> や <a href=\"%3$s\" rel=\"noopener noreferrer\" target=\"_blank\">Bing</a> などの検索エンジンでの使用を想定しています。"
 
-#: modules/simple-payments/simple-payments.php:501
+#: modules/simple-payments/simple-payments.php:478
 msgctxt "noun: a quantity of goods or items purchased or sold"
 msgid "Order"
 msgstr "注文"
@@ -3142,12 +3214,12 @@ msgid "Show a thumbnail image where available."
 msgstr "使用可能な場合はサムネイル画像を表示します。"
 
 #. translators: Variables are the enclosing link to the settings page
-#: modules/infinite-scroll/infinity.php:402
+#: modules/infinite-scroll/infinity.php:418
 msgid "This option has moved. You can now manage it %1$shere%2$s."
 msgstr "このオプションは移動されました。%1$sこちら%2$sで管理できるようになりました。"
 
 #. translators: %1$s is replaced with an input field for numbers.
-#: modules/custom-css/custom-css.php:1060
+#: modules/custom-css/custom-css.php:1068
 msgid "Limit width to %1$s pixels for full size images. (<a href=\"%2$s\" rel=\"noopener noreferrer\" target=\"_blank\">More info</a>.)"
 msgstr "フルサイズ画像の幅を最大%1$sピクセルにします。(<a href=\"%2$s\" rel=\"noopener noreferrer\" target=\"_blank\">詳細情報</a>。)"
 
@@ -3223,17 +3295,17 @@ msgstr "新しいオーナーが現在のユーザーと同じです"
 msgid "New owner is not admin"
 msgstr "新しいオーナーが管理者ではありません"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2415
-#: modules/related-posts/jetpack-related-posts.php:585 _inc/build/admin.js:60
+#: _inc/lib/class.core-rest-api-endpoints.php:2426
+#: modules/related-posts/jetpack-related-posts.php:586 _inc/build/admin.js:52
 msgid "Show a thumbnail image where available"
 msgstr "使用可能な場合はサムネイル画像を表示します"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2408
-#: modules/related-posts/jetpack-related-posts.php:583 _inc/build/admin.js:60
+#: _inc/lib/class.core-rest-api-endpoints.php:2419
+#: modules/related-posts/jetpack-related-posts.php:584 _inc/build/admin.js:52
 msgid "Highlight related content with a heading"
 msgstr "見出し付きの関連記事をハイライト表示する"
 
-#: modules/scan/class-admin-bar-notice.php:154 _inc/build/admin.js:71
+#: modules/scan/class-admin-bar-notice.php:154 _inc/build/admin.js:67
 msgid "View security scan details"
 msgstr "セキュリティスキャンの詳細を表示"
 
@@ -3297,8 +3369,8 @@ msgid "Privacy Policy Link"
 msgstr "個人情報保護方針へのリンク"
 
 #. translators: %d: Post ID.
-#: modules/contact-form/grunion-contact-form.php:1159
-#: modules/contact-form/grunion-contact-form.php:1175
+#: modules/contact-form/grunion-contact-form.php:1196
+#: modules/contact-form/grunion-contact-form.php:1212
 msgid "Feedback ID %d could not be removed at this time."
 msgstr "この時点では、フィードバック ID %d を削除できませんでした。"
 
@@ -3399,11 +3471,11 @@ msgid "View post"
 msgstr "投稿を表示"
 
 #. translators: %s is the name of a custom post type
-#: modules/infinite-scroll/infinity.php:862
+#: modules/infinite-scroll/infinity.php:878
 msgid "More %s"
 msgstr "その他の %s"
 
-#: modules/comments/comments.php:337
+#: modules/comments/comments.php:340
 msgid "Comment Form"
 msgstr "コメントフォーム"
 
@@ -3424,7 +3496,7 @@ msgstr "embed_url 変数は有効な URL でなければなりません。"
 msgid "Your token must have permission to post on this blog."
 msgstr "トークンにはこのブログに投稿するための権限が必要です。"
 
-#: class.jetpack.php:4256
+#: class.jetpack.php:4251
 msgid "Could not activate %s"
 msgstr "%s を有効化できませんでした"
 
@@ -3727,14 +3799,14 @@ msgstr "サイト: %1$s (IP アドレス: %2$s, %3$s)"
 msgid "New trackback on your post \"%s\""
 msgstr "投稿「%s」に新しいトラックバックがありました"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2661
+#: _inc/lib/class.core-rest-api-endpoints.php:2672
 msgid "Primary language for the site."
 msgstr "このサイトの主言語。"
 
 #: views/admin/must-connect-main-blog.php:10
 #: class.jetpack-connection-banner.php:298
 #: class.jetpack-connection-banner.php:366
-#: class.jetpack-connection-banner.php:422 _inc/build/admin.js:71
+#: class.jetpack-connection-banner.php:422 _inc/build/admin.js:67
 msgid "Set up Jetpack"
 msgstr "Jetpack を設定"
 
@@ -3762,10 +3834,10 @@ msgctxt "displayed in search results when results are cached"
 msgid "cache hit"
 msgstr "キャッシュとの一致"
 
-#: class.jetpack.php:7367
+#: class.jetpack.php:7356
 #: 3rd-party/debug-bar/class.jetpack-search-debug-bar.php:26
 #: modules/search/class-jetpack-search-customize.php:48 _inc/build/admin.js:52
-#: _inc/build/admin.js:71
+#: _inc/build/admin.js:67
 msgid "Jetpack Search"
 msgstr "Jetpack Search"
 
@@ -3909,12 +3981,12 @@ msgstr "%s の接続をテスト中"
 msgid "Checking status for %s"
 msgstr "%s のステータスを確認中"
 
-#: _inc/lib/admin-pages/class.jetpack-admin-page.php:368 _inc/build/admin.js:71
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:368 _inc/build/admin.js:75
 msgid "Jetpack version"
 msgstr "Jetpack バージョン"
 
-#: modules/masterbar/masterbar.php:915 _inc/build/admin.js:60
-#: _inc/build/admin.js:71
+#: modules/masterbar/masterbar.php:915 _inc/build/admin.js:52
+#: _inc/build/admin.js:67
 msgid "Activity"
 msgstr "アクティビティ"
 
@@ -4117,7 +4189,7 @@ msgstr "オンボードトークンを削除できませんでした。"
 msgid "Onboarding failed to process: %s"
 msgstr "初期セットアップで次の処理に失敗しました: %s"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2746
+#: _inc/lib/class.core-rest-api-endpoints.php:2757
 msgid "Not valid onboarding data."
 msgstr "有効なオンボーディングデータがありません。"
 
@@ -4137,15 +4209,15 @@ msgstr "アイキャッチ画像についてさらに詳しく"
 msgid "Display comment link"
 msgstr "コメントリンクを表示"
 
-#: modules/simple-payments/simple-payments.php:545
+#: modules/simple-payments/simple-payments.php:522
 msgid "Simple Payments products"
 msgstr "シンプルペイメントの商品"
 
-#: modules/simple-payments/simple-payments.php:544
+#: modules/simple-payments/simple-payments.php:521
 msgid "Product"
 msgstr "商品"
 
-#: modules/simple-payments/simple-payments.php:502
+#: modules/simple-payments/simple-payments.php:479
 msgid "Simple Payments orders"
 msgstr "シンプルペイメントの注文"
 
@@ -4361,23 +4433,23 @@ msgstr "リクエストされたデータを取得できません。"
 msgid "Could not connect to VaultPress."
 msgstr "VaultPress に接続できませんでした。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2521
+#: _inc/lib/class.core-rest-api-endpoints.php:2532
 msgid "Display ads on archive pages?"
 msgstr "アーカイブページに広告を表示しますか ?"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2514
+#: _inc/lib/class.core-rest-api-endpoints.php:2525
 msgid "Display ads on pages?"
 msgstr "ページに広告を表示しますか ?"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2507
+#: _inc/lib/class.core-rest-api-endpoints.php:2518
 msgid "Display ads on posts?"
 msgstr "投稿に広告を表示しますか ?"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2500
+#: _inc/lib/class.core-rest-api-endpoints.php:2511
 msgid "Display ads on the front page?"
 msgstr "フロントページに広告を表示しますか ?"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2493
+#: _inc/lib/class.core-rest-api-endpoints.php:2504
 msgid "Display second ad below post?"
 msgstr "投稿の下に2つ目の広告を表示しますか ?"
 
@@ -4553,7 +4625,7 @@ msgstr "characters_including_spaces"
 msgid "Sitemap Interval"
 msgstr "サイトマップの間隔"
 
-#: modules/sitemaps/sitemaps.php:166 _inc/build/admin.js:60
+#: modules/sitemaps/sitemaps.php:166 _inc/build/admin.js:52
 msgid "Sitemaps"
 msgstr "サイトマップ"
 
@@ -4690,7 +4762,7 @@ msgctxt "admin bar menu group label"
 msgid "Configure"
 msgstr "設定"
 
-#: modules/memberships/class-jetpack-memberships.php:140
+#: modules/memberships/class-jetpack-memberships.php:170
 #: modules/masterbar/masterbar.php:927
 msgid "Plan"
 msgstr "プラン"
@@ -4773,7 +4845,7 @@ msgid "Reader"
 msgstr "購読ブログ"
 
 #: _inc/lib/debugger/class-jetpack-debugger.php:251
-#: _inc/lib/admin-pages/class.jetpack-admin-page.php:391 _inc/build/admin.js:71
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:391 _inc/build/admin.js:75
 msgid "Access the full list of Jetpack modules available on your site."
 msgstr "お使いのサイトで使用可能な Jetpack モジュールの全一覧にアクセスします。"
 
@@ -4815,11 +4887,11 @@ msgstr "Akismet ユーザーが無効です"
 msgid "Akismet user status doesn't allow to update the key"
 msgstr "Akismet ユーザーのステータスではキーの更新が許可されていません"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2886
+#: _inc/lib/class.core-rest-api-endpoints.php:2897
 msgid "%s must be an alphanumeric string or a verification tag."
 msgstr "%s は英数字文字列または認証タグである必要があります。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2070
+#: _inc/lib/class.core-rest-api-endpoints.php:2081
 msgid "Color scheme."
 msgstr "配色。"
 
@@ -4827,25 +4899,25 @@ msgstr "配色。"
 msgid "Error fetching static.html. Try running: "
 msgstr "static.html の取得でエラーが発生しました。次を実行してください:"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2108
+#: _inc/lib/class.core-rest-api-endpoints.php:2119
 #: modules/widgets/eu-cookie-law/form.php:215 _inc/build/admin.js:52
 msgid "Color scheme"
 msgstr "配色"
 
-#: modules/widget-visibility/widget-conditions.php:127
+#: modules/widget-visibility/widget-conditions.php:152
 msgid "Post type Archives:"
 msgstr "投稿タイプアーカイブ:"
 
-#: modules/widget-visibility/widget-conditions.php:361
+#: modules/widget-visibility/widget-conditions.php:455
 msgid "Match all conditions"
 msgstr "全条件に一致"
 
-#: modules/widget-visibility/widget-conditions.php:339
+#: modules/widget-visibility/widget-conditions.php:433
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "と"
 
-#: modules/widget-visibility/widget-conditions.php:329
+#: modules/widget-visibility/widget-conditions.php:423
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "子ページも含める"
@@ -4869,11 +4941,11 @@ msgstr "SVG アイコンのファイル名を決めてください。"
 msgid "Please define default parameters in the form of an array."
 msgstr "配列形式におけるデフォルトパラメーターを設定してください。"
 
-#: modules/stats.php:1740
+#: modules/stats.php:1744
 msgid "View stats for this post in WordPress.com"
 msgstr "この投稿の統計情報を WordPress.com 上で表示"
 
-#: modules/stats.php:1728
+#: modules/stats.php:1732
 msgid "No stats"
 msgstr "統計情報なし"
 
@@ -4889,7 +4961,7 @@ msgstr "<strong>Tumblr ブログ</strong>で更新を共有:"
 msgid "Publicize to my <strong>Facebook Page</strong>:"
 msgstr "<strong>Facebook ページ</strong>で更新を共有:"
 
-#: modules/contact-form/grunion-contact-form.php:396
+#: modules/contact-form/grunion-contact-form.php:433
 msgid "Export CSV"
 msgstr "CSV をエクスポート"
 
@@ -4915,7 +4987,7 @@ msgstr "表示"
 msgid "Sorry, you are not allowed to preview drafts."
 msgstr "下書きをプレビューする権限がありません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2230
+#: _inc/lib/class.core-rest-api-endpoints.php:2241
 msgid "Use Markdown for posts."
 msgstr "投稿内で Markdown 記法を使う。"
 
@@ -4955,8 +5027,8 @@ msgstr "投稿 ID を指定する必要があります"
 msgid "Nothing is in the queue: %s"
 msgstr "キューに何も入っていません: %s"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2560 _inc/build/admin.js:60
-#: _inc/build/admin.js:71
+#: _inc/lib/class.core-rest-api-endpoints.php:2571 _inc/build/admin.js:52
+#: _inc/build/admin.js:67
 msgid "Google Analytics"
 msgstr "Google アナリティクス"
 
@@ -5244,33 +5316,33 @@ msgstr "プロフィール:"
 msgid "<code>%s</code> HTML tag removed as it is not allowed"
 msgstr "許可されていない <code>%s</code> HTML タグを除去しました"
 
-#: modules/related-posts/jetpack-related-posts.php:1086
+#: modules/related-posts/jetpack-related-posts.php:1087
 msgid "Weddings are in the spotlight now with VideoPress for weddings."
 msgstr "ウェディング用の VideoPress によりウェディングに注目が集まっています。"
 
-#: modules/related-posts/jetpack-related-posts.php:1083
+#: modules/related-posts/jetpack-related-posts.php:1084
 msgid "Upgrade Focus, VideoPress for weddings"
 msgstr "注目アップグレード、ウェディング向け VideoPress"
 
-#: modules/related-posts/jetpack-related-posts.php:1066
+#: modules/related-posts/jetpack-related-posts.php:1067
 msgid "Writing is new again in Android with the new WordPress app."
 msgstr "新しい WordPress アプリによって、Android での投稿が再び新しくなります。"
 
-#: modules/related-posts/jetpack-related-posts.php:1048
-#: modules/related-posts/jetpack-related-posts.php:1068
-#: modules/related-posts/jetpack-related-posts.php:1088
+#: modules/related-posts/jetpack-related-posts.php:1049
+#: modules/related-posts/jetpack-related-posts.php:1069
+#: modules/related-posts/jetpack-related-posts.php:1089
 msgid "In \"Mobile\""
 msgstr "「モバイル」で"
 
-#: modules/related-posts/jetpack-related-posts.php:1046
+#: modules/related-posts/jetpack-related-posts.php:1047
 msgid "It is that time of the year when devices are shiny again."
 msgstr "新しい端末が現れる時期になりました。"
 
-#: modules/related-posts/jetpack-related-posts.php:589
+#: modules/related-posts/jetpack-related-posts.php:590
 msgid "Show context (category or tag)"
 msgstr "コンテキスト (カテゴリーまたはタグ) を表示"
 
-#: modules/related-posts/jetpack-related-posts.php:587
+#: modules/related-posts/jetpack-related-posts.php:588
 msgid "Show entry date"
 msgstr "投稿日を表示"
 
@@ -5435,11 +5507,11 @@ msgstr "時"
 msgid "Location"
 msgstr "場所"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2486
+#: _inc/lib/class.core-rest-api-endpoints.php:2497
 msgid "Is site approved for WordAds?"
 msgstr "サイトは WordAds に承認されていますか？"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2479
+#: _inc/lib/class.core-rest-api-endpoints.php:2490
 msgid "Display an ad unit at the top of each page."
 msgstr "各ページ丈夫に広告ユニットを表示する。"
 
@@ -5447,8 +5519,8 @@ msgstr "各ページ丈夫に広告ユニットを表示する。"
 msgid "By default ads are shown at the end of every page, post, or the first article on your front page. You can also add them to the top of your site and to any widget area to increase your earnings!"
 msgstr "デフォルトでは、広告はすべての投稿・固定ページの最後、またはフロントページの最初の記事に表示されます。収益を高めるため、サイトの上部やお好みのウィジェットエリアに広告を追加することもできます。"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:246
-#: _inc/build/admin.js:71
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:248
+#: _inc/build/admin.js:67
 msgid "Video Hosting"
 msgstr "動画ホスティング"
 
@@ -5580,27 +5652,27 @@ msgstr "マイコミュニティ"
 msgid "Google Translate"
 msgstr "Google 翻訳"
 
-#: modules/videopress/class.videopress-edit-attachment.php:228
+#: modules/videopress/class.videopress-edit-attachment.php:227
 msgctxt "A header for the video rating area"
 msgid "Rating"
 msgstr "評価"
 
-#: modules/videopress/class.videopress-edit-attachment.php:222
+#: modules/videopress/class.videopress-edit-attachment.php:221
 msgctxt "A header for the video sharing options area"
 msgid "Share"
 msgstr "共有"
 
-#: modules/videopress/class.videopress-edit-attachment.php:214
+#: modules/videopress/class.videopress-edit-attachment.php:213
 msgctxt "A header for the shortcode display"
 msgid "Shortcode"
 msgstr "ショートコード"
 
-#: modules/videopress/class.videopress-edit-attachment.php:204
+#: modules/videopress/class.videopress-edit-attachment.php:203
 msgctxt "A header for the short description display"
 msgid "Description"
 msgstr "説明"
 
-#: modules/videopress/class.videopress-edit-attachment.php:202
+#: modules/videopress/class.videopress-edit-attachment.php:201
 msgid "Title will appear on the first frame of your video"
 msgstr "タイトルは動画の最初のフレームに表示されます"
 
@@ -5728,7 +5800,7 @@ msgstr "無効な SEO メタ情報の値です。"
 msgid "SEO tools are not enabled for this site."
 msgstr "SEO ツールは、このサイトでは使用できません。"
 
-#: class.jetpack.php:6204
+#: class.jetpack.php:6187
 msgid "Cannot parse URL %s"
 msgstr "URL %s を解析できません"
 
@@ -5842,23 +5914,23 @@ msgstr[0] "無効なオプション: %s"
 msgid "The requested Jetpack data updates were successful."
 msgstr "要求された Jetpack データの更新に成功しました。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2926
+#: _inc/lib/class.core-rest-api-endpoints.php:2937
 msgid "%s must be an array of post types."
 msgstr "%s は投稿タイプの配列である必要があります。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2470
+#: _inc/lib/class.core-rest-api-endpoints.php:2481
 msgid "Yandex Site Verification"
 msgstr "Yandex サイト認証"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1948
+#: _inc/lib/class.core-rest-api-endpoints.php:1959
 msgid "Could not confirm migration."
 msgstr "移行を確認できませんでした。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1934
+#: _inc/lib/class.core-rest-api-endpoints.php:1945
 msgid "Could not delete sync error option."
 msgstr "同期エラーオプションを削除できませんでした。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1918
+#: _inc/lib/class.core-rest-api-endpoints.php:1929
 msgid "Could not confirm safe mode."
 msgstr "セーフモードを確認できませんでした。"
 
@@ -6258,75 +6330,75 @@ msgstr "リクエストされた Jetpack モジュールは有効化されまし
 msgid "The requested Jetpack module was not found."
 msgstr "リクエストされた Jetpack モジュールは見つかりませんでした。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3785
+#: _inc/lib/class.core-rest-api-endpoints.php:3796
 msgid "Plugin found."
 msgstr "プラグインが見つかりました。"
 
 #. translators: placeholder is a plugin slug.
-#: _inc/lib/class.core-rest-api-endpoints.php:3686
-#: _inc/lib/class.core-rest-api-endpoints.php:3776
+#: _inc/lib/class.core-rest-api-endpoints.php:3697
+#: _inc/lib/class.core-rest-api-endpoints.php:3787
 msgid "Plugin %s is not installed."
 msgstr "プラグイン %s はインストールされていません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3670
-#: _inc/lib/class.core-rest-api-endpoints.php:3770
+#: _inc/lib/class.core-rest-api-endpoints.php:3681
+#: _inc/lib/class.core-rest-api-endpoints.php:3781
 msgid "This site has no plugins."
 msgstr "このサイトにはプラグインがありません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3531
+#: _inc/lib/class.core-rest-api-endpoints.php:3542
 msgid "Unable to list plugins."
 msgstr "プラグインをリストできません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3418
+#: _inc/lib/class.core-rest-api-endpoints.php:3429
 msgid "Could not check updates for plugins on this site."
 msgstr "このサイトのプラグインの更新をチェックできませんでした。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3411
+#: _inc/lib/class.core-rest-api-endpoints.php:3422
 msgid "%s plugin need updating."
 msgid_plural "%s plugins need updating."
 msgstr[0] "%s プラグインは更新する必要があります。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3405
+#: _inc/lib/class.core-rest-api-endpoints.php:3416
 msgid "All plugins are up-to-date. Keep up the good work!"
 msgstr "すべてのプラグインは最新です。その調子です。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3075
+#: _inc/lib/class.core-rest-api-endpoints.php:3086
 msgid "%s must be a string."
 msgstr "%s は文字列にしてください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3057
+#: _inc/lib/class.core-rest-api-endpoints.php:3068
 msgid "%s must be a Twitter username."
 msgstr "%s は Twitter ユーザー名にしてください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3038
+#: _inc/lib/class.core-rest-api-endpoints.php:3049
 msgid "%s is not a registered custom sharing service."
 msgstr "%s は、登録されたカスタム共有サービスではありません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3028
+#: _inc/lib/class.core-rest-api-endpoints.php:3039
 msgid "%s must be a string prefixed with 'custom-' and followed by a numeric ID."
 msgstr "%s は、接頭辞が 'custom-' で、その後に数値 ID が続く文字列にしてください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3010
+#: _inc/lib/class.core-rest-api-endpoints.php:3021
 msgid "%s needs sharing name, url and icon."
 msgstr "%s には、共有名、URL、およびアイコンが必要です。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2995
+#: _inc/lib/class.core-rest-api-endpoints.php:3006
 msgid "%s must be an array with sharing name, url and icon."
 msgstr "%s は、共有名、URL およびアイコンが含まれる配列にしてください。"
 
 #. Translators: placeholder 1 is a parameter holding the services passed to
 #. endpoint, placeholder 2 is a list of all Jetpack Sharing services
-#: _inc/lib/class.core-rest-api-endpoints.php:2976
+#: _inc/lib/class.core-rest-api-endpoints.php:2987
 msgid "%1$s visible and hidden items must be a list of %2$s."
 msgstr "%1$s は表示状態です。非表示項目は%2$sのリストである必要があります。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2964
-#: _inc/lib/class.core-rest-api-endpoints.php:3004
-#: _inc/lib/class.core-rest-api-endpoints.php:3032
+#: _inc/lib/class.core-rest-api-endpoints.php:2975
+#: _inc/lib/class.core-rest-api-endpoints.php:3015
+#: _inc/lib/class.core-rest-api-endpoints.php:3043
 msgid "Failed loading required dependency Sharing_Service."
 msgstr "必要な従属 Sharing_Service のロードに失敗しました。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2955
+#: _inc/lib/class.core-rest-api-endpoints.php:2966
 msgid "%s must be an array with visible and hidden items."
 msgstr "%s は表示および非表示の項目が含まれる配列にしてください。"
 
@@ -6336,151 +6408,151 @@ msgstr "%s は表示および非表示の項目が含まれる配列にしてく
 #. Translators: first variable is the name of a parameter passed to endpoint
 #. holding the post type where Sharing will be displayed, the second is a list
 #. of post types where Sharing can be displayed
-#: _inc/lib/class.core-rest-api-endpoints.php:2906
-#: _inc/lib/class.core-rest-api-endpoints.php:2931
+#: _inc/lib/class.core-rest-api-endpoints.php:2917
+#: _inc/lib/class.core-rest-api-endpoints.php:2942
 msgid "%1$s must be %2$s."
 msgstr "%1$s は %2$sである必要があります。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2868
+#: _inc/lib/class.core-rest-api-endpoints.php:2879
 #: modules/plugin-search.php:132
 msgid "%s must be an alphanumeric string."
 msgstr "%s は英数字文字列にしてください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2849
+#: _inc/lib/class.core-rest-api-endpoints.php:2860
 msgid "%s must be a list of valid modules"
 msgstr "%s は有効なモジュールのリストにしてください"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2843
+#: _inc/lib/class.core-rest-api-endpoints.php:2854
 msgid "%s must be an array"
 msgstr "%s は配列にしてください"
 
 #. Translators: first variable is the parameter passed to endpoint that holds
 #. the list item, the second is a list of admitted values.
-#: _inc/lib/class.core-rest-api-endpoints.php:2823
+#: _inc/lib/class.core-rest-api-endpoints.php:2834
 msgid "%1$s must be one of %2$s"
 msgstr "%1$s は%2$sのうちいずれかである必要があります"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2813
+#: _inc/lib/class.core-rest-api-endpoints.php:2824
 msgid "%s not recognized"
 msgstr "%s が認識されません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2794
+#: _inc/lib/class.core-rest-api-endpoints.php:2805
 msgid "%s must be a positive integer."
 msgstr "%s は正の整数にしてください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2776
+#: _inc/lib/class.core-rest-api-endpoints.php:2787
 msgid "%s must be true, false, 0 or 1."
 msgstr "%s は、true、false、0、または1にしてください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2618
+#: _inc/lib/class.core-rest-api-endpoints.php:2629
 msgid "Version."
 msgstr "バージョン。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2604
+#: _inc/lib/class.core-rest-api-endpoints.php:2615
 msgid "Do not track."
 msgstr "追跡しない。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2597
+#: _inc/lib/class.core-rest-api-endpoints.php:2608
 msgid "Blog ID."
 msgstr "ブログ ID。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2463
+#: _inc/lib/class.core-rest-api-endpoints.php:2474
 msgid "Pinterest Site Verification"
 msgstr "Pinterest Site Verification"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2456
+#: _inc/lib/class.core-rest-api-endpoints.php:2467
 msgid "Bing Webmaster Center"
 msgstr "Bing Webmaster Center"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2449
+#: _inc/lib/class.core-rest-api-endpoints.php:2460
 msgid "Google Search Console"
 msgstr "Google Search Console"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2360
+#: _inc/lib/class.core-rest-api-endpoints.php:2371
 msgid "Delete custom sharing service."
 msgstr "カスタム共有サービスを削除します。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2348
+#: _inc/lib/class.core-rest-api-endpoints.php:2359
 msgid "Custom sharing services added by user."
 msgstr "ユーザー追加のカスタム共有サービス。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2323
+#: _inc/lib/class.core-rest-api-endpoints.php:2334
 msgid "Views where buttons are shown"
 msgstr "ボタンが表示されている場合の閲覧数"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2315
+#: _inc/lib/class.core-rest-api-endpoints.php:2326
 msgid "Sharing Label"
 msgstr "共有ラベル"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2296
+#: _inc/lib/class.core-rest-api-endpoints.php:2307
 msgid "Button Style"
 msgstr "ボタンのスタイル"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2286
+#: _inc/lib/class.core-rest-api-endpoints.php:2297
 msgid "Enabled Services and those hidden behind a button"
 msgstr "有効化済みのサービスとボタン背後に隠された内容"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2276
+#: _inc/lib/class.core-rest-api-endpoints.php:2287
 msgid "Protect global whitelist"
 msgstr "グローバルホワイトリストの保護"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2269
+#: _inc/lib/class.core-rest-api-endpoints.php:2280
 msgid "Protect API key"
 msgstr "API キーの保護"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2261
+#: _inc/lib/class.core-rest-api-endpoints.php:2272
 msgid "Delete Post by Email address"
 msgstr "メール投稿アドレスを削除する"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2260
+#: _inc/lib/class.core-rest-api-endpoints.php:2271
 msgid "Regenerate Post by Email address"
 msgstr "メール投稿アドレスを再生成する"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2259
+#: _inc/lib/class.core-rest-api-endpoints.php:2270
 msgid "Create Post by Email address"
 msgstr "メール投稿アドレスを作成する"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2214
+#: _inc/lib/class.core-rest-api-endpoints.php:2225
 msgid "Send email notification when someone likes a post"
 msgstr "投稿にいいねが付いた際にメール通知を送信する"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2175
+#: _inc/lib/class.core-rest-api-endpoints.php:2186
 msgid "Disabled"
 msgstr "無効"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2174
+#: _inc/lib/class.core-rest-api-endpoints.php:2185
 msgid "Enabled"
 msgstr "有効"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2148
+#: _inc/lib/class.core-rest-api-endpoints.php:2159
 msgid "Number of entries to show at most in Testimonial pages."
 msgstr "推薦文ページに表示する項目の最大数。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2141
+#: _inc/lib/class.core-rest-api-endpoints.php:2152
 msgid "Enable or disable Jetpack testimonial post type."
 msgstr "Jetpack 推薦文の投稿タイプを有効または無効にします。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2134
+#: _inc/lib/class.core-rest-api-endpoints.php:2145
 msgid "Number of entries to show at most in Portfolio pages."
 msgstr "ポートフォリオページに表示する項目の最大数。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2127
+#: _inc/lib/class.core-rest-api-endpoints.php:2138
 msgid "Enable or disable Jetpack portfolio post type."
 msgstr "Jetpack ポートフォリオの投稿タイプを有効または無効にします。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2028
+#: _inc/lib/class.core-rest-api-endpoints.php:2039
 msgid "Missing parameter \"type\"."
 msgstr "変数 \"type\" が欠落しています。"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:1519
 #: _inc/lib/class.core-rest-api-endpoints.php:1614
 #: _inc/lib/class.core-rest-api-endpoints.php:1689
-#: _inc/lib/class.core-rest-api-endpoints.php:1985
-#: _inc/lib/class.core-rest-api-endpoints.php:2024
+#: _inc/lib/class.core-rest-api-endpoints.php:1996
+#: _inc/lib/class.core-rest-api-endpoints.php:2035
 msgid "Invalid Parameter"
 msgstr "変数が無効です"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2010
+#: _inc/lib/class.core-rest-api-endpoints.php:2021
 msgid "Jetpack options reset."
 msgstr "Jetpack オプションがリセットされました。"
 
@@ -6489,7 +6561,7 @@ msgstr "Jetpack オプションがリセットされました。"
 msgid "The ID of this site does not exist."
 msgstr "このサイトの ID は存在しません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1831
+#: _inc/lib/class.core-rest-api-endpoints.php:1834
 msgid "Site data correctly received."
 msgstr "サイトのデータを正常に受信しました。"
 
@@ -6536,23 +6608,23 @@ msgstr "JavaScript が無効です"
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: modules/related-posts/jetpack-related-posts.php:1043 _inc/build/admin.js:60
+#: modules/related-posts/jetpack-related-posts.php:1044 _inc/build/admin.js:52
 msgid "Big iPhone/iPad Update Now Available"
 msgstr "iPhone/iPad の大幅なアップデートが利用できるようになりました"
 
-#: modules/related-posts/jetpack-related-posts.php:1063 _inc/build/admin.js:60
+#: modules/related-posts/jetpack-related-posts.php:1064 _inc/build/admin.js:52
 msgid "The WordPress for Android App Gets a Big Facelift"
 msgstr "WordPress for Android アプリが大幅リニューアル"
 
-#: class-jetpack-wizard-banner.php:213 _inc/build/admin.js:60
+#: class-jetpack-wizard-banner.php:213 _inc/build/admin.js:52
 msgid "Skip to recommended features"
 msgstr "おすすめ機能にスキップ"
 
-#: _inc/lib/admin-pages/class.jetpack-admin-page.php:374 _inc/build/admin.js:71
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:374 _inc/build/admin.js:75
 msgid "WordPress.com Terms of Service"
 msgstr "WordPress.com 利用規約"
 
-#: _inc/lib/admin-pages/class.jetpack-admin-page.php:377 _inc/build/admin.js:71
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:377 _inc/build/admin.js:75
 msgid "Automattic's Privacy Policy"
 msgstr "Automattic 社のプライバシーポリシー"
 
@@ -6560,16 +6632,16 @@ msgstr "Automattic 社のプライバシーポリシー"
 msgid "Set up"
 msgstr "セットアップ"
 
-#: class.jetpack.php:7334
+#: class.jetpack.php:7323
 msgid "Real-Time Backups"
 msgstr "リアルタイムのバックアップ"
 
 #: modules/masterbar/masterbar.php:701 _inc/build/admin.js:52
-#: _inc/build/admin.js:60 _inc/build/admin.js:71
+#: _inc/build/admin.js:67
 msgid "Security"
 msgstr "セキュリティ"
 
-#: modules/scan/class-admin-sidebar-link.php:89 _inc/build/admin.js:71
+#: modules/scan/class-admin-sidebar-link.php:89 _inc/build/admin.js:67
 msgid "Backup"
 msgstr "バックアップ"
 
@@ -6714,12 +6786,12 @@ msgstr "Telegram"
 msgid "Check the box above to record each new set of posts loaded via Infinite Scroll as a page view in Google Analytics."
 msgstr "上のボックスにチェックを入れると、無限スクロールで読み込まれたページも Google アナリティクスで1ページビューとしてカウントされます。"
 
-#: modules/infinite-scroll/infinity.php:419
+#: modules/infinite-scroll/infinity.php:435
 msgid "Check to load posts as you scroll. Uncheck to show clickable button to load posts"
 msgstr "チェックを入れると、スクロールに従って投稿を読み込みます。チェックを外すと、投稿を読み込むためのクリックできるボタンが表示されます。"
 
-#: modules/infinite-scroll/infinity.php:385
-#: modules/infinite-scroll/infinity.php:393
+#: modules/infinite-scroll/infinity.php:401
+#: modules/infinite-scroll/infinity.php:409
 msgid "Infinite Scroll Behavior"
 msgstr "無限スクロール動作"
 
@@ -6731,57 +6803,53 @@ msgstr "お客様の声アーカイブコンテンツ"
 msgid "Testimonial Archive Title"
 msgstr "お客様の声アーカイブタイトル"
 
-#: modules/custom-post-types/portfolios.php:489
+#: modules/custom-post-types/portfolios.php:490
 msgid "Portfolio Archive Featured Image"
 msgstr "ポートフォリオアーカイブアイキャッチ画像"
 
-#: modules/custom-post-types/portfolios.php:473
+#: modules/custom-post-types/portfolios.php:474
 msgid "Portfolio Archive Content"
 msgstr "ポートフォリオアーカイブコンテンツ"
 
-#: modules/custom-post-types/portfolios.php:458
+#: modules/custom-post-types/portfolios.php:459
 msgid "Portfolio Archive Title"
 msgstr "ポートフォリオアーカイブタイトル"
 
-#: class.jetpack.php:7000
+#: class.jetpack.php:6989
 msgid "This user is linked and ready to fly with Jetpack."
 msgstr "このユーザーはリンク済みで、Jetpack の準備が完了しています。"
 
-#: class.jetpack.php:5250
+#: class.jetpack.php:5233
 msgid "Checking"
 msgstr "確認中"
 
-#: class.jetpack.php:5235
+#: class.jetpack.php:5218
 msgid "For more help, try our <a href=\"%1$s\">connection debugger</a> or <a href=\"%2$s\" target=\"_blank\">troubleshooting tips</a>."
 msgstr "ヘルプが必要な場合は、<a href=\"%1$s\">連携デバッガ</a>または<a href=\"%2$s\" target=\"_blank\">トラブルシューティングのヒント</a>をお試しください。"
 
-#: class.jetpack.php:5229 class.jetpack.php:5259
+#: class.jetpack.php:5212 class.jetpack.php:5242
 msgid "Try again"
 msgstr "もう一度やり直す"
 
-#: class.jetpack.php:5228
+#: class.jetpack.php:5211
 msgid "Jetpack will re-test for HTTPS support once a day, but you can click here to try again immediately: "
 msgstr "Jetpack は1日に1回 HTTPS サポートの再テストを実施しますが、こちらをクリックすれば直ちにテストをもう一度実施できます。"
 
-#: class.jetpack.php:5226
+#: class.jetpack.php:5209
 msgid "Your site could not connect to WordPress.com via HTTPS. This could be due to any number of reasons, including faulty SSL certificates, misconfigured or missing SSL libraries, or network issues."
 msgstr "サイトは HTTPS 経由で WordPress.com に連携できませんでした。これには、不正な SSL 証明書、SSL ライブラリの不足または不適切な設定、ネットワークの問題など、いくつもの原因が考えられます。"
 
-#: class.jetpack.php:5225
+#: class.jetpack.php:5208
 msgid "Outbound HTTPS not working"
 msgstr "アウトバウンド HTTPS が作動していません"
 
-#: class.jetpack.php:5200
+#: class.jetpack.php:5184
 msgid "Response was not OK: "
 msgstr "レスポンスが不正です:"
 
-#: class.jetpack.php:5192 class.jetpack.php:5197
+#: class.jetpack.php:5176 class.jetpack.php:5181
 msgid "WordPress reports no SSL support"
 msgstr "WordPress から SSL サポートの報告はありません"
-
-#: class.jetpack.php:5179
-msgid "JETPACK_CLIENT__HTTPS is set to NEVER"
-msgstr "JETPACK_CLIENT__HTTPS は NEVER に設定されています"
 
 #: class.jetpack-connection-banner.php:234 class-jetpack-wizard-banner.php:231
 msgid "Dismiss this notice"
@@ -6962,7 +7030,7 @@ msgid "Sitemaps"
 msgstr "サイトマップ"
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3333
+#: modules/contact-form/grunion-contact-form.php:3398
 msgid "%s requires at least one selection"
 msgstr "%s は最低ひとつ選択することが必須です。"
 
@@ -6980,7 +7048,7 @@ msgid "If your problem isn't known or caused by a plugin, try activating %s (the
 msgstr "問題の原因が不明な場合、またはプラグインによって発生しているわけではない場合は %s (デフォルトの WordPress テーマ) を有効化してみてください。"
 
 #. translators: %1$s is link to author posts, %2$s is author display name
-#: modules/custom-post-types/portfolios.php:897
+#: modules/custom-post-types/portfolios.php:898
 msgid "<span>Author:</span> <a href=\"%1$s\">%2$s</a>"
 msgstr "<span>投稿者:</span> <a href=“%1$s”>%2$s</a>"
 
@@ -6988,23 +7056,23 @@ msgstr "<span>投稿者:</span> <a href=“%1$s”>%2$s</a>"
 msgid "You must specify an option_value"
 msgstr "option_value を指定する必要があります"
 
-#: json-endpoints/jetpack/class.wpcom-json-api-get-option-endpoint.php:42
+#: json-endpoints/jetpack/class.wpcom-json-api-get-option-endpoint.php:43
 msgid "You must specify a whitelisted option_name"
 msgstr "ホワイトリストに登録された option_name を指定する必要があります"
 
-#: json-endpoints/jetpack/class.wpcom-json-api-get-option-endpoint.php:27
+#: json-endpoints/jetpack/class.wpcom-json-api-get-option-endpoint.php:28
 msgid "You must specify an option_name"
 msgstr "option_name を指定する必要があります"
 
-#: modules/widget-visibility/widget-conditions.php:172
+#: modules/widget-visibility/widget-conditions.php:210
 msgid "All pages"
 msgstr "固定ページ一覧"
 
-#: modules/protect.php:621
+#: modules/protect.php:619
 msgid "Your IP (%1$s) has been flagged for potential security violations."
 msgstr "あなたの IP アドレス (%1$s) はセキュリティ違反の可能性があるため通達されています。"
 
-#: modules/comments/comments.php:507
+#: modules/comments/comments.php:532
 msgid "Comments are not allowed."
 msgstr "コメントは許可されていません。"
 
@@ -7043,19 +7111,19 @@ msgstr "推薦文リストのナビゲーション"
 msgid "Filter Testimonials list"
 msgstr "フィルター推薦文リスト"
 
-#: modules/custom-post-types/portfolios.php:356
+#: modules/custom-post-types/portfolios.php:357
 msgid "Project tag list"
 msgstr "プロジェクトタグリスト"
 
-#: modules/custom-post-types/portfolios.php:355
+#: modules/custom-post-types/portfolios.php:356
 msgid "Project tag list navigation"
 msgstr "プロジェクトタグリストのナビゲーション"
 
-#: modules/custom-post-types/portfolios.php:326
+#: modules/custom-post-types/portfolios.php:327
 msgid "Project type list"
 msgstr "プロジェクトタイプリスト"
 
-#: modules/custom-post-types/portfolios.php:325
+#: modules/custom-post-types/portfolios.php:326
 msgid "Project type list navigation"
 msgstr "プロジェクトタイプリストのナビゲーション"
 
@@ -7111,7 +7179,7 @@ msgstr "コミックリストのナビゲーション"
 msgid "Filter comics list"
 msgstr "フィルターコミックリスト"
 
-#: modules/custom-css/custom-css.php:1311
+#: modules/custom-css/custom-css.php:1335
 msgid "Show all"
 msgstr "すべて表示"
 
@@ -7177,7 +7245,7 @@ msgstr "Jetpack マルチサイトをスタート"
 msgid "Activated"
 msgstr "有効化済み"
 
-#: modules/plugin-search.php:529 _inc/build/admin.js:52 _inc/build/admin.js:60
+#: modules/plugin-search.php:529 _inc/build/admin.js:52
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Learn more"
@@ -7385,7 +7453,7 @@ msgid "Posts & Comments"
 msgstr "投稿・コメント"
 
 #: modules/widgets/rsslinks-widget.php:101
-#: modules/widgets/rsslinks-widget.php:177 _inc/build/admin.js:60
+#: modules/widgets/rsslinks-widget.php:177 _inc/build/admin.js:52
 msgid "Posts"
 msgstr "投稿"
 
@@ -7572,7 +7640,7 @@ msgstr "メディアファイル"
 msgid "Attachment Page"
 msgstr "添付ファイルのページ"
 
-#: modules/widgets/gallery.php:377 _inc/build/admin.js:60
+#: modules/widgets/gallery.php:377 _inc/build/admin.js:52
 msgid "Carousel"
 msgstr "カルーセル"
 
@@ -7691,165 +7759,166 @@ msgstr "営業時間・情報"
 msgid "Display a map with your location, hours, and contact information."
 msgstr "位置情報、営業時間、連絡先を含む地図を表示します。"
 
-#: modules/widget-visibility/widget-conditions.php:342
+#: modules/widget-visibility/widget-conditions.php:436
 msgid "Delete"
 msgstr "削除"
 
-#: modules/widget-visibility/widget-conditions.php:336
+#: modules/widget-visibility/widget-conditions.php:430
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "または"
 
-#: modules/widget-visibility/widget-conditions.php:306
+#: modules/widget-visibility/widget-conditions.php:400
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
 msgstr "が"
 
-#: modules/widget-visibility/widget-conditions.php:302
+#: modules/widget-visibility/widget-conditions.php:396
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "タクソノミー"
 
-#: modules/widget-visibility/widget-conditions.php:300
+#: modules/widget-visibility/widget-conditions.php:394
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "固定ページ"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:393
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "日付"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:392
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "タグ"
 
-#: modules/widget-visibility/widget-conditions.php:295
+#: modules/widget-visibility/widget-conditions.php:389
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "権限グループ"
 
-#: modules/widget-visibility/widget-conditions.php:294
+#: modules/widget-visibility/widget-conditions.php:388
 msgctxt "Noun"
 msgid "User"
 msgstr "ユーザー"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:385
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "投稿者"
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:384
 #: _inc/build/instant-search/jp-search.bundle.js:1
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Category"
 msgstr "カテゴリー"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:383
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- 選択 --"
 
-#: modules/widget-visibility/widget-conditions.php:270
+#: modules/widget-visibility/widget-conditions.php:364
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "非表示"
 
-#: modules/widget-visibility/widget-conditions.php:270
+#: modules/widget-visibility/widget-conditions.php:364
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "表示"
 
-#: modules/widget-visibility/widget-conditions.php:270
+#: modules/widget-visibility/widget-conditions.php:364
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "以下の場合に %s"
 
-#: modules/widget-visibility/widget-conditions.php:267
+#: modules/widget-visibility/widget-conditions.php:361
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Visibility"
 msgstr "表示状態"
 
-#: modules/widget-visibility/widget-conditions.php:142
+#: modules/widget-visibility/widget-conditions.php:180
 msgid "All taxonomy pages"
 msgstr "すべてのタクソノミーページ"
 
-#: modules/widget-visibility/widget-conditions.php:139
+#: modules/widget-visibility/widget-conditions.php:177
 msgid "Static page:"
 msgstr "固定ページ:"
 
-#: modules/widget-visibility/widget-conditions.php:125
+#: modules/widget-visibility/widget-conditions.php:150
 msgid "Post type:"
 msgstr "投稿タイプ:"
 
-#: modules/widget-visibility/widget-conditions.php:113
+#: modules/widget-visibility/widget-conditions.php:138
+#: _inc/build/instant-search/jp-search.bundle.js:1
 msgid "Search results"
 msgstr "検索結果"
 
-#: modules/widget-visibility/widget-conditions.php:112
+#: modules/widget-visibility/widget-conditions.php:137
 msgid "404 error page"
 msgstr "404 エラーページ"
 
-#: modules/widget-visibility/widget-conditions.php:111
+#: modules/widget-visibility/widget-conditions.php:136
 msgid "Archive page"
 msgstr "アーカイブページ"
 
-#: modules/widget-visibility/widget-conditions.php:110
+#: modules/widget-visibility/widget-conditions.php:135
 msgid "Posts page"
 msgstr "投稿ページ"
 
-#: modules/widget-visibility/widget-conditions.php:109 _inc/build/admin.js:60
+#: modules/widget-visibility/widget-conditions.php:134 _inc/build/admin.js:52
 msgid "Front page"
 msgstr "フロントページ"
 
-#: modules/widget-visibility/widget-conditions.php:106
+#: modules/widget-visibility/widget-conditions.php:131
 msgid "Yearly archives"
 msgstr "年別アーカイブ"
 
-#: modules/widget-visibility/widget-conditions.php:105
+#: modules/widget-visibility/widget-conditions.php:130
 msgid "Monthly archives"
 msgstr "月別アーカイブ"
 
-#: modules/widget-visibility/widget-conditions.php:104
+#: modules/widget-visibility/widget-conditions.php:129
 msgid "Daily archives"
 msgstr "日別アーカイブ"
 
-#: modules/widget-visibility/widget-conditions.php:103
+#: modules/widget-visibility/widget-conditions.php:128
 msgid "All date archives"
 msgstr "すべての日付アーカイブ"
 
-#: modules/widget-visibility/widget-conditions.php:87
+#: modules/widget-visibility/widget-conditions.php:103
 msgid "All tag pages"
 msgstr "すべてのタグページ"
 
-#: modules/widget-visibility/widget-conditions.php:64
+#: modules/widget-visibility/widget-conditions.php:79
 msgid "All author pages"
 msgstr "すべての投稿者ページ"
 
-#: modules/widget-visibility/widget-conditions.php:61
+#: modules/widget-visibility/widget-conditions.php:76
 msgid "Logged Out"
 msgstr "ログアウト中"
 
-#: modules/widget-visibility/widget-conditions.php:60
+#: modules/widget-visibility/widget-conditions.php:75
 msgid "Logged In"
 msgstr "ログイン中"
 
-#: modules/widget-visibility/widget-conditions.php:44
+#: modules/widget-visibility/widget-conditions.php:50
 msgid "All category pages"
 msgstr "すべてのカテゴリーページ"
 
-#: modules/videopress/class.videopress-edit-attachment.php:355
+#: modules/videopress/class.videopress-edit-attachment.php:354
 msgid "Display share menu and allow viewers to embed or download this video"
 msgstr "共有メニューを表示し、視聴者による動画の埋め込みとダウンロードを許可する"
 
-#: modules/videopress/class.videopress-edit-attachment.php:198
+#: modules/videopress/class.videopress-edit-attachment.php:197
 msgid "Location of the Ogg video file."
 msgstr "Ogg 動画ファイルの位置。"
 
-#: modules/videopress/class.videopress-edit-attachment.php:195
+#: modules/videopress/class.videopress-edit-attachment.php:194
 msgid "Ogg File URL"
 msgstr "Ogg ファイル URL"
 
@@ -7921,7 +7990,7 @@ msgstr "% エラー"
 msgid "Website Verification Services"
 msgstr "Web サイト認証サービス"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2157
+#: _inc/lib/class.core-rest-api-endpoints.php:2168
 #: modules/tiled-gallery/tiled-gallery.php:294
 msgid "Display all your gallery pictures in a cool mosaic."
 msgstr "すべてのギャラリー画像をモザイク形式で表示する。"
@@ -7999,55 +8068,56 @@ msgstr "<a href=”%1$s”>\"featured\" タグ</a>または自分で選択した
 msgid "Featured Content"
 msgstr "おすすめコンテンツ"
 
-#: modules/subscriptions/views.php:784
+#: modules/subscriptions/views.php:794
 msgid "Show total number of subscribers? (%s subscriber)"
 msgid_plural "Show total number of subscribers? (%s subscribers)"
 msgstr[0] "合計購読者数を表示しますか？ (現在%s名)"
 
-#: modules/subscriptions/views.php:773
+#: modules/subscriptions/views.php:783
 msgid "Success Message Text:"
 msgstr "成功メッセージテキスト:"
 
-#: modules/subscriptions/views.php:765
+#: modules/subscriptions/views.php:775
 msgid "Subscribe Button:"
 msgstr "購読ボタン"
 
-#: modules/subscriptions/views.php:757
+#: modules/subscriptions/views.php:767
 msgid "Subscribe Placeholder:"
 msgstr "購読のプレースホルダー:"
 
-#: modules/subscriptions/views.php:749
+#: modules/subscriptions/views.php:759
 msgid "Optional text to display to your readers:"
 msgstr "読者に表示するテキスト (オプション)。"
 
-#: modules/subscriptions/views.php:741 modules/widgets/image-widget.php:226
+#: modules/subscriptions/views.php:751 modules/widgets/image-widget.php:226
 msgid "Widget title:"
 msgstr "ウィジェット名:"
 
-#: modules/subscriptions/views.php:641
+#: modules/subscriptions/views.php:651
 msgid "Success! An email was just sent to confirm your subscription. Please find the email now and click 'Confirm Follow' to start subscribing."
 msgstr "成功しました。購読確認のメールを送信しました。購読を開始するには、今すぐメールをチェックして「フォローを確認」ボタンをクリックしてください。"
 
-#: modules/subscriptions/views.php:640 extensions/blocks/revue/revue.php:149
+#: modules/subscriptions/views.php:650 extensions/blocks/revue/revue.php:149
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Subscribe"
 msgstr "登録"
 
-#: modules/subscriptions/views.php:638
+#: modules/subscriptions/views.php:648
 msgid "Enter your email address to subscribe to this blog and receive notifications of new posts by email."
 msgstr "メールアドレスを記入して購読すれば、更新をメールで受信できます。"
 
-#: modules/subscriptions/views.php:637
+#: modules/subscriptions/views.php:647
 msgid "Subscribe to Blog via Email"
 msgstr "ブログをメールで購読"
 
-#: modules/subscriptions/views.php:453 modules/widgets/contact-info.php:314
+#: modules/subscriptions/views.php:370 modules/subscriptions/views.php:463
+#: modules/widgets/contact-info.php:314
 msgid "Email Address:"
 msgstr "メールアドレス"
 
 #. translators: %s: number of folks following the blog
-#: modules/subscriptions/views.php:442 _inc/blocks/editor-beta.js:18
+#: modules/subscriptions/views.php:452 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Join %s other subscriber"
@@ -8118,12 +8188,12 @@ msgstr "ブログをフォローした方へ送信する文 (サイト情報お�
 msgid "These settings change emails sent from your blog to followers."
 msgstr "ブログからフォロワーへ送るメールの設定を変更できます。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2392
+#: _inc/lib/class.core-rest-api-endpoints.php:2403
 #: modules/subscriptions.php:397
 msgid "Show a <em>'follow comments'</em> option in the comment form"
 msgstr "コメントフォームに「コメントをフォロー」オプションを表示"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2385
+#: _inc/lib/class.core-rest-api-endpoints.php:2396
 #: modules/subscriptions.php:382
 msgid "Show a <em>'follow blog'</em> option in the comment form"
 msgstr "コメントフォームに「ブログをフォロー」オプションを表示"
@@ -8164,118 +8234,118 @@ msgstr "購読者に送信しない"
 msgid "Jetpack Subscriptions:"
 msgstr "Jetpack 購読:"
 
-#: modules/stats.php:1443
+#: modules/stats.php:1447
 msgid "We were unable to get your stats just now. Please reload this page to try again. If this error persists, please <a href=\"%1$s\" target=\"_blank\">contact support</a>. In your report please include the information below."
 msgstr "統計情報を取得できません。このページを再読み込みして再試行してください。エラーが解決しない場合は、<a href=\"%1$s\" target=\"_blank\">サポートにご連絡ください</a>。レポートには以下の情報を含めてください。"
 
-#: modules/stats.php:1436
+#: modules/stats.php:1440
 msgid "We were unable to get your stats just now. Please reload this page to try again."
 msgstr "統計情報を現在取得できません。このページをリロードしてもう一度お試しください。"
 
-#: modules/stats.php:1386
+#: modules/stats.php:1390
 msgid "Top Searches"
 msgstr "人気検索キーワード"
 
-#: modules/stats.php:1365 modules/stats.php:1390
+#: modules/stats.php:1369 modules/stats.php:1394
 msgid "Sorry, nothing to report."
 msgstr "報告する内容がありません。"
 
-#: modules/stats.php:1361
+#: modules/stats.php:1365
 msgid "Top Posts"
 msgstr "人気記事"
 
 #. Translators: Stats dashboard widget postviews list: "$post_title $views
 #. Views".
-#: modules/stats.php:1336
+#: modules/stats.php:1340
 msgid "%1$s %2$s Views"
 msgstr "%1$s %2$s ビュー"
 
-#: modules/stats.php:1105 modules/contact-form/grunion-editor-view.php:92
-#: modules/contact-form/grunion-contact-form.php:1930
+#: modules/stats.php:1109 modules/contact-form/grunion-editor-view.php:92
+#: modules/contact-form/grunion-contact-form.php:1967
 #: modules/videopress/class.videopress-player.php:305
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Submit"
 msgstr "送信"
 
-#: modules/stats.php:1079
+#: modules/stats.php:1083
 msgid "Show top search terms over"
 msgstr "以下の期間の人気検索キーワードを表示:"
 
-#: modules/stats.php:1066
+#: modules/stats.php:1070
 msgid "Show top posts over"
 msgstr "以下の期間の人気記事を表示:"
 
-#: modules/stats.php:1053
+#: modules/stats.php:1057
 msgid "Chart stats by"
 msgstr "統計情報グラフ期間:"
 
-#: modules/stats.php:1030
+#: modules/stats.php:1034
 msgid "the past year"
 msgstr "去年"
 
-#: modules/stats.php:1029
+#: modules/stats.php:1033
 msgid "the past quarter"
 msgstr "現四半期"
 
-#: modules/stats.php:1028
+#: modules/stats.php:1032
 msgid "the past month"
 msgstr "過去1ヶ月間"
 
-#: modules/stats.php:1027
+#: modules/stats.php:1031
 msgid "the past week"
 msgstr "過去1週間"
 
-#: modules/stats.php:1026
+#: modules/stats.php:1030
 msgid "the past day"
 msgstr "過去1日"
 
-#: modules/stats.php:1023
+#: modules/stats.php:1027
 msgid "month"
 msgstr "ヶ月"
 
-#: modules/stats.php:1022
+#: modules/stats.php:1026
 msgid "week"
 msgstr "週"
 
-#: modules/stats.php:1021
+#: modules/stats.php:1025
 msgid "day"
 msgstr "日"
 
-#: modules/stats.php:888
+#: modules/stats.php:892
 msgid "Views over 48 hours. Click for more Site Stats."
 msgstr "過去48時間のビュー数。クリックすれば詳しい統計情報を表示できます。"
 
-#: modules/stats.php:886 modules/stats.php:1708
+#: modules/stats.php:890 modules/stats.php:1712
 #: modules/masterbar/masterbar.php:901
 msgid "Stats"
 msgstr "統計情報"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2576
+#: _inc/lib/class.core-rest-api-endpoints.php:2587
 msgid "Select the roles that will be able to view stats reports."
 msgstr "統計レポートを表示できる権限グループを選択してください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2611
+#: _inc/lib/class.core-rest-api-endpoints.php:2622
 msgid "Hide the stats smiley face image."
 msgstr "統計のスマイル画像を非表示"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2587
+#: _inc/lib/class.core-rest-api-endpoints.php:2598
 msgid "Count the page views of registered users who are logged in."
 msgstr "ログイン中の登録ユーザーのページビューをカウントする。"
 
-#: modules/stats.php:608
+#: modules/stats.php:612
 msgid "View Site Stats without JavaScript"
 msgstr "Javascript なしで統計情報を表示"
 
-#: modules/stats.php:607
+#: modules/stats.php:611
 msgid "Your Site Stats work better with JavaScript enabled."
 msgstr "サイト統計情報を利用するには、JavaScript の有効化をおすすめします。"
 
-#: modules/stats.php:606
+#: modules/stats.php:610
 msgid "View stats on WordPress.com right now"
 msgstr "統計情報を WordPress.com で今すぐ表示"
 
-#: modules/stats.php:593
+#: modules/stats.php:597
 msgid "Loading&hellip;"
 msgstr "読み込み中&hellip;"
 
@@ -8287,11 +8357,11 @@ msgstr "WordPress.com でログイン"
 msgid "Cannot deal with cookie redirects, as headers are already sent."
 msgstr "ヘッダーがすでに送信されているため、Cookie 転送を処理できません。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2376 modules/sso.php:281
+#: _inc/lib/class.core-rest-api-endpoints.php:2387 modules/sso.php:281
 msgid "Match by Email"
 msgstr "メール照合"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2369 modules/sso.php:251
+#: _inc/lib/class.core-rest-api-endpoints.php:2380 modules/sso.php:251
 msgid "Require Two-Step Authentication"
 msgstr "二段階認証が必須です"
 
@@ -8333,10 +8403,6 @@ msgstr "スライドショーを開始できませんでした。ページを再
 msgid "Take Our Survey"
 msgstr "アンケートに回答"
 
-#: modules/shortcodes/instagram.php:115 modules/shortcodes/instagram.php:123
-msgid "View on Instagram"
-msgstr "Instagram で表示"
-
 #: modules/shortcodes/archives.php:74
 msgid "Your blog does not currently have any published posts."
 msgstr "このブログには現在公開済みの投稿がありません。"
@@ -8373,22 +8439,22 @@ msgstr "サービス名"
 msgid "Sharing label"
 msgstr "共有ラベル"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2309
+#: _inc/lib/class.core-rest-api-endpoints.php:2320
 #: modules/sharedaddy/sharing.php:393
 msgid "Official buttons"
 msgstr "公式ボタン"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2308
+#: _inc/lib/class.core-rest-api-endpoints.php:2319
 #: modules/sharedaddy/sharing.php:392
 msgid "Text only"
 msgstr "テキストのみ"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2307
+#: _inc/lib/class.core-rest-api-endpoints.php:2318
 #: modules/sharedaddy/sharing.php:391
 msgid "Icon only"
 msgstr "アイコンのみ"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2306
+#: _inc/lib/class.core-rest-api-endpoints.php:2317
 #: modules/sharedaddy/sharing.php:390
 msgid "Icon + text"
 msgstr "アイコンとテキスト"
@@ -8472,7 +8538,7 @@ msgctxt "share to"
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: modules/sharedaddy/sharing-sources.php:1585 _inc/build/admin.js:60
+#: modules/sharedaddy/sharing-sources.php:1585 _inc/build/admin.js:52
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Pinterest"
@@ -8667,7 +8733,7 @@ msgstr "共有:"
 msgid "Advanced.  If this option is checked, you must include these files in your theme manually for the sharing links to work."
 msgstr "高度な設定です。このオプションがチェックされている場合、共有リンクを動作させるためにはテーマに手動でこれらのファイルを追加する必要があります。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2341
+#: _inc/lib/class.core-rest-api-endpoints.php:2352
 #: modules/sharedaddy/sharedaddy.php:246
 msgid "Disable CSS and JS"
 msgstr "CSS と JavaScript を無効化"
@@ -8706,46 +8772,46 @@ msgstr "シークレットパラメーターの引数が無効か、不正な形
 msgid "The secret parameter is missing"
 msgstr "シークレットパラメーターが指定されていません"
 
-#: modules/related-posts/jetpack-related-posts.php:1598
+#: modules/related-posts/jetpack-related-posts.php:1599
 msgid "Similar post"
 msgstr "類似投稿"
 
-#: modules/related-posts/jetpack-related-posts.php:1593
+#: modules/related-posts/jetpack-related-posts.php:1594
 msgid "With 1 comment"
 msgid_plural "With %s comments"
 msgstr[0] "%s件のコメント"
 
-#: modules/related-posts/jetpack-related-posts.php:1549
-#: modules/related-posts/jetpack-related-posts.php:1572
+#: modules/related-posts/jetpack-related-posts.php:1550
+#: modules/related-posts/jetpack-related-posts.php:1573
 msgctxt "in {category/tag name}"
 msgid "In \"%s\""
 msgstr "%s"
 
-#: modules/related-posts/jetpack-related-posts.php:1258
+#: modules/related-posts/jetpack-related-posts.php:1259
 msgid "Untitled Post"
 msgstr "無題の投稿"
 
-#: modules/related-posts/jetpack-related-posts.php:619 _inc/build/admin.js:60
+#: modules/related-posts/jetpack-related-posts.php:620 _inc/build/admin.js:52
 msgid "Show related content after posts"
 msgstr "投稿の後に関連コンテンツを表示"
 
-#: modules/related-posts/jetpack-related-posts.php:617
+#: modules/related-posts/jetpack-related-posts.php:618
 msgid "Hide related content after posts"
 msgstr "投稿後の関連コンテンツ表示をしない"
 
-#: modules/related-posts/jetpack-related-posts.php:590
+#: modules/related-posts/jetpack-related-posts.php:591
 msgid "Preview:"
 msgstr "プレビュー:"
 
-#: modules/related-posts/jetpack-related-posts.php:476
-#: modules/related-posts/jetpack-related-posts.php:536
-#: modules/related-posts/jetpack-related-posts.php:645
+#: modules/related-posts/jetpack-related-posts.php:477
+#: modules/related-posts/jetpack-related-posts.php:537
+#: modules/related-posts/jetpack-related-posts.php:646
 #: modules/related-posts/class.related-posts-customize.php:178
-#: _inc/build/admin.js:60
+#: _inc/build/admin.js:52
 msgid "Related"
 msgstr "関連"
 
-#: modules/related-posts/jetpack-related-posts.php:103 _inc/build/admin.js:60
+#: modules/related-posts/jetpack-related-posts.php:104 _inc/build/admin.js:52
 msgid "Related posts"
 msgstr "関連記事"
 
@@ -8783,7 +8849,7 @@ msgid "Connect"
 msgstr "連携"
 
 #: class.jetpack-network-sites-list-table.php:105
-#: class.jetpack-network-sites-list-table.php:122 _inc/build/admin.js:71
+#: class.jetpack-network-sites-list-table.php:122 _inc/build/admin.js:63
 msgid "Disconnect"
 msgstr "連携を解除"
 
@@ -8841,35 +8907,35 @@ msgstr "パブリサイズ共有機能を使うには、以下のリンクから
 msgid "Video on %s"
 msgstr "%s の動画"
 
-#: modules/protect.php:701
+#: modules/protect.php:699
 msgid "There was an error contacting Jetpack servers."
 msgstr "Jetpack のサーバーと通信する際にエラーが発生しました。"
 
-#: modules/protect.php:697
+#: modules/protect.php:695
 msgid "No API key"
 msgstr "API キーがありません"
 
-#: modules/protect.php:693
+#: modules/protect.php:691
 msgid "Your API key is invalid"
 msgstr "API キーが無効です"
 
-#: modules/protect.php:624
+#: modules/protect.php:622
 msgid "Login Blocked by Jetpack"
 msgstr "Jetpack がログインをブロックしました"
 
-#: modules/protect.php:268
+#: modules/protect.php:266
 msgid "No reply from Jetpack servers"
 msgstr "Jetpack のサーバーからの返信がありません。"
 
-#: modules/protect.php:259
+#: modules/protect.php:257
 msgid "Error connecting to WordPress.com. Code: %1$s, %2$s"
 msgstr "WordPress.com への連携に失敗しました。コード: %1$s, %2$s"
 
-#: modules/protect.php:231
+#: modules/protect.php:229
 msgid "Your main blog is not connected to WordPress.com. Please connect to get an API key."
 msgstr "メインブログが WordPress.com と連携されていません。連携して API キーを取得してください。"
 
-#: modules/protect.php:186
+#: modules/protect.php:184
 msgid "View Network Admin"
 msgstr "ネットワーク管理画面を表示"
 
@@ -8906,11 +8972,11 @@ msgid "<strong>You failed to correctly answer the math problem.</strong>  This i
 msgstr "<strong>計算問題の回答が間違っています。</strong>この機能はプロテクト API が利用できない際にスパムを防ぐために使われています。ブラウザーの戻るボタンを使ってログインフォームに戻り、ページを再読み込みして新しく生成された計算を解いてからもう一度ログインしてみてください。"
 
 #: modules/sharedaddy/sharing-sources.php:1427
-#: modules/widgets/simple-payments/form.php:181 _inc/build/admin.js:60
+#: modules/widgets/simple-payments/form.php:181 _inc/build/admin.js:52
 msgid "Save"
 msgstr "保存"
 
-#: views/admin/network-settings.php:38 _inc/build/admin.js:60
+#: views/admin/network-settings.php:38 _inc/build/admin.js:52
 msgid "Your current IP: %s"
 msgstr "あなたの現在の IP: %s"
 
@@ -8962,8 +9028,8 @@ msgstr "詳細情報"
 msgid "Enable Post By Email"
 msgstr "メール投稿を有効化"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2248
-#: modules/subscriptions/views.php:639
+#: _inc/lib/class.core-rest-api-endpoints.php:2259
+#: modules/subscriptions/views.php:649
 #: modules/post-by-email/class-jetpack-post-by-email.php:101
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
@@ -8990,7 +9056,7 @@ msgstr "タイトル"
 msgid "Loading map&hellip;"
 msgstr "地図を読み込み中…"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2239
+#: _inc/lib/class.core-rest-api-endpoints.php:2250
 msgid "Receive Monitor Email Notifications."
 msgstr "モニターメール通知を受信する。"
 
@@ -9003,7 +9069,7 @@ msgstr "テーマ"
 msgid "Plugins"
 msgstr "プラグイン"
 
-#: extensions/blocks/story/story.php:349
+#: extensions/blocks/story/story.php:350
 msgid "Site icon"
 msgstr "サイトアイコン"
 
@@ -9013,7 +9079,7 @@ msgstr "サイトアイコン"
 msgid "Related Posts"
 msgstr "関連記事"
 
-#: modules/tiled-gallery/tiled-gallery.php:287 _inc/build/admin.js:60
+#: modules/tiled-gallery/tiled-gallery.php:287 _inc/build/admin.js:52
 msgid "Tiled Galleries"
 msgstr "タイルギャラリー"
 
@@ -9021,7 +9087,7 @@ msgstr "タイルギャラリー"
 msgid "Post by Email"
 msgstr "メール投稿"
 
-#: modules/custom-css/custom-css-4.7.php:265 _inc/build/admin.js:60
+#: modules/custom-css/custom-css-4.7.php:265 _inc/build/admin.js:52
 msgid "Custom CSS"
 msgstr "カスタム CSS"
 
@@ -9043,20 +9109,20 @@ msgstr ""
 
 #: modules/masterbar/masterbar.php:413 modules/masterbar/masterbar.php:419
 #: modules/masterbar/masterbar.php:713 modules/notes.php:197
-#: _inc/build/admin.js:60 _inc/blocks/editor-beta.js:18
+#: _inc/build/admin.js:52 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Notifications"
 msgstr "通知"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:265
-#: modules/publicize/ui.php:97 _inc/build/admin.js:60
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:267
+#: modules/publicize/ui.php:97 _inc/build/admin.js:52
 msgid "Publicize"
 msgstr "パブリサイズ共有 "
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:162
-#: modules/stats.php:433 modules/stats.php:576 modules/stats.php:985
-#: _inc/build/admin.js:60 _inc/build/admin.js:71
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:164
+#: modules/stats.php:437 modules/stats.php:580 modules/stats.php:989
+#: _inc/build/admin.js:52 _inc/build/admin.js:67
 msgid "Site Stats"
 msgstr "サイト統計情報"
 
@@ -9306,7 +9372,7 @@ msgstr "ギャラリー"
 msgid "Markdown content"
 msgstr "Markdown コンテンツ"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2223
+#: _inc/lib/class.core-rest-api-endpoints.php:2234
 #: modules/markdown/easy-markdown.php:290
 msgid "Use Markdown for comments."
 msgstr "コメント欄で Markdown 記法を使う。"
@@ -9321,7 +9387,7 @@ msgid "Use Markdown for posts and pages."
 msgstr "投稿とページ内で Markdown 記法を使う。"
 
 #: modules/markdown/easy-markdown.php:250
-#: modules/markdown/easy-markdown.php:252 _inc/build/admin.js:60
+#: modules/markdown/easy-markdown.php:252 _inc/build/admin.js:52
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Markdown"
@@ -9360,11 +9426,11 @@ msgstr "共有ボタン"
 msgid "Settings have been saved"
 msgstr "設定を保存しました。"
 
-#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:276
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:278
 #: modules/likes/jetpack-likes-settings.php:181
 #: modules/sharedaddy/sharing.php:100 modules/sharedaddy/sharedaddy.php:143
 #: modules/masterbar/masterbar.php:1225 modules/publicize/ui.php:56
-#: _inc/build/admin.js:60
+#: _inc/build/admin.js:52
 msgid "Sharing"
 msgstr "共有"
 
@@ -9405,17 +9471,17 @@ msgstr "投稿にリブログボタンを表示"
 msgid "WordPress.com Reblog Button"
 msgstr "WordPress.com リブログボタン"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2208
+#: _inc/lib/class.core-rest-api-endpoints.php:2219
 #: modules/likes/jetpack-likes-settings.php:504
 msgid "Turned on per post"
 msgstr "投稿ごとに有効化"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2207
+#: _inc/lib/class.core-rest-api-endpoints.php:2218
 #: modules/likes/jetpack-likes-settings.php:498
 msgid "On for all posts"
 msgstr "すべての投稿で有効化"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2199
+#: _inc/lib/class.core-rest-api-endpoints.php:2210
 #: modules/likes/jetpack-likes-settings.php:492
 msgid "WordPress.com Likes are"
 msgstr "WordPress.com「いいね」ボタン"
@@ -9445,7 +9511,7 @@ msgstr "WordPress.com「いいね」ボタンを表示する。"
 
 #: modules/likes/jetpack-likes-settings.php:46
 #: modules/widgets/top-posts.php:107 modules/likes.php:434
-#: _inc/build/admin.js:60
+#: _inc/build/admin.js:52
 msgid "Likes"
 msgstr "いいね"
 
@@ -9453,40 +9519,40 @@ msgstr "いいね"
 msgid "Likes and Shares"
 msgstr "「いいね」と共有"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2190
+#: _inc/lib/class.core-rest-api-endpoints.php:2201
 #: modules/infinite-scroll.php:76
 msgid "Use Google Analytics with Infinite Scroll"
 msgstr "無限スクロールで Google アナリティクスを使用"
 
 #. translators: %1$s is the name of a theme
-#: modules/infinite-scroll/infinity.php:1642
+#: modules/infinite-scroll/infinity.php:1658
 msgid "Theme: %1$s."
 msgstr "テーマ: %1$s."
 
-#: modules/infinite-scroll/infinity.php:1638
+#: modules/infinite-scroll/infinity.php:1654
 msgid "Proudly powered by WordPress"
 msgstr "Proudly powered by WordPress"
 
-#: modules/infinite-scroll/infinity.php:880
+#: modules/infinite-scroll/infinity.php:896
 msgid "Scroll back to top"
 msgstr "ページ上部へ戻る"
 
-#: modules/infinite-scroll/infinity.php:824
+#: modules/infinite-scroll/infinity.php:840
 #: modules/theme-tools/compat/twentytwenty.php:268
 #: modules/theme-tools/compat/twentynineteen.php:203
 msgid "Older posts"
 msgstr "過去の投稿"
 
-#: modules/infinite-scroll/infinity.php:420
+#: modules/infinite-scroll/infinity.php:436
 msgid "Shows %s post on each load."
 msgid_plural "Shows %s posts on each load."
 msgstr[0] "読み込みまれるごとに投稿を%s件表示します。"
 
-#: modules/infinite-scroll/infinity.php:413
+#: modules/infinite-scroll/infinity.php:429
 msgid "We&rsquo;ve changed this option to a click-to-scroll version for you since you have footer widgets in Appearance &rarr; Widgets, or your theme uses click-to-scroll as the default behavior."
 msgstr "このオプションを「クリック & スクロール」バージョンに変更しました。「外観 → ウィジェット」でフッターウィジェットが追加されているか、お使いのテーマがデフォルトで「クリック & スクロール」を使う仕様になっているためです。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2183
+#: _inc/lib/class.core-rest-api-endpoints.php:2194
 msgid "To infinity and beyond"
 msgstr "無限スクロール"
 
@@ -9494,12 +9560,12 @@ msgstr "無限スクロール"
 msgid "Put your mouse over your Gravatar to check out your profile."
 msgstr "自分のプロフィールをチェックするには、Gravatar 上でマウスオーバーしてください。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2165
+#: _inc/lib/class.core-rest-api-endpoints.php:2176
 #: modules/gravatar-hovercards.php:62
 msgid "View people's profiles when you mouse over their Gravatars"
 msgstr "Gravatar をマウスオーバーしたときにプロフィールを表示"
 
-#: modules/gravatar-hovercards.php:50 _inc/build/admin.js:60
+#: modules/gravatar-hovercards.php:50 _inc/build/admin.js:52
 msgid "Gravatar Hovercards"
 msgstr "Gravatar ホバーカード"
 
@@ -9619,155 +9685,155 @@ msgstr "お使いのテーマは推薦文機能に対応しています"
 #: modules/custom-post-types/testimonial.php:295
 #: modules/custom-post-types/testimonial.php:297
 #: modules/custom-post-types/testimonial.php:461
-#: modules/custom-post-types/testimonial.php:467 _inc/build/admin.js:60
+#: modules/custom-post-types/testimonial.php:467 _inc/build/admin.js:52
 msgid "Testimonials"
 msgstr "推薦文"
 
-#: modules/custom-post-types/portfolios.php:871
+#: modules/custom-post-types/portfolios.php:872
 msgid "Tags"
 msgstr "タグ"
 
-#: modules/custom-post-types/portfolios.php:840
+#: modules/custom-post-types/portfolios.php:841
 msgid "Types"
 msgstr "種類"
 
-#: modules/custom-post-types/portfolios.php:768
+#: modules/custom-post-types/portfolios.php:769
 msgid "Your Portfolio Archive currently has no entries. You can start creating them on your dashboard."
 msgstr "ポートフォリオアーカイブには現在項目がありません。ダッシュボードから作成できます。"
 
 #. translators: Publish box date format, see https://php.net/date
-#: modules/custom-post-types/portfolios.php:388
+#: modules/custom-post-types/portfolios.php:389
 msgid "Project item draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
 msgstr "プロジェクト項目の下書きを更新しました。<a target=\"_blank\" href=\"%s\">プロジェクトをプレビュー</a>"
 
-#: modules/custom-post-types/portfolios.php:385
+#: modules/custom-post-types/portfolios.php:386
 msgid "Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview project</a>"
 msgstr "プロジェクトを予約投稿しました: <strong>%1$s</strong> 。<a target=\"_blank\" href=\"%2$s\">プロジェクトををプレビュー</a>"
 
-#: modules/custom-post-types/portfolios.php:384
+#: modules/custom-post-types/portfolios.php:385
 msgid "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
 msgstr "プロジェクトを送信しました。<a target=\"_blank\" href=\"%s\">プロジェクトをプレビュー</a>"
 
-#: modules/custom-post-types/portfolios.php:383
+#: modules/custom-post-types/portfolios.php:384
 msgid "Project saved."
 msgstr "プロジェクトを保存しました。"
 
-#: modules/custom-post-types/portfolios.php:382
+#: modules/custom-post-types/portfolios.php:383
 msgid "Project published. <a href=\"%s\">View project</a>"
 msgstr "プロジェクトを公開しました。<a href=\"%s\">プロジェクトを表示</a>"
 
 #. translators: %s: date and time of the revision
-#: modules/custom-post-types/portfolios.php:381
+#: modules/custom-post-types/portfolios.php:382
 msgid "Project restored to revision from %s"
 msgstr "リビジョン %s からプロジェクトを復元しました"
 
-#: modules/custom-post-types/portfolios.php:379
+#: modules/custom-post-types/portfolios.php:380
 msgid "Project updated."
 msgstr "プロジェクトを更新しました。"
 
-#: modules/custom-post-types/portfolios.php:376
+#: modules/custom-post-types/portfolios.php:377
 msgid "Project updated. <a href=\"%s\">View item</a>"
 msgstr "プロジェクト項目を更新しました。<a href=\"%s\">項目を表示</a>"
 
-#: modules/custom-post-types/portfolios.php:354
+#: modules/custom-post-types/portfolios.php:355
 msgid "No tags found."
 msgstr "タグが見つかりませんでした。"
 
-#: modules/custom-post-types/portfolios.php:353
+#: modules/custom-post-types/portfolios.php:354
 msgid "Choose from the most used tags"
 msgstr "よく使われているタグから選択"
 
-#: modules/custom-post-types/portfolios.php:352
+#: modules/custom-post-types/portfolios.php:353
 msgid "Add or remove tags"
 msgstr "タグの追加もしくは削除"
 
-#: modules/custom-post-types/portfolios.php:351
+#: modules/custom-post-types/portfolios.php:352
 msgid "Separate tags with commas"
 msgstr "タグが複数ある場合はコンマで区切ってください"
 
-#: modules/custom-post-types/portfolios.php:350
+#: modules/custom-post-types/portfolios.php:351
 msgid "Popular Project Tags"
 msgstr "人気のプロジェクトタグ"
 
-#: modules/custom-post-types/portfolios.php:349
+#: modules/custom-post-types/portfolios.php:350
 msgid "Search Project Tags"
 msgstr "プロジェクトタグを検索"
 
-#: modules/custom-post-types/portfolios.php:348
+#: modules/custom-post-types/portfolios.php:349
 msgid "New Project Tag Name"
 msgstr "新規プロジェクトタグ名"
 
-#: modules/custom-post-types/portfolios.php:347
+#: modules/custom-post-types/portfolios.php:348
 msgid "Add New Project Tag"
 msgstr "新規プロジェクトタグを追加"
 
-#: modules/custom-post-types/portfolios.php:346
+#: modules/custom-post-types/portfolios.php:347
 msgid "Update Project Tag"
 msgstr "プロジェクトタグを更新"
 
-#: modules/custom-post-types/portfolios.php:345
+#: modules/custom-post-types/portfolios.php:346
 msgid "View Project Tag"
 msgstr "プロジェクトタグを表示"
 
-#: modules/custom-post-types/portfolios.php:344
+#: modules/custom-post-types/portfolios.php:345
 msgid "Edit Project Tag"
 msgstr "プロジェクトタグを編集"
 
-#: modules/custom-post-types/portfolios.php:343
+#: modules/custom-post-types/portfolios.php:344
 msgid "All Project Tags"
 msgstr "すべてのプロジェクトタグ"
 
-#: modules/custom-post-types/portfolios.php:341
+#: modules/custom-post-types/portfolios.php:342
 msgid "Project Tag"
 msgstr "プロジェクトタグ"
 
-#: modules/custom-post-types/portfolios.php:340
-#: modules/custom-post-types/portfolios.php:342
+#: modules/custom-post-types/portfolios.php:341
+#: modules/custom-post-types/portfolios.php:343
 msgid "Project Tags"
 msgstr "プロジェクトタグ"
 
-#: modules/custom-post-types/portfolios.php:324
+#: modules/custom-post-types/portfolios.php:325
 msgid "Search Project Types"
 msgstr "プロジェクトタイプを検索"
 
-#: modules/custom-post-types/portfolios.php:323
+#: modules/custom-post-types/portfolios.php:324
 msgid "Parent Project Type:"
 msgstr "親プロジェクトタイプ:"
 
-#: modules/custom-post-types/portfolios.php:322
+#: modules/custom-post-types/portfolios.php:323
 msgid "Parent Project Type"
 msgstr "親プロジェクトタイプ"
 
-#: modules/custom-post-types/portfolios.php:321
+#: modules/custom-post-types/portfolios.php:322
 msgid "New Project Type Name"
 msgstr "新規プロジェクトタイプ名"
 
-#: modules/custom-post-types/portfolios.php:320
+#: modules/custom-post-types/portfolios.php:321
 msgid "Add New Project Type"
 msgstr "新規プロジェクトタイプを追加"
 
-#: modules/custom-post-types/portfolios.php:319
+#: modules/custom-post-types/portfolios.php:320
 msgid "Update Project Type"
 msgstr "プロジェクトタイプを更新"
 
-#: modules/custom-post-types/portfolios.php:318
+#: modules/custom-post-types/portfolios.php:319
 msgid "View Project Type"
 msgstr "プロジェクトタイプを表示"
 
-#: modules/custom-post-types/portfolios.php:317
+#: modules/custom-post-types/portfolios.php:318
 msgid "Edit Project Type"
 msgstr "プロジェクトタイプを編集"
 
-#: modules/custom-post-types/portfolios.php:316
+#: modules/custom-post-types/portfolios.php:317
 msgid "All Project Types"
 msgstr "すべてのプロジェクトタイプ"
 
-#: modules/custom-post-types/portfolios.php:314
+#: modules/custom-post-types/portfolios.php:315
 msgid "Project Type"
 msgstr "プロジェクトタイプ"
 
-#: modules/custom-post-types/portfolios.php:313
-#: modules/custom-post-types/portfolios.php:315
+#: modules/custom-post-types/portfolios.php:314
+#: modules/custom-post-types/portfolios.php:316
 msgid "Project Types"
 msgstr "プロジェクトタイプ"
 
@@ -9805,17 +9871,17 @@ msgstr "すべてのプロジェクト"
 
 #: modules/masterbar/masterbar.php:1100 modules/masterbar/masterbar.php:1113
 #: modules/custom-post-types/portfolios.php:267
-#: modules/custom-post-types/portfolios.php:443
+#: modules/custom-post-types/portfolios.php:444
 msgid "Portfolio"
 msgstr "ポートフォリオ"
 
 #: modules/custom-post-types/portfolios.php:266
-#: modules/custom-post-types/portfolios.php:400
+#: modules/custom-post-types/portfolios.php:401
 msgid "Project"
 msgstr "プロジェクト"
 
 #: modules/custom-post-types/portfolios.php:265
-#: modules/custom-post-types/portfolios.php:450
+#: modules/custom-post-types/portfolios.php:451
 msgid "Projects"
 msgstr "プロジェクト"
 
@@ -9838,110 +9904,111 @@ msgstr "お使いのテーマは <strong>%s</strong> に対応しています"
 msgid "Portfolio Projects"
 msgstr "ポートフォリオプロジェクト"
 
-#: modules/custom-post-types/nova.php:1094
+#: modules/custom-post-types/nova.php:1118
 msgid "No Labels"
 msgstr "ラベルなし"
 
-#: modules/custom-post-types/nova.php:1073
-#: modules/custom-post-types/nova.php:1092
+#: modules/custom-post-types/nova.php:1097
+#: modules/custom-post-types/nova.php:1116
 msgctxt "Nova label separator"
 msgid ", "
 msgstr "、"
 
-#: modules/custom-post-types/nova.php:986
+#: modules/custom-post-types/nova.php:1010
 msgid "Add These New Menu Items"
 msgstr "新しいメニュー項目を追加"
 
-#: modules/custom-post-types/nova.php:977
+#: modules/custom-post-types/nova.php:1001
 msgid "New Row"
 msgstr "新規行"
 
 #: _inc/lib/icalendar-reader.php:775
 #: modules/widgets/simple-payments/form.php:103
 #: modules/widgets/milestone/milestone.php:609
-#: modules/custom-post-types/nova.php:956
+#: modules/custom-post-types/nova.php:980
 #: modules/sitemaps/sitemap-stylist.php:449
 msgid "Description"
 msgstr "説明"
 
-#: modules/custom-post-types/nova.php:955
+#: modules/custom-post-types/nova.php:979
 msgid "Labels: <small>spicy, favorite, etc. <em>Separate Labels with commas</em></small>"
 msgstr "ラベル: <small>例: ホット, お気に入り<em> ラベルは半角カンマで区切ってください</em></small>"
 
-#: modules/custom-post-types/nova.php:942
+#: modules/custom-post-types/nova.php:966
 msgid "Add to section:"
 msgstr "セクションに追加:"
 
-#: modules/custom-post-types/nova.php:939
+#: modules/custom-post-types/nova.php:963
 msgid "Use the <kbd>TAB</kbd> key on your keyboard to move between colums and the <kbd>ENTER</kbd> or <kbd>RETURN</kbd> key to save each row and move on to the next."
 msgstr "キーボードの <kbd>Tab</kbd> キーを使ってカラム間を移動できます。<kbd>Enter</kbd> または<kbd>Return</kbd> キーで各列を保存し、次へ進むことができます。"
 
-#: modules/custom-post-types/nova.php:847
+#: modules/custom-post-types/nova.php:871
 msgid "DOWN"
 msgstr "下"
 
-#: modules/custom-post-types/nova.php:847
+#: modules/custom-post-types/nova.php:871
 msgid "Move menu section down"
 msgstr "メニューセクションを下に移動"
 
-#: modules/custom-post-types/nova.php:845
+#: modules/custom-post-types/nova.php:869
 msgid "UP"
 msgstr "上"
 
-#: modules/custom-post-types/nova.php:845
+#: modules/custom-post-types/nova.php:869
 msgid "Move menu section up"
 msgstr "メニューセクションを上に移動"
 
-#: modules/custom-post-types/nova.php:839
+#: modules/custom-post-types/nova.php:863
 msgid "Uncategorized"
 msgstr "未分類"
 
-#: modules/custom-post-types/nova.php:836
+#: modules/custom-post-types/nova.php:860
 msgid "edit"
 msgstr "編集"
 
-#: modules/custom-post-types/nova.php:572
-#: modules/custom-post-types/nova.php:633
+#: modules/custom-post-types/nova.php:596
+#: modules/custom-post-types/nova.php:657
 msgid "Save New Order"
 msgstr "新しい順序を保存"
 
-#: modules/custom-post-types/nova.php:506
+#: modules/custom-post-types/nova.php:530
 msgid "Order"
 msgstr "順序"
 
 #: modules/widgets/simple-payments/form.php:113
-#: modules/custom-post-types/nova.php:505
-#: modules/custom-post-types/nova.php:954
-#: modules/custom-post-types/nova.php:999
-#: modules/custom-post-types/nova.php:1005 _inc/blocks/editor-beta.js:18
+#: modules/custom-post-types/nova.php:529
+#: modules/custom-post-types/nova.php:978
+#: modules/custom-post-types/nova.php:1023
+#: modules/custom-post-types/nova.php:1029 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Price"
 msgstr "金額"
 
-#: modules/custom-post-types/nova.php:504
+#: modules/custom-post-types/nova.php:528
 msgid "Labels"
 msgstr "ラベル"
 
-#: modules/widgets/flickr/form.php:77 modules/custom-post-types/nova.php:503
+#: modules/widgets/flickr/form.php:77 modules/custom-post-types/nova.php:527
 #: modules/sitemaps/sitemap-stylist.php:306
 #: modules/sitemaps/sitemap-stylist.php:446
 msgid "Thumbnail"
 msgstr "サムネイル"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:484
+#: modules/custom-post-types/nova.php:508
 msgid "Menu Items re-ordered."
 msgstr "メニュー項目を並べ替えました。"
 
-#: modules/custom-post-types/nova.php:421
-#: modules/custom-post-types/nova.php:422
-#: modules/custom-post-types/nova.php:937
+#: modules/custom-post-types/nova.php:445
+#: modules/custom-post-types/nova.php:446
+#: modules/custom-post-types/nova.php:961
 msgid "Add Many Items"
 msgstr "複数項目を追加"
 
-#: modules/custom-post-types/nova.php:330
-#: modules/custom-post-types/nova.php:335
+#. translators: Placehoder is a number of items.
+#: modules/custom-post-types/nova.php:338
+#: modules/custom-post-types/nova.php:352
 msgid "%1$d Food Menu Item"
 msgid_plural "%1$d Food Menu Items"
 msgstr[0] "%1$d フードメニュー項目"
@@ -10203,7 +10270,7 @@ msgstr "コミックの下書きを保存しました。<a target=\"_blank\" hre
 #. translators: Publish box date format, see https://php.net/date
 #: modules/custom-post-types/nova.php:284
 #: modules/custom-post-types/comics.php:321
-#: modules/custom-post-types/portfolios.php:387
+#: modules/custom-post-types/portfolios.php:388
 #: modules/custom-post-types/testimonial.php:356
 msgid "M j, Y @ G:i"
 msgstr "Y年n月j日 @ G:i"
@@ -10235,14 +10302,14 @@ msgstr "コミックを更新しました。"
 
 #: modules/custom-post-types/nova.php:270
 #: modules/custom-post-types/comics.php:312
-#: modules/custom-post-types/portfolios.php:378
+#: modules/custom-post-types/portfolios.php:379
 #: modules/custom-post-types/testimonial.php:347
 msgid "Custom field deleted."
 msgstr "カスタムフィールドを削除しました。"
 
 #: modules/custom-post-types/nova.php:269
 #: modules/custom-post-types/comics.php:311
-#: modules/custom-post-types/portfolios.php:377
+#: modules/custom-post-types/portfolios.php:378
 #: modules/custom-post-types/testimonial.php:346
 msgid "Custom field updated."
 msgstr "カスタムフィールドを更新しました。"
@@ -10341,99 +10408,104 @@ msgstr "投稿に変換"
 msgid "Convert to Comic"
 msgstr "コミックに変換"
 
-#: modules/custom-css/custom-css.php:1245
+#: modules/comments/comments.php:355
+msgid "Show more"
+msgstr "もっと見る"
+
+#: modules/custom-css/custom-css.php:1269
 msgid "Save Stylesheet"
 msgstr "スタイルシートを保存"
 
-#: modules/custom-css/custom-css.php:1245
+#: modules/custom-css/custom-css.php:1269
 msgid "Save &amp; Buy Upgrade"
 msgstr "保存 &amp; アップグレード購入"
 
-#: modules/custom-css/custom-css.php:1243
+#: modules/custom-css/custom-css.php:1267
 #: modules/custom-post-types/comics.php:272 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Preview"
 msgstr "プレビュー"
 
-#: modules/custom-css/custom-css.php:1210
+#: modules/custom-css/custom-css.php:1234
 msgid "Replace <a href=\"%s\">theme's CSS</a> <b>(Advanced)</b>"
 msgstr "<a href=\"%s\">テーマの CSS</a> と入れ替え <b>(上級者向け)</b>"
 
-#: modules/custom-css/custom-css.php:1204
+#: modules/custom-css/custom-css.php:1228
 msgid "Add-on CSS <b>(Recommended)</b>"
 msgstr "CSS を追加 <b>(推奨)</b>"
 
-#: modules/custom-css/custom-css.php:1197
+#: modules/custom-css/custom-css.php:1221
 msgid "Replacement"
 msgstr "差し替え"
 
-#: modules/custom-css/custom-css.php:1197
+#: modules/custom-css/custom-css.php:1221
 msgid "Add-on"
 msgstr "追加"
 
-#: modules/custom-css/custom-css.php:1196
+#: modules/custom-css/custom-css.php:1220
 msgid "Mode:"
 msgstr "モード:"
 
 #: modules/custom-css/custom-css-4.7.php:757
-#: modules/custom-css/custom-css.php:1167
-#: modules/custom-css/custom-css.php:1172 modules/widgets/image-widget.php:243
+#: modules/custom-css/custom-css.php:1191
+#: modules/custom-css/custom-css.php:1196 modules/widgets/image-widget.php:243
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "None"
 msgstr "なし"
 
-#: modules/custom-css/custom-css.php:1166
+#: modules/custom-css/custom-css.php:1190
 msgid "Preprocessor:"
 msgstr "プリプロセッサ:"
 
 #: views/admin/deactivation-dialog.php:53
 #: modules/sharedaddy/sharing-sources.php:675
-#: modules/custom-css/custom-css.php:1093
-#: modules/custom-css/custom-css.php:1184
-#: modules/custom-css/custom-css.php:1225
+#: modules/custom-css/custom-css.php:1117
+#: modules/custom-css/custom-css.php:1208
+#: modules/custom-css/custom-css.php:1249
 #: modules/widgets/simple-payments/form.php:182
-#: modules/contact-form/grunion-editor-view.php:290 _inc/build/admin.js:60
-#: _inc/build/admin.js:71 _inc/blocks/editor-beta.js:18
+#: modules/contact-form/grunion-editor-view.php:290 _inc/build/admin.js:52
+#: _inc/build/admin.js:63 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: modules/custom-css/custom-css.php:1092
-#: modules/custom-css/custom-css.php:1183
-#: modules/custom-css/custom-css.php:1224 modules/publicize/ui.php:625
+#: modules/custom-css/custom-css.php:1116
+#: modules/custom-css/custom-css.php:1207
+#: modules/custom-css/custom-css.php:1248 modules/publicize/ui.php:625
 #: modules/publicize/ui.php:653 modules/publicize/publicize-jetpack.php:530
 #: modules/publicize/publicize-jetpack.php:633
 msgid "OK"
 msgstr "OK"
 
-#: modules/custom-css/custom-css.php:1087
-msgid "The default content width for the %s theme is %d pixel."
-msgid_plural "The default content width for the %s theme is %d pixels."
-msgstr[0] "%s テーマのデフォルトコンテンツの幅は%dピクセルです。"
+#. translators: %1$s is the theme name, %2$d is an amount of pixels.
+#: modules/custom-css/custom-css.php:1100
+msgid "The default content width for the %1$s theme is %2$d pixel."
+msgid_plural "The default content width for the %1$s theme is %2$d pixels."
+msgstr[0] "%1$s テーマのデフォルトコンテンツの幅は%2$dピクセルです。"
 
-#: modules/custom-css/custom-css.php:1052
+#: modules/custom-css/custom-css.php:1060
 msgid "%s px"
 msgstr "%s px"
 
-#: modules/custom-css/custom-css.php:1052
+#: modules/custom-css/custom-css.php:1060
 #: modules/widgets/eu-cookie-law/form.php:19
 #: modules/widgets/eu-cookie-law/form.php:56
 #: modules/theme-tools/content-options/customizer.php:74
 msgid "Default"
 msgstr "デフォルト"
 
-#: modules/custom-css/custom-css.php:1051
+#: modules/custom-css/custom-css.php:1059
 msgid "Media Width:"
 msgstr "メディア幅:"
 
-#: modules/custom-css/custom-css.php:1014
+#: modules/custom-css/custom-css.php:1022
 msgid "Note: Custom CSS will be reset when changing themes."
 msgstr "注: テーマを変更するとカスタム CSS はリセットされます。"
 
-#: modules/custom-css/custom-css.php:1011
+#: modules/custom-css/custom-css.php:1019
 msgid ""
 "New to CSS? Start with a <a href=\"https://www.htmldog.com/guides/css/beginner/\" rel=\"noopener noreferrer\" target=\"_blank\">beginner tutorial</a>. Questions?\n"
 "\t\tAsk in the <a href=\"https://wordpress.org/support/forum/themes-and-templates\" rel=\"noopener noreferrer\" target=\"_blank\">Themes and Templates forum</a>."
@@ -10441,23 +10513,23 @@ msgstr ""
 "CSS についてもっと知りたい場合は、<a href=\"https://www.htmldog.com/guides/css/beginner/\" rel=\"noopener noreferrer\" target=\"_blank\">入門用チュートリアル</a>をご覧ください。質問がある場合は、\n"
 "\t\t<a href=\"https://wordpress.org/support/forum/themes-and-templates\" rel=\"noopener noreferrer\" target=\"_blank\">CSS カスタマイズフォーラム</a>でお尋ねください。"
 
-#: modules/custom-css/custom-css.php:993
+#: modules/custom-css/custom-css.php:1001
 msgid "CSS Stylesheet Editor"
 msgstr "CSS スタイルシートエディター"
 
-#: modules/custom-css/custom-css.php:978
+#: modules/custom-css/custom-css.php:986
 msgid "CSS Revisions"
 msgstr "CSS 変更履歴"
 
-#: modules/custom-css/custom-css.php:972
+#: modules/custom-css/custom-css.php:980
 msgid "Publish"
 msgstr "公開"
 
-#: modules/custom-css/custom-css.php:968
+#: modules/custom-css/custom-css.php:976
 msgid "Stylesheet saved."
 msgstr "スタイルシートを保存しました。"
 
-#: modules/custom-css/custom-css.php:929
+#: modules/custom-css/custom-css.php:937
 msgid "Custom CSS Stylesheet"
 msgstr "カスタム CSS スタイルシート"
 
@@ -10465,21 +10537,21 @@ msgstr "カスタム CSS スタイルシート"
 #: modules/custom-css/custom-css-4.7.php:141
 #: modules/custom-css/custom-css-4.7.php:181
 #: modules/custom-css/custom-css-4.7.php:279
-#: modules/custom-css/custom-css.php:909
+#: modules/custom-css/custom-css.php:917
 msgid "CSS"
 msgstr "CSS"
 
 #: modules/custom-css/custom-css-4.7.php:138
 #: modules/custom-css/custom-css-4.7.php:141
-#: modules/custom-css/custom-css.php:896
+#: modules/custom-css/custom-css.php:904
 msgid "Edit CSS"
 msgstr "CSS 編集"
 
-#: modules/custom-css/custom-css.php:849
+#: modules/custom-css/custom-css.php:857
 msgid "Preview: changes must be saved or they will be lost"
 msgstr "プレビュー: 保存しなかった場合、変更点は失われます。"
 
-#: modules/custom-css/custom-css.php:638
+#: modules/custom-css/custom-css.php:646
 msgid ""
 "Welcome to Custom CSS!\n"
 "\n"
@@ -10505,7 +10577,7 @@ msgstr "保存してフォームビルダーに戻る"
 msgid "What should the subject line be?"
 msgstr "メールの件名"
 
-#: modules/subscriptions/views.php:382
+#: modules/subscriptions/views.php:392
 #: modules/contact-form/grunion-form-view.php:259
 #: extensions/blocks/revue/revue.php:151 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
@@ -10560,7 +10632,7 @@ msgstr "テキストエリア"
 
 #: modules/contact-form/grunion-form-view.php:218
 #: modules/contact-form/grunion-editor-view.php:218
-#: modules/contact-form/grunion-contact-form.php:2407
+#: modules/contact-form/grunion-contact-form.php:2472
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Text"
@@ -10580,7 +10652,7 @@ msgstr "ドロップダウン"
 
 #: modules/contact-form/grunion-form-view.php:212
 #: modules/contact-form/grunion-editor-view.php:223
-#: modules/contact-form/grunion-contact-form.php:2428
+#: modules/contact-form/grunion-contact-form.php:2493
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Checkbox"
@@ -10739,16 +10811,16 @@ msgid "Name"
 msgstr "名前"
 
 #: modules/contact-form/grunion-editor-view.php:156
-#: modules/contact-form/grunion-contact-form.php:3533
-#: modules/contact-form/grunion-contact-form.php:3553
-#: modules/contact-form/grunion-contact-form.php:3555 _inc/build/admin.js:60
+#: modules/contact-form/grunion-contact-form.php:3598
+#: modules/contact-form/grunion-contact-form.php:3618
+#: modules/contact-form/grunion-contact-form.php:3620 _inc/build/admin.js:52
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Yes"
 msgstr "はい"
 
 #: modules/contact-form/grunion-editor-view.php:94
-#: modules/contact-form/grunion-contact-form.php:3648
+#: modules/contact-form/grunion-contact-form.php:3713
 #: extensions/blocks/revue/revue.php:72 _inc/blocks/editor-beta.js:14
 #: _inc/blocks/editor-no-post-editor.js:14
 #: _inc/blocks/editor-experimental.js:14 _inc/blocks/editor.js:14
@@ -10756,113 +10828,113 @@ msgid "(required)"
 msgstr "(必須)"
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3340
+#: modules/contact-form/grunion-contact-form.php:3405
 msgid "%s is required"
 msgstr "%s は必須項目です。"
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3326
+#: modules/contact-form/grunion-contact-form.php:3391
 msgid "%s requires a valid email address"
 msgstr "「%s」欄には正しいメールアドレスが必要です。"
 
-#: modules/contact-form/grunion-contact-form.php:2905
+#: modules/contact-form/grunion-contact-form.php:2970
 msgid "Sent by an unverified visitor to your site."
 msgstr "認証されていないサイト訪問者から送信されました。"
 
-#: modules/contact-form/grunion-contact-form.php:2899
+#: modules/contact-form/grunion-contact-form.php:2964
 msgid "Sent by a verified %s user."
 msgstr "認証済みの %s ユーザーから送信されました。"
 
-#: modules/contact-form/grunion-contact-form.php:2892
+#: modules/contact-form/grunion-contact-form.php:2957
 msgid "Contact Form URL:"
 msgstr "お問い合せフォーム URL:"
 
-#: modules/contact-form/grunion-contact-form.php:2891
+#: modules/contact-form/grunion-contact-form.php:2956
 msgid "IP Address:"
 msgstr "IP アドレス:"
 
-#: modules/contact-form/grunion-contact-form.php:2890
+#: modules/contact-form/grunion-contact-form.php:2955
 msgid "Time:"
 msgstr "時間:"
 
-#: modules/contact-form/grunion-contact-form.php:2081
+#: modules/contact-form/grunion-contact-form.php:2118
 msgid "go back"
 msgstr "戻る"
 
-#: modules/contact-form/grunion-contact-form.php:2062
+#: modules/contact-form/grunion-contact-form.php:2099
 msgid "Error!"
 msgstr "エラー。"
 
-#: modules/contact-form/grunion-contact-form.php:1955
+#: modules/contact-form/grunion-contact-form.php:1992
 msgid "Subject"
 msgstr "件名"
 
-#: modules/contact-form/grunion-contact-form.php:1916
+#: modules/contact-form/grunion-contact-form.php:1953
 msgctxt "%1$s = blog name, %2$s = post title"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: modules/contact-form/grunion-contact-form.php:1913
+#: modules/contact-form/grunion-contact-form.php:1950
 msgctxt "%1$s = blog name"
 msgid "%1$s Sidebar"
 msgstr "%1$s サイドバー"
 
 #: modules/contact-form/grunion-form-view.php:56
-#: modules/contact-form/grunion-contact-form.php:973
-#: modules/contact-form/grunion-contact-form.php:1657 _inc/build/admin.js:60
+#: modules/contact-form/grunion-contact-form.php:1010
+#: modules/contact-form/grunion-contact-form.php:1694 _inc/build/admin.js:52
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Contact Form"
 msgstr "コンタクトフォーム"
 
-#: modules/contact-form/grunion-contact-form.php:884
+#: modules/contact-form/grunion-contact-form.php:921
 msgid "Download"
 msgstr "ダウンロード"
 
-#: modules/contact-form/grunion-contact-form.php:879
+#: modules/contact-form/grunion-contact-form.php:916
 msgid "All posts"
 msgstr "すべての投稿"
 
-#: modules/contact-form/grunion-contact-form.php:877
+#: modules/contact-form/grunion-contact-form.php:914
 msgid "Select feedback to download"
 msgstr "ダウンロードするフィードバックを選択"
 
-#: modules/contact-form/grunion-contact-form.php:395
-#: modules/contact-form/grunion-contact-form.php:871
+#: modules/contact-form/grunion-contact-form.php:432
+#: modules/contact-form/grunion-contact-form.php:908
 msgid "Export feedback as CSV"
 msgstr "フィードバックを CSV としてエクスポート"
 
-#: modules/contact-form/grunion-contact-form.php:807
+#: modules/contact-form/grunion-contact-form.php:844
 msgid "Feedback discarded."
 msgstr "フィードバックを削除しました。"
 
-#: modules/contact-form/grunion-contact-form.php:553
-#: modules/contact-form/grunion-contact-form.php:2080
+#: modules/contact-form/grunion-contact-form.php:590
+#: modules/contact-form/grunion-contact-form.php:2117
 msgid "Message Sent"
 msgstr "メッセージを送信しました。"
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-instagram-gallery.php:115
-#: modules/contact-form/grunion-contact-form.php:545
+#: modules/contact-form/grunion-contact-form.php:582
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "An error occurred. Please try again later."
 msgstr "エラーが発生しました。後ほどもう一度お試しください。"
 
-#: modules/contact-form/grunion-contact-form.php:215
+#: modules/contact-form/grunion-contact-form.php:216
 msgid "Spam <span class=\"count\">(%s)</span>"
 msgid_plural "Spam <span class=\"count\">(%s)</span>"
 msgstr[0] "スパム <span class=\"count\">(%s)</span>"
 
-#: modules/contact-form/grunion-contact-form.php:176
 #: modules/contact-form/grunion-contact-form.php:177
+#: modules/contact-form/grunion-contact-form.php:178
 msgid "No feedback found"
 msgstr "フィードバックが見つかりませんでした"
 
-#: modules/contact-form/grunion-contact-form.php:175
+#: modules/contact-form/grunion-contact-form.php:176
 msgid "Search Feedback"
 msgstr "フィードバックを検索"
 
-#: modules/contact-form/admin.php:836
+#: modules/contact-form/admin.php:838
 msgid "Check for Spam"
 msgstr "スパムチェック"
 
@@ -10887,7 +10959,7 @@ msgid "You are not allowed to move this item out of the Trash."
 msgstr "この項目をゴミ箱から移動する権限がありません。"
 
 #: modules/contact-form/admin.php:457
-#: modules/contact-form/grunion-contact-form.php:2807
+#: modules/contact-form/grunion-contact-form.php:2872
 msgctxt "{$date_format} \\a\\t {$time_format}"
 msgid "%1$s \\a\\t %2$s"
 msgstr "%1$s%2$s"
@@ -10921,7 +10993,7 @@ msgstr "この項目をゴミ箱から復元する"
 #: modules/widgets/milestone/milestone.php:614
 #: modules/contact-form/admin.php:238
 #: modules/contact-form/grunion-editor-view.php:227
-#: modules/contact-form/grunion-contact-form.php:2419
+#: modules/contact-form/grunion-contact-form.php:2484
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Date"
@@ -10930,8 +11002,8 @@ msgstr "日付"
 #: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1073
 #: modules/contact-form/admin.php:237
 #: modules/contact-form/grunion-editor-view.php:90
-#: modules/contact-form/grunion-contact-form.php:1959
-#: modules/contact-form/grunion-contact-form.php:2425
+#: modules/contact-form/grunion-contact-form.php:1996
+#: modules/contact-form/grunion-contact-form.php:2490
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Message"
@@ -10971,15 +11043,15 @@ msgstr "完全に削除する"
 msgid "Add Contact Form"
 msgstr "お問合せフォームを追加"
 
-#: modules/comments/comments.php:575 modules/comments/comments.php:626
+#: modules/comments/comments.php:600 modules/comments/comments.php:651
 msgid "Submitting Comment%s"
 msgstr "コメントを送信%s"
 
-#: modules/comments/comments.php:499
+#: modules/comments/comments.php:524
 msgid "Invalid security token."
 msgstr "不正なセキュリティトークンです。"
 
-#: modules/comments/comments.php:333
+#: modules/comments/comments.php:335
 msgid "Cancel reply"
 msgstr "コメントをキャンセル"
 
@@ -11015,7 +11087,7 @@ msgstr "コメントフォームのメッセージと配色設定ができます
 msgid "Color Scheme"
 msgstr "配色"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2101
+#: _inc/lib/class.core-rest-api-endpoints.php:2112
 #: modules/comments/admin.php:81
 msgid "Greeting Text"
 msgstr "グリーティングメッセージ"
@@ -11023,30 +11095,30 @@ msgstr "グリーティングメッセージ"
 #: modules/carousel/jetpack-carousel.php:791
 #: modules/masterbar/masterbar.php:1049 modules/widgets/rsslinks-widget.php:102
 #: modules/widgets/rsslinks-widget.php:180 modules/comments/admin.php:72
-#: _inc/build/admin.js:52 _inc/build/admin.js:60
+#: _inc/build/admin.js:52
 msgid "Comments"
 msgstr "コメント"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2119
+#: _inc/lib/class.core-rest-api-endpoints.php:2130
 #: modules/comments/admin.php:56
 msgid "Transparent"
 msgstr "透明"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2118
+#: _inc/lib/class.core-rest-api-endpoints.php:2129
 #: modules/search/class-jetpack-search-customize.php:72
 #: modules/widgets/twitter-timeline.php:574
 #: modules/widgets/eu-cookie-law/form.php:237 modules/comments/admin.php:55
 msgid "Dark"
 msgstr "ダーク"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2117
+#: _inc/lib/class.core-rest-api-endpoints.php:2128
 #: modules/search/class-jetpack-search-customize.php:71
 #: modules/widgets/twitter-timeline.php:571
 #: modules/widgets/eu-cookie-law/form.php:226 modules/comments/admin.php:54
 msgid "Light"
 msgstr "ライト"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2103
+#: _inc/lib/class.core-rest-api-endpoints.php:2114
 #: modules/comments/comments.php:247 modules/comments/admin.php:50
 msgid "Leave a Reply"
 msgstr "コメントを残す"
@@ -11055,12 +11127,12 @@ msgstr "コメントを残す"
 msgid "Display images in full-size carousel slideshow."
 msgstr "画像をフルサイズのカルーセルスライドショーで表示する。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2079
+#: _inc/lib/class.core-rest-api-endpoints.php:2090
 #: modules/carousel/jetpack-carousel.php:890
 msgid "White"
 msgstr "白"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2078
+#: _inc/lib/class.core-rest-api-endpoints.php:2089
 #: modules/carousel/jetpack-carousel.php:889
 msgid "Black"
 msgstr "黒"
@@ -11069,7 +11141,7 @@ msgstr "黒"
 msgid "Show map of photo location in carousel, when available."
 msgstr "写真の位置情報がある場合はカルーセル内に表示する。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2085
+#: _inc/lib/class.core-rest-api-endpoints.php:2096
 msgid "Show photo metadata (<a href=\"https://en.wikipedia.org/wiki/Exchangeable_image_file_format\" target=\"_blank\">Exif</a>) in carousel, when available."
 msgstr "写真のメタ情報 (<a href=\"https://en.wikipedia.org/wiki/Exchangeable_image_file_format\" target=\"_blank\">Exif</a>) がある場合はカルーセル内に表示します。"
 
@@ -11134,8 +11206,8 @@ msgstr "添付ファイル ID がありません。"
 #: modules/contact-form/grunion-form-view.php:220
 #: modules/contact-form/grunion-editor-view.php:89
 #: modules/contact-form/grunion-editor-view.php:221
-#: modules/contact-form/grunion-contact-form.php:1951
-#: modules/contact-form/grunion-contact-form.php:2416
+#: modules/contact-form/grunion-contact-form.php:1988
+#: modules/contact-form/grunion-contact-form.php:2481
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Website"
@@ -11148,8 +11220,8 @@ msgstr "サイト"
 #: modules/contact-form/grunion-form-view.php:215
 #: modules/contact-form/grunion-editor-view.php:88
 #: modules/contact-form/grunion-editor-view.php:220
-#: modules/contact-form/grunion-contact-form.php:1950
-#: modules/contact-form/grunion-contact-form.php:2413
+#: modules/contact-form/grunion-contact-form.php:1987
+#: modules/contact-form/grunion-contact-form.php:2478
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Email"
@@ -11231,7 +11303,7 @@ msgstr "コメント"
 msgid "Jetpack's Carousel has been disabled, because another plugin or your theme is overriding the [gallery] shortcode."
 msgstr "[gallery] ショートコードを上書きする他のプラグインまたはテーマを使用中のため、カルーセルプラグインは無効化されています。"
 
-#: modules/widget-visibility/widget-conditions.php:342
+#: modules/widget-visibility/widget-conditions.php:436
 msgid "Add"
 msgstr "追加"
 
@@ -11385,8 +11457,9 @@ msgstr "モジュールが見つかりません: %s"
 msgid "You are required to specify a module."
 msgstr "モジュールを指定する必要があります。"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:116
-#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:121
+#. translators: %s: comma-separated list of capabilities
+#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:123
+#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:129
 msgid "This user is not authorized to %s on this blog."
 msgstr "このユーザーにはこのブログで%sを行う権限がありません。"
 
@@ -11410,7 +11483,7 @@ msgstr "アルバム"
 msgid "Artist"
 msgstr "アーティスト"
 
-#: json-endpoints/class.wpcom-json-api-update-comment-endpoint.php:272
+#: json-endpoints/class.wpcom-json-api-update-comment-endpoint.php:275
 msgid "Comment cache problem?"
 msgstr "コメントキャッシュの問題が発生している場合"
 
@@ -11445,76 +11518,76 @@ msgstr "タイプ"
 msgid "Thumbnail Grid"
 msgstr "サムネイルグリッド"
 
-#: class.jetpack.php:6976
+#: class.jetpack.php:6965
 msgid "Anti-spam can help to keep your blog safe from spam!"
 msgstr "スパム対策はブログをスパムから守るのに役立ちます。"
 
-#: class.jetpack.php:6941
+#: class.jetpack.php:6930
 msgid "Protect helps to keep you secure from brute-force login attacks."
 msgstr "プロテクト機能は総当たりログイン攻撃に対してサイトを保護します。"
 
-#: class.jetpack.php:6925
+#: class.jetpack.php:6914
 msgctxt "{#} Blocked malicious login attempts -- number is on a prior line, text is a caption."
 msgid "Blocked malicious login attempts"
 msgstr "ブロックした悪意あるログイン試行"
 
-#: class.jetpack.php:4045
+#: class.jetpack.php:4040
 msgid "Deactivate Jetpack"
 msgstr "Jetpack を無効化"
 
-#: class.jetpack.php:6069
+#: class.jetpack.php:6052
 msgid "%s wants to access your site&#8217;s data.  Log in to authorize that access."
 msgstr "%s がサイトのデータにアクセスを試みています。ログインして認証してください。"
 
-#: class.jetpack.php:6029
+#: class.jetpack.php:6012
 msgid "The authorization process expired.  Please go back and try again."
 msgstr "認証処理の期限が切れています。前の画面に戻ってもう一度お試しください。"
 
-#: class.jetpack.php:5956
+#: class.jetpack.php:5939
 msgid "Someone may be trying to trick you into giving them access to your site.  Or it could be you just encountered a bug :).  Either way, please close this window."
 msgstr "誰かがあなたのサイトへのアクセス権を不正に取得しようとしているか、何らかのバグが発生したようです。いずれの場合も、このウィンドウを閉じて構いません。"
 
-#: class.jetpack.php:5953
+#: class.jetpack.php:5936
 msgid "You must connect your Jetpack plugin to WordPress.com to use this feature."
 msgstr "この機能を使うには Jetpack プラグインと WordPress.com アカウントの連携が必要です。"
 
-#: class.jetpack.php:4532
+#: class.jetpack.php:4527
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Deactivate %l"
 msgstr "%l を無効化"
 
-#: class.jetpack.php:4515
+#: class.jetpack.php:4510
 msgctxt "%1$s = deactivation URL, %2$s = \"Deactivate {list of Jetpack module/feature names}"
 msgid "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating this feature</a>."
 msgid_plural "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating these features</a>."
 msgstr[0] "公開サイトではない場合、<a href=\"%1$s\" title=\"%2$s\">機能を無効化してみてください</a>。"
 
-#: class.jetpack.php:4498
+#: class.jetpack.php:4493
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Like your site's RSS feeds, %l allows access to your posts and other content to third parties."
 msgid_plural "Like your site's RSS feeds, %l allow access to your posts and other content to third parties."
 msgstr[0] "サイトの RSS フィードと同様、%l はサードパーティによる投稿その他のコンテンツへのアクセスを許可します。"
 
-#: class.jetpack.php:4492
+#: class.jetpack.php:4487
 msgid "Is this site private?"
 msgstr "このサイトは非公開ですか ?"
 
-#: class.jetpack.php:4405
+#: class.jetpack.php:4400
 msgid "The old version has been deactivated and can be removed from your site."
 msgid_plural "The old versions have been deactivated and can be removed from your site."
 msgstr[0] "古いバージョンは無効化済みです。サイトから削除できます。"
 
-#: class.jetpack.php:4394
+#: class.jetpack.php:4389
 msgid "Jetpack contains the most recent version of the old %l plugin."
 msgid_plural "Jetpack contains the most recent versions of the old %l plugins."
 msgstr[0] "Jetpack には、最新バージョンの %l プラグインが含まれています。"
 
-#: class.jetpack.php:4369
+#: class.jetpack.php:4364
 msgid "Manage has been activated for you!"
 msgstr "一元管理機能を有効化しました。"
 
 #. translators: %s is the URL to the "Sites" panel on wordpress.com.
-#: class.jetpack.php:4367
+#: class.jetpack.php:4362
 msgid "You are all set! Your site can now be managed from <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
 msgstr "準備ができました。今後、<a href=\"%s\" target=\"_blank\">wordpress.com/sites</a> からサイトを管理できます。"
 
@@ -11522,52 +11595,52 @@ msgstr "準備ができました。今後、<a href=\"%s\" target=\"_blank\">wor
 msgid "<strong>Jetpack is activated!</strong> Each site on your network must be connected individually by an admin on that site."
 msgstr "<strong>Jetpack を有効化しました。</strong> ネットワーク上の各サイトでは、それぞれのサイトの管理者が連携設定を行う必要があります。"
 
-#: class.jetpack.php:3928
+#: class.jetpack.php:3923
 msgid "Jetpack Support"
 msgstr "Jetpack サポート"
 
-#: class.jetpack.php:3927
+#: class.jetpack.php:3922
 msgid "Jetpack FAQ"
 msgstr "Jetpack よくある質問"
 
-#: class.jetpack.php:3926
+#: class.jetpack.php:3921
 msgid "For more information:"
 msgstr "詳細情報:"
 
-#: class.jetpack.php:3917
+#: class.jetpack.php:3912
 msgid "Using the tools on the right, you can search for specific modules, filter by module categories or which are active, or change the sorting order."
 msgstr "右側のツールを使って特定のモジュールを検索したり、モジュールをカテゴリーや有効状態別に絞り込んだり、並び順を変更したりできます。"
 
-#: class.jetpack.php:3915
+#: class.jetpack.php:3910
 msgid "Using the checkboxes next to each module, you can select multiple modules to toggle via the Bulk Actions menu at the top of the list."
 msgstr "各モジュールの隣にあるチェックボックスを使って複数のモジュールを選択し、一覧の上部にある一括操作メニューでまとめて切り替えることができます。"
 
-#: class.jetpack.php:3914
+#: class.jetpack.php:3909
 msgid "Each module has an Activate or Deactivate link so you can toggle one individually."
 msgstr "各モジュールには「有効化」「無効化」リンクがあり、個別に切り替えることができます。"
 
-#: class.jetpack.php:3912
+#: class.jetpack.php:3907
 msgid "You can activate or deactivate individual Jetpack modules to suit your needs."
 msgstr "各 Jetpack モジュールを必要に応じて有効化・無効化できます。"
 
-#: class.jetpack.php:3900
+#: class.jetpack.php:3895
 msgid "On this page, you are able to view the modules available within Jetpack, learn more about them, and activate or deactivate them as needed."
 msgstr "このページでは Jetpack 内で利用可能なモジュールを表示できます。詳細を確認し、必要なものを有効化・無効化してください。"
 
-#: class.jetpack.php:3899
+#: class.jetpack.php:3894
 msgid "Jetpack supercharges your self-hosted WordPress site with the awesome cloud power of WordPress.com."
 msgstr "Jetpack は、WordPress.com クラウドの力を活用してインストール型サイトをパワーアップできる WordPress プラグインです。 "
 
 #. Plugin Name of the plugin
-#: class.jetpack.php:3898 class.jetpack.php:3911
+#: class.jetpack.php:3893 class.jetpack.php:3906
 msgid "Jetpack by WordPress.com"
 msgstr "Jetpack by WordPress.com"
 
-#: class.jetpack.php:3896 modules/theme-tools/site-breadcrumbs.php:58
+#: class.jetpack.php:3891 modules/theme-tools/site-breadcrumbs.php:58
 msgid "Home"
 msgstr "ホーム"
 
-#: class.jetpack.php:3640 class.jetpack.php:3656
+#: class.jetpack.php:3635 class.jetpack.php:3651
 msgid "Jetpack contains the most recent version of the old &#8220;%1$s&#8221; plugin."
 msgstr "Jetpack には、最新バージョンの &#8220;%1$s&#8221; プラグインが含まれています。"
 
@@ -11588,7 +11661,7 @@ msgstr "Jetpack を使うには WordPress バージョン %s 以降が必要で�
 msgid "You are currently running a development version of Jetpack. <a href=\"%s\" target=\"_blank\">Submit your feedback</a>"
 msgstr "現在、Jetpack の開発バージョンを実行しています。<a href=\"%s\" target=\"_blank\">ご意見をお寄せください</a>"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2333
+#: _inc/lib/class.core-rest-api-endpoints.php:2344
 #: class.jetpack-twitter-cards.php:326
 msgid "The Twitter username of the owner of this site's domain."
 msgstr "サイトドメイン保有者の Twitter ユーザー名。"
@@ -11628,10 +11701,10 @@ msgid "Jetpack Sites"
 msgstr "Jetpack サイト"
 
 #: class.jetpack-network-sites-list-table.php:62
-#: modules/custom-css/custom-css.php:1053
-#: modules/custom-css/custom-css.php:1168
-#: modules/custom-css/custom-css.php:1198 modules/publicize/ui.php:517
-#: modules/publicize/ui.php:525 _inc/build/admin.js:60
+#: modules/custom-css/custom-css.php:1061
+#: modules/custom-css/custom-css.php:1192
+#: modules/custom-css/custom-css.php:1222 modules/publicize/ui.php:517
+#: modules/publicize/ui.php:525 _inc/build/admin.js:52
 #: _inc/blocks/editor-beta.js:18 _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Edit"
@@ -11672,12 +11745,12 @@ msgstr "モジュールを検索…"
 
 #: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1073
 #: modules/carousel/jetpack-carousel.php:297
-#: modules/custom-post-types/nova.php:953
+#: modules/custom-post-types/nova.php:977
 #: modules/contact-form/grunion-form-view.php:216
 #: modules/contact-form/grunion-editor-view.php:87
 #: modules/contact-form/grunion-editor-view.php:219
-#: modules/contact-form/grunion-contact-form.php:1949
-#: modules/contact-form/grunion-contact-form.php:2410
+#: modules/contact-form/grunion-contact-form.php:1986
+#: modules/contact-form/grunion-contact-form.php:2475
 #: class.jetpack-modules-list-table.php:208 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
@@ -11833,7 +11906,7 @@ msgid "All modules activated!"
 msgstr "すべてのモジュールを有効化しました。"
 
 #. translators: %s is the name of a Jetpack module
-#: class.jetpack-cli.php:534 _inc/build/admin.js:71
+#: class.jetpack-cli.php:534 _inc/build/admin.js:67
 msgid "%s has been activated."
 msgstr "%s を有効化しました。"
 
@@ -11846,7 +11919,7 @@ msgstr "有効なモジュールを指定してください。"
 msgid "%s is not a valid module."
 msgstr "%s は無効なモジュールです。"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2019 class.jetpack-cli.php:330
+#: _inc/lib/class.core-rest-api-endpoints.php:2030 class.jetpack-cli.php:330
 #: class.jetpack-cli.php:338
 msgid "Modules reset to default."
 msgstr "モジュールを初期設定にリセットしました。"
@@ -11925,13 +11998,13 @@ msgstr "%s は無効なコマンドです。"
 msgid "Jetpack is not currently connected to WordPress.com"
 msgstr "現在 Jetpack は WordPress.com アカウントと連携されていません"
 
-#: class.jetpack.php:3929
+#: class.jetpack.php:3924
 msgid "Jetpack Debugging Center"
 msgstr "Jetpack デバッグセンター"
 
 #: modules/plugin-search.php:216 modules/plugin-search.php:509
-#: modules/stats.php:585 modules/stats.php:1108 class.jetpack-admin.php:206
-#: _inc/build/admin.js:60
+#: modules/stats.php:589 modules/stats.php:1112 class.jetpack-admin.php:206
+#: _inc/build/admin.js:52
 msgid "Configure"
 msgstr "設定"
 
@@ -11962,7 +12035,7 @@ msgid "Inactive"
 msgstr "無効"
 
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:96
-#: modules/vaultpress.php:27 class.jetpack-cli.php:523 _inc/build/admin.js:60
+#: modules/vaultpress.php:27 class.jetpack-cli.php:523 _inc/build/admin.js:52
 msgid "Active"
 msgstr "有効"
 
@@ -11978,11 +12051,11 @@ msgstr "すべて"
 msgid "View:"
 msgstr "表示:"
 
-#: class.jetpack.php:7377
+#: class.jetpack.php:7366
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:92
 #: modules/masterbar/masterbar.php:503 modules/widgets/search.php:70
-#: _inc/build/instant-search/jp-search.bundle.js:1 _inc/build/admin.js:60
-#: _inc/build/admin.js:71 _inc/blocks/editor-beta.js:18
+#: _inc/build/instant-search/jp-search.bundle.js:1 _inc/build/admin.js:52
+#: _inc/build/admin.js:67 _inc/blocks/editor-beta.js:18
 #: _inc/blocks/editor-no-post-editor.js:18
 #: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
 msgid "Search"
@@ -11995,15 +12068,15 @@ msgstr "Jetpack 設定"
 #: modules/calypsoify/class.jetpack-calypsoify.php:258
 #: modules/calypsoify/class.jetpack-calypsoify.php:313
 #: modules/contact-form/grunion-form-view.php:191
-#: modules/contact-form/grunion-contact-form.php:173
 #: modules/contact-form/grunion-contact-form.php:174
-#: modules/contact-form/grunion-contact-form.php:1004
-#: modules/contact-form/grunion-contact-form.php:1022
-#: modules/contact-form/grunion-contact-form.php:1092
+#: modules/contact-form/grunion-contact-form.php:175
+#: modules/contact-form/grunion-contact-form.php:1041
+#: modules/contact-form/grunion-contact-form.php:1059
+#: modules/contact-form/grunion-contact-form.php:1129
 msgid "Feedback"
 msgstr "フィードバック"
 
-#: class.jetpack.php:3909 class.jetpack.php:3986
+#: class.jetpack.php:3904 class.jetpack.php:3981
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:22
 #: _inc/lib/admin-pages/class.jetpack-admin-page.php:339
 #: _inc/lib/admin-pages/class.jetpack-react-page.php:86
@@ -12021,14 +12094,14 @@ msgstr "設定"
 msgid "Jetpack"
 msgstr "Jetpack"
 
-#: class.jetpack.php:7348 class.jetpack.php:7369 class.jetpack.php:7390
-#: modules/protect.php:189 modules/custom-post-types/portfolios.php:140
+#: class.jetpack.php:7337 class.jetpack.php:7358 class.jetpack.php:7379
+#: modules/protect.php:187 modules/custom-post-types/portfolios.php:140
 #: modules/custom-post-types/testimonial.php:155
-#: modules/custom-content-types.php:44 _inc/build/admin.js:71
+#: modules/custom-content-types.php:44 _inc/build/admin.js:75
 msgid "Learn More"
 msgstr "さらに詳しく"
 
-#: class.jetpack.php:3987 modules/sharedaddy/sharedaddy.php:225
+#: class.jetpack.php:3982 modules/sharedaddy/sharedaddy.php:225
 msgid "Support"
 msgstr "サポート"
 
