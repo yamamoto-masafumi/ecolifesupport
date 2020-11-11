@@ -277,6 +277,8 @@ CONTENT STYLES
     .imgbox,.imgbox2{
       img{
         display: block;
+        width: 270px;
+        height: 180px;
         object-fit: cover;
       }
       .title{
