@@ -31,6 +31,14 @@
               ) );
             ?>
           </div>
+          <div class="">
+            <h3>リサイクル品の回収にお困りの際は</h3>
+            <p>ぜひエコライフサポートまで<span><a href="https://ecolifesupport.com/contact/">お問い合わせ</a></span>下さい。<br>
+            経験豊富なスタッフがお見積りと、作業に伺います。<br>
+            お見積りは無料ですので、お値段の折り合いがつかない場合は、お断り頂いてもかまいません。<br>
+            <br>
+            まずは1度<span><a href="tel:0120-829-053">フリーダイヤル</a></span>にご連絡ください。</p>
+          </div>
           <div class="boder_bottum"></div>
           <div class="usefularticle-cv">
             <div class="usefularticle-cv_img">
