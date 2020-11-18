@@ -15,7 +15,7 @@
           <h3>お役立ちコンテンツ</h3>
         </div>
       </header>
-      <p class="header-bottom">HOME> <span>お役立ちちコンテンツ</span></p>
+      <p class="header-bottom">HOME> <span>お役立ちコンテンツ</span></p>
       <div class="usefularticle-format">
         <div class="post-menu">
           <div class="usefularticle-title">
