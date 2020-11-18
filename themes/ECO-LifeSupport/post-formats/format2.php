@@ -4,7 +4,7 @@
       <h3>お役立ちコンテンツ</h3>
     </div>
   </header>
-  <p class="header-bottom">HOME > お知らせ > <span><?php the_time('Y.m.d'); echo the_title(); ?></span></p>
+  <p class="header-bottom">HOME > お役立ちコンテンツ > <span><?php the_time('Y.m.d'); echo the_title(); ?></span></p>
   <div class="usefularticle-format">
     <!-- 1ｶﾗﾑ -->
     <div class="post-menu">
