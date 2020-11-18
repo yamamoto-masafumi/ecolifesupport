@@ -4,7 +4,7 @@
       <h3>お役立ちコンテンツ</h3>
     </div>
   </header>
-  <p class="header-bottom">HOME > お知らせ > <span><?php the_time('Y.m.d'); echo the_title(); ?></span></p>
+  <p class="header-bottom">HOME > お役立ちコンテンツ > <span><?php the_time('Y.m.d'); echo the_title(); ?></span></p>
   <div class="usefularticle-format">
     <!-- 1ｶﾗﾑ -->
     <div class="post-menu">
@@ -42,11 +42,11 @@
           <div class="boder_bottum"></div>
           <div class="usefularticle-cv">
             <div class="usefularticle-cv_img">
-          
-              <?php if(wp_is_mobile()) : ?>
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner-sp.png">
+            
+            <?php if(wp_is_mobile()) : ?>
+                <a href="<?php echo home_url('/contact'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner-sp.png"></a>
               <?php else : ?>
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner.jpg">
+                <a href="<?php echo home_url('/contact'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner.jpg"></a>
               <?php endif; ?>
 
             </div>
@@ -107,7 +107,8 @@
               <div class="cell">
                 <div class="thumbnail">
                   <a href="<?php the_permalink(); ?>">
-                    <?php if(has_post_thumbnail()): the_post_thumbnail('thumbnail');
+                  <!-- 20201117_変更箇所_thumnailからfull -->
+                    <?php if(has_post_thumbnail()): the_post_thumbnail('full');
                       else: ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.jpg" alt="<?php the_title(); ?>">
                     <?php endif; ?>
