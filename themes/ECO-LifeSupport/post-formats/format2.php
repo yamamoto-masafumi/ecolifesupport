@@ -42,11 +42,11 @@
           <div class="boder_bottum"></div>
           <div class="usefularticle-cv">
             <div class="usefularticle-cv_img">
-          
-              <?php if(wp_is_mobile()) : ?>
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner-sp.png">
+            
+            <?php if(wp_is_mobile()) : ?>
+                <a href="<?php echo home_url('/contact'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner-sp.png"></a>
               <?php else : ?>
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner.jpg">
+                <a href="<?php echo home_url('/contact'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/useful-contents/corner.jpg"></a>
               <?php endif; ?>
 
             </div>
