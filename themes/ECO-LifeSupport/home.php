@@ -945,7 +945,8 @@
                 <div class="imgbox2">
                   <div class="thumbnail">
                     <a href="<?php the_permalink(); ?>">
-                      <?php if(has_post_thumbnail()): the_post_thumbnail('thumbnail');
+                    <!-- 20201117_変更箇所_thumnailからfull -->
+                      <?php if(has_post_thumbnail()): the_post_thumbnail('full');
                         else: ?>
                           <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.jpg" alt="<?php the_title(); ?>">
                       <?php endif; ?>
