@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-10 14:26:41+0000\n"
+"PO-Revision-Date: 2020-11-19 15:54:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,6 +30,10 @@ msgstr "YouTube ポスター"
 #: modules/shortcodes/youtube.php:198
 msgid "YouTube Error: missing id and/or list"
 msgstr "YouTube エラー : ID やリストが欠落しています"
+
+#: modules/contact-form/admin.php:1014
+msgid "An error occurred while trying to check for spam among the feedback you received."
+msgstr "受信したフィードバックにスパムが含まれていないかチェックしようとしましたがエラーが発生しました。"
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-admin-menu.php:63
 msgid "Sorry, you are not allowed to view menus on this site."
