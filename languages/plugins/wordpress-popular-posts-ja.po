@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WordPress Popular Posts - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-25 13:33:20+0000\n"
+"PO-Revision-Date: 2020-11-13 14:59:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,10 +39,6 @@ msgstr "リスト内での投稿の位置を表示します"
 msgid "outputs number of popular posts found"
 msgstr "見つかった人気の投稿数を表示します"
 
-#: src/Admin/Admin.php:493
-msgid "View more"
-msgstr "さらに表示"
-
 #: src/Admin/admin-page.php:425
 msgid "No"
 msgstr "いいえ"
@@ -51,17 +47,21 @@ msgstr "いいえ"
 msgid "Lazy load"
 msgstr "Lazy Load"
 
-#: src/Admin/Admin.php:699 src/Admin/Admin.php:1090 src/Admin/Admin.php:1092
-#: src/Output.php:718
-msgid "%s comment"
-msgid_plural "%s comments"
-msgstr[0] "%s 件のコメント"
+#: src/Admin/Admin.php:493
+msgid "View more"
+msgstr "さらに表示"
 
 #: src/Admin/Admin.php:699 src/Admin/Admin.php:1088 src/Admin/Admin.php:1092
 #: src/Output.php:735
 msgid "%s view"
 msgid_plural "%s views"
 msgstr[0] "%s件のビュー"
+
+#: src/Admin/Admin.php:699 src/Admin/Admin.php:1090 src/Admin/Admin.php:1092
+#: src/Output.php:718
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s件のコメント"
 
 #: src/Rest/Controller.php:493
 msgid "Include popular posts from author ID(s)."
@@ -171,6 +171,10 @@ msgstr "指定された時間フレームより古いデータは自動的に削
 #: src/Admin/admin-page.php:730
 msgid "If set, WordPress Popular Posts will retrieve all entries that belong to the specified category ID(s). If a minus sign is used, entries associated to the category will be excluded instead."
 msgstr "設定されていると WordPress Popular Posts は指定されたカテゴリー ID をもとに投稿を取得するようになります。マイナス記号が使われている場合、それらのカテゴリーが設定された投稿は除外されます。"
+
+#. Description of the plugin
+msgid "A highly customizable widget that displays the most popular posts on your blog."
+msgstr "人気な投稿をサイト上に表示するカスタマイズ豊富なウィジェットです。"
 
 #: src/Widget/form.php:167
 msgid "Display taxonomy"
@@ -284,7 +288,7 @@ msgstr "日付を選択…"
 
 #: src/Admin/admin-page.php:289
 msgid "Date Range"
-msgstr "期間"
+msgstr "日付の範囲"
 
 #: src/Admin/admin-page.php:288
 msgid "Custom Time Range"
@@ -338,6 +342,22 @@ msgstr "概要"
 msgid "First attachment"
 msgstr "最初の添付ファイル"
 
+#. Author URI of the plugin
+msgid "https://cabrerahector.com/"
+msgstr "https://cabrerahector.com/"
+
+#. Author of the plugin
+msgid "Hector Cabrera"
+msgstr "Hector Cabrera"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wordpress-popular-posts/"
+msgstr "https://ja.wordpress.org/plugins/wordpress-popular-posts"
+
+#. Plugin Name of the plugin
+msgid "WordPress Popular Posts"
+msgstr "WordPress Popular Posts"
+
 #: src/Output.php:772
 msgid "under %s"
 msgstr "カテゴリ: %s"
@@ -388,7 +408,7 @@ msgstr "申し訳ありませんが、あなたには必要な権限がありま
 #: src/Admin/admin-page.php:180 src/Admin/admin-page.php:188
 #: src/Admin/admin-page.php:218 src/Admin/admin-page.php:226
 msgid "Invalid action."
-msgstr "無効な操作。"
+msgstr "無効な操作です。"
 
 #. translators: Special characters (such as accents) must be replaced with
 #. Javascript Octal codes (eg. \341 is the Octal code for small a with acute
@@ -448,7 +468,7 @@ msgstr "WordPress 日付書式"
 
 #: src/Widget/form.php:157
 msgid "Date Format"
-msgstr "日付フォーマット"
+msgstr "日付形式"
 
 #: src/Widget/form.php:154
 msgid "Display date"
@@ -536,7 +556,7 @@ msgstr "投稿タイプ"
 
 #: src/Widget/form.php:32
 msgid "Time Range"
-msgstr "計測期間"
+msgstr "時間の範囲"
 
 #: src/Widget/form.php:30
 msgid "Filters"
@@ -560,7 +580,7 @@ msgstr "ソート順"
 
 #: src/Widget/form.php:14
 msgid "posts"
-msgstr "件の投稿があります"
+msgstr "件"
 
 #: src/Widget/form.php:13
 msgid "Show up to"
@@ -1006,7 +1026,7 @@ msgstr "過去30日間"
 
 #: src/Admin/admin-page.php:325 src/Widget/form.php:35
 msgid "Last 7 days"
-msgstr "過去7日間"
+msgstr "過去1週間"
 
 #: src/Admin/admin-page.php:324 src/Widget/form.php:34
 msgid "Last 24 hours"
@@ -1024,7 +1044,7 @@ msgstr "適用"
 
 #: src/Admin/admin-page.php:269
 msgid "Limit"
-msgstr "上限"
+msgstr "制限"
 
 #: src/Admin/admin-page.php:266
 msgid "Post type"
