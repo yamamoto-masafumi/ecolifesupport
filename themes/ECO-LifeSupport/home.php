@@ -930,8 +930,7 @@
             <?php
                   $paged = get_query_var('paged') ? get_query_var('paged') : 1;
                   $args = array(
-                  'post_type' => array('useful'),
-                  // post_typeを変更
+                  'post_type' => 'custom_type',
                   'post_status' => array('publish'),
                   'order'=>'desc',
                   'orderby'=>'rand',
@@ -975,7 +974,7 @@
             <div class="swiper-button-prev sp-prev"></div>
             <div class="swiper-button-next sp-next"></div>
           </div>
-          <a href="<?php echo home_url('/useful'); ?>"><div class="inner-btn-witdh">お役立ちコンテンツ一覧</div></a>
+          <a href="<?php echo home_url('/usefull'); ?>"><div class="inner-btn-witdh">お役立ちコンテンツ一覧</div></a>
         </div>
       </div>
 
