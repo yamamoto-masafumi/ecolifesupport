@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - All in One SEO Pack - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-23 07:15:54+0000\n"
+"PO-Revision-Date: 2020-10-30 07:31:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,10 +115,6 @@ msgstr "コンテンツの前"
 #: inc/class-aioseop-rss.php:90
 msgid "Click here"
 msgstr "ここをクリック"
-
-#: inc/class-aioseop-rss.php:68
-msgid "More specifically, it allows you to add links back to your blog and your blog posts so scrapers will automatically add these links too. This helps search engines identify you as the original source of the content."
-msgstr "具体的には、ブログやブログ投稿へのリンクを追加できるため、スクレイパーがこれらのリンクも自動的に追加します。これは、検索エンジンがコンテンツの元のソースとしてあなたを識別するのに役立ちます。"
 
 #: inc/admin/views/class-aioseop-about.php:665
 msgid "Local Business schema"
@@ -2355,7 +2351,7 @@ msgstr "タクソノミー"
 
 #: modules/aioseop_sitemap.php:267
 msgid "posts"
-msgstr "投稿"
+msgstr "件"
 
 #: modules/aioseop_sitemap.php:266
 msgid "homepage"
