@@ -97,8 +97,7 @@
               'category__in' => $catID,
               'posts_per_page' => 6,
               'orderby' => 'rand',
-              'post_type' => array('useful'),
-                  // post_typeを変更
+              'post_type' => 'custom_type'
             );
             $the_query = new WP_Query($args);
             if($the_query -> have_posts()) :?>
