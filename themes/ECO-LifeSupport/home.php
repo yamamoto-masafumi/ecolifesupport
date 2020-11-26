@@ -930,7 +930,7 @@
             <?php
                   $paged = get_query_var('paged') ? get_query_var('paged') : 1;
                   $args = array(
-                  'post_type' => 'custom_type',
+                  'post_type' => array('useful'),
                   'post_status' => array('publish'),
                   'order'=>'desc',
                   'orderby'=>'rand',

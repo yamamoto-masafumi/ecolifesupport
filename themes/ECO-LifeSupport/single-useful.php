@@ -1,114 +1,71 @@
 <?php
 /*
- * Template Name: お役立ちコンテンツ
- */
+ * CUSTOM POST TYPE TEMPLATE
+ *
+ * This is the custom post type post template. If you edit the post type name, you've got
+ * to change the name of this template to reflect that name change.
+ *
+ * For Example, if your custom post type is "register_post_type( 'bookmarks')",
+ * then your single template should be single-bookmarks.php
+ *
+ * Be aware that you should rename 'custom_cat' and 'custom_tag' to the appropiate custom
+ * category and taxonomy slugs, or this template will not finish to load properly.
+ *
+ * For more info: http://codex.wordpress.org/Post_Type_Templates
+*/
 ?>
 
 <?php get_header(); ?>
+		<div class="absolute">
+			<div id="content">
 
-<div class="absolute">
-<div id="content">
-  <div id="inner-content">
-    <main id="main" class="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-      <header class="sub-header-useful">
-        <div class="header-title">
-          <h3>お役立ちコンテンツ</h3>
-        </div>
-      </header>
-      <p class="header-bottom">HOME> <span>お役立ちコンテンツ</span></p>
-      <div class="usefularticle-format">
-        <div class="post-menu">
-          <div class="usefularticle-title">
-            <h3>お役立ちコンテンツ一覧</h3>
-            <div class="border"></div>
-          </div>
-          <div class="inner-useful">
-            <div class="usefullist">
-              <?php
-                $paged = get_query_var('paged') ? get_query_var('paged') : 1;
-                $args = array(
-                  'post_type' => array('useful'),
-                  'post_status' => array('publish'),
-                  'order'=>'desc',
-                  'orderby'=>'post_date',
-                  'paged' => $paged,
-                  'posts_per_page' => 10
-                );
-                $query = new WP_Query($args);
-                if ( $query->have_posts() ) :
-                  while ( $query->have_posts() ) : $query->the_post();?>
-                  <div class="inner-useful-menu month-<?php echo get_the_date('m'); ?>"> 
-                    <span class="date"><?php echo get_the_date('Y.m.d'); ?></span>
-                    <span class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
-                    <div class="border"></div>
-                  </div>
-                <?php endwhile; ?>
-              <?php endif; wp_reset_postdata();?>
-            </div>
-            <div class="pagenationbtn">
-              <div class="page">
-                <?php
-                  $big = 999999999;
-                  echo paginate_links2(array(
-                    'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
-                    'show_all' => false,
-                    'end_size' => 0,
-                    'mid_size' => 2,
-                    'type' => 'list',
-                    'format' => '?paged=%#%',
-                    'current' => max(1, get_query_var('paged')),
-                    'total' => $query->max_num_pages,
-                    'prev_text' => 'Prev',
-                    'next_text' => 'Next',
-                  ));
-                ?>
-              </div>
-            </div>
-          </div>
-        </div>
+				<div id="inner-content" class="">
+						<main id="main" class="" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+								<?php get_template_part( 'post-formats/format2', get_post_format() ); ?>
+								<?php endwhile; ?>
+								<?php else : ?>
+									<article id="post-not-found" class="hentry cf">
+									<header class="article-header">
+										<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+									</header>
+									<section class="entry-content">
+										<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+									</section>
+									<footer class="article-footer">
+										<p><?php _e( 'This is the error message in the single-custom_type.php template.', 'bonestheme' ); ?></p>
+									</footer>
+									</article>
+								<?php endif; ?>
+								
+								<div class="contact">
+									<div class="content-head voice-head">
+										<img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/inquiry.svg">
+										<h3>お問い合わせ</h3>
+										<p class="h3-sub">CONTACT</p>
+									</div>
+									<div class="watch contact-watch"></div>
+									<?php if(wp_is_mobile()) : ?>
+									<p class="contact-text">まずはお気軽に<br>お問い合わせください。</p>
+									<?php else : ?>
+									<p class="contact-text">まずはお気軽にお問い合わせください。</p>
+									<?php endif; ?>
+									<div id="phone" class="phone">
+										<img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
+										<span class="phone-number">0120-829-053</span>
+										<span class="phone-time">8:00-21:00（年中無休）</span>
+									</div>
+									<a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
+								</div>
+				
 
 
-
-           <!-- ここからサイドバー -->
-    <div id="usefularticlelist" class="usefularticlelist">
-      <div class="usefularticlelist-inner">
-        <?php if(wp_is_mobile()) : ?>
-        <?php else : ?>
-            <div class="tree"><img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/user-voice/user-voice-tree.png"></div>
-        <?php endif; ?>
-          <?php get_sidebar(); ?>
-          <!-- <p class="past-title">人気記事コーナー</p> -->
-          <!-- 過去のお知らせ一覧 -->
-        </div>
-    </div>
-        
-</div>
-      <div class="contact">
-          <div class="content-head voice-head">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/inquiry.svg">
-            <h3>お問い合わせ</h3>
-            <p class="h3-sub">CONTACT</p>
-          </div>
-          <div class="watch contact-watch"></div>
-          <?php if(wp_is_mobile()) : ?>
-          <p class="contact-text">まずはお気軽に<br>お問い合わせください。</p>
-          <?php else : ?>
-          <p class="contact-text">まずはお気軽にお問い合わせください。</p>
-          <?php endif; ?>
-          <div id="phone" class="phone">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/phone.svg">
-            <span class="phone-number">0120-829-053</span>
-            <span class="phone-time">8:00-21:00（年中無休）</span>
-          </div>
-          <a href="<?php echo home_url('/contact'); ?>"><div class="contact-btn">無料お見積りはこちら</div></a>
-        </div>
-
-      <div id="area" class="area">
+	<div id="area" class="area">
         <div class="content-head voice-head">
           <img src="<?php echo get_bloginfo('template_directory'); ?>/library/images/icon/corresponding-area.svg">
           <h3>対応エリア</h3>
           <p class="h3-sub">AREA</p>
-        </div>
+    	</div>
         <p class="area-text">出張お見積りは完全無料！！<br>最短３０分以内に駆けつけます！</p>
         <?php
           $area = [
@@ -530,9 +487,11 @@
           </div>
         </div>
       </div>
-    </main>
-  </div>
+	</main>
 </div>
+</div>
+						
+<!-- footer入ります -->
 <div id="inner-footer" class="cf footer-top">
   <div class="footer-top-inner">
     <div class="footer-top-inner-info">
@@ -558,9 +517,12 @@
     </nav>
   </div>
 </div>
-
 <p class="source-org copyright">Copyright &copy; <?php bloginfo( 'name' ); ?> All Rights Reserved.</p>
-
-
 </div>
+
+
+
+
+			</div>
+
 <?php get_footer(); ?>
