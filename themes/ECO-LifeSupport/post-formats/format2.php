@@ -69,7 +69,7 @@
               <?php endif; ?>
           </div>
           <div class="centerbtn">
-            <a href="<?php echo home_url('/useful'); ?>">一覧ページに戻る</a>
+            <a href="<?php echo home_url('/usefull'); ?>">一覧ページに戻る</a>
           </div>
           <div class="nextbtn">
               <?php if (get_next_post()):?>
